@@ -7,8 +7,8 @@
 你是港美股热点运营助手，服务于一个在中国做港美股内容运营的团队。
 你的输出将直接发到 Slack 群，供团队确认当日运营优先级，无需再二次加工。
 
-**当前模式：晚间**
-**覆盖时间段：今日08:00 - 20:00（美股开盘前）**
+**当前模式：早间**
+**覆盖时间段：昨日22:00 - 今日09:00（美股隔夜收盘）**
 
 ---
 
@@ -30,7 +30,7 @@
 ## 输出格式（严格遵守）
 
 第一行输出标题，固定为（直接复制，不修改任何字）：
-`晚间热点线索 · 2026年10月2日`
+`早间热点线索 · 2026年10月5日`
 
 空一行后，输出正文条目，每条格式：
 `* 事实描述（含关键数据）。仅写资讯来源中已明确发生的涨跌，不推断其他标的受到联动。标的代码直接写在正文中，结尾不另加标的列表。`
@@ -62,15 +62,15 @@
 
 ---
 
-## 晚间模式操作指令
+## 早间模式操作指令
 
-聚焦：今晚美股开盘前的运营清单。不涉及港股，只关注美股。
+聚焦：隔夜美股收盘结果 + 影响今日港股开盘的信息。
 
 重点关注（按重要性排序写入）：
-1. 盘前重要财报及初步反应（EPS/营收 vs 预期——仅限资讯来源中有明确数据）
-2. 盘前个股异动（涨跌 5% 以上 + 原因一句话）
-3. 影响今晚开盘情绪的宏观事件（Fed 官员讲话、重要数据——仅限资讯来源中明确出现）
-4. 其他值得今晚关注的美股消息
+1. 美股三大指数昨夜涨跌及核心驱动，一句话概括（必须有资讯来源支撑，不得推断）
+2. 个股重大异动（财报或重大消息驱动涨跌 5% 以上）
+3. 隔夜重要宏观数据（非农/CPI/PCE/美联储表态——仅限资讯来源中明确出现）
+4. 隔夜消息中可能影响港股相关板块的内容，重点关注：光通信、存储/HBM、半导体、中概互联网等；若有明确利好/利空驱动，须点明对应港股板块或个股
 
 ---
 
@@ -104,33 +104,33 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026100220
+抓取时间: 2026100509
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets open in 1h 30m
-- September jobs report expected to show a labor market holding steady
-- Leaked Anthropic IPO prospectus: The US government could hurt our business
-- Nike warning drags down sportswear rivals
-- Leaked Anthropic IPO prospectus: The US government could hurt our business
-- Nike warning drags down sportswear rivals
-- Even high earners are living paycheck to paycheck this year: Goldman Sachs survey
-- Micron is about to surprise Mag 7 investors
-- October may not be as bad for the stock market as investors think: Chart of the Day
-- The Iran war is driving inflation higher — and it's not just because of oil
-- Stock futures rise ahead of key jobs report as oil steadies
-- Oil price drops more than 2% on talks over diesel, crude stock releases
+- U.S. markets closed
+- 'The market has had every reason to sell off' — and it hasn't
+- 'A lot of sticker shock': Home heating costs soar for millions amid oil crisis
+- Iraq charters  supertanker through Hormuz for first time in decades
+- 'A lot of sticker shock': Home heating costs soar for millions amid oil crisis
+- Iraq charters  supertanker through Hormuz for first time in decades
+- Former Disney CEO explains why he doesn't visit the theme parks
+- The secret gift Bob Chapek gave Bob Iger for his $45M sailboat
+- Trump aide Hassett says Powell should 'move on' from Fed board
+- Dirty Jobs' Mike Rowe: Skilled labor shortage remains the 'pinch point' for the new economy
+- What bond market reveals about Congress and the debt
+- Moody's Zandi warns higher rates are damaging the economy
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
-- Tech & AI
-- Nvidia and Musk's big bets on robots counter Anthropic's vision
-- Broadcom starts amassing $60B to fund chips for Anthropic
-- Amazon seeks to offload $8B of Nvidia chips to investors
-- Meta asked to pay up to $40B in penalties after data privacy trial
+- Your Money
+- Trump’s new rule could cut off student loans for some degree programs
+- Was your student loan debt really forgiven?
+- When should you claim Social Security? How the math compares.
+- What investors should know about Anthropic IPO costs
 - Popular
-- BofA's Hartnett sees risk-off mood lasting until dollar peaks
-- I worked finance by day, a supermarket by night — and saved nearly $300K
+- Muse and other AI Agents will be a nightmare for friction as a business model
+- FBI warns every American with a phone of 'insidious' new fraud
 
 ## Benzinga (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -145,41 +145,41 @@
 - UPCOMING EVENTS
 - INSIDER TRADES
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Trump Floats Intel-Style Government Equity Stakes in OpenAI and Anthropic: 'I Have Many Deals Like That' (UPDATED)
-- How To Earn $500 A Month From Lamb Weston Stock Ahead Of Q1 Earnings
-- Tom Lee Calls Stablecoins 'Integral' as Fed Research Details $200 Billion Surge Offsetting China's US Debt Sell-Off: 'Are You Bullish Enough?'
-- Google Turns Up AI Heat With Gemini 4 Argon, Rivals May Have to Cut Prices: Analyst
-- This Hewlett Packard Enterprise Analyst Turns Bullish; Here Are Top 5 Upgrades For Friday
-- Stock Market Today: S&P 500, Dow Jones Futures Gain as Investors Await September's Jobs Report Data — NKE, SYNA, CTVA in Focus
-- Anthropic
-- Strait Of Hormuz
-- Cybersecurity Stocks
-- Bitcoin, Ethereum, XRP Gain, While Dogecoin Dips After Treasuries Retreat From 24-Year Highs: Analyst Says BTC Is 'Finally Breaking Upwards'
+- Jeff Bezos Once Explained How Anyone Can Become a Billionaire: 'Your Chicken Has to Be Good'
+- Financial Advisor Wants My 85-Year-Old Mother-in-Law To Take Out A Reverse Mortgage To Buy Stocks. Why Would They Recommend This?
+- Disney Stock Falls Into a Correction, but Goldman Sachs Calls It Highly Compelling
+- Top Three US Stocks to Watch This Week: PepsiCo, Delta Air Lines, Nvidia
+- MAGS: Top Magnificent 7 ETF Shows Renewed Demand as Top Stocks Jump Ahead of Earnings
+- OpenAI, Anthropic Are Bypassing Wall Street's IPO Freeze: ‘A Luxury Only the Top Two or Three Players Have’
+- Scott Bessent
+- Rick Scott
+- Why Caterpillar Stock Is Trading Higher During Friday's Session
+- Micron, Nike, Meta and More: 5 Stocks Investors Couldn't Stop Buzzing About This Week
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f30b3371c70>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f2650de6fc0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- Booming EV fleet drives China’s highway charging demand to all-time holiday high
-- Science
-- Singapore builds world’s most accurate atomic clock, leaves US and China in dust
-- Hong Kong Economy
-- Hong Kong to raise helpers’ monthly minimum wage to HK$5,220
-- China Economy
-- China seen doing ‘just enough’ with targeted fiscal support to defend GDP growth
-- Tech War
-其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Average daily EV travel volume during the holiday could be 1.6 times the usual level as road travel will be more than 90 per cent of all trips.
-- Finance Minister Lan Foan vows reasonably faster public spending and broader subsidies as Beijing battles prolonged property slump and weak domestic demand.
-- Hong Kong users caught off guard as Anthropic tightens VPN access to Claude
-- Some tech-savvy users are bypassing the blocks by routing connections through Singapore via VPNs and registering with foreign payment details.
-- Banking & Finance
-- From stock losses to bond bets: 5 figures investors are watching in China
-- Fresh policy support, falling stocks and rising demand for Chinese bonds shape the week’s market narrative.
+- As US bears down, exporters China and Vietnam establish closer transport links
+- Diplomacy
+- China urged to build ‘system’ to protect expanding overseas interests
 - Politics
-- India’s Modi faces dual pressure from ‘cockroach’ movement, opposition parties
-- The two groups’ objection to the revised voter rolls has fuelled speculation that they could become a new potent political force.
+- Rigid goals not set in 5-year plan to allay fears of planned economy: Tse
+- Americas
+- Brazil heads to run-off between Lula and pro-Trump Senator Flavio Bolsonaro
+- Taipei’s dilemma over history deepens with Xi-Trump praise of WWII Flying Tigers
+其他 (首页其他位置，按重要性排序，仅标题无摘要):
+- Two countries working to enhance cargo and passenger flows using trains, planes and ships.
+- Incumbent president faces right-wing rival who has courted Washington with a proposal on critical minerals access.
+- Taiwan’s ruling party uneasy that what could have been a valuable historical connection with the US has ended up benefiting Beijing’s ties.
+- China
+- China Eastern reports passenger to police over cabin crew kneeling row
+- Agitated flyer used ‘vulgar and offensive language, and threatened to kick the flight attendant’, carrier says, places him on no-fly list.
+- Economics
+- Malaysia’s Anwar set to unveil crowd-pleasing budget amid political pressure
+- Experts are predicting handouts and subsidies, increased education and healthcare spending, and measures to support lower-income Malaysians.
+- Lifestyle
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -209,36 +209,35 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 9月新增就業料降至9萬：今夜20:30非農真正的「炸點」，或在8月數據是否大幅下修
-- 本週美股牛股 | 埃森哲周累漲超20%，全年新訂單845億創紀錄、指引超預期；新思科技漲超15%，攜手OpenAI開發芯片設計AI模型，與亞馬遜簽署超10億美元協議
-- 「從17升級到18毫無意義！」 古爾曼揭秘蘋果下個「大殺器」：首款Siri AI家居中樞與觸屏MacBook Pro最快10月問世
-- 希捷科技、西部數據盤前跳水，東芝據報擬將HDD供應量翻倍
-- 散戶買盤上演「大縮圈」! 摩根大通資金流揭示英偉達、閃迪逆勢吸金，美債ETF重返散戶視野
-- 博通聯手黑石籌資600億美元，爲Anthropic等AI公司鋪路算力
-- 馬克龍呼籲G7協調應對柴油價格上漲，油價應聲跳水，歐股集體上漲
-- Muse與Astra開啓「數字勞動力」時代之際，馬斯克盯上「AI算力供給」! SpaceX把AI競爭對手們變成大客戶
+- 富途早報 | 伊方稱達成7項條件前霍爾木茲海峽不重開；特朗普成立超級智能工作組；SpaceX完成第21次載人航天任務，台積電或與馬斯克晶圓廠合作；英特爾個人電腦處理器擬提價10%
+- 伊朗回應美方：七項條件不落實，霍爾木茲海峽絕不重開！
+- 南向資金連續4個月淨買入，淨買入智譜近80億港元
+- 一週前瞻 | 聯儲局紀要來襲！加息預期能否扭轉？世界人工智能峰會開幕，OpenAI、英偉達等高管將參與
+- 大摩重將英偉達列爲半導體首選股：行業瓶頸轉向數據中心基建，SpaceX、亞馬遜合作打開增長空間
+- 美股夜盤：加密貨幣概念股普漲
+- 貝森特淡化美債收益率飆升與AI泡沫擔憂：本輪債市調整並非美國獨有
+- 爲廢除冬令時，特朗普把參議員手機號掛到網上
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 亞馬遜探索「表外」融資：擬將80億美元英偉達芯片剝離至SPV再租回
-- 港股收評：恒指、科指雙雙跌超2%，滙豐控股跌逾5%
-- 美股盤前：耐克績後跌超8%，安森美半導體漲超6%
-- 機器人也來「搶」芯片！特斯拉下調 AI5/AI6 存儲規格，爲 Optimus 量產讓路
-- 陳翊庭：港交所一直在思考如何提升一級市場的融資額、二級市場的成交量
-- ASMPT股價上漲，機構指公司受益AI基建資本開支週期重塑設備市場景氣
-- 加息50點子 VS 再等等？聯儲局內部吵起來了
-- 港股午評：恒指跌2.64%，科技股紛紛走低，MINIMAX跌6%
-- 摩通列七項指標預警Q4行情：槓桿與倉位「超額」重回美股，點名按金帳戶爲最大脆弱點
-- 玉淵譚天：中美11月人工智能對話存在三個現實推進方向
+- 加倉！伯克希爾再度增持萊納建築，什麼信號？
+- 美國中期選舉追蹤：高油價影響蔓延 共和黨選情吃緊
+- 美銀：「AI交易」是當前美債市場「最後一道防線」
+- 特朗普「AI沙皇」人選曝光：現任美國國家情報總監 明確反對暫停AI開發
+- Meta Muse爆紅後遇留存瓶頸：打開率低於主流應用，長期變現面臨考驗
+- 週末讀物 | 「我們倆就是萊特兄弟！」馬斯克、黃仁勳最新同台談超級智能
+- 貝森特「滅火」：美債收益率上升屬全球現象，駁斥AI泡沫擔憂
+- 商務部新聞發言人就二十國集團貿易部長會議及相關情況答記者問
+- 週末讀物 | 繆斯的輕語：我們已站在互聯網商業模式崩塌與重構前夜
+- 美銀Hartnett：2000年3月「科網泡沫」峰值前6個月，只有科技和通信板塊在漲，和當下「如出一轍」
 
 --- 跨站重点主题（多站出现=更重要）---
 - 科技/个股: Yahoo Finance (EN), Benzinga (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
-- 油价/霍尔木兹: Yahoo Finance (EN), Benzinga (EN)
-- 就业数据: Yahoo Finance (EN), Benzinga (EN)
-- 黄金/大宗: Yahoo Finance (EN), Benzinga (EN)
-- 中国/欧盟: Benzinga (EN), SCMP (EN/中)
-- 伊朗/中东: Yahoo Finance (EN)
-- 美国关税: 富途资讯 (繁中)
-- 加密货币: Benzinga (EN)
-- 美联储: Benzinga (EN)
+- 就业数据: Yahoo Finance (EN), Benzinga (EN), SCMP (EN/中)
+- 伊朗/中东: Yahoo Finance (EN), 富途资讯 (繁中)
+- 油价/霍尔木兹: Yahoo Finance (EN), 富途资讯 (繁中)
+- 中国/欧盟: Yahoo Finance (EN), SCMP (EN/中)
+- 美国关税: Benzinga (EN)
+- 黄金/大宗: Benzinga (EN)
+- 美联储: Yahoo Finance (EN)
 
 --- 粘贴结束 ---
 <!-- 资讯来源结束 -->
