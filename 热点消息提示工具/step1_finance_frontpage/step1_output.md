@@ -3,18 +3,18 @@
 ## 一、各站抓取情况
 
 - **Yahoo Finance (EN)** ✓
-  - 头版/首屏: U.S. markets open in 1h 30m | The American consumer is souring: What to watch this week | Cerebras stock pops after OpenAI CEO Altman lauds 'close partner' | The only billionaires making money this year are in tech | Cerebras stock pops after OpenAI CEO Altman lauds 'close partner' | The only billionaires making money this year are in tech | Nvidia's valuations show AI rally isn't a bubble | Global oil supply buffer running 'scarily thin,': Aramco CEO
-  - 其他: Top Stories | Markets & Economy | Tech & AI | Nvidia's $20B licensing deal with Groq faces lawsuit from jilted engineers | Anthropic expected to IPO despite market uncertainty, AI slowdown calls
+  - 头版/首屏: U.S. markets closed | Nasdaq, Nvidia post record highs as tech strength outshines bond weakness | Trump plans another oil stockpile sell-off | US says institutions doing business with Iran may be sanctioned | Trump plans another oil stockpile sell-off | US says institutions doing business with Iran may be sanctioned | Trump keeps promising checks to Americans. Polls show voters may not be buying it. | SpaceX jumps to highest close since June on bullish Morgan Stanley call
+  - 其他: Top Stories | Markets & Economy | Tech & AI | Ex-Anthropic researcher testifies at NYC Council AI hearing | Nvidia stock hits all-time high as market cap closes in on $6 trillion
 
 - **Benzinga (EN)** ✓
   - 头版/首屏: Latest News | Top Stories | QUICK LINKS | Markets Pulse | Sponsored Content | Why Is It Moving?™ | Trending Stories | Expert Ideas
-  - 其他: Iran Warns Country Is Facing One of Its ‘Most Difficult Periods’ as Rial Plunges to Record Low— Pezeshkian Signals 'New Arrangement' | Bank Of New York Mellon Likely To Report Higher Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call | Mark Cuban Drops a Blunt Warning for Workers: ‘Someone Who Knows How to Use AI Better Than You Will…' | Chris Wright Hails Europe's 100 Million-Barrel Oil Release After Trump’s SPR Push: 'Will Deliver Tremendous Benefits for American Farmers' | Top Wall Street Forecasters Revamp Marsh Expectations Ahead Of Q3 Earnings
+  - 其他: I'm Retired And My Nest Egg Is Losing Value Every Day. Is It A Bad Idea To Put 80% Of My Net Worth In Real Estate To Beat Inflation? | Congressman Who Loves Magnificent Seven Stocks Buys 3 Mag 7 Names in September | OpenAI Unveils ChatGPT Watermarking as European Union AI Rules Take Effect | Elon Musk is a Trillionaire Again Thanks to SpaceX Stock | Anduril Lands Up to $1.8 Billion Army Deal for AI Command System
 
-- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f66f472d070>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
+- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fe5365b9a60>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
 
 - **SCMP (EN/中)** ✓
-  - 头版/首屏: Why the PLA’s Z-10 attack helicopter is taking a bigger role at sea | Military | US defence experts to work inside Taiwan military HQ under reported pact | Hong Kong Economy | Sincere to close Central department store after 126 years as lease expires | Diplomacy | Days after Xi-Trump summit, top Taiwan diplomat opens de facto consulate in US | Science
-  - 其他: Aircraft was built to hunt tanks and support ground troops, but a broader maritime role means it can operate closer to Taiwan. | No Washington stop planned during the three-day visit to Arizona’s semiconductor corridor, sources said. | China develops plant to extract hydrogen, fresh water and uranium from the sea | Scientists improve on existing technology, plugging an overlooked energy leak to achieve a potentially profitable green solution. | Chinese doctors shrink lung tumour for baby still in mother’s womb, using needle
+  - 头版/首屏: Beijing wanted more from Xi’s state visit to Washington | China Economy | How is China planning to build on its ‘engineer dividend’ in tech war with US? | Society | Experts urge wider One Stanley checks, tighter paperwork after steel bar issue | Diplomacy | France, Germany seek new EU weapon to instantly cut off market access for China | US search for missing airmen in China gains new attention after Xi-Trump summit
+  - 其他: Sources say US knocked back proposals such as engagement with the business community and public, talks on AI and security issues. | Strategy laid out in joint paper and letter to EU chief signed by the leaders of the two largest members of the bloc and seen by the SCMP. | Access to crash sites and wartime Chinese archives is key to resolving about 700 cases and bringing missing US servicemen home. | Politics | Marine’s arrest for murder in Japan fuels anger over US military presence
 
 - **经济通 (繁中)** ✓
   - 头版/首屏: 沪深港通 热点观察国际动态【FOCUS】 | 传OpenAI估值升至1.4万亿美元，智谱MiniMax可否追入？ | 人行挺经济 降政策银行息扩金融支持 | 美投资逾1100亿 建厂催谷钢铁业 | B1轰炸机背书稀土牌，休战延两月各取所需 | 指数环球商品外汇 | 国金观点 | 港股大市分析
@@ -25,28 +25,27 @@
 - **智通财经 (简中)** ✓
 
 - **富途资讯 (繁中)** ✓
-  - 头版/首屏: 美股前瞻 | 10月加息預期降溫，三大期指盤前震盪；英特爾盤前跌超4%，馬斯克宣佈確認與台積電洽談Terafab合作；AI電力需求升溫，Vistra據報擬獲42億美元核電貸款 | 大摩重將英偉達列爲半導體首選股：行業瓶頸轉向數據中心基建，SpaceX、亞馬遜合作打開增長空間 | 美國數據中心抵制聲浪愈演愈烈？高盛：到2027年增長前景基本不變 | 黑網站、鑽漏洞！互聯網還沒準備好迎接「AI代理時代」 | 沙特東西輸油管道再遭襲擊停運？油價急升後回落，報道稱管道運營正常 | 國際油價承壓下跌！利空又傳來：中東原油出口量已超戰前水平 | 覆蓋5G、AI與計算，華爲與高通達成重磅專利許可協議！高通將收購華爲部分美國專利 | 一半的股票已進入熊市！美股走到「十字路口」，關鍵看美債波動率
-  - 其他: 美國財政暫時無恙？5%美債收益率背後，誰在爲其「續命」？ | 港股PCB概念漲幅擴大，建滔積層板、景旺電子漲超10%，廣合科技漲7%，勝宏科技漲6%，芯碁微裝、鼎泰高科漲2%。 | 港股午評 | 三大股指漲跌不一，科指漲0.27%，成分股智譜、聯想漲近5%；PCB、光通信、半導體股走強，建滔積層板漲9%，劍橋科技漲5%，瀾起科技漲近4% | 華爾街開始擔憂：當美債收益率持續刷新新高，美股還能「扛」多久？ | 特朗普顧問喊話鮑威爾：趕快離開聯儲局！
+  - 头版/首屏: 富途早報 | 特朗普中選前再壓油價，擬放寬「紅色柴油」使用限制；納指、英偉達、台積電創新高，SpaceX漲近8%，馬斯克「恢復」萬億美元富豪頭銜；大選助力巴西資產大漲，EWZ單日漲超12% | 美股無視高收益率警報，科技股領漲推動標普500逼近歷史高位 | 台積電搶英特爾市場、磋商與馬斯克Terafab合作，股價創歷史新高 | 中東原油出口恢復緩解供應擔憂，油價連續兩日下跌 | 30年期收益率本月將破6%？經濟韌性與通脹壓力推高利率，美債拋售潮進一步加劇 | AI資本開支交易「躺贏」時代或將結束，美銀建議投資者轉向消費板塊 | 美股收盤 | 科技巨頭力撐大盤走高，納指、英偉達再創新高；中概股強勢回暖，阿里巴巴漲近5%，拼多多漲超3%；美債拋售持續，布油「過山車」 | SpaceX收漲7.6%，收創7月份以來新高，幫助馬斯克「恢復」萬億美元富豪頭銜
+  - 其他: 成交額TOP20 | 英偉達、台積電齊創歷史新高；SpaceX大漲近8%，助推馬斯克身家再破萬億美元大關；Meta、微軟設法減少員工對Claude依賴 | 報道：OpenAI正與阿聯酋基金、貝萊德洽談300億美元融資輪 | Meta、微軟設法減少員工對Claude依賴：Meta內部使用人數減半，微軟預算砍掉三分之一 | OpenAI遭商標侵權訴訟，"Astra"名稱引發法律糾紛 | 今年只有科技富豪在賺錢：AI熱潮推動身家暴增8450億美元，馬斯克獨佔近四成
 
 ## 二、跨站主题（多站出现 = 更重要）
 
 - **科技股/个股** — 出现于: Yahoo Finance (EN), Benzinga (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中) (5 站)
 - **中国/欧盟** — 出现于: Yahoo Finance (EN), Benzinga (EN), SCMP (EN/中) (3 站)
-- **伊朗/中东局势** — 出现于: Yahoo Finance (EN), Benzinga (EN) (2 站)
-- **油价/能源/霍尔木兹** — 出现于: Yahoo Finance (EN), Benzinga (EN) (2 站)
-- **美国关税（15%等）** — 出现于: Benzinga (EN) (1 站)
-- **就业/经济数据** — 出现于: Yahoo Finance (EN) (1 站)
-- **美联储/利率** — 出现于: Yahoo Finance (EN) (1 站)
+- **美国关税（15%等）** — 出现于: Yahoo Finance (EN), Benzinga (EN) (2 站)
+- **就业/经济数据** — 出现于: Yahoo Finance (EN), 富途资讯 (繁中) (2 站)
+- **伊朗/中东局势** — 出现于: Yahoo Finance (EN) (1 站)
+- **油价/能源/霍尔木兹** — 出现于: Yahoo Finance (EN) (1 站)
 
 ## 三、检测到的主题（供参考，由总结摘要 Prompt 自行判断重要性）
 
 - 科技股/个股（5 站）
 - 中国/欧盟（3 站）
-- 伊朗/中东局势（2 站）
-- 油价/能源（2 站）
-- 关税/贸易政策（1 站）
-- 就业/经济数据（1 站）
-- 美联储/利率（1 站）
+- 关税/贸易政策（2 站）
+- 就业/经济数据（2 站）
+- 伊朗/中东局势（1 站）
+- 油价/能源（1 站）
 - 加密货币（0 站）
 - 黄金/大宗商品（0 站）
+- 美联储/利率（0 站）
 - 中国政策（0 站）
