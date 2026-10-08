@@ -7,8 +7,8 @@
 你是港美股热点运营助手，服务于一个在中国做港美股内容运营的团队。
 你的输出将直接发到 Slack 群，供团队确认当日运营优先级，无需再二次加工。
 
-**当前模式：晚间**
-**覆盖时间段：今日08:00 - 20:00（美股开盘前）**
+**当前模式：早间**
+**覆盖时间段：昨日22:00 - 今日09:00（美股隔夜收盘）**
 
 ---
 
@@ -30,7 +30,7 @@
 ## 输出格式（严格遵守）
 
 第一行输出标题，固定为（直接复制，不修改任何字）：
-`晚间热点线索 · 2026年10月7日`
+`早间热点线索 · 2026年10月8日`
 
 空一行后，输出正文条目，每条格式：
 `* 事实描述（含关键数据）。仅写资讯来源中已明确发生的涨跌，不推断其他标的受到联动。标的代码直接写在正文中，结尾不另加标的列表。`
@@ -62,15 +62,15 @@
 
 ---
 
-## 晚间模式操作指令
+## 早间模式操作指令
 
-聚焦：今晚美股开盘前的运营清单。不涉及港股，只关注美股。
+聚焦：隔夜美股收盘结果 + 影响今日港股开盘的信息。
 
 重点关注（按重要性排序写入）：
-1. 盘前重要财报及初步反应（EPS/营收 vs 预期——仅限资讯来源中有明确数据）
-2. 盘前个股异动（涨跌 5% 以上 + 原因一句话）
-3. 影响今晚开盘情绪的宏观事件（Fed 官员讲话、重要数据——仅限资讯来源中明确出现）
-4. 其他值得今晚关注的美股消息
+1. 美股三大指数昨夜涨跌及核心驱动，一句话概括（必须有资讯来源支撑，不得推断）
+2. 个股重大异动（财报或重大消息驱动涨跌 5% 以上）
+3. 隔夜重要宏观数据（非农/CPI/PCE/美联储表态——仅限资讯来源中明确出现）
+4. 隔夜消息中可能影响港股相关板块的内容，重点关注：光通信、存储/HBM、半导体、中概互联网等；若有明确利好/利空驱动，须点明对应港股板块或个股
 
 ---
 
@@ -104,33 +104,33 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026100720
+抓取时间: 2026100809
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets open in 1h 30m
-- Stocks fall as yields rise following tech rally
-- AMD CEO Lisa Su just struck another bullish note with the stock on fire
-- Bitcoin falls as $550M in risky crypto bets wiped out
-- AMD CEO Lisa Su just struck another bullish note with the stock on fire
-- Bitcoin falls as $550M in risky crypto bets wiped out
-- SpaceX looks to raise $40B to buy Nvidia chips in financing led by Apollo
-- China's central bank adds gold in September as bullion weakens
-- IMF chief warns energy shock, growing debt and AI risks threaten global growth
-- Bessent says inflation and bond yields will drop when the Iran war ends. Others aren't so sure.
-- Dollar gains as oil climbs and investors focus on the Fed
-- Trump says he's considering gas tax suspension to ease costs
+- U.S. markets closed
+- Microsoft debuts Nvidia-powered Surface Laptop Ultra, aiming for AI market
+- Michael Dell defends Trump Accounts' shift to individual company stocks
+- Nvidia and Micron are about to dominate earnings season
+- Michael Dell defends Trump Accounts' shift to individual company stocks
+- Nvidia and Micron are about to dominate earnings season
+- Robert Rubin warns AI boom carries risks for US economy, markets
+- Jaguar's 'ambitious' Type 01 EV arrives after controversial rebrand — and in a challenging marketplace
+- Oil edges higher on Iran strike options report and storm impact
+- US consumer borrowing moderates on drop in revolving credit
+- The Fed was unanimous about raising rates in September. Economic signals have since changed.
+- These 7 major S&P 500 stocks need to rally at least 200% to reclaim their peaks
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
 - Tech & AI
-- TSMC stock just hit a record — and the gains may be only starting
-- SpaceX push on Spectrum access gets aerospace industry backlash
-- Agentic AI is ushering in a CPU 'renaissance'
-- AI agents are going rogue, and the lawsuits are going to get messy
+- CrowdStrike stock is flying — but the valuation math is sending warning signs
+- The tech industry wants you to run AI models at home, but it's not for everyone
+- Anthropic reveals Haiku 5.5 model as AI pricing war intensifies
+- SailPoint CEO: AI agents need a 'kill switch' to stop the worst from happening
 - Popular
-- AT&T settlement approved. Here's how much customers get
-- McDonald's sued over AI tool that recommends prices to US franchisees
+- Tim Tebow drops out of paid Christian event after being accused of using high-pressure sales pushing courses up to $40K
+- New York's famed Chrysler Building finally finds a buyer
 
 ## Benzinga (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -145,41 +145,41 @@
 - UPCOMING EVENTS
 - INSIDER TRADES
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Anthony Scaramucci Warns U.S. Debt Could Hit $56T By 2036. That's 120% Of GDP And Interest Alone Will Hit $2.1T A Year
-- JB Hunt Likely To Report Higher Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call
-- S&P 500 Faces a 'Stealth Correction' as Earnings Boom Collides With Rising Yields, Warns Fidelity’s Timmer: Market Is ‘In a Vice'
-- What's Going On With Marvell Technology Stock Wednesday?
-- Bitcoin Analyst Who Sold the Top Is Bearish Again: 'I'm Building Shorts'
-- Stock Market Today: Dow Jones, Nasdaq 100 Futures Decline as Iran Mocks US Economy, Trump Sparks Bipartisan Backlash — STZ, PENG, LEVI in Focus
-- Scott Bessent
-- Rick Scott
+- SpaceX's Starlink Going Interplanetary? Elon Musk Outlines Vision for Moon, Mars and Beyond
+- Jamie Dimon Says AI Will Eliminate Jobs, 'It Is What It Is' — But Warns Cutting $150,000 Truck Driving Jobs To $25K A Year Would Bring 'Civil Unrest'
+- Wolfspeed Stock Soars on Massive Pentagon Loan Commitment
+- Bitcoin Slips Below $84K, Traders Are Watching BITO And IBIT
+- A Third Of Apollo's $35 Billion In Private Credit Trades Involved Other Firms' Loans
+- Airline Stocks Get Hit by Short Sellers as Oil Hedge: ‘A Bet the War Does Not End Soon’
 - Michael Burry
-- JD Vance Presses Iran on Nuclear Weapon Ambitions, Says Promises Won't Be Enough: 'If They Want to Show a Commitment…'
+- Private Equity
+- Bond Market
+- EXCLUSIVE: Health Care PE Is ‘No Longer An Easy Source Of Returns,’ Grant Thornton Stax Consulting Managing Director Says
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f6f142f02f0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fa0c1daf0b0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- China’s open AI models are winning global users. Who is capturing the value?
-- Global Economy
-- France not facing a debt crisis despite rising yields, analysts say
-- Law and Crime
-- Abby Choi gave HK$2m for waffle shop to ‘bootlicker’ ex-brother-in-law, trial told
-- Military
-- How will new longer-range aircraft boost Manila’s South China Sea surveillance?
+- Trump urged Xi to talk to Takaichi and lift export curbs on Japan, sources say
 - Diplomacy
+- ‘China already has spies’ at US AI labs, former Anthropic researcher warns
+- Hong Kong Economy
+- Mainland Chinese arrivals to Hong Kong beat ‘golden week’ forecast in just 6 days
+- US issues first outbound investment fine over Chinese robotics AI deal
+- US proposes US$70,000 fee for foreign students to work after graduation
+- Science
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Chinese AI labs face intense competition from platforms hosting their models, highlighting the challenge of turning widespread adoption into sustainable revenue.
-- The more ‘other countries aid the Philippines, the more likely that they will take an interest’ in the waters, analyst says.
-- ‘No more dumping, no more spying’: European Parliament hardens line on China
-- Report calls Beijing an ‘existential threat’ to industry and urges naval exercises around Taiwan Strait.
-- Markets
-- Hong Kong tech index to harness fast-growth firms for performance boost
-- Compiler unveils revenue threshold in plan to expand index to 50 firms after falling behind global peers amid lack of AI exposure.
+- The Chinese president wasn’t receptive to the requests during last month’s summit, warning of the risk of Japanese militarism.
+- Parent of Plug and Play Tech Centre fined US$200,000 for failing to report a roughly US$92,000 investment in Shanghai robotics AI firm.
+- Schools would have to pay for graduates’ initial OPT participation, with a further US$30,000 charge, affecting thousands of Chinese students.
+- China’s thorium-229 nuclear clock beats Vienna’s on stability, studies show
+- Chinese and European teams in ‘fierce but friendly’ competition to develop the next-generation timepieces.
 - Politics
-- Terror arrests in Indonesia highlight challenge of combating ‘virtual’ groups
-- Suspects have organised online meetings for indoctrination and training, the Indonesian counterterrorism force says.
+- Japan explores ‘ownership’ of nuclear submarines as regional rivalries worsen
+- Proposed changes could allow research into developing a domestically built nuclear-powered submarine without a firm decision on acquiring a fleet.
+- Lifestyle
+- What drives 4 Shaw Prize laureates in pursuit of scientific discovery
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -209,37 +209,35 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 聯儲局到底還想加多少？週四凌晨2點會議紀要或揭開關鍵線索
-- 美股Q3業績期下週拉開帷幕：標普500每股收益預計增長27%，英偉達和美光兩家公司將貢獻1/3
-- 爲何美債收益率、納指同步新高？機構：產業週期大幅降速才是科技股牛熊「分水嶺」
-- 三星電子史上最強季報來襲，HBM4e能否重啓AI內存交易？
-- 從對沖力量到風險源：IMF首次將AI繁榮與石油、債務並列爲「風險組合」
-- 新債王：聯儲局的「水牀難題」，美國赤字和通脹「按下葫蘆起了瓢」
-- 邁威爾投資者日甩出「高於華爾街」的五年藍圖：高盛並不買賬，選擇維持「中性」評級
-- 恒生指數公司宣佈恒生科技指數諮詢結果：成分股數量由30只擴至50只
+- 富途早報 | 美媒稱美軍被要求做好對伊朗恢復打擊的準備；聯儲局紀要釋放鷹派信號；三星Q3營業利潤飆升783%；博通爲OpenAI定製芯片研發尋求逾500億美元融資；台積電將公佈9月營收
+- 「存儲荒」持續！三星發佈初步業績：Q3營業利潤猛增近8倍，史上首破100萬億韓元大關
+- Ives予SpaceX「跑贏大盤」、目標價225美元：發債鎖定英偉達芯片可強化AI飛輪
+- 聯儲局會議紀要：全體19名決策者支持9月加息但理由不一，多數預計年內還加，暗示10月不急
+- 美軍奉命準備重啓對伊朗重大行動：特朗普權衡時機，行動或趕在美以選舉前
+- 韓股「唯一的買家」提前離場了？三星電子、SK海力士回購即將結束
+- 白宮被曝籌劃對伊打擊+風暴致美國部分原油產能停擺！油價小幅走高
+- 美股收盤 | 債市風暴重燃令市場承壓，標普納指自紀錄高位小幅回落；存儲概念股逆市活躍，美光升4%，閃迪升2%
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 港股收市：科指跌0.68%，金斯瑞生物科技大跌近13%，阿里巴巴跌超2%
-- 美債收益率飆至二十年極值，兩大資深空頭反手看多！
-- ASIC、存儲和光模塊等組件的「尾部風險」：美國缺電，裝上機架卻通不了電
-- 摩通：內險第三季度疲弱業績大致被市場消化，建議趁弱增持中國平安及中國人壽
-- 達利歐警告AI已成「經典泡沫」：高利率與債務融資逼近危險拐點
-- 英特爾將繼續參與馬斯克Terafab項目
-- 蘇姿豐時隔七月再度訪韓，將與三星半導體負責人會談
-- 港股午評 | 三大指數齊跌，科指跌0.91%；生物醫藥、芯片股領跌，金斯瑞生物科技大跌近13%，瀾起科技、康希諾生物跌約6%
-- 谷歌AI基建主管談：Agent重塑基建、光網絡突破、終極物理瓶頸和未來10年的算力形態
-- 貝森特掌舵20個月：財政部高層接連出走，特朗普押給他的經濟目標仍未兌現
+- 三星Q3營業利潤飆升783%，AI內存熱潮推動芯片業務盈利
+- OpenAI：GPT-6在面對越獄攻擊時表現出更強的抵禦能力
+- 成交額TOP20 | 存儲概念回暖，美光漲超4%，閃迪漲2%；博通爲OpenAI定製芯片研發尋求逾500億美元融資；微軟發售搭載英偉達AI芯片的新款PC
+- 10年期美債拍賣認購倍數2.77倍創2016年來新高，海外需求接近紀錄高位
+- 報道：博通正設法爲OpenAI所需的芯片安排超過500億美元融資
+- 1億桶大縮水？報道稱歐盟認爲釋放油儲計劃主要兌現此前承諾、並非新增份額
+- IPO前Anthropic推出小模型「性價比之王」，Claude Haiku 5.5運行成本降75%
+- 美股三大指數集體收跌，道指跌0.66%，納指跌0.22%，標普500指數跌0.22%，熱門科技股漲跌不一，美光科技漲超4%，亞馬遜漲超1%，Meta、SpaceX跌超2%。
+- Anthropic發佈Claude Haiku 5.5，成本平均降低約75%
+- 聯儲局會議紀要顯示：9月會議上19名官員全體支持加息，多數人認爲年底前可能還需再次加息
 
 --- 跨站重点主题（多站出现=更重要）---
 - 科技/个股: Yahoo Finance (EN), Benzinga (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
-- 油价/霍尔木兹: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中)
-- 中国/欧盟: Yahoo Finance (EN), Benzinga (EN), SCMP (EN/中)
-- 伊朗/中东: Yahoo Finance (EN), Benzinga (EN)
-- 美国关税: Yahoo Finance (EN), Benzinga (EN)
-- 加密货币: Yahoo Finance (EN), Benzinga (EN)
-- 黄金/大宗: Yahoo Finance (EN), Benzinga (EN)
-- 就业数据: SCMP (EN/中)
+- 就业数据: Yahoo Finance (EN), Benzinga (EN), SCMP (EN/中)
+- 伊朗/中东: Yahoo Finance (EN), 富途资讯 (繁中)
+- 油价/霍尔木兹: Yahoo Finance (EN), Benzinga (EN)
+- 加密货币: Benzinga (EN)
+- 黄金/大宗: SCMP (EN/中)
 - 美联储: Yahoo Finance (EN)
-- 中国政策/两会: 富途资讯 (繁中)
+- 中国/欧盟: SCMP (EN/中)
 
 --- 粘贴结束 ---
 <!-- 资讯来源结束 -->
