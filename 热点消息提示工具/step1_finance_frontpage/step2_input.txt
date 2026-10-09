@@ -1,33 +1,33 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026100820
+抓取时间: 2026100909
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets open in 1h 30m
-- Jensen Huang: 'Nvidia was founded because of Windows'
-- PepsiCo beats earnings expectations, lowers guidance as it aims to stabilize North America business
-- Venture capital funding just blew past 2025 by 53% — here's why that's good for you
-- PepsiCo beats earnings expectations, lowers guidance as it aims to stabilize North America business
-- Venture capital funding just blew past 2025 by 53% — here's why that's good for you
-- Crocs used to be wildly exposed to oil prices. Not anymore.
-- Michael Dell defends Trump Accounts' shift to individual company stocks
-- Fed's Waller sees additional rate hikes to get inflation down faster
-- PepsiCo signals major cost cuts amid slow turnaround
-- A stock-fueled retirement party is thinning the labor force
-- Stock futures fall as oil rises, reviving inflation worries
+- U.S. markets closed
+- Stocks fall as chips sell off, oil rises
+- Telecom stocks sink after SpaceX's Starlink picks up spectrum assets
+- Meta bans TikTok from advertising on its apps in escalating feud
+- Telecom stocks sink after SpaceX's Starlink picks up spectrum assets
+- Meta bans TikTok from advertising on its apps in escalating feud
+- Judge sides with importers to expand Trump tariff refund fight
+- American Express fined $350M for facilitating money laundering
+- The Starbucks-Chipotle deal Wall Street hopes never happens
+- Oil declines after Trump says no Iran attacks before midterms
+- SpaceX's phone play sees AT&T, T-Mobile and Verizon crushed afterhours
+- St. Louis Fed's Musalem sees more rate hikes in the next 6 months
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
 - Tech & AI
-- Nvidia-backed IPO's cratering demand sends warning on AI funding
-- AI bubble risks worst S&P 500 crash since 2008
-- TSMC's quarterly revenue jumps 51% after AI demand holds up
-- The tech industry wants you to run AI models at home
+- Why AI is vacuuming up the world's wealth
+- Fired OpenAI safety researchers say they were pushed out over ‘suspicious’ circumstances
+- OpenAI, Anthropic IPOs will be strong despite negative headlines
+- Oracle falls on AI chip debt, OpenAI worries
 - Popular
-- Nvidia's staff secret: no org charts, a flat structure, extra days off
-- Anthropic's secret weapon is its CEO's charm
+- Trump keeps telling Americans to ‘buy a Dell.’ His latest filing reveals his account sold up to $1M of Dell stock
+- Retirement planning in your 20s: How to start saving for your future
 
 ## Benzinga (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -42,39 +42,39 @@
 - UPCOMING EVENTS
 - INSIDER TRADES
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- What Is Going on With Palantir Tech Stock on Thursday?
-- Levi Strauss CEO Sounds Alarm on Growing Competition in Denim Market
-- Jim Cramer Says Oil Surge, Higher Rates Are ‘Convenient Excuses’ To Sell Semis as QQQ, SOXX Drop and Investors Question Data Center Spending
-- How To Earn $500 A Month From Delta Air Lines Stock Ahead Of Q3 Earnings
-- Regions Financial Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call
-- Stock Market Today: S&P 500, Dow Jones Futures Decline as Pentagon Prepares for Potential Military Strikes on Iran — APLD, LEVI, MU in Focus
+- Trump’s Solar U-Turn? From ‘Scam of the Century’ to Texas Factory Support
+- Teacher, 27, Has $70K ‘Doing Nothing’ In Savings — Partner Wants To ‘Put Her Money To Work’ Without Moving Too Fast
+- Bitcoin Slides to $80,000 as Ethereum, XRP, Dogecoin Trigger $1B Liquidation Cascade
+- Elon Musk Gets 'Very Big Deal' for SpaceX: Why AT&T, Verizon, T-Mobile Stocks are Falling
+- OpenAI Takes Another Executive from Musk’s SpaceX as It Pushes into Global Sales
 - Michael Burry
 - Private Equity
 - Bond Market
-- Trump's $5,000 Dividend Faces a Reality Check: Just 21% Believe He'll Deliver
+- Memory Chip Sales on Track to Top $2 Trillion By 2030: The Numbers Micron Bulls Need to Know
+- Celestica: $3B SPO Dip Unlocks A 65% Upside
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fa9cd598a10>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fde85b18b30>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- Kremlin aide visits China amid speculation about potential Xi-Putin-Trump meeting
-- China Economy
-- Energy importers like China leading shift to clean energy: report
-- Law and Crime
-- Hong Kong students arrested as alleged core members of HK$2.16m fraud syndicate
-- German President Steinmeier targets China trip as Berlin sharpens trade stance
+- China hails breakthrough that unlocks low-cost, high-margin sustainable jet fuel
+- US investigates 9 universities over alleged visa fraud, with focus on China
 - Diplomacy
-- China nominates Song Li for WHO chief as agency faces shake-up from US exit
+- Hong Kong rejects US downgrade to lowest tier in human trafficking report
+- Hong Kong Economy
+- In Focus | From kitchen waste to sky-high costs: inside Hong Kong’s quest for green jet fuel
+- Science & Technology
+- Pentagon unveils US$350 million quantum computing push as China rivalry grows
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Nikolai Patrushev will hold maritime talks, but his trip is being watched for signs that a summit is planned for November.
-- Trip coincides with Merz’s Asia tour as Berlin and Paris advocate new EU mechanism to exclude rule-breaking trade partners.
-- If elected, she would be the first mainland Chinese director general of the United Nations health agency.
-- Hong Kong child abuse case prompts calls to watch for signs of psychological harm
-- Welfare experts urge vigilance over subtle changes in children’s behaviour as video of girl carrying beer highlights difficulty of detecting hidden abuse.
-- Politics
-- India aims to anchor military ties with US as Indo-Pacific ‘resident power’
-- Despite trade tensions, a top US naval officer’s New Delhi visit signals that Washington remains keen to anchor India as a security partner.
+- Biomass-to-jet fuel conversion method could boost production and help meet global aviation industry’s net-zero carbon goals, researchers say.
+- As city sets goals for adopting sustainable aviation fuel, industry leaders examine how to scale up supply chains and win over price-sensitive passengers.
+- New initiative aims to strengthen US military capabilities as Washington and Beijing compete for leadership in advanced technology.
+- Americas
+- Flavio Bolsonaro says he would work with China and US as Brazil’s president
+- As leader, Bolsonaro would assume control of an economy that is heavily dependent on China – by far Brazil’s largest trading partner.
+- China’s BYD considering lithium battery plant in Argentina, foreign minister says
+- Pablo Quirno spoke after meeting BYD’s executive vice-president Stella Li, as EV car maker seeks investment opportunities in Argentina.
 - Lifestyle
 - What drives 4 Shaw Prize laureates in pursuit of scientific discovery
 
@@ -106,33 +106,35 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 美股前瞻 | 油價債息齊漲引擔憂，三大期指走低；聯儲局理事沃勒：仍需加息但不必每次會議都加；期權市場押注長期美債反彈，美銀稱美債重新具備配置競爭力
-- 美債反轉還要等多久？摩通：CTA空頭已達極端，但主動資金的賣壓尚未結束
-- 納指創新高點燃美股業績期期待！花旗預判近九成科技股「盈利驚喜」，英偉達與AMD領跑超預期榜單
-- CDS集體狂飆、「SpaceX們」仍在瘋狂借錢！AI債務狂潮還能堅持多久？
-- 聯儲局理事沃勒：加息無需在連續會議上進行，點陣圖反映2027年初加息後再減息
-- 北水加倉港股近65億港元，搶籌騰訊控股超24億港元，淨買入友邦保險超13億港元；淨賣出金斯瑞生物科技近6億港元
-- Counterpoint：26Q2全球晶圓代工2.0市場營收同比增長25%至966億美元 先進封裝成爲關注焦點
-- AI是引擎也是雷！野村、大和CEO：日股牛市有望延續至2027年，最大風險是AI信仰逆轉
+- 富途早報 | 美伊戰事重啓風險猶存，美對伊實施新一輪制裁；英偉達承諾5年投10億美元助力「超級智能」，SpaceX收購低頻段頻譜；Moderna今日盤前納入納斯達克100指數
+- 相差200億！OpenAI營收被爆巨大預期差，AI板塊遭重創，甲骨文跌逾5%，AAOI暴跌13%
+- 蘋果10月雙線出擊：首款觸控MacBook與新iPad mini同步亮相
+- 美軍備好三天打擊方案，三艘航母奔赴中東，特朗普卻說選前不打
+- 從「一呼百應」到「脫敏」，特朗普也「畫不動」原油K線了
+- 美債收益率「狂飆不停」？貝森特顧問：確實很高，但很快會回落！
+- 預測市場風向突變：谷歌反超Anthropic，領跑2026年AI模型競賽
+- 美國預算赤字飆升至近2萬億美元，佔GDP比例將超6%，高利率、減稅加劇赤字惡化
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 花旗：三星Q3營業利潤超預期，半導體業務復甦勢頭強勁
-- 「AI泡沫破裂」論調卷土重來! 美債收益率攀升或將觸發「AI斬殺線」 2008噩夢時刻漸行漸近?
-- 收市速睇 | 三大指數齊跌，科指跌近3%；科網股走弱，快手跌近4%，騰訊跌超2%；半導體股走低，華虹宏力跌超9%，兆易創新跌超7%
-- 騰訊逼近年內新低，段永平：先賣點put吧
-- 美股七雄25萬億美元市值碾壓多國GDP，AI投資週期或牽動全球市場
-- 如何看待當前的AI泡沫？大佬們吵翻了
-- 估值跌至十年低點！巴克萊首次覆蓋26家美股醫療科技股，首選史賽克等
-- 美債已在定價危機，美股爲何仍巋然不動？德銀揭示五大市場結構性錯位
-- 彭博：騰訊正考慮發行最高50億美元的離岸債券
-- 台積電9月營收環比下降0.6% 同比增長54.6%
+- SpaceX將收購低頻段頻譜資源 美三大電信運營商股價應聲走低
+- 美股收盤 | 中東局勢升級疊加OpenAI收入預警，標普、納指兩連跌；AI概念股全線承壓，半導體指數跌超3%，甲骨文、英特爾跌超5%；原油走強，雪佛龍漲超3%
+- 報道：蘋果10月底將發佈首款觸屏MacBook及新款iPad mini
+- 成交額TOP20 | 蘋果逆勢漲超1%，官宣10月13日智能家居新品發佈會；英偉達承諾5年投入10億美元助力美國「超級智能」；谷歌發佈Gemini智能體
+- 美股三大指數收盤漲跌不一，道指漲0.1%，納指跌1.25%，標普500指數跌0.47%，存儲、半導體板塊下挫，閃迪、美光科技、SK海力士跌超4%。大型科技股多數下跌，博通跌超4%，英偉達跌近3%，亞馬遜跌超2%。
+- 谷歌發佈Gemini智能體：能寫代碼、創作內容，自主推進任務
+- 特朗普：美國不會在中期選舉之前攻擊伊朗
+- OpenAI年化營收較此前報道低200億美元
+- 特朗普稱美伊正進行富有成效討論 不會在中期選舉前攻擊伊朗
+- 電動汽車美冷歐熱：美國前9月銷量同比下降30.7%
 
 --- 跨站重点主题（多站出现=更重要）---
 - 科技/个股: Yahoo Finance (EN), Benzinga (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
-- 油价/霍尔木兹: Yahoo Finance (EN), Benzinga (EN), 富途资讯 (繁中)
-- 伊朗/中东: Benzinga (EN), 富途资讯 (繁中)
-- 就业数据: SCMP (EN/中)
+- 伊朗/中东: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中)
+- 中国/欧盟: Yahoo Finance (EN), Benzinga (EN), SCMP (EN/中)
+- 油价/霍尔木兹: Yahoo Finance (EN), Benzinga (EN)
+- 美国关税: Yahoo Finance (EN)
+- 加密货币: Benzinga (EN)
+- 就业数据: Yahoo Finance (EN)
 - 黄金/大宗: Yahoo Finance (EN)
 - 美联储: Yahoo Finance (EN)
-- 中国/欧盟: SCMP (EN/中)
 
 --- 粘贴结束 ---
