@@ -3,48 +3,50 @@
 ## 一、各站抓取情况
 
 - **Yahoo Finance (EN)** ✓
-  - 头版/首屏: U.S. markets closed | Is 8% next? Why mortgage rates have surged, and may stay higher for longer | The 10-year yield has a new master, and it isn't crude oil | US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy | The 10-year yield has a new master, and it isn't crude oil | US’s Reagan-era economic promises return as Trump’s AI-fueled growth fantasy | Strip out AI stocks, and the US market lags Europe | Economist on US debt: 'The problem is we're not resilient'
-  - 其他: Top Stories | Markets & Economy | Your Money | Trump promises $90 Medicare rebate payments: Are you eligible? | The salary you need to afford a $1 million home
+  - 头版/首屏: U.S. markets open in 1h 30m | Welcome back to earnings season | Goldman strategists upgrade global stocks on earnings boost | Wall Street's record-breaking trading streak set to cool | Goldman strategists upgrade global stocks on earnings boost | Wall Street's record-breaking trading streak set to cool | Stumbling equity rally hinges on earnings for year-end boost | Zelenskyy: Strikes to continue if Putin rejects energy truce
+  - 其他: Top Stories | Markets & Economy | Tech & AI | Broadcom CEO likens many AI investors to casino gamblers | TikTok's Chew and Microsoft's Althoff warn about runaway AI hype
 
 - **Benzinga (EN)** ✓
   - 头版/首屏: Latest News | Top Stories | QUICK LINKS | Markets Pulse | Sponsored Content | Why Is It Moving?™ | Trending Stories | Expert Ideas
-  - 其他: Man Tells Dave Ramsey His In-Laws Want to Leave Them A Timeshare And 2 Rentals, But He Told Them No. Now He Looks Ungrateful — ‘It’s Legalized Fraud’ | Bank of America Earnings Preview: Options Market Signals a Muted Reaction | Rivian Stock Flashes Death Cross Pattern Despite Strong R2 Sales Growth | Top 4 Crypto Stocks to Watch This Week: BitMine, Strategy, Strive, BitGo | Nio, Li Auto, XPeng, BYD Stocks Plunge as China EV Headwinds Rise
+  - 其他: Meta's Muse Has the Downloads — Now It Needs to Prove It Can Make Money | This Robinhood Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Monday | TotalEnergies, KKR Strike $1.2 Billion Solar Deal | How To Earn $500 A Month From Citigroup Stock Ahead Of Q3 Earnings | Why Is CrowdStrike Stock Gaining Monday?
 
-- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f66e594ecf0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
+- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fa51f658080>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
 
 - **SCMP (EN/中)** ✓
-  - 头版/首屏: ‘It’s not possible to contain China,’ former top US diplomat Kurt Campbell says | Markets | In Focus | China’s investment banks have come of age. Can they win beyond Hong Kong? | Diplomacy | Putin aide looks to boost Russian shipbuilding ties with China during visit | Transport | ‘Satisfactory’ opening for revamped Huanggang crossing despite bus detour | Science
-  - 其他: Veteran US diplomat says containing China is impossible, but urges Washington to shore up its regional partnerships. | Checkpoint opens after six years of redevelopment, with a traveller describing the building as ‘really bright and spacious overall’. | Wuhan’s Covid mayor Zhou Xianwang jailed for 14 years for corruption | Zhou, who was widely criticised for the delayed announcement that the virus had been detected in the city, was convicted of bribery. | Tech Trends
+  - 头版/首屏: How China and the EU pressed pause on trade war – and what it took to get there | Tech Trends | US chip sector has deep supply chain exposure to China: SIA report | Global Economy | Global diesel shortage: why Gulf refined fuel exports lag crude oil shipments | Law and Crime | Hong Kong domestic helper arrested for alleged murder of 93-year-old woman | Open Questions | ‘It’s not possible to contain China,’ former top US diplomat Kurt Campbell says
+  - 其他: EU officials spoke of a ‘paradigm shift’ in wake of surprise trade deal, saying the ‘nature of the rebalancing exercise has changed’. | Elderly woman was found unresponsive in her flat after helper sought assistance from building security staff. | Veteran US diplomat says containing China is impossible, but urges Washington to shore up its regional partnerships. | Military | Taiwan aims to raise pilot retirement age to 58 as new F-16V jets arrive
 
 - **经济通 (繁中)** ✓
-  - 头版/首屏: 沪深港通 热点观察国际动态【FOCUS】 | 传OpenAI估值升至1.4万亿美元，智谱MiniMax可否追入？ | 人行挺经济 降政策银行息扩金融支持 | 美投资逾1100亿 建厂催谷钢铁业 | B1轰炸机背书稀土牌，休战延两月各取所需 | 指数环球商品外汇 | 国金观点 | 港股大市分析
-  - 其他: 恒生指数24211.35+425.56(+1.79%)
-                    etnet.com.hk@copyright | 国企指数8147.87+137.29(+1.71%)
+  - 头版/首屏: 沪深港通 热点观察国际动态【FOCUS】 | 传OpenAI估值升至1.4万亿美元，智谱MiniMax可否追入？ | 内地规范造车 明年起禁全隐藏门把手 | 沙特机场再遇袭12死 控胡塞策划 | 鲁比奥拱火中欧，央妈划人币底线 | 指数环球商品外汇 | 国金观点 | 港股大市分析
+  - 其他: 恒生指数24252.39+41.04(+0.17%)
+                    etnet.com.hk@copyright | 国企指数8160.97+13.10(+0.16%)
                     etnet.com.hk@copyright | 理财/管理 | 时尚艺术 | 健康人生
 
 - **智通财经 (简中)** ✓
 
 - **富途资讯 (繁中)** ✓
-  - 头版/首屏: 富途早報 | 特朗普宣佈俄烏「能源停火」，沙特機場再遭襲；美光擬擴大股票回購，IREN傳獲Anthropic多年雲合約；PCB概念廣合科技料前三季淨利翻倍 | 通信漲價衝擊退潮？美國9月核心CPI或降至0.2%，但汽油和機票仍在漲 | 特朗普強推「俄烏能源停火」，澤連斯基起初稱「不知情」但隨後表態「支持」 | 一週前瞻 | 聯儲局官員靜默期前密集發聲，沃什週五亮相IMF；中美CPI週三出爐；新一輪業績期開啓，阿斯麥、台積電將率先交卷 | 英偉達擬以「收購式招聘」拿下Reflection AI：先投8億，再用買人不買公司繞開監管 | 如今美光賺得比蘋果還多！蘋果急需芯片，美光掌握定價權 | 大摩相信：市場低估了寧德時代的韌性！ | 中信證券：用景氣和供給出清來應對高利率，密切跟蹤AI投資週期拐點
-  - 其他: 英偉達表外承諾飆升至5300億美元！SemiAnalysis：未來可能突破1萬億美元 | 全球債市拋售「替央行加息」：收益率飆破4%創2000年來最高，八大經濟體加息預期驟降近200點子 | 高盛討論會：AI交易從硬件轉向應用，市場迫切渴望「下一個AI故事」 | 美國市場敘事「劇烈反轉」：從「AI通縮論和美債可控論」轉向「AI擠爆債市、貝森特控不住長端利率」 | 馬斯克：Terrafab芯片工廠未來生產效率有望超越競爭對手，但可能需要數年時間
+  - 头版/首屏: 「卷王」馬斯克展現造芯「AI雄心」：一年要造10款芯片 | 瑞銀給出AI交易下一主線：電力、數據中心與關鍵資源 | 以太坊被看空？十大理由說明護城河仍在 | 英特爾、博通CEO齊發警告：資金或成AI發展最大瓶頸 | 台積電Q3業績前瞻：2nm放量、AI需求強勁，滙豐最高看至3800新臺幣 | 中金：「棉花糖」時代的美國AI | 美股業績期門檻高企，AI巨頭業績能否撐起資金的集中押注？ | 6000億美元新股+1.7萬億解禁！高盛：美股明年淨供給量將創2000年來新高
+  - 其他: 北水加倉港股超26億港元，小米集團、友邦保險分別獲淨買入逾9億、7億港元；長飛光纖光纜、中芯國際分別遭淨賣出逾5億、4億港元 | 高盛重新看多全球股市，中長期轉向超配債券，稱有望從拖累變爲對沖 | 阿斯麥AI溢價迎Q3業績大考 EUV訂單與業績指引或成股價勝負手 | 中金：重回啞鈴型結構？ | 特斯拉第二代跑車Roadster即將在週四揭曉，傳聞該跑車將具備懸浮飛行的功能
 
 ## 二、跨站主题（多站出现 = 更重要）
 
 - **科技股/个股** — 出现于: Yahoo Finance (EN), Benzinga (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中) (5 站)
-- **中国/欧盟** — 出现于: Yahoo Finance (EN), Benzinga (EN), SCMP (EN/中) (3 站)
-- **加密货币** — 出现于: Benzinga (EN), 富途资讯 (繁中) (2 站)
-- **油价/能源/霍尔木兹** — 出现于: Yahoo Finance (EN) (1 站)
-- **中国重大政策/两会** — 出现于: 富途资讯 (繁中) (1 站)
+- **油价/能源/霍尔木兹** — 出现于: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中) (3 站)
+- **伊朗/中东局势** — 出现于: Benzinga (EN), 富途资讯 (繁中) (2 站)
+- **美国关税（15%等）** — 出现于: SCMP (EN/中), 富途资讯 (繁中) (2 站)
+- **中国/欧盟** — 出现于: SCMP (EN/中), 富途资讯 (繁中) (2 站)
+- **黄金/大宗商品** — 出现于: Yahoo Finance (EN) (1 站)
+- **美联储/利率** — 出现于: Yahoo Finance (EN) (1 站)
 
 ## 三、检测到的主题（供参考，由总结摘要 Prompt 自行判断重要性）
 
 - 科技股/个股（5 站）
-- 中国/欧盟（3 站）
-- 加密货币（2 站）
-- 油价/能源（1 站）
-- 中国政策（1 站）
-- 伊朗/中东局势（0 站）
-- 关税/贸易政策（0 站）
+- 油价/能源（3 站）
+- 伊朗/中东局势（2 站）
+- 关税/贸易政策（2 站）
+- 中国/欧盟（2 站）
+- 黄金/大宗商品（1 站）
+- 美联储/利率（1 站）
+- 加密货币（0 站）
 - 就业/经济数据（0 站）
-- 黄金/大宗商品（0 站）
-- 美联储/利率（0 站）
+- 中国政策（0 站）
