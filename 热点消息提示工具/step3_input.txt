@@ -7,8 +7,8 @@
 你是港美股热点运营助手，服务于一个在中国做港美股内容运营的团队。
 你的输出将直接发到 Slack 群，供团队确认当日运营优先级，无需再二次加工。
 
-**当前模式：早间**
-**覆盖时间段：昨日22:00 - 今日09:00（美股隔夜收盘）**
+**当前模式：晚间**
+**覆盖时间段：今日08:00 - 20:00（美股开盘前）**
 
 ---
 
@@ -30,7 +30,7 @@
 ## 输出格式（严格遵守）
 
 第一行输出标题，固定为（直接复制，不修改任何字）：
-`早间热点线索 · 2026年10月15日`
+`晚间热点线索 · 2026年10月15日`
 
 空一行后，输出正文条目，每条格式：
 `* 事实描述（含关键数据）。仅写资讯来源中已明确发生的涨跌，不推断其他标的受到联动。标的代码直接写在正文中，结尾不另加标的列表。`
@@ -62,15 +62,15 @@
 
 ---
 
-## 早间模式操作指令
+## 晚间模式操作指令
 
-聚焦：隔夜美股收盘结果 + 影响今日港股开盘的信息。
+聚焦：今晚美股开盘前的运营清单。不涉及港股，只关注美股。
 
 重点关注（按重要性排序写入）：
-1. 美股三大指数昨夜涨跌及核心驱动，一句话概括（必须有资讯来源支撑，不得推断）
-2. 个股重大异动（财报或重大消息驱动涨跌 5% 以上）
-3. 隔夜重要宏观数据（非农/CPI/PCE/美联储表态——仅限资讯来源中明确出现）
-4. 隔夜消息中可能影响港股相关板块的内容，重点关注：光通信、存储/HBM、半导体、中概互联网等；若有明确利好/利空驱动，须点明对应港股板块或个股
+1. 盘前重要财报及初步反应（EPS/营收 vs 预期——仅限资讯来源中有明确数据）
+2. 盘前个股异动（涨跌 5% 以上 + 原因一句话）
+3. 影响今晚开盘情绪的宏观事件（Fed 官员讲话、重要数据——仅限资讯来源中明确出现）
+4. 其他值得今晚关注的美股消息
 
 ---
 
@@ -104,33 +104,33 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026101509
+抓取时间: 2026101520
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets closed
-- Anthropic's revenue is now growing faster than almost any startup ever
-- Judge extends ban on Trump taxpayer-funded ads past election day
-- Michael Dell's net worth falls over $20 billion, drops in richest ranking
-- Judge extends ban on Trump taxpayer-funded ads past election day
-- Michael Dell's net worth falls over $20 billion, drops in richest ranking
-- Nvidia stock sinks as chip sell-off deepens on hot inflation data
-- Tesla's Roadster event is back on for Thursday night. Here's what to expect.
-- CPI inflation live updates: Prices rose 3.7% in September
-- More than 40% of Americans struggle to pay for basic necessities
-- 'A much cheaper way of owning a home': Housing strategist's advice for under-30 buyers
-- Why the housing market is in for 'a challenging couple months'
+- U.S. markets open in 1h 30m
+- Why CoreWeave stock panic matters to Nvidia
+- TSMC posts record profit amid 'extremely robust demand' for AI chips
+- CoreWeave is getting drilled again the day after a panic-filled rout
+- TSMC posts record profit amid 'extremely robust demand' for AI chips
+- CoreWeave is getting drilled again the day after a panic-filled rout
+- SpaceX's spectrum purchase exposes risks for Big Telecom stocks
+- Global chip sell-off deepens as South Korean market plunges
+- Fed's Goolsbee: AI is 'shoving down other sectors'
+- BNY shares rise on Q3 beat despite margin concerns
+- Netflix is slimming down as it gears up for a new streaming battle
+- Dollar pulls back from 18-month high as Treasury yields fall
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
 - Tech & AI
-- Matter Venture Partners bet $450M on 'infinite demand for robots'
-- Eight US states sue OpenAI, claiming ChatGPT harms young users
-- 'Yikes': CoreWeave stock tanks on bond yield woes, CEO blames market acting 'irrationally'
-- Bending Spoons stock soars on new Berkshire Hathaway investment
+- Meta has an AI advantage OpenAI and Anthropic can't replicate
+- Anthropic Q3 revenue climbs to $16.8 billion: Report
+- US doubles stake in GlobalFoundries, backs new chip plant
+- US FTC subpoenas OpenAI, Anthropic over consumer harms: Axios
 - Popular
-- Netflix to cut roughly 1,000 employees in biggest workforce reduction since 2022
-- Bank of America hit with $1.2 billion penalty over money laundering failures
+- PNC Q3 lending revenue misses estimates as costs beat
+- Tesla's Roadster event is back on for Thursday night. Here's what to expect.
 
 ## Benzinga (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -145,49 +145,49 @@
 - UPCOMING EVENTS
 - INSIDER TRADES
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Half Of Americans Think $100,000 In Retirement Savings Goes A Lot Further Than It Actually Does — Here's What It Really Gets You
-- Travelers Nearly Doubled Estimates Last Quarter — Can It Do It Again in Q3?
-- General Atlantic Could Be Worth $10 Billion in Potential IPO as It Races To Expand
-- Rocket Lab Stock Tanks After Neutron Launch Officially Pushed to 2027
-- QUICK SPARK: Andreessen Horowitz Cuts Recruiting Staff, Shifts Talent Strategy To Crypto And Growth Teams
-- Potential $100 Billion Anthropic IPO Could Boost Wall Street Banks: Which ETFs Stand to Benefit?
+- TotalEnergies Sees Strong LNG Trading Amid Strait of Hormuz Tensions
+- Bitcoin Stuck Between $80,000 and $88,000: Which Level Breaks First?
+- Penske Automotive To Go Private In $16.3 Billion Deal
+- Senate Democrats Train 100+ Election Observers as Chuck Schumer Accuses Trump of Wanting to 'Mess With' Midterms: 'Eyes and Ears on the Ground'
+- Thom Tillis Presses Elon Musk Over Ukraine’s Starlink Access, Says Supporting Ukrainian Sovereignty ‘Should Not Be a Gray Area’
+- Stock Market Today: S&P 500, Nasdaq 100 Futures Fall As Chip Stock Sell-Off Intensifies — SKHY, TSM, RKLB in Focus
 - Bank Earnings
 - David Solomon
 - Bond Market
 - Jamie Dimon
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f58c02ec080>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f7f492f39b0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- Susan Thornton on US-China ties, post-midterms and averting a new balloon crisis
-- Politics
-- Hegseth calls US$1.5 trillion defence budget ‘critical’ to counter China
-- Society
-- ‘Not tailor-made for us’: Hongkong Post staff say transfer scheme too narrow
+- China keen to strengthen North Korea trade ties with New Yalu River Bridge opening
 - Diplomacy
-- ‘China shock 3.0’ to be driven by AI, biotech and robot exports, economist says
+- US wants to ‘compete’ in Central Asia, ambassador says ahead of Rubio visit
 - Big Tech
+- Z.ai’s GLM-5.3 model raises researcher fears it can fake AI safety test
+- Society
+- ‘Booking overlap’ forces Hong Kong Pride Parade to cancel indoor market
+- Economy
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- AI dialogue and security issues are among the most difficult bilateral points amid ‘fragile stability’, former senior American diplomat says.
-- Beijing is developing its own competitive AI hardware and software and plans to export them once domestic demand is met, expert claims.
-- China approves Alibaba AI models for use in iPhone Duo and other Apple handsets
-- The approval paves the way for Apple to finally launch Apple Intelligence in China after years of regulatory delays.
-- Military
-- How a new US Army unit could challenge the PLA’s strategy in a Taiwan conflict
-- A fourth specialised American task force has been established to counter Chinese efforts to keep enemy warships and aircraft at bay.
-- Economics
-- AI-armed hackers tear through corporate Japan’s neglected defences
-- For years, the Japanese language was a defence against hacking in and of itself, observers say. But no more.
+- Premier Li Qiang says the cross-border project is a landmark and a chance to expand port clearance between the two countries.
+- Rainbow Market was due to be held on November 14, with organisers saying the venue had no alternative space available that month.
+- Shenzhen offers perks to keep residents off the roads during Apec summit
+- The southern Chinese city is set to face enormous traffic pressure when representatives from 21 Apec economies meet next month.
+- Politics
+- Cross-border matchmaking can lead to financial ruin, Chinese police warn rural men
+- Police in Hunan province have warned that men who use illegal agencies to find foreign brides could be defrauded.
+- Health & Environment
+- ‘Forgive us’: Indonesians urge Singapore, Malaysia to sue Jakarta over haze
+- Indonesians have expressed anger over the toxic smoke, with some even calling on foreign governments to impose sanctions on Jakarta.
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - 沪深港通 热点观察国际动态【FOCUS】
-- 康方生物净筹19亿元，股价最多插一成反可趁低吸？
-- 英伟达在华AI芯片份额 降至34%
-- 俄料柴油出口超协议 月供300万吨
-- 从诺奖得主理论，看中国“存款大山”之谜
+- 国寿布局科创投资，亦随AI股跌跌不休，可否趁低吸纳？
+- 内地9月出口按年增36.3% 创7个月高
+- 伊新策略扩袭霍峡 冀维持高油价
+- 成品油出口诡异激增，PPI飙5%牵动外交转调？
 - 指数环球商品外汇
 - 国金观点
 - 港股大市分析
@@ -196,9 +196,9 @@
 - 环球基金：
 - ETF：
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 恒生指数24314.17-31.05(-0.13%)
+- 恒生指数24062.72-251.45(-1.03%)
                     etnet.com.hk@copyright
-- 国企指数8183.17+8.45(+0.10%)
+- 国企指数8103.27-79.90(-0.98%)
                     etnet.com.hk@copyright
 - 理财/管理
 - 时尚艺术
@@ -209,33 +209,33 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 富途早報 | 通脹升溫重錘科技股，AI基建融資又迎「鬼故事」；紅利防禦股獲資金涌入，伯克希爾10連升；蘋果市值收盤首破5萬億，報道稱國行版本12月推出首批AI功能
-- 報道：Anthropic Q3營收168億美元，環比大漲46%，調整後盈利並實現正現金流
-- 英偉達的CoreWeave困局：被迫救援還是坐視不管？
-- 美CPI全面升溫響「通脹螺旋」警報，10月加息概率一度五成，「新聯儲局通訊社」：盯緊沃什本週講話
-- 通脹超預期衝擊小盤股，羅素2000跌近2%，確認技術性回調
-- 三位聯儲局官員接連表態：通脹令人失望，但10月加息不必操之過急
-- 特斯拉、SpaceX合併進入倒計時？巴克萊：今年可能官宣，障礙在股東投票
-- OpenAI指控前員工攜逾百份硬件機密返蘋果，反擊蘋果7月發起的訴訟
+- 多空激辯！摩通警告本輪暴跌與7月不同，逼空彈藥已枯竭；但高盛認爲正是入場信號：三大援軍將回歸
+- 台積電Q3淨利潤7631億新臺幣超預期，同比激增68.7%，毛利率小幅承壓
+- 當AI動能開始退潮，巴菲特式"無聊投資"悄然回潮
+- 韓國業績期下週啓動，摩根大通稱存儲股進入「預期重置季」，回調帶來買入機會
+- 贛鋒鋰業Q3營收同比增長109.03%，鋰價回暖驅動前三季度淨利潤暴增19540.50%
+- 美國銀行股整體走弱：在美股業績期，市場只對利空敏感？
+- 科技股暴跌引發美債避險買盤，是時候抄底美債了嗎？
+- 高油價恐持續至2028年？市場不再相信戰爭結束就能壓低油價
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 成交額TOP20 | 蘋果再創新高，成爲第二家市值突破5萬億美元的上市公司‌；SpaceX發佈最強語音模型，稱可自主處理七成星鏈客服；CoreWeave股債雙殺，股價跌逾15%
-- 美股收盤 | CPI重燃加息押注，納指跌近2%；AI概念股全線下挫，芯片指數跌超4%；藍籌股逆勢走強，聯合健康漲近5%，伯克希爾10連漲；美元創18個月新高
-- Anthropic稱三季度營收升至168億美元並實現盈利
-- 美銀Q3業績爆雷！12億美元重罰，兩大交易遜色、固收收入下降17%，股價重挫
-- 標普500終結逾六年來最長平靜期，53個交易日來首次跌超1%，AI交易退潮
-- 黃仁勳：對開發不安全AI軟件的客戶斷供芯片，AI基礎設施短缺將持續數年
-- 黑石AirTrunk推遲15億美元REIT IPO：收益率讓到6%仍無人接盤，AI基建融資撞上5.2%美債利率
-- 蘋果中國版AI定檔12月上線
-- CoreWeave股價暴跌15%債券入困境，馬斯克驚呼「嚇人」，CEO稱訂單儲備強勁
-- ASML強勁業績也救不了！美芯片股跌勢加劇，行業指數市值恐蒸發萬億美元
+- 盤點知名私募們的四季度共識：AI主線還在，未來阿爾法比貝塔值錢
+- 北水減倉港股近51億港元，騰訊控股獲淨買入超8億港元；長飛光纖光纜、華虹宏力、中芯國際分別遭淨賣出逾9億、8億、7億港元
+- 這周即將被剔除指數，Strategy的買幣融資會受影響嗎？
+- 美國9月PPI將於今晚20:30揭曉，將檢驗柴油漲價向企業成本的傳導
+- 騰訊Q3業績前瞻：主業基本盤依然穩健 AI重投入鋪路中長期紅利
+- 科技股暴跌下的避風港？蘋果市值站上5萬億美元大關
+- 美銀警告AI泡沫破裂信號：美股與美債收益率同步下跌
+- 黃金牛市何時終結？系統性風險恐慌消退，利率重新佔據主導
+- 收市速睇 | 三大指數齊跌，科指跌2.72%；科網、半導體股走弱，百度跌超4%，天數智芯跌近14%；農業銀行逆市漲超3%創新高
+- 科技股暴跌、美債避險交易捲土重來？10年期美債收益率跌至三週低點
 
 --- 跨站重点主题（多站出现=更重要）---
 - 科技/个股: Yahoo Finance (EN), Benzinga (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
-- 黄金/大宗: Yahoo Finance (EN), Benzinga (EN)
-- 美联储: Yahoo Finance (EN), SCMP (EN/中)
-- 中国/欧盟: Benzinga (EN), SCMP (EN/中)
-- 美国关税: 富途资讯 (繁中)
+- 油价/霍尔木兹: Benzinga (EN), 经济通 (繁中)
 - 加密货币: Benzinga (EN)
+- 就业数据: SCMP (EN/中)
+- 美联储: Yahoo Finance (EN)
+- 中国/欧盟: SCMP (EN/中)
 
 --- 粘贴结束 ---
 <!-- 资讯来源结束 -->
