@@ -1,33 +1,33 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026101420
+抓取时间: 2026101509
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets open in 1h 30m
-- BofA profit tumbles 17% amid fines, Wall Street slowdown
-- Earnings live updates: Big bank earnings roll on
-- BlackRock stock jumps as Q3 earnings, investor inflows beat expectations
-- Earnings live updates: Big bank earnings roll on
-- BlackRock stock jumps as Q3 earnings, investor inflows beat expectations
-- High energy prices likely mean inflation is heating up. Will it push the Fed to hike this month?
-- Gas has now topped $4 a gallon for a record 158 days
-- SpaceX could be worth $50T someday: Ron Baron
-- 'Delayed rather than canceled': Wall Street's dealmaking boom stalled but likely not over
-- Stock futures edge higher ahead of CPI inflation data, earnings
-- Oil rises as Saudi supply risk offsets Russian diesel hopes
+- U.S. markets closed
+- Anthropic's revenue is now growing faster than almost any startup ever
+- Judge extends ban on Trump taxpayer-funded ads past election day
+- Michael Dell's net worth falls over $20 billion, drops in richest ranking
+- Judge extends ban on Trump taxpayer-funded ads past election day
+- Michael Dell's net worth falls over $20 billion, drops in richest ranking
+- Nvidia stock sinks as chip sell-off deepens on hot inflation data
+- Tesla's Roadster event is back on for Thursday night. Here's what to expect.
+- CPI inflation live updates: Prices rose 3.7% in September
+- More than 40% of Americans struggle to pay for basic necessities
+- 'A much cheaper way of owning a home': Housing strategist's advice for under-30 buyers
+- Why the housing market is in for 'a challenging couple months'
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
 - Tech & AI
-- Ukraine: SpaceX is throttling Starlink again amid war with Russia
-- Why Elon Musk is liking Micron right now
-- Apple's new hardware strategy capitalizes on trust — just in time for the AI era
-- Rivian spinoff Mind Robotics hires ex-Ford EV chief Doug Field
+- Matter Venture Partners bet $450M on 'infinite demand for robots'
+- Eight US states sue OpenAI, claiming ChatGPT harms young users
+- 'Yikes': CoreWeave stock tanks on bond yield woes, CEO blames market acting 'irrationally'
+- Bending Spoons stock soars on new Berkshire Hathaway investment
 - Popular
-- Rolex and gold were for US and not Trump: Swiss trade chief
-- Dollar eases as investors await CPI data, Fed speakers
+- Netflix to cut roughly 1,000 employees in biggest workforce reduction since 2022
+- Bank of America hit with $1.2 billion penalty over money laundering failures
 
 ## Benzinga (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -42,41 +42,41 @@
 - UPCOMING EVENTS
 - INSIDER TRADES
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- The Stock Market Is Not The Economy
-- Peter Schiff Says World Heading Toward Debt Crisis, Warns US Situation 'Particularly' Problematic: 'Currencies Are Going to Be Debased'
-- Saylor Sees Bitcoin Above $100,000—So Why Is Strategy Willing to Sell?
-- Elon Musk’s SpaceX Caps Military Starlink Speeds in Ukraine, Adviser Suspects Political Motive: ‘Cannot Be a Coincidence’
-- Rand Paul Invokes Ronald Reagan as Gen Z Struggles With Housing Crisis, Economic Uncertainty: 'Washington Isn’t the Solution'
-- Stock Market Today: S&P 500, Dow Jones Futures Gain as Investors Await September Inflation Report— ASML, GME, UNH in Focus
+- Half Of Americans Think $100,000 In Retirement Savings Goes A Lot Further Than It Actually Does — Here's What It Really Gets You
+- Travelers Nearly Doubled Estimates Last Quarter — Can It Do It Again in Q3?
+- General Atlantic Could Be Worth $10 Billion in Potential IPO as It Races To Expand
+- Rocket Lab Stock Tanks After Neutron Launch Officially Pushed to 2027
+- QUICK SPARK: Andreessen Horowitz Cuts Recruiting Staff, Shifts Talent Strategy To Crypto And Growth Teams
+- Potential $100 Billion Anthropic IPO Could Boost Wall Street Banks: Which ETFs Stand to Benefit?
 - Bank Earnings
-- Anthony Scaramucci
+- David Solomon
 - Bond Market
-- Danaher Brings NVIDIA AI Into Scientific Instruments in Push for Faster Discoveries
+- Jamie Dimon
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fb3403aac60>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f58c02ec080>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- China approves Alibaba AI models for use in iPhone Duo and other Apple handsets
-- Diplomacy
-- US holds ‘unusual’ civil-military meeting in Tokyo ahead of Trump’s China trip
-- Health & Environment
-- Nearly 1 in 3 unattended dogs captured in Hong Kong euthanised this year
+- Susan Thornton on US-China ties, post-midterms and averting a new balloon crisis
 - Politics
-- Beijing warns Taiwanese not to be ‘two-faced’ after Kevin Tsai attends DPP rally
-- Military
-其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- The approval paves the way for Apple to finally launch Apple Intelligence in China after years of regulatory delays.
-- The TV host has drawn ire after attending an event for a Taipei mayoral candidate whom Beijing calls a ‘diehard separatist’.
-- Taiwan turns to US drone boats to track rising mainland Chinese sea activity
-- High-speed Devil Ray T24 autonomous vessels to join coastguard fleet in major expansion of island’s maritime reconnaissance tools.
+- Hegseth calls US$1.5 trillion defence budget ‘critical’ to counter China
+- Society
+- ‘Not tailor-made for us’: Hongkong Post staff say transfer scheme too narrow
+- Diplomacy
+- ‘China shock 3.0’ to be driven by AI, biotech and robot exports, economist says
 - Big Tech
-- China’s YMTC to grow revenue 6 times faster than peers as IPO nears: report
-- Country’s top NAND maker bets on enterprise SSDs and AI infrastructure to drive next phase of growth, Counterpoint says.
-- Cloudy outlook? How haze crisis is testing Singapore’s events economy
-- While the F1 race weathered the haze, observers say the recurring disruption could weaken Singapore’s appeal as a global events hub.
-- Business
+其他 (首页其他位置，按重要性排序，仅标题无摘要):
+- AI dialogue and security issues are among the most difficult bilateral points amid ‘fragile stability’, former senior American diplomat says.
+- Beijing is developing its own competitive AI hardware and software and plans to export them once domestic demand is met, expert claims.
+- China approves Alibaba AI models for use in iPhone Duo and other Apple handsets
+- The approval paves the way for Apple to finally launch Apple Intelligence in China after years of regulatory delays.
+- Military
+- How a new US Army unit could challenge the PLA’s strategy in a Taiwan conflict
+- A fourth specialised American task force has been established to counter Chinese efforts to keep enemy warships and aircraft at bay.
+- Economics
+- AI-armed hackers tear through corporate Japan’s neglected defences
+- For years, the Japanese language was a defence against hacking in and of itself, observers say. But no more.
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -106,33 +106,32 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 美國9月CPI今晚20:30揭曉：整體通脹或升至3.6%，核心通脹放緩能否打消聯儲局10月加息預期？
-- 阿斯麥Q3營收不及預期但淨利潤49.6億歐元大超預期，上調全年展望，訂單排至2030年並正評估擴產
-- 聯儲局鮑曼：通脹仍高於目標，但沒有必要急於再次行動
-- MAGS創歷史新高，美股下一個風向會是從「七巨頭」走向「493」嗎？
-- 美債收益率飆升的兩段故事：聯儲局送上5%，債務推向5.31%
-- 華爾街分歧出現，該買哪種美債？
-- 高盛上調全球股票，但花旗平掉多頭，該加倉還是減倉？
-- 聯儲局理事鮑曼：目前不認爲聯儲局需急於調整利率
+- 富途早報 | 通脹升溫重錘科技股，AI基建融資又迎「鬼故事」；紅利防禦股獲資金涌入，伯克希爾10連升；蘋果市值收盤首破5萬億，報道稱國行版本12月推出首批AI功能
+- 報道：Anthropic Q3營收168億美元，環比大漲46%，調整後盈利並實現正現金流
+- 英偉達的CoreWeave困局：被迫救援還是坐視不管？
+- 美CPI全面升溫響「通脹螺旋」警報，10月加息概率一度五成，「新聯儲局通訊社」：盯緊沃什本週講話
+- 通脹超預期衝擊小盤股，羅素2000跌近2%，確認技術性回調
+- 三位聯儲局官員接連表態：通脹令人失望，但10月加息不必操之過急
+- 特斯拉、SpaceX合併進入倒計時？巴克萊：今年可能官宣，障礙在股東投票
+- OpenAI指控前員工攜逾百份硬件機密返蘋果，反擊蘋果7月發起的訴訟
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 北水搶籌阿里巴巴近12億港元，淨買入康方生物近8億港元；淨賣出中芯國際近8億港元，減倉長飛光纖光纜、小米集團近5億港元
-- 特朗普稱格陵蘭島將開始「大規模」石油、天然氣和礦產勘探
-- 萬億資管巨頭打破慣例：大舉買美債，轉頭在期貨上做空
-- BTC反彈還缺什麼？CPI、實際利率與現貨買盤的三重檢驗
-- 業績前瞻 | 台積電(TSM.US)通往3萬億美元市值之路近在眼前？
-- SK海力士據稱推遲部分HBM4後道設備訂單，擴產是否受影響？
-- 央行：前三季度人民幣存款增加20.76萬億元；9月末廣義貨幣（M2）餘額359.63萬億元，同比增長7.2%
-- 高盛警告：AI融資暫停撐住了信用債市場，未來兩個月或是最後的平靜期
-- IEA月報：OECD石油庫存降至1989年以來最低，普特柴油協議難解供應困局
-- 收市速睇 | 三大指數漲跌不一，科指漲0.91%；科網股普漲，美團漲近7%，小米漲超5%；生物技術、半導體股走弱，康方生物跌近10%，瀾起科技跌超6%
+- 成交額TOP20 | 蘋果再創新高，成爲第二家市值突破5萬億美元的上市公司‌；SpaceX發佈最強語音模型，稱可自主處理七成星鏈客服；CoreWeave股債雙殺，股價跌逾15%
+- 美股收盤 | CPI重燃加息押注，納指跌近2%；AI概念股全線下挫，芯片指數跌超4%；藍籌股逆勢走強，聯合健康漲近5%，伯克希爾10連漲；美元創18個月新高
+- Anthropic稱三季度營收升至168億美元並實現盈利
+- 美銀Q3業績爆雷！12億美元重罰，兩大交易遜色、固收收入下降17%，股價重挫
+- 標普500終結逾六年來最長平靜期，53個交易日來首次跌超1%，AI交易退潮
+- 黃仁勳：對開發不安全AI軟件的客戶斷供芯片，AI基礎設施短缺將持續數年
+- 黑石AirTrunk推遲15億美元REIT IPO：收益率讓到6%仍無人接盤，AI基建融資撞上5.2%美債利率
+- 蘋果中國版AI定檔12月上線
+- CoreWeave股價暴跌15%債券入困境，馬斯克驚呼「嚇人」，CEO稱訂單儲備強勁
+- ASML強勁業績也救不了！美芯片股跌勢加劇，行業指數市值恐蒸發萬億美元
 
 --- 跨站重点主题（多站出现=更重要）---
 - 科技/个股: Yahoo Finance (EN), Benzinga (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
-- 油价/霍尔木兹: Yahoo Finance (EN), 富途资讯 (繁中)
-- 加密货币: Benzinga (EN), 富途资讯 (繁中)
-- 中国/欧盟: Yahoo Finance (EN), SCMP (EN/中)
-- 黄金/大宗: Yahoo Finance (EN)
-- 美联储: Yahoo Finance (EN)
-- 中国政策/两会: 富途资讯 (繁中)
+- 黄金/大宗: Yahoo Finance (EN), Benzinga (EN)
+- 美联储: Yahoo Finance (EN), SCMP (EN/中)
+- 中国/欧盟: Benzinga (EN), SCMP (EN/中)
+- 美国关税: 富途资讯 (繁中)
+- 加密货币: Benzinga (EN)
 
 --- 粘贴结束 ---
