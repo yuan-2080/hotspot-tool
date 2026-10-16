@@ -1,82 +1,64 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026101520
+抓取时间: 2026101609
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets open in 1h 30m
-- Why CoreWeave stock panic matters to Nvidia
-- TSMC posts record profit amid 'extremely robust demand' for AI chips
-- CoreWeave is getting drilled again the day after a panic-filled rout
-- TSMC posts record profit amid 'extremely robust demand' for AI chips
-- CoreWeave is getting drilled again the day after a panic-filled rout
-- SpaceX's spectrum purchase exposes risks for Big Telecom stocks
-- Global chip sell-off deepens as South Korean market plunges
-- Fed's Goolsbee: AI is 'shoving down other sectors'
-- BNY shares rise on Q3 beat despite margin concerns
-- Netflix is slimming down as it gears up for a new streaming battle
-- Dollar pulls back from 18-month high as Treasury yields fall
+- U.S. markets closed
+- Dow jumps, S&P 500, Nasdaq gain as AI jitters fade
+- Democrats target Epstein ties to banks for action after midterms
+- Meta releases open source AI model while keeping its best tech closed
+- Democrats target Epstein ties to banks for action after midterms
+- Meta releases open source AI model while keeping its best tech closed
+- Anthropic stands alone as rest of US IPO market slows to a crawl
+- Why CoreWeave panic matters to Nvidia, explained in under 30 seconds
+- Oil set for weekly gain with focus on Middle East, IEA release
+- Housing stocks are the AI sell-off's winners as bond yields sink
+- VA disability pay in 2027: What the 3.6% COLA means for your monthly check
+- The Fed doesn't have control over the 2 biggest inflation drivers
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
 - Tech & AI
-- Meta has an AI advantage OpenAI and Anthropic can't replicate
-- Anthropic Q3 revenue climbs to $16.8 billion: Report
-- US doubles stake in GlobalFoundries, backs new chip plant
-- US FTC subpoenas OpenAI, Anthropic over consumer harms: Axios
+- What to expect from Tesla's Roadster event
+- How deep does the AI sell-off go?
+- A warning sign is flashing in the market for AI company default insurance
+- CoreWeave founders shield fortunes with $3.3 billion stock sales
 - Popular
-- PNC Q3 lending revenue misses estimates as costs beat
-- Tesla's Roadster event is back on for Thursday night. Here's what to expect.
+- Ralph Lauren ties executive payouts to AI in sign of retail's shifting priorities
+- Wall Street on alert for Bessent to act on bond yields again
 
 ## Benzinga (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- Latest News
-- Top Stories
-- QUICK LINKS
-- Markets Pulse
-- Sponsored Content
-- Why Is It Moving?™
-- Trending Stories
-- Expert Ideas
-- UPCOMING EVENTS
-- INSIDER TRADES
-其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- TotalEnergies Sees Strong LNG Trading Amid Strait of Hormuz Tensions
-- Bitcoin Stuck Between $80,000 and $88,000: Which Level Breaks First?
-- Penske Automotive To Go Private In $16.3 Billion Deal
-- Senate Democrats Train 100+ Election Observers as Chuck Schumer Accuses Trump of Wanting to 'Mess With' Midterms: 'Eyes and Ears on the Ground'
-- Thom Tillis Presses Elon Musk Over Ukraine’s Starlink Access, Says Supporting Ukrainian Sovereignty ‘Should Not Be a Gray Area’
-- Stock Market Today: S&P 500, Nasdaq 100 Futures Fall As Chip Stock Sell-Off Intensifies — SKHY, TSM, RKLB in Focus
-- Bank Earnings
-- David Solomon
-- Bond Market
-- Jamie Dimon
+- You are unable to access benzinga.com
+- Why have I been blocked?
+- What can I do to resolve this?
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f7f492f39b0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f0ee8326c60>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- China keen to strengthen North Korea trade ties with New Yalu River Bridge opening
+- Why Japanese PM Takaichi is still keen to roll out the welcome mat for Trump
+- Global Economy
+- In Focus | The China decoupling paradox: why the world needs its manufacturing machine
 - Diplomacy
-- US wants to ‘compete’ in Central Asia, ambassador says ahead of Rubio visit
-- Big Tech
-- Z.ai’s GLM-5.3 model raises researcher fears it can fake AI safety test
-- Society
-- ‘Booking overlap’ forces Hong Kong Pride Parade to cancel indoor market
-- Economy
+- Visa’s China approval a ‘direct outcome’ of Xi-Trump summit, Beijing says
+- Hong Kong Apec meet to showcase ‘China’s voice’ in stability, treasury chief says
+- EU open to creating ‘kill switch’ weapon to kick Chinese firms out of market
+- Science
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Premier Li Qiang says the cross-border project is a landmark and a chance to expand port clearance between the two countries.
-- Rainbow Market was due to be held on November 14, with organisers saying the venue had no alternative space available that month.
-- Shenzhen offers perks to keep residents off the roads during Apec summit
-- The southern Chinese city is set to face enormous traffic pressure when representatives from 21 Apec economies meet next month.
-- Politics
-- Cross-border matchmaking can lead to financial ruin, Chinese police warn rural men
-- Police in Hunan province have warned that men who use illegal agencies to find foreign brides could be defrauded.
-- Health & Environment
-- ‘Forgive us’: Indonesians urge Singapore, Malaysia to sue Jakarta over haze
-- Indonesians have expressed anger over the toxic smoke, with some even calling on foreign governments to impose sanctions on Jakarta.
+- Tokyo is hoping for a visit by the US president that would signal the strength of the relationship between the two allies.
+- Finance chiefs will see China’s contribution to regional stability and Hong Kong’s value during October 20-21 meeting, Christopher Hui says.
+- European Commission chief Ursula von der Leyen also floats safeguards as member states back two-track strategy to tackle China shock.
+- China-led team hits 83% success rate anticipating earthquakes in study
+- Strong predictive potential shown as anomalous patterns verified against 12 major earthquakes in China between 2022 and 2024.
+- Law and Crime
+- Abby Choi’s partner says he never sought sexual relationship with her ex-husband
+- Chris Tam appears surprised when defence counsel suggests he and Alex Kwong were romantically linked while students at international school.
+- Business
+- What will it take for AI-powered purchases to become the norm?
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -106,31 +88,32 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 多空激辯！摩通警告本輪暴跌與7月不同，逼空彈藥已枯竭；但高盛認爲正是入場信號：三大援軍將回歸
-- 台積電Q3淨利潤7631億新臺幣超預期，同比激增68.7%，毛利率小幅承壓
-- 當AI動能開始退潮，巴菲特式"無聊投資"悄然回潮
-- 韓國業績期下週啓動，摩根大通稱存儲股進入「預期重置季」，回調帶來買入機會
-- 贛鋒鋰業Q3營收同比增長109.03%，鋰價回暖驅動前三季度淨利潤暴增19540.50%
-- 美國銀行股整體走弱：在美股業績期，市場只對利空敏感？
-- 科技股暴跌引發美債避險買盤，是時候抄底美債了嗎？
-- 高油價恐持續至2028年？市場不再相信戰爭結束就能壓低油價
+- 富途早報 | 聯儲局繼續鷹派？沃什今日11:30亮相IMF發表講話；黃仁勳力挺CoreWeave，股價反彈但信用壓力仍在；可口可樂再新高，拿下肯德基美國飲料合作
+- CoreWeave違約概率超六成！黃仁勳「滅火」：融資成本在下降，無需英偉達兜底
+- AI暴跌下的避風港！大型醫藥股股價逼近歷史新高
+- 聯儲局鷹派票委哈瑪克：若公衆形成「通脹心態」，未來或需更猛烈加息！
+- 美股收盤 | 科技股深夜絕境反擊，納指驚險收漲，道指漲超1%；加密貨幣概念表現活躍，Circle漲超9%，Coinbase漲6%；藍籌股延續漲勢，禮來再漲超3%
+- Anthropic估值預期承壓：收入增速放緩，部分投資者轉向1.5萬億美元
+- 成交額TOP20 | CoreWeave大漲6%，黃仁勳「滅火」稱融資成本在下降；存儲低開高走，美光漲近2%；Meta發佈「美國最強開放權重模型」
+- 據悉部分投資者下調Anthropic估值預期至1.5萬億美元
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 盤點知名私募們的四季度共識：AI主線還在，未來阿爾法比貝塔值錢
-- 北水減倉港股近51億港元，騰訊控股獲淨買入超8億港元；長飛光纖光纜、華虹宏力、中芯國際分別遭淨賣出逾9億、8億、7億港元
-- 這周即將被剔除指數，Strategy的買幣融資會受影響嗎？
-- 美國9月PPI將於今晚20:30揭曉，將檢驗柴油漲價向企業成本的傳導
-- 騰訊Q3業績前瞻：主業基本盤依然穩健 AI重投入鋪路中長期紅利
-- 科技股暴跌下的避風港？蘋果市值站上5萬億美元大關
-- 美銀警告AI泡沫破裂信號：美股與美債收益率同步下跌
-- 黃金牛市何時終結？系統性風險恐慌消退，利率重新佔據主導
-- 收市速睇 | 三大指數齊跌，科指跌2.72%；科網、半導體股走弱，百度跌超4%，天數智芯跌近14%；農業銀行逆市漲超3%創新高
-- 科技股暴跌、美債避險交易捲土重來？10年期美債收益率跌至三週低點
+- 華爾街警惕貝森特再度出手壓制收益率，本週五或現關鍵線索
+- 谷歌量子計算取得突破：錯誤率降低40倍，攻克關鍵資源瓶頸
+- 馬斯克回應黃仁勳讚賞：英偉達團隊才華橫溢，Star Mind太空服務器明年量產
+- 美國鋁業公司Q3營收37.04億美元，同比增長24%；調整後每股收益1.82美元
+- 避險情緒壓倒通脹擔憂，歐美國債普漲，美債收益率盤中跳水超10個點子
+- 美股三大指數集體收漲 加密貨幣概念股漲幅居前
+- 阿里巴巴、台積電在列，美股期權交易時段下週擴容
+- Meta發佈8160億參數「美國最強開放權重模型」，聯手蘋果讓大模型跑上Mac，最強模型仍閉源
+- 美國財長顧問反駁IMF債務警告：經濟預測屢屢失準
+- 投資乾貨 | 巴菲特「大師兄」施洛斯2008年的珍貴訪談：買那些有下跌保護的股票，至於能漲多少就順其自然
 
 --- 跨站重点主题（多站出现=更重要）---
-- 科技/个股: Yahoo Finance (EN), Benzinga (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
-- 油价/霍尔木兹: Benzinga (EN), 经济通 (繁中)
-- 加密货币: Benzinga (EN)
-- 就业数据: SCMP (EN/中)
+- 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
+- 油价/霍尔木兹: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中)
+- 伊朗/中东: SCMP (EN/中)
+- 美国关税: Yahoo Finance (EN)
+- 加密货币: 富途资讯 (繁中)
 - 美联储: Yahoo Finance (EN)
 - 中国/欧盟: SCMP (EN/中)
 
