@@ -1,33 +1,33 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026101609
+抓取时间: 2026101620
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets closed
-- Dow jumps, S&P 500, Nasdaq gain as AI jitters fade
-- Democrats target Epstein ties to banks for action after midterms
-- Meta releases open source AI model while keeping its best tech closed
-- Democrats target Epstein ties to banks for action after midterms
-- Meta releases open source AI model while keeping its best tech closed
-- Anthropic stands alone as rest of US IPO market slows to a crawl
-- Why CoreWeave panic matters to Nvidia, explained in under 30 seconds
-- Oil set for weekly gain with focus on Middle East, IEA release
+- U.S. markets open in 1h 30m
+- The US economy is facing two hot wars heating up at a bad time for the White House
+- Tesla Roadster probably won't drive an earnings beat, but the big unveil did achieve 2 things
+- Car shoppers have had it with price increases
+- Tesla Roadster probably won't drive an earnings beat, but the big unveil did achieve 2 things
+- Car shoppers have had it with price increases
+- PepsiCo just lost the KFC US business. Here’s how much it could sting financially
+- Warsh boosts market expectations of Fed hold in October
+- Stock futures mixed amid volatile week
+- Memory stocks slide into another bear market as chip losses near $2.5T
+- Gold holds gains with haven demand and lower yields in focus
 - Housing stocks are the AI sell-off's winners as bond yields sink
-- VA disability pay in 2027: What the 3.6% COLA means for your monthly check
-- The Fed doesn't have control over the 2 biggest inflation drivers
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
 - Tech & AI
-- What to expect from Tesla's Roadster event
-- How deep does the AI sell-off go?
-- A warning sign is flashing in the market for AI company default insurance
-- CoreWeave founders shield fortunes with $3.3 billion stock sales
+- Tesla stock jumps after Roadster unveiling
+- Investors — and Elon Musk — crashed CoreWeave stock. But many analysts don't see the problem.
+- Taiwan to curb AI chip exports to China as part of US trade deal
+- CoreWeave stock falls as wipeout exposes AI fear-greed divide
 - Popular
-- Ralph Lauren ties executive payouts to AI in sign of retail's shifting priorities
-- Wall Street on alert for Bessent to act on bond yields again
+- Will SpaceX merge with Tesla? Speculation resurfaces it could happen before the end of 2026.
+- Travelers beats estimates but shares slip on catastrophe losses
 
 ## Benzinga (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -36,37 +36,37 @@
 - What can I do to resolve this?
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f0ee8326c60>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f7d6dea5fd0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- Why Japanese PM Takaichi is still keen to roll out the welcome mat for Trump
-- Global Economy
-- In Focus | The China decoupling paradox: why the world needs its manufacturing machine
+- China’s 400km/h trains closer to debut, numbering-system change hints
+- China Economy
+- Developing | China mulls new tech export bans covering AI, biotech and solar power
 - Diplomacy
-- Visa’s China approval a ‘direct outcome’ of Xi-Trump summit, Beijing says
-- Hong Kong Apec meet to showcase ‘China’s voice’ in stability, treasury chief says
-- EU open to creating ‘kill switch’ weapon to kick Chinese firms out of market
-- Science
+- ‘Visit more often’: China responds to Trump press secretary’s toilet controversy
+- Society
+- 3 arrested over missing fire-safety parts in 48 Hong Kong lifts, source says
+- China urges Israel to stop West Bank expansion and ease Gaza crisis
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Tokyo is hoping for a visit by the US president that would signal the strength of the relationship between the two allies.
-- Finance chiefs will see China’s contribution to regional stability and Hong Kong’s value during October 20-21 meeting, Christopher Hui says.
-- European Commission chief Ursula von der Leyen also floats safeguards as member states back two-track strategy to tackle China shock.
-- China-led team hits 83% success rate anticipating earthquakes in study
-- Strong predictive potential shown as anomalous patterns verified against 12 major earthquakes in China between 2022 and 2024.
-- Law and Crime
-- Abby Choi’s partner says he never sought sexual relationship with her ex-husband
-- Chris Tam appears surprised when defence counsel suggests he and Alex Kwong were romantically linked while students at international school.
-- Business
-- What will it take for AI-powered purchases to become the norm?
+- Overhaul of designation system creates new class for passenger service operating above 350km/h.
+- Police raid office of Taizoom Elevator, which is suspected of cutting corners on replacement works at two housing estates.
+- Top diplomat Wang Yi calls attention to ‘humanitarian catastrophe’ in Beijing’s highest-level engagement with Israel since the war erupted in 2023.
+- Inspections ordered at 8 more houses in One Stanley after rebar scandal
+- After structural lapses found at one house, authorities order developer to conduct wider checks, including on home bought by Mongolian mining family.
+- Lifestyle & Culture
+- India’s proposed social media ban for under-18s wins parents’ backing
+- Lawyers, however, advise against a sweeping ban, saying children could benefit from access to online educational content.
+- Middle East
+- Longevity-first healthcare takes spotlight at Abu Dhabi Future Health Summit
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - 沪深港通 热点观察国际动态【FOCUS】
-- 国寿布局科创投资，亦随AI股跌跌不休，可否趁低吸纳？
-- 内地9月出口按年增36.3% 创7个月高
-- 伊新策略扩袭霍峡 冀维持高油价
-- 成品油出口诡异激增，PPI飙5%牵动外交转调？
+- 赣锋第三季盈利按季跌近七成，博反弹宁拣宁德时代
+- 国产EUV光源样机首亮相 国产化率90%
+- 乌遇袭连续两日无预警 促恢复星链
+- 伊朗尽地一煲 ，AI惊“融资断层”
 - 指数环球商品外汇
 - 国金观点
 - 港股大市分析
@@ -75,9 +75,9 @@
 - 环球基金：
 - ETF：
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 恒生指数24062.72-251.45(-1.03%)
+- 恒生指数24152.30+89.58(+0.37%)
                     etnet.com.hk@copyright
-- 国企指数8103.27-79.90(-0.98%)
+- 国企指数8120.72+17.45(+0.22%)
                     etnet.com.hk@copyright
 - 理财/管理
 - 时尚艺术
@@ -88,33 +88,33 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 富途早報 | 聯儲局繼續鷹派？沃什今日11:30亮相IMF發表講話；黃仁勳力挺CoreWeave，股價反彈但信用壓力仍在；可口可樂再新高，拿下肯德基美國飲料合作
-- CoreWeave違約概率超六成！黃仁勳「滅火」：融資成本在下降，無需英偉達兜底
-- AI暴跌下的避風港！大型醫藥股股價逼近歷史新高
-- 聯儲局鷹派票委哈瑪克：若公衆形成「通脹心態」，未來或需更猛烈加息！
-- 美股收盤 | 科技股深夜絕境反擊，納指驚險收漲，道指漲超1%；加密貨幣概念表現活躍，Circle漲超9%，Coinbase漲6%；藍籌股延續漲勢，禮來再漲超3%
-- Anthropic估值預期承壓：收入增速放緩，部分投資者轉向1.5萬億美元
-- 成交額TOP20 | CoreWeave大漲6%，黃仁勳「滅火」稱融資成本在下降；存儲低開高走，美光漲近2%；Meta發佈「美國最強開放權重模型」
-- 據悉部分投資者下調Anthropic估值預期至1.5萬億美元
+- 摩通點評Roadster發佈會：特斯拉意在展示工程能力而非商業化計劃，維持「中性」評級
+- 「巨型牛市」正在標普500指數內部醞釀？對沖基金大佬押注「其餘493只股票」
+- 業績前瞻 | Meta迎來「AI變現大考」：Muse大爆能否安撫「燒錢」擔憂？
+- 本週美股牛股 | Bending Spoons周累漲近47%，伯克希爾三個月兩度加碼；愛立信漲超12%，業績超預期、移動網絡需求回暖；eBay漲近10%，直播業務起飛獲大行列爲首選股
+- 港證監再出手整治保薦人工作，IPO「不透明安排」是整治重點
+- 港交所：目標於2028年下半年過渡至T+1結算
+- 北水減倉港股近36億港元，友邦保險、騰訊控股分別獲淨買入近8億、4億港元；藥明生物、小米集團分別遭淨賣出逾6億、5億港元
+- 胡塞武裝究竟想要什麼？從索要石油收入到襲擊沙特，野心已不止於也門
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 華爾街警惕貝森特再度出手壓制收益率，本週五或現關鍵線索
-- 谷歌量子計算取得突破：錯誤率降低40倍，攻克關鍵資源瓶頸
-- 馬斯克回應黃仁勳讚賞：英偉達團隊才華橫溢，Star Mind太空服務器明年量產
-- 美國鋁業公司Q3營收37.04億美元，同比增長24%；調整後每股收益1.82美元
-- 避險情緒壓倒通脹擔憂，歐美國債普漲，美債收益率盤中跳水超10個點子
-- 美股三大指數集體收漲 加密貨幣概念股漲幅居前
-- 阿里巴巴、台積電在列，美股期權交易時段下週擴容
-- Meta發佈8160億參數「美國最強開放權重模型」，聯手蘋果讓大模型跑上Mac，最強模型仍閉源
-- 美國財長顧問反駁IMF債務警告：經濟預測屢屢失準
-- 投資乾貨 | 巴菲特「大師兄」施洛斯2008年的珍貴訪談：買那些有下跌保護的股票，至於能漲多少就順其自然
+- 「癌症疫苗」熱潮下，莫德納股價又創新高，年內翻了7倍
+- MSCI 新規落地，14 家加密公司進入潛在影響名單
+- 收市速睇 | 三大指數回暖，科指漲1.16%；科網股表現亮眼，快手、阿里漲超2%；生物技術、黃金股走強，麥科醫藥大漲超64%，靈寶黃金漲超8%；聯想集團漲超8%
+- 韓股波動引監管出手：財政部稱基本面穩固，強化全市場監測
+- 一文讀懂：AI融資離「爆雷」究竟有多遠？
+- 商務部、科技部擬修訂《中國禁止出口限制出口技術目錄》 涉及人工智能、生物醫藥、光伏三個領域40項技術
+- 存量時代的雙11：淘天把「找新增量」的重任交給了AI
+- CoreWeave是否會引爆美國垃圾債市場？德銀將甲骨文列爲下一個需關注的風險節點
+- 聯儲局主席沃什：AI是我一生中最深遠的經濟變革，10月和12月議息會議至關重要
+- AI風向標生變！Anthropic估值預期據稱縮水 高增長故事講不下去了？
 
 --- 跨站重点主题（多站出现=更重要）---
 - 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
-- 油价/霍尔木兹: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中)
-- 伊朗/中东: SCMP (EN/中)
-- 美国关税: Yahoo Finance (EN)
-- 加密货币: 富途资讯 (繁中)
+- 中国/欧盟: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中)
+- 油价/霍尔木兹: SCMP (EN/中), 富途资讯 (繁中)
+- 伊朗/中东: 经济通 (繁中)
+- 就业数据: SCMP (EN/中)
+- 黄金/大宗: Yahoo Finance (EN)
 - 美联储: Yahoo Finance (EN)
-- 中国/欧盟: SCMP (EN/中)
 
 --- 粘贴结束 ---
