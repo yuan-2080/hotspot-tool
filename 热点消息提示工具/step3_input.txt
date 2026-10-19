@@ -7,8 +7,8 @@
 你是港美股热点运营助手，服务于一个在中国做港美股内容运营的团队。
 你的输出将直接发到 Slack 群，供团队确认当日运营优先级，无需再二次加工。
 
-**当前模式：晚间**
-**覆盖时间段：今日08:00 - 20:00（美股开盘前）**
+**当前模式：早间**
+**覆盖时间段：昨日22:00 - 今日09:00（美股隔夜收盘）**
 
 ---
 
@@ -30,7 +30,7 @@
 ## 输出格式（严格遵守）
 
 第一行输出标题，固定为（直接复制，不修改任何字）：
-`晚间热点线索 · 2026年10月16日`
+`早间热点线索 · 2026年10月19日`
 
 空一行后，输出正文条目，每条格式：
 `* 事实描述（含关键数据）。仅写资讯来源中已明确发生的涨跌，不推断其他标的受到联动。标的代码直接写在正文中，结尾不另加标的列表。`
@@ -62,15 +62,15 @@
 
 ---
 
-## 晚间模式操作指令
+## 早间模式操作指令
 
-聚焦：今晚美股开盘前的运营清单。不涉及港股，只关注美股。
+聚焦：隔夜美股收盘结果 + 影响今日港股开盘的信息。
 
 重点关注（按重要性排序写入）：
-1. 盘前重要财报及初步反应（EPS/营收 vs 预期——仅限资讯来源中有明确数据）
-2. 盘前个股异动（涨跌 5% 以上 + 原因一句话）
-3. 影响今晚开盘情绪的宏观事件（Fed 官员讲话、重要数据——仅限资讯来源中明确出现）
-4. 其他值得今晚关注的美股消息
+1. 美股三大指数昨夜涨跌及核心驱动，一句话概括（必须有资讯来源支撑，不得推断）
+2. 个股重大异动（财报或重大消息驱动涨跌 5% 以上）
+3. 隔夜重要宏观数据（非农/CPI/PCE/美联储表态——仅限资讯来源中明确出现）
+4. 隔夜消息中可能影响港股相关板块的内容，重点关注：光通信、存储/HBM、半导体、中概互联网等；若有明确利好/利空驱动，须点明对应港股板块或个股
 
 ---
 
@@ -104,64 +104,82 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026101620
+抓取时间: 2026101909
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets open in 1h 30m
-- The US economy is facing two hot wars heating up at a bad time for the White House
-- Tesla Roadster probably won't drive an earnings beat, but the big unveil did achieve 2 things
-- Car shoppers have had it with price increases
-- Tesla Roadster probably won't drive an earnings beat, but the big unveil did achieve 2 things
-- Car shoppers have had it with price increases
-- PepsiCo just lost the KFC US business. Here’s how much it could sting financially
-- Warsh boosts market expectations of Fed hold in October
-- Stock futures mixed amid volatile week
-- Memory stocks slide into another bear market as chip losses near $2.5T
-- Gold holds gains with haven demand and lower yields in focus
-- Housing stocks are the AI sell-off's winners as bond yields sink
+- U.S. markets closed
+- SpaceX throttled Starlink in Ukraine. Neither Trump nor Elon Musk wants to own the decision.
+- Sylvester Stallone says 'Rocky' probably wouldn't get made today
+- Anthropic to shift some shares into new 'public good' fund
+- Sylvester Stallone says 'Rocky' probably wouldn't get made today
+- Anthropic to shift some shares into new 'public good' fund
+- Inflation is retreating from most of the store — why your biggest bills are the holdouts
+- Trump’s policies hit everyone’s wallet except the top 1%, report says
+- 'Just another scare': Wall Street sees the AI trade strong despite tech's latest rout
+- Bond market's big short bet gets wakeup call as AI trade wobbles
+- The hidden $40 in every barrel of oil
+- Why souring sentiment on CoreWeave should matter to investors
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
-- Tech & AI
-- Tesla stock jumps after Roadster unveiling
-- Investors — and Elon Musk — crashed CoreWeave stock. But many analysts don't see the problem.
-- Taiwan to curb AI chip exports to China as part of US trade deal
-- CoreWeave stock falls as wipeout exposes AI fear-greed divide
+- Your Money
+- United now has Starlink on nearly 600 planes. Here’s who gets it free.
+- Getting less for your money? Signs of shrinkflation to watch for
+- How much do you really need to save for retirement?
+- VA disability checks could get bigger in 2027. Here's how much.
 - Popular
-- Will SpaceX merge with Tesla? Speculation resurfaces it could happen before the end of 2026.
-- Travelers beats estimates but shares slip on catastrophe losses
+- DeepSeek unveils a speedier, slimmer AI model
+- Are Series I bonds worth buying while inflation lingers?
 
 ## Benzinga (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- You are unable to access benzinga.com
-- Why have I been blocked?
-- What can I do to resolve this?
+- Latest News
+- Top Stories
+- QUICK LINKS
+- Markets Pulse
+- Sponsored Content
+- Why Is It Moving?™
+- Trending Stories
+- Expert Ideas
+- UPCOMING EVENTS
+- INSIDER TRADES
+其他 (首页其他位置，按重要性排序，仅标题无摘要):
+- 'Just Step Up To The Plate' — Woman Says She Won't Have Kids Unless Her Husband Goes From $70K To $100K So She Can Stay Home With Baby
+- Tesla Stock Falls as Options Market Signals Jump to $370 After Earnings
+- Calm Before the Storm for IBM Stock? Options Market Eyes Volatility Move After Earnings
+- GE Aerospace Stock Nears Death Cross Amid Valuation Concerns and Strong Earnings Outlook
+- 3M Stock Struggles in a Correction Before Earnings
+- JD Vance Defends Trump’s Data Center Push, Says Companies Must Be ‘Good Community Citizens’
+- Elon Musk
+- Bernie Sanders
+- Super Micro Finally Names a CFO, Nearly Two Years After an Accounting Review Prompted the Search
+- Elon Musk Says Optimus, Cybercab Will Be ‘the Vast Majority’ of Tesla’s Value
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f7d6dea5fd0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f8320d7d6a0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- China’s 400km/h trains closer to debut, numbering-system change hints
-- China Economy
-- Developing | China mulls new tech export bans covering AI, biotech and solar power
-- Diplomacy
-- ‘Visit more often’: China responds to Trump press secretary’s toilet controversy
-- Society
-- 3 arrested over missing fire-safety parts in 48 Hong Kong lifts, source says
-- China urges Israel to stop West Bank expansion and ease Gaza crisis
+- Robin Xing on how China’s ‘two-speed’ economy can solve contrasting problems
+- Big Tech
+- In Focus | The AI promise was automation. The reality? Managing digital workers
+- Hong Kong Economy
+- Second-hand smartphone traders eye Hong Kong as springboard for global exports
+- CXMT forecasts up to US$19.8b in 3 quarters’ net income; pledges share buy-back
+- Health & Wellness
+- What dementia care teaches us about dignity, community and avoiding burnout
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Overhaul of designation system creates new class for passenger service operating above 350km/h.
-- Police raid office of Taizoom Elevator, which is suspected of cutting corners on replacement works at two housing estates.
-- Top diplomat Wang Yi calls attention to ‘humanitarian catastrophe’ in Beijing’s highest-level engagement with Israel since the war erupted in 2023.
-- Inspections ordered at 8 more houses in One Stanley after rebar scandal
-- After structural lapses found at one house, authorities order developer to conduct wider checks, including on home bought by Mongolian mining family.
-- Lifestyle & Culture
-- India’s proposed social media ban for under-18s wins parents’ backing
-- Lawyers, however, advise against a sweeping ban, saying children could benefit from access to online educational content.
-- Middle East
-- Longevity-first healthcare takes spotlight at Abu Dhabi Future Health Summit
+- Morgan Stanley’s chief China economist on how a new industrial revolution and demand-centric reflation can sustain China’s growth.
+- The firm also forecasts a 742 per cent revenue surge year on year.
+- Anthea Rowan examines what dementia taught her about the nature of care, how it varies globally, from healthy habits to living environment.
+- Politics
+- India needs more fighter jets. It cannot build them fast enough
+- Delayed engines and assembly bottlenecks leave India’s domestic output falling behind the pace of fleet retirements.
+- Diplomacy
+- Katie Zacharia and Mao Ning – a study in contrasts in US, China media strategies
+- Trump’s press secretary and China's foreign ministry spokeswoman serve as the public faces of their countries.
+- Business
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -178,9 +196,9 @@
 - 环球基金：
 - ETF：
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 恒生指数24152.30+89.58(+0.37%)
+- 恒生指数24186.83+124.11(+0.52%)
                     etnet.com.hk@copyright
-- 国企指数8120.72+17.45(+0.22%)
+- 国企指数8128.25+24.98(+0.31%)
                     etnet.com.hk@copyright
 - 理财/管理
 - 时尚艺术
@@ -191,34 +209,33 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 摩通點評Roadster發佈會：特斯拉意在展示工程能力而非商業化計劃，維持「中性」評級
-- 「巨型牛市」正在標普500指數內部醞釀？對沖基金大佬押注「其餘493只股票」
-- 業績前瞻 | Meta迎來「AI變現大考」：Muse大爆能否安撫「燒錢」擔憂？
-- 本週美股牛股 | Bending Spoons周累漲近47%，伯克希爾三個月兩度加碼；愛立信漲超12%，業績超預期、移動網絡需求回暖；eBay漲近10%，直播業務起飛獲大行列爲首選股
-- 港證監再出手整治保薦人工作，IPO「不透明安排」是整治重點
-- 港交所：目標於2028年下半年過渡至T+1結算
-- 北水減倉港股近36億港元，友邦保險、騰訊控股分別獲淨買入近8億、4億港元；藥明生物、小米集團分別遭淨賣出逾6億、5億港元
-- 胡塞武裝究竟想要什麼？從索要石油收入到襲擊沙特，野心已不止於也門
+- 一週前瞻｜英偉達GTC與科技巨頭業績聯袂登場！聚焦黃仁勳演講、Meta、特斯拉及SpaceX業績；中國GDP與金融政策成焦點，港股週一休市
+- 美股三大期指齊升，國際油價走低，俄柴油將在簽署合同後15-20天進入美市場
+- 美國銅關稅遲遲未落地 貿易商對銅價牛市愈發警惕
+- 俄美柴油交易新動向！俄副總理：俄柴油將在合同簽署後20天內抵美
+- 高盛拋出「驚悚圖表」：要麼債市「悲觀過度」 要麼股市「過於樂觀」 雲大廠還要跌15%！
+- 一圖前瞻 | 美股科技巨頭業績來襲！SpaceX、特斯拉、Meta率先登場，AI敘事迎來關鍵檢驗
+- 特朗普簽署豁免令後，俄羅斯柴油能否救急？美國煉廠仍在等貨
+- 對沖基金今年收益已「蒸發一半」，近幾周「虧損尤其慘重」，高盛合夥人：要等「垃圾級」資產止跌
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 「癌症疫苗」熱潮下，莫德納股價又創新高，年內翻了7倍
-- MSCI 新規落地，14 家加密公司進入潛在影響名單
-- 收市速睇 | 三大指數回暖，科指漲1.16%；科網股表現亮眼，快手、阿里漲超2%；生物技術、黃金股走強，麥科醫藥大漲超64%，靈寶黃金漲超8%；聯想集團漲超8%
-- 韓股波動引監管出手：財政部稱基本面穩固，強化全市場監測
-- 一文讀懂：AI融資離「爆雷」究竟有多遠？
-- 商務部、科技部擬修訂《中國禁止出口限制出口技術目錄》 涉及人工智能、生物醫藥、光伏三個領域40項技術
-- 存量時代的雙11：淘天把「找新增量」的重任交給了AI
-- CoreWeave是否會引爆美國垃圾債市場？德銀將甲骨文列爲下一個需關注的風險節點
-- 聯儲局主席沃什：AI是我一生中最深遠的經濟變革，10月和12月議息會議至關重要
-- AI風向標生變！Anthropic估值預期據稱縮水 高增長故事講不下去了？
+- 美國中期選舉將於11月3日舉行
+- 2029年將現內存「紅海」？韓財長髮聲：半導體繁榮至少持續至明年
+- 「股債雙殺」的CoreWeave——本輪AI崩盤的「風暴眼」
+- 精準預測大跌的美銀Hartnett：「賣出信號」已經結束，投資者將「11月中旬重返科技股」，關鍵看「芯片價格」
+- Anthropic聯合創始人：AI有望令美國GDP提升近50% 但恐超出人類掌控
+- 週末讀物 | 大模型時代的谷歌，可能永遠不會出現
+- 「AI缺錢」風暴席捲市場！Meta業績打頭陣，產業巨額投資迎「信心大考」
+- AI幫儲戶多賺錢，銀行卻慌了：花旗、美銀、摩根大通集體對AI Agent設防
+- 週末讀物 | 一通電話救了英偉達！黃仁勳回憶英偉達與台積電結緣史，談中國AI公司：算力越缺，越逼着他們把架構做到極致
+- 美股最危險的分化：普通股票已經跌慘，AI巨頭還能撐多久？
 
 --- 跨站重点主题（多站出现=更重要）---
-- 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
-- 中国/欧盟: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中)
-- 油价/霍尔木兹: SCMP (EN/中), 富途资讯 (繁中)
+- 科技/个股: Yahoo Finance (EN), Benzinga (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
+- 中国/欧盟: Yahoo Finance (EN), Benzinga (EN), SCMP (EN/中), 经济通 (繁中)
 - 伊朗/中东: 经济通 (繁中)
-- 就业数据: SCMP (EN/中)
-- 黄金/大宗: Yahoo Finance (EN)
-- 美联储: Yahoo Finance (EN)
+- 美国关税: 富途资讯 (繁中)
+- 油价/霍尔木兹: Yahoo Finance (EN)
+- 加密货币: Yahoo Finance (EN)
 
 --- 粘贴结束 ---
 <!-- 资讯来源结束 -->
