@@ -7,8 +7,8 @@
 你是港美股热点运营助手，服务于一个在中国做港美股内容运营的团队。
 你的输出将直接发到 Slack 群，供团队确认当日运营优先级，无需再二次加工。
 
-**当前模式：早间**
-**覆盖时间段：昨日22:00 - 今日09:00（美股隔夜收盘）**
+**当前模式：晚间**
+**覆盖时间段：今日08:00 - 20:00（美股开盘前）**
 
 ---
 
@@ -30,7 +30,7 @@
 ## 输出格式（严格遵守）
 
 第一行输出标题，固定为（直接复制，不修改任何字）：
-`早间热点线索 · 2026年10月20日`
+`晚间热点线索 · 2026年10月20日`
 
 空一行后，输出正文条目，每条格式：
 `* 事实描述（含关键数据）。仅写资讯来源中已明确发生的涨跌，不推断其他标的受到联动。标的代码直接写在正文中，结尾不另加标的列表。`
@@ -62,15 +62,15 @@
 
 ---
 
-## 早间模式操作指令
+## 晚间模式操作指令
 
-聚焦：隔夜美股收盘结果 + 影响今日港股开盘的信息。
+聚焦：今晚美股开盘前的运营清单。不涉及港股，只关注美股。
 
 重点关注（按重要性排序写入）：
-1. 美股三大指数昨夜涨跌及核心驱动，一句话概括（必须有资讯来源支撑，不得推断）
-2. 个股重大异动（财报或重大消息驱动涨跌 5% 以上）
-3. 隔夜重要宏观数据（非农/CPI/PCE/美联储表态——仅限资讯来源中明确出现）
-4. 隔夜消息中可能影响港股相关板块的内容，重点关注：光通信、存储/HBM、半导体、中概互联网等；若有明确利好/利空驱动，须点明对应港股板块或个股
+1. 盘前重要财报及初步反应（EPS/营收 vs 预期——仅限资讯来源中有明确数据）
+2. 盘前个股异动（涨跌 5% 以上 + 原因一句话）
+3. 影响今晚开盘情绪的宏观事件（Fed 官员讲话、重要数据——仅限资讯来源中明确出现）
+4. 其他值得今晚关注的美股消息
 
 ---
 
@@ -104,89 +104,71 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026102009
+抓取时间: 2026102020
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets closed
-- United Airlines CEO says US should have an inheritance tax 'close to 100%' and he'd pay it
-- Chip and software stocks rebound — but most of Wall Street misses out
-- Homebuyers are canceling sales at near-record rates
-- Chip and software stocks rebound — but most of Wall Street misses out
-- Homebuyers are canceling sales at near-record rates
-- Elon Musk says he's giving SpaceX stock to every kid in America
-- When will you get your Social Security check? See July's schedule.
-- The 10-year Treasury yield is above 5%. Should savers lock in now?
-- Citgo raises profit outlook by $2B as fuel margins surge
-- How much the 'optimal' US road trip would cost right now
-- US bank stocks' longest losing streak since 2008 clashes with earnings
+- U.S. markets open in 1h 30m
+- GM stock falls despite Q3 beat, $20B buyback
+- Great Scott! The AI-fueled data center build-out could double next year
+- United Airlines CEO: 'We should have a national wealth tax'
+- Great Scott! The AI-fueled data center build-out could double next year
+- United Airlines CEO: 'We should have a national wealth tax'
+- Walmart goes on offense to win the subscription space, offering new bundle for one price
+- Gold holds decline as energy-led inflation weighs on rate path
+- Trump announces $8B for farmers to offset soaring diesel costs
+- Stocks are driving consumption 'like never before' — and that exposes a big risk
+- Homebuilders haven't felt this bad about the market since 2012
+- Elice slides in Korea debut amid caution toward AI stocks
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
 - Tech & AI
-- CoreWeave's business is sound despite debt fears: JPMorgan
-- Anthropic could be the AI trade’s last tentpole IPO in 2026
-- Apple announces Oct. 28 event for touch-screen MacBook Pro
-- Waymo plans to quintuple its fleet
+- Why CoreWeave earnings estimates are wildly too optimistic
+- Amazon blocks agentic AI shopping, Walmart bets big on it
+- Eric Schmidt's 1% Anthropic stake set to pay massive windfall
+- Nscale, Anthropic in talks for $45B cloud computing deal
 - Popular
-- California settles 23andMe data breach claims for $6M
-- Brick by brick: How LEGO is hooking adults on its sets
+- Ron DeSantis says Tesla's flying Roadster will be legal in Florida
+- An AI bust could come from places investors aren't watching
 
 ## Benzinga (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- Latest News
-- Top Stories
-- QUICK LINKS
-- Markets Pulse
-- Sponsored Content
-- Why Is It Moving?™
-- Trending Stories
-- Expert Ideas
-- UPCOMING EVENTS
-- INSIDER TRADES
-其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Worker, 27, Considers Quitting $110K Job With $2.5M Payout Coming, Says ‘I’m Deathly Afraid Of Squandering This Gift’
-- Congressman Sells Nvidia Stock Again: 7 Sales in 2026 Add to Trades Since 2022
-- Tesla Q3 Earnings Preview: Can the Company Reverse Recent EPS, Revenue Misses?
-- Bitdeer Stock Jumps After Hours: Here's Why
-- Goldman, Evercore Explore Funds That Would Let PE Firms Hold Assets for 15 Years
-- Congress Trading
-- Semiconductor Stocks
-- SpaceX Q3 Earnings Preview: Does Elon Musk-Led Company Turn Quarterly Profit?
-- Dan Ives Sees Cybersecurity Spending Doubling: 5 Stocks That Could Benefit
-- TIPS Now Pay 2.8% Above Inflation. Here's The Hurdle That Sets For S&P 500 Investors
+- You are unable to access benzinga.com
+- Why have I been blocked?
+- What can I do to resolve this?
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f2f1aca8410>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f446c0d69f0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- US-China negotiators race to nail down concrete deals as Shenzhen Apec looms
-- Trump says he’s open to meeting Xi and Putin in China for nuclear talks
-- Society
-- How smart will Hong Kong’s ‘AI city brain’ be?
-- Big Tech
-- Alibaba’s RISC-V IP powers over 6 billion shipped chips as tech giant targets AI
-- Diplomacy
-- US sanctions 5 Chinese entities over ex-Google engineer’s AI trade secrets theft
+- China stresses supply chain stability, AI progress at Apec finance meeting
+- Military
+- PLA Air Force reveals Y-20B tanker-transport variant in training image
+- PLA Navy followed US vessel on patrol in South China Sea hotspot, Beijing says
+- Banking & Finance
+- HKMA to swap jobs of 2 deputy heads as part of succession planning: sources
+- Tech Trends
+- Who is Yuki Chen, China’s ‘superstar’ hacker who just joined AI leader Z.ai?
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Progress made in investment and trade talks ahead of Xi and Trump meeting, but complexities remain, multiple sources said.
-- The milestone comes as Chinese chipmakers seek to reduce dependence on foreign tech amid US-led export restrictions.
-- Firms include Shanghai Zhisuan Technology, founded by former Google software engineer Ding Linwei, MiraclePlus and three related entities.
-- US orders DeepSeek removed from federal systems, citing national security risks
-- Directive also bars purchases of the Chinese firm’s products and covers third-party services built on its AI models.
-- Rubio pitches US business in Central Asia, says China ties need not suffer
-- Washington and five Central Asian nations outline plans for cooperation on minerals, transport and technology during Rubio’s Uzbek visit.
+- The Apec event in Hong Kong is a precursor to the leaders’ summit scheduled for Shenzhen on November 18 and 19.
+- Deputy chief executives Darryl Chan and Howard Lee will take over each other’s roles next month.
+- Chen recently uncovered 23 cyber vulnerabilities in Microsoft’s Windows operating system using Z.ai’s flagship GLM models.
+- Diplomacy
+- Student sent back to China over Japanese rising sun flag incident in Russia
+- Moscow State University said to have expelled the Chinese student following PLA and state media criticism and petition.
+- Economics
+- India’s record US$108b Jio IPO tests market faith as Musk rivalry heats up
+- India’s largest initial public offering will test international investors’ confidence amid shifting global capital and rising energy costs.
 - Business
-- What will it take for AI-powered purchases to become the norm?
-- US adds ‘wrongful detention’ warning for Americans travelling to China
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - 沪深港通 热点观察国际动态【FOCUS】
-- 双11京东与阿里齐借势反弹，边只较值博？
-- 国产EUV光源样机首亮相 国产化率90%
-- 乌遇袭连续两日无预警 促恢复星链
+- 紫金黄金国际首三季赚1.2倍，股价插半成，可否低吸？
+- 内地第三季GDP按年增4.5% 胜预期
+- 法骚乱逾2400人被捕 马克龙归咎极左翼
 - AI短剧逆袭Netflix，路兰“造船”倍显奢侈
 - 指数环球商品外汇
 - 国金观点
@@ -196,9 +178,9 @@
 - 环球基金：
 - ETF：
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 恒生指数24186.83+124.11(+0.52%)
+- 恒生指数23867.74-319.09(-1.32%)
                     etnet.com.hk@copyright
-- 国企指数8128.25+24.98(+0.31%)
+- 国企指数8030.26-97.99(-1.21%)
                     etnet.com.hk@copyright
 - 理财/管理
 - 时尚艺术
@@ -209,31 +191,32 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 富途早報 | 哈塞特稱通脹仍需應對，尊重聯儲局獨立性；OpenAI據報加快融資，MiniMax發佈M3.1 Flash；英偉達GTC柏林大會今日啓動，寧德時代盤後放榜
-- AI熱潮推高通脹 聯儲局加息爲何難精準發力？
-- 美國軍工股大跌，市場開始定價民主黨「中選橫掃兩院」
-- 富國：本輪業績期爲「史上最疲弱EPS季開局之一」，多數公司業績不及預期
-- 一圖前瞻 | SpaceX業績10月20日盤後來襲，AI合同兌現與資本開支節奏成核心看點
-- 美股收盤 | AI交易回暖，納指漲超1%； 存儲、半導體板塊漲幅居前，閃迪漲超5%，SK海力士、邁威爾科技漲超4%；黃金衝高轉跌
-- 哈塞特：美國通脹仍需關注，尊重聯儲局的獨立性
-- 成交額TOP20 | 亞馬遜大漲5%，推出開源工具TorchNeuron；CoreWeave獲高盛唱好，股價仍小幅收跌；英偉達完成量子糾錯技術驗證；蘋果將推出首款觸控屏MacBook
+- SpaceX上市後第二份業績將至，特斯拉緊隨其後！市場盯上AI開支與現金流
+- 突破110美元大關！中東戰火點燃油市 布油升至五個月新高
+- 科技股遭遇創紀錄淨賣出、信用風險持續升溫，納指爲何遲遲不崩？
+- 股價走出獨立行情的沃爾瑪新動作：120美元捆綁銷售「Walmart+」與山姆會員，迎戰亞馬遜Prime
+- DDR5放量推動盈利增長，瀾起科技Q3淨利潤同比預增153.6%~174.7%
+- 泡泡瑪特四連跌，市場在擔心什麼？
+- 天岳先進：前三季度實現營業收入15.59億元，同比增長40.22%；淨利潤同比增長2330.24%
+- AI債務風險引發對沖潮！華爾街CDS交易量激增4倍，科技巨頭也被盯上
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Fable 5.5要來了？報道稱Anthropic正開發新模型，主打"意圖推斷"能力
-- 惠譽點名美國主權評級下調風險，發達市場債務利息突破3.3萬億美元
-- 英偉達支持的Nscale IPO前景獲提振，報道：與Anthropic洽談450億美元大單
-- 美股三大指數收盤漲跌不一，道指跌0.07%，納指漲1.11%，標普500指數漲0.41%，熱門科技股普遍上漲，存儲、半導體板塊漲幅居前，亞馬遜漲近5%，SK海力士漲超4%，特斯拉漲超3%，美光科技漲近3%，英偉達、谷歌漲超1%。
-- 蘋果確認10月28日舉行發佈會，推出首款觸控屏MacBook
-- 英偉達官宣重大突破：超8000塊GPU加持，創紀錄量子容錯計算模擬所需物理比特降九成
-- 美國脫髮新藥臨床結果積極 市場正在迎來一場新戰事
-- 亞馬遜再押注核電：聯手美國電力公司、X-energy評估960兆瓦小型堆項目
-- 劍指英偉達CUDA護城河：亞馬遜推出開源工具TorchNeuron
-- 美國房屋建築商信心超預期跌至14年低點，高利率與成本壓力雙重夾擊
+- 歷史重演！"AI股神"又被打爆，反彈來了，拐點還是喘息？
+- 花旗：油價不跌，美債收益率就不會見頂
+- AI信貸風暴會否席捲全球銀行? 摩根大通研判CoreWeave敞口可控，高盛力挺AI算力回報
+- 全球央行囤金潮持續！高盛強調：重要的不只是「買」，還有「轉」
+- 北水減倉港股超17億港元，淨買入騰訊控股超11億港元，淨賣出聯想集團逾7億港元
+- iPhone Duo預購「分鐘級售罄」，高盛看多摺疊機放量，「果鏈」將迎增長新機遇
+- 銅正在碾壓黃金，AI估值回調也擋不住這場「戰略金屬」重估
+- 收市速睇 | 三大指數齊跌，科指跌1.52%；科網、黃金股走低，阿里跌超3%，紫金黃金國際跌超9%；多數藥品、機器人概念股逆市上揚，翰森製藥漲8%，五一視界漲超22%
+- 摩根大通把存款搬上以太坊，穩定幣真正的競爭者來了？
+- 排產預期下修引發港股鋰電池股調整，寧德時代股價盤中觸及一年多新低
 
 --- 跨站重点主题（多站出现=更重要）---
-- 科技/个股: Yahoo Finance (EN), Benzinga (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
-- 中国/欧盟: Benzinga (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
-- 黄金/大宗: Benzinga (EN)
-- 美联储: SCMP (EN/中)
+- 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
+- 黄金/大宗: Yahoo Finance (EN), 经济通 (繁中)
+- 就业数据: SCMP (EN/中)
+- 中国/欧盟: SCMP (EN/中)
+- 中国政策/两会: 富途资讯 (繁中)
 
 --- 粘贴结束 ---
 <!-- 资讯来源结束 -->
