@@ -3,18 +3,18 @@
 ## 一、各站抓取情况
 
 - **Yahoo Finance (EN)** ✓
-  - 头版/首屏: U.S. markets open in 1h 30m | Elon Musk says he is going to give SpaceX stock away to kids | A big 'yikes' still hangs over the AI trade as Meta and Tesla report: What to watch this week | Bitcoin rebounds above $82,000 as oil's retreat lifts risk mood | A big 'yikes' still hangs over the AI trade as Meta and Tesla report: What to watch this week | Bitcoin rebounds above $82,000 as oil's retreat lifts risk mood | Global food inflation set to intensify as shocks mount | Morgan Stanley's Wilson: Get ready to buy as stock drop ends
-  - 其他: Top Stories | Markets & Economy | Tech & AI | Why Intel stock just got a big upgrade | SpaceX throttled Starlink in Ukraine. Neither Trump nor Elon Musk wants to own the decision.
+  - 头版/首屏: U.S. markets closed | United Airlines CEO says US should have an inheritance tax 'close to 100%' and he'd pay it | Chip and software stocks rebound — but most of Wall Street misses out | Homebuyers are canceling sales at near-record rates | Chip and software stocks rebound — but most of Wall Street misses out | Homebuyers are canceling sales at near-record rates | Elon Musk says he's giving SpaceX stock to every kid in America | When will you get your Social Security check? See July's schedule.
+  - 其他: Top Stories | Markets & Economy | Tech & AI | CoreWeave's business is sound despite debt fears: JPMorgan | Anthropic could be the AI trade’s last tentpole IPO in 2026
 
 - **Benzinga (EN)** ✓
   - 头版/首屏: Latest News | Top Stories | QUICK LINKS | Markets Pulse | Sponsored Content | Why Is It Moving?™ | Trending Stories | Expert Ideas
-  - 其他: Danaher Likely To Report Higher Q3 Earnings; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call | What's Going On With Cerebras Stock on Monday? | Wall Street's Most Accurate Analysts Weigh In On 3 Consumer Stocks With Over 3% Dividend Yields | Ro Khanna Blames Wealth Inequality for Youth Protests in Europe, Pushes Back on JD Vance: ‘America’s Next New Deal’ | How To Earn $500 A Month From General Motors Stock Ahead Of Q3 Earnings
+  - 其他: Worker, 27, Considers Quitting $110K Job With $2.5M Payout Coming, Says ‘I’m Deathly Afraid Of Squandering This Gift’ | Congressman Sells Nvidia Stock Again: 7 Sales in 2026 Add to Trades Since 2022 | Tesla Q3 Earnings Preview: Can the Company Reverse Recent EPS, Revenue Misses? | Bitdeer Stock Jumps After Hours: Here's Why | Goldman, Evercore Explore Funds That Would Let PE Firms Hold Assets for 15 Years
 
-- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f4675b538f0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
+- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f2f1aca8410>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
 
 - **SCMP (EN/中)** ✓
-  - 头版/首屏: PBOC plans bond liquidity backstop, pilots onshore yuan trade for foreign banks | Diplomacy | Chinese envoy denies threatening Philippines after saying a war may be easy to win | Politics | Long March shows why the Communist Party needs strong leadership: state media | Society | 5 hikers fall ill as hot weather grips Hong Kong on public holiday | China’s military hits out at student accused of wearing Japan’s rising sun flag
-  - 其他: Authorities will expand the pilot allowing securities firms to conduct foreign exchange settlement and sales to facilitate firms going global. | At least five hikers require emergency assistance amid hot weather in Hong Kong on final day of Chung Yeung Festival long weekend. | The student, reportedly from Nanjing, was confronted by other Chinese students at Moscow State University following the incident. | Science | Chinese find doughnut-like topology at tipping points, break physics convention
+  - 头版/首屏: US-China negotiators race to nail down concrete deals as Shenzhen Apec looms | Trump says he’s open to meeting Xi and Putin in China for nuclear talks | Society | How smart will Hong Kong’s ‘AI city brain’ be? | Big Tech | Alibaba’s RISC-V IP powers over 6 billion shipped chips as tech giant targets AI | Diplomacy | US sanctions 5 Chinese entities over ex-Google engineer’s AI trade secrets theft
+  - 其他: Progress made in investment and trade talks ahead of Xi and Trump meeting, but complexities remain, multiple sources said. | The milestone comes as Chinese chipmakers seek to reduce dependence on foreign tech amid US-led export restrictions. | Firms include Shanghai Zhisuan Technology, founded by former Google software engineer Ding Linwei, MiraclePlus and three related entities. | US orders DeepSeek removed from federal systems, citing national security risks | Directive also bars purchases of the Chinese firm’s products and covers third-party services built on its AI models.
 
 - **经济通 (繁中)** ✓
   - 头版/首屏: 沪深港通 热点观察国际动态【FOCUS】 | 双11京东与阿里齐借势反弹，边只较值博？ | 国产EUV光源样机首亮相 国产化率90% | 乌遇袭连续两日无预警 促恢复星链 | AI短剧逆袭Netflix，路兰“造船”倍显奢侈 | 指数环球商品外汇 | 国金观点 | 港股大市分析
@@ -25,26 +25,25 @@
 - **智通财经 (简中)** ✓
 
 - **富途资讯 (繁中)** ✓
-  - 头版/首屏: 費城半導體與納指大跌之後，摩根士丹利喊話「準備加倉」 | 李在明：將適時出臺穩股市舉措，防範樓市大幅波動 | 大行研報 | 美銀稱存儲股估值已現週期底部特徵，市場擔憂過慮 | 一圖前瞻 | 美股科技巨頭業績來襲！SpaceX、特斯拉、Meta率先登場，AI敘事迎來關鍵檢驗 | 李在明：將採取必要措施使股市正常化 | 一圖前瞻 | SpaceX業績10月20日盤後來襲，AI合同兌現與資本開支節奏成核心看點 | 潘功勝發聲，將推出非銀機構大額贖回流動性支持工具 | 一圖前瞻 | 奈飛Q3業績10月20日盤後揭曉：漲價推高利潤率，廣告與直播如何填補營收降速？
-  - 其他: 機構觀點梳理 | 摩根士丹利：美股回調臨近尾聲，準備佈局風險資產 | 摩通重申CoreWeave「增持」評級：市場對債務擔憂「過了頭」，項目IRR高於資本成本 | 別再死盯科技七巨頭！對沖基金大佬預言「AI熱潮」下一波贏家 | 金價再度陷入震盪！機構對2027年黃金前景出現分歧 | 美銀押注存儲盈利擊垮一切! 散戶蜂擁至半導體槓桿ETF AI算力與科技主題即將上演反攻?
+  - 头版/首屏: 富途早報 | 哈塞特稱通脹仍需應對，尊重聯儲局獨立性；OpenAI據報加快融資，MiniMax發佈M3.1 Flash；英偉達GTC柏林大會今日啓動，寧德時代盤後放榜 | AI熱潮推高通脹 聯儲局加息爲何難精準發力？ | 美國軍工股大跌，市場開始定價民主黨「中選橫掃兩院」 | 富國：本輪業績期爲「史上最疲弱EPS季開局之一」，多數公司業績不及預期 | 一圖前瞻 | SpaceX業績10月20日盤後來襲，AI合同兌現與資本開支節奏成核心看點 | 美股收盤 | AI交易回暖，納指漲超1%； 存儲、半導體板塊漲幅居前，閃迪漲超5%，SK海力士、邁威爾科技漲超4%；黃金衝高轉跌 | 哈塞特：美國通脹仍需關注，尊重聯儲局的獨立性 | 成交額TOP20 | 亞馬遜大漲5%，推出開源工具TorchNeuron；CoreWeave獲高盛唱好，股價仍小幅收跌；英偉達完成量子糾錯技術驗證；蘋果將推出首款觸控屏MacBook
+  - 其他: Fable 5.5要來了？報道稱Anthropic正開發新模型，主打"意圖推斷"能力 | 惠譽點名美國主權評級下調風險，發達市場債務利息突破3.3萬億美元 | 英偉達支持的Nscale IPO前景獲提振，報道：與Anthropic洽談450億美元大單 | 美股三大指數收盤漲跌不一，道指跌0.07%，納指漲1.11%，標普500指數漲0.41%，熱門科技股普遍上漲，存儲、半導體板塊漲幅居前，亞馬遜漲近5%，SK海力士漲超4%，特斯拉漲超3%，美光科技漲近3%，英偉達、谷歌漲超1%。 | 蘋果確認10月28日舉行發佈會，推出首款觸控屏MacBook
 
 ## 二、跨站主题（多站出现 = 更重要）
 
 - **科技股/个股** — 出现于: Yahoo Finance (EN), Benzinga (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中) (5 站)
-- **中国/欧盟** — 出现于: Benzinga (EN), SCMP (EN/中), 经济通 (繁中) (3 站)
-- **中国重大政策/两会** — 出现于: SCMP (EN/中), 富途资讯 (繁中) (2 站)
-- **油价/能源/霍尔木兹** — 出现于: Yahoo Finance (EN) (1 站)
-- **加密货币** — 出现于: Yahoo Finance (EN) (1 站)
+- **中国/欧盟** — 出现于: Benzinga (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中) (4 站)
+- **黄金/大宗商品** — 出现于: Benzinga (EN) (1 站)
+- **美联储/利率** — 出现于: SCMP (EN/中) (1 站)
 
 ## 三、检测到的主题（供参考，由总结摘要 Prompt 自行判断重要性）
 
 - 科技股/个股（5 站）
-- 中国/欧盟（3 站）
-- 中国政策（2 站）
-- 油价/能源（1 站）
-- 加密货币（1 站）
+- 中国/欧盟（4 站）
+- 黄金/大宗商品（1 站）
+- 美联储/利率（1 站）
 - 伊朗/中东局势（0 站）
 - 关税/贸易政策（0 站）
+- 油价/能源（0 站）
+- 加密货币（0 站）
 - 就业/经济数据（0 站）
-- 黄金/大宗商品（0 站）
-- 美联储/利率（0 站）
+- 中国政策（0 站）
