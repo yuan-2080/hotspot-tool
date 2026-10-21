@@ -7,8 +7,8 @@
 你是港美股热点运营助手，服务于一个在中国做港美股内容运营的团队。
 你的输出将直接发到 Slack 群，供团队确认当日运营优先级，无需再二次加工。
 
-**当前模式：早间**
-**覆盖时间段：昨日22:00 - 今日09:00（美股隔夜收盘）**
+**当前模式：晚间**
+**覆盖时间段：今日08:00 - 20:00（美股开盘前）**
 
 ---
 
@@ -30,7 +30,7 @@
 ## 输出格式（严格遵守）
 
 第一行输出标题，固定为（直接复制，不修改任何字）：
-`早间热点线索 · 2026年10月21日`
+`晚间热点线索 · 2026年10月21日`
 
 空一行后，输出正文条目，每条格式：
 `* 事实描述（含关键数据）。仅写资讯来源中已明确发生的涨跌，不推断其他标的受到联动。标的代码直接写在正文中，结尾不另加标的列表。`
@@ -62,15 +62,15 @@
 
 ---
 
-## 早间模式操作指令
+## 晚间模式操作指令
 
-聚焦：隔夜美股收盘结果 + 影响今日港股开盘的信息。
+聚焦：今晚美股开盘前的运营清单。不涉及港股，只关注美股。
 
 重点关注（按重要性排序写入）：
-1. 美股三大指数昨夜涨跌及核心驱动，一句话概括（必须有资讯来源支撑，不得推断）
-2. 个股重大异动（财报或重大消息驱动涨跌 5% 以上）
-3. 隔夜重要宏观数据（非农/CPI/PCE/美联储表态——仅限资讯来源中明确出现）
-4. 隔夜消息中可能影响港股相关板块的内容，重点关注：光通信、存储/HBM、半导体、中概互联网等；若有明确利好/利空驱动，须点明对应港股板块或个股
+1. 盘前重要财报及初步反应（EPS/营收 vs 预期——仅限资讯来源中有明确数据）
+2. 盘前个股异动（涨跌 5% 以上 + 原因一句话）
+3. 影响今晚开盘情绪的宏观事件（Fed 官员讲话、重要数据——仅限资讯来源中明确出现）
+4. 其他值得今晚关注的美股消息
 
 ---
 
@@ -104,30 +104,30 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026102109
+抓取时间: 2026102120
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets closed
-- The Fed’s warning for 3.1 million homeowners and credit card holders
-- SpaceX’s profit beats estimates as capex undershoots
-- Walmart bets a one-price bundle can win over subscribers
-- SpaceX’s profit beats estimates as capex undershoots
-- Walmart bets a one-price bundle can win over subscribers
-- Blockchain gets Wall Street’s stamp of approval
-- Trump announces $8 billion for farmers to offset soaring diesel costs
-- Stocks close mixed as oil prices eased and tech rebounds
+- U.S. markets open in 1h 30m
+- Nvidia debuted new AI security and robotics features
+- Nvidia reveals plans for 'an AI factory in a shipping container' to build factories in weeks, not months
+- A week after Musk’s 'Yikes' hit neocloud stocks, he’s out with a more upbeat word.
+- Nvidia reveals plans for 'an AI factory in a shipping container' to build factories in weeks, not months
+- A week after Musk’s 'Yikes' hit neocloud stocks, he’s out with a more upbeat word.
+- SpaceX earnings left one big question unanswered
+- Netflix’s Sarandos reveals 2 problems that aren’t YouTube
+- Stock futures rise as earnings roll in, SpaceX stock surges
+- Tesla Q3: Investors eye deliveries, cash flow and merger rumors
+- SpaceX earnings Live: SpaceX beats on earnings, capex comes in less than expected
 - US housing market likely to stay bleak, Goldman Sachs warns
-- Investors pivot to healthcare and value, pushing stocks higher
-- Home contract signings plunged in September amid higher mortgage rates
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
 - Tech & AI
-- Meta’s AI bill keeps growing. Will investors keep backing it?
-- Report: Anthropic may spend $750 Billion on computing power
-- Why Tesla bull Cathie Wood thinks the stock is headed to $5,000
-- Exclusive: OpenAI acquires biotech startup Orchestra Bio
+- 'People are now recognizing Nvidia's compute has a great deal of residual value,' CEO Jensen Huang tells Deirdre Bosa
+- Musk backs SpaceX-Tesla merger idea as both boards form special committees
+- Meta and Google are about to have a consumer AI showdown
+- Elon Musk's SpaceX is now mostly an AI company
 - Popular
 - The Villages doubles down on Florida retirees with $180M bet
 - Netflix earnings: Stock drops on light Q4 revenue guidance
@@ -139,37 +139,37 @@
 - What can I do to resolve this?
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fa012f71c10>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f4bf22d8320>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- In Focus | Why more Chinese firms are eyeing Thailand over Vietnam after trade war 2.0
-- First Quad leaders’ summit after two years in Manila next month, Rubio confirms
-- Hong Kong Economy
-- Why foreign companies are still betting on Hong Kong’s culinary reputation
-- Big Tech
-- Why Anthropic has a major China problem ahead of its blockbuster IPO
-- US troops in South Korea must be ready for missions beyond peninsula: commander
-- Lifestyle & Culture
+- Beijing’s top Taiwan official meets US think tank to reaffirm red lines
+- Politics
+- Strongest storm of the year barrels towards Taiwan and mainland China
+- Military
+- China’s Type 051C gets a refit as the PLA Navy’s legacy warships near retirement
+- Society
+- Hong Kong tours avoid France protest areas as schools cancel planned trips
+- China Economy
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- The Land of Smiles has become a prime location for Chinese businesses diversifying operations offshore, as Vietnam reaches saturation point.
-- Surging demand for low-cost Chinese AI models is sparking investor jitters, with some fearing ‘massive capital destruction’ in Silicon Valley.
-- Eighth Army chief stresses regional readiness as Washington pushes Seoul to take greater responsibility for its own defence.
-- Southeast Asian families tying house move to top schools spur privilege worries
-- In Singapore, Malaysia and Indonesia, a family’s residential address is one of the factors determining admission into schools.
-- Tech Trends
-- Teen AI prodigy Nathan Chen said to be joining US start-up Discovery Loop
-- Launched just two months ago, the start-up has quickly attracted industry attention due to its star-studded founding team.
-- Business
-- What will it take for AI-powered purchases to become the norm?
+- Rare Beijing exchange highlights China’s shift towards Track 1.5 diplomacy following high-level leader summits.
+- Hong Kong authorities have issued amber outbound travel alert for country, following weeks of protests.
+- Former IMF executive says China and world need internationalised yuan
+- Zhu Min, also a former deputy governor of the People’s Bank of China, makes call as central bank upgrades digital-yuan infrastructure.
+- Health & Environment
+- Outcry after Peak walking trail ‘marred’ by controversial lighting project
+- Project’s future remains uncertain as residents question its impact, visitors doubt its appeal and lawmaker says district councillor was not consulted.
+- Why US Secretary of State Rubio is skipping New Delhi for an Indian oil refinery
+- Marco Rubio’s decision to skirt New Delhi for Jamnagar highlights how fuel needs are suspending political disputes with India.
+- Middle East
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - 沪深港通 热点观察国际动态【FOCUS】
-- 紫金黄金国际首三季赚1.2倍，股价插半成，可否低吸？
-- 内地第三季GDP按年增4.5% 胜预期
-- 法骚乱逾2400人被捕 马克龙归咎极左翼
-- AI短剧逆袭Netflix，路兰“造船”倍显奢侈
+- 宁德季绩逊预期，股价急插一成破底未宜沾手？
+- 何立峰：坚定扩金融领域 高水平对外开放
+- 法国续局部宵禁 或颁紧急状态
+- 股市“慢刀割肉”，组合拳“防踩踏”
 - 指数环球商品外汇
 - 国金观点
 - 港股大市分析
@@ -178,9 +178,9 @@
 - 环球基金：
 - ETF：
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 恒生指数23867.74-319.09(-1.32%)
+- 恒生指数23651.87-215.87(-0.90%)
                     etnet.com.hk@copyright
-- 国企指数8030.26-97.99(-1.21%)
+- 国企指数7943.41-86.85(-1.08%)
                     etnet.com.hk@copyright
 - 理财/管理
 - 时尚艺术
@@ -191,34 +191,32 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 富途早報 | SpaceX、超微電腦業績點燃AI硬件預期！馬斯克宣佈探討巨頭合併事宜；大摩Wilson：本輪調整或以優質股補跌畫上句號；黃仁勳今晚發表GTC演講
-- SpaceX Q3 AI業務大爆發、收入暴增830%，利潤碾壓預期，資本支出近200億美元
-- 連續加息後韓國央行本週料「喘口氣」 但通脹高企及芯片繁榮仍撐緊縮週期
-- 超微電腦Q1初步業績營收爆表！超預期增長27%，盤後股價飆漲13%
-- SpaceX電話會：馬斯克稱明年ARR上看1萬億，算力回本週期或短至6個月
-- 奈飛績後大跌！業績指引不及預期，預計營收增速四連降，廣告收入下修3億美元
-- 蘋果官宣新增美國鈦供應商，iPhone Duo供應緊張持續
-- 美股收盤 | 美伊「妥協方案」攪動市場，道指漲1%；科技股小幅承壓；熱門中概股多數上漲，理想漲超5%，小鵬漲超7%；油價大幅震盪
+- 超微電腦業績遠超預期，「AI交易」應聲反彈，「服務器巨頭」戴爾、慧與科技大漲
+- 英偉達與供應鏈合作伙伴擴大產能，以加快人工智能基礎設施的建設
+- SpaceX電話會：馬斯克稱明年ARR上看1萬億，已設委員會探索合並特斯拉
+- 中辦、國辦：全面實施「人工智能+」行動，推動人工智能全方位賦能千行百業
+- 美國增兵1萬人、以色列醞釀新一輪打擊、伊朗發出戰爭警告，中東火藥桶一觸即發？
+- 直擊英偉達GTC柏林：未來電信基站有望發展爲分佈式AI網絡，所有電信運營商都將提供AI算力
+- 美股賣牙膏的，都比科技股市盈率高？
+- 伯克希爾逼近歷史新高，堪稱終極「反AI」之選
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 成交額TOP20 | 生物醫藥股走強，禮來漲超3%創新高，Moderna漲超6%；英偉達、亞馬遜百億美元投資德國；Meta、特斯拉週三盤後放榜
-- 美國人工智能事務主管：負責任開發AI的建議將很快發佈
-- 馬斯克：特斯拉與SpaceX合併是個好主意
-- 美企起訴特朗普對加拿大徵收50%關稅，援引大蕭條時代法律遭質疑
-- Anthropic籌備史詩級IPO！上半年營收163億美元、淨虧損超過807億美元，總算力承諾支出將超過6000億美元
-- 特朗普中選後打擊伊朗籌碼？美第三艘航母據稱料11月底抵中東、增派約萬人
-- 美伊談判突破傳言攪動市場，妥協方案浮出水面但以色列進入最高戰備，分析人士稱新戰事概率達90%
-- SpaceX 預計到2027年底年度經常性收入（ARR）可達5000億至1萬億美元
-- 瑞士9月黃金出口額環比增長6%，對英出口創2012年以來新高
-- 超微電腦一季度淨銷售初步估算爲185億-195億美元，分析師預期149.9億美元。
+- 北水減倉港股超44億港元，長飛光纖光纜獲淨買入超2億港元；騰訊控股、中國移動、阿里巴巴分別遭淨賣出逾17億、10億、8億港元
+- 貝萊德看見「一代人難逢」的債市佈局機遇! AI融資成本若回落，科技股主升浪行情可期?
+- SpaceX首次盈利，賺了44億美元，馬斯克回應「合併特斯拉」、「自研內存芯片」
+- AI算力夠不夠？硅谷喊「供不應求」，華爾街警告「價格崩塌」
+- SpaceX與特斯拉合併，馬斯克在下一盤多大的棋？
+- 營收指引一口氣上調約27%！超微電腦盤前大漲，AI硬件股被帶動走高
+- 收市速睇 | 三大指數下跌，科指跌1.26%；科網、鋰電池股下挫，騰訊跌超4%，寧德時代跌超11%；生物醫藥、存儲概念股集體上漲，再鼎醫藥漲近5%，瀾起科技漲近9%
+- 下單等一年！三星電機MLCC交貨期延至52周，漲價週期又要來了？
+- AI的反面是醫藥？禮來「大象起舞」 背後：GLP-1賽道喜憂並存
+- 特斯拉業績即將出爐！木頭姐瘋狂看漲：五年後最高漲至5000美元
 
 --- 跨站重点主题（多站出现=更重要）---
-- 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
-- 黄金/大宗: Yahoo Finance (EN), 经济通 (繁中)
+- 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中)
+- 黄金/大宗: Yahoo Finance (EN), SCMP (EN/中)
+- 中国/欧盟: Yahoo Finance (EN), SCMP (EN/中)
 - 伊朗/中东: 富途资讯 (繁中)
-- 油价/霍尔木兹: Yahoo Finance (EN)
-- 美联储: Yahoo Finance (EN)
-- 中国/欧盟: SCMP (EN/中)
-- 中国政策/两会: 富途资讯 (繁中)
+- 油价/霍尔木兹: SCMP (EN/中)
 
 --- 粘贴结束 ---
 <!-- 资讯来源结束 -->
