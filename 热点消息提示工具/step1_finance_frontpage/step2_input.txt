@@ -1,33 +1,33 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026102209
+抓取时间: 2026102220
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets closed
-- Meta caps a revenue beat with a 2-for-1 stock split
-- Berkshire outruns chip stocks, flashing a rare dot-com-era signal
-- Social Security is cleaning up millions of records. Why it matters
-- Berkshire outruns chip stocks, flashing a rare dot-com-era signal
-- Social Security is cleaning up millions of records. Why it matters
-- Anthropic to publicly file for IPO as early as Friday, sources say
-- GM taps AI to help match speed of Chinese rivals
-- Mortgage demand is falling off a cliff, even as rates stabilize
-- How continuing to work will impact your Social Security check next year
-- Oil prices steady as investors weigh geopolitics, lower US stockpiles
-- Tesla is trading more like SpaceX than a car company
+- U.S. markets open in 1h 30m
+- Tesla, Meta and IBM: 3 earnings call shout outs that left us thinking
+- Spotify stock pops on Q3 earnings, driven by premium subscriber growth and AI for personalized experiences
+- Wall Street's big CoreWeave stock bear is now even more bearish
+- Spotify stock pops on Q3 earnings, driven by premium subscriber growth and AI for personalized experiences
+- Wall Street's big CoreWeave stock bear is now even more bearish
+- Apple's cash flow machine makes it investors' favorite AI hedge
+- How soaring AI bills are vexing Wall Street executives
+- Stock futures tumble as traders assess Tesla, Meta earnings
+- Netflix is losing viewers — but they're still subscribed
+- Oil jumps on escalating Middle East conflict
+- Copper declines as tech-stock selloff dulls appetite for risk
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
 - Earnings
-- Tesla beats on Q3 earnings with better-than-expected capex
-- JPMorgan sees SpaceX tripling, thanks to a $28 trillion market
-- IBM earns $2.19 billion in Q3, topping Wall Street estimates
-- Stocks climb as AI companies deliver more strong results
+- Tesla is spending less now, but the bill is coming later: Chart of the Day
+- Tesla stock slips despite Q3 earnings beat
+- Meta caps a revenue beat with a 2-for-1 stock split
+- P&G beats estimates as price hikes haven't hurt demand yet
 - Popular
-- Stablecoins just got the regulatory clarity industry wanted
-- The Villages doubles down on Florida retirees with $180M bet
+- Lockheed lifts annual forecast as missile, jet production ramps up
+- Live Nation faces a possible breakup
 
 ## Benzinga (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -36,37 +36,37 @@
 - What can I do to resolve this?
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f2eb60621b0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fc461a315b0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- In Focus | Beijing wants more than GDP growth from local officials. Can they adapt?
-- Diplomacy
-- China says it allowed Philippines to resupply warship amid diplomatic tensions
-- Health & Environment
-- Hong Kong raids spark health warning over beauty jabs using dead people’s skin
-- US colleges scale back China ties after Pentagon pressure
-- Top Democrat says chip restrictions are ‘key lever’ for US AI edge over China
+- China urges opening Bab al-Mandeb in first joint statement with regional nation
+- China Economy
+- European production drive sees China’s lithium-ion battery exports to EU surge
 - Politics
+- Ahead of party plenum, Xi Jinping warns that China faces a ‘new Long March’
+- Law and Crime
+- Hong Kong student gets 10 years for sexually assaulting 4 underage girls
+- Military
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Cadres at lower levels are juggling a complex set of priorities from Beijing – while still searching for new sources of growth.
-- Virginia Tech speeds up closure of joint programme with Xidian University as 30 US colleges report more than 80 termination-related actions.
-- Jim Himes claims ‘slowing dispersion of advanced chips into China’ essential for Washington in global tech race as US midterm elections near.
-- Takaichi remains popular with Japanese public. Can she maintain her grip on LDP?
-- Analysts are surprised at her resilience, as attested by opinion polls, despite Japan facing stubbornly high inflation and regional tensions.
-- Tech Trends
-- Chinese firm unveils ‘guardian’ robot that can disarm attackers, lift cars
-- The H2-X robot is seen smashing a car door and disarming a knife-wielding intruder in a promo video, but details on its release are sketchy.
-- Business
-- What will it take for AI-powered purchases to become the norm?
+- The China-Djibouti communique marks a diplomatic escalation, but experts say that Chinese naval operations are still unlikely.
+- Victims include 14-year-old girl who was so distressed after Fan Chi-yuen attempted to rape her that she subsequently committed suicide.
+- Could US advances in drone command give it an edge over the PLA in a Taiwan war?
+- F-22 and aircraft carrier tests showcase new ways to command drones that could redefine air and naval warfare.
+- Global Economy
+- China’s Gulf oil imports forecast to near pre-Iran war high as shipments rebound
+- Imports from the Middle East rose for a third straight month in September and could be set for a further boost this month, analyst says.
+- Indonesia haze: why Jakarta won’t declare wildfires a national disaster
+- Indonesia resists declaring the wildfires a national disaster despite health crises, facing criticism over political and budget priorities.
+- Middle East
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - 沪深港通 热点观察国际动态【FOCUS】
 - 宁德季绩逊预期，股价急插一成破底未宜沾手？
-- 何立峰：坚定扩金融领域 高水平对外开放
-- 法国续局部宵禁 或颁紧急状态
-- 股市“慢刀割肉”，组合拳“防踩踏”
+- 三星SK海力士华芯片厂传升级 应对长江存储
+- 法部署精锐反恐士兵 应对周六示威
+- “速成”造车红线突至，“宁王”财报一叶知秋
 - 指数环球商品外汇
 - 国金观点
 - 港股大市分析
@@ -75,9 +75,9 @@
 - 环球基金：
 - ETF：
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 恒生指数23651.87-215.87(-0.90%)
+- 恒生指数22934.68-717.19(-3.03%)
                     etnet.com.hk@copyright
-- 国企指数7943.41-86.85(-1.08%)
+- 国企指数7689.19-254.22(-3.20%)
                     etnet.com.hk@copyright
 - 理财/管理
 - 时尚艺术
@@ -88,30 +88,31 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 富途早報 | 俄美烏三方和談有望重啓，伊朗重申談判條件；伯克希爾股價盤中創新高，股價走出「巴菲特離任」陰影；OpenAI將登陸谷歌雲，Anthropic推出AI智能體Claude Duet
+- 中東局勢惡化、AI交易鬆動，資金重回避險，美債收益率創近一個月新低
 - Meta Q3營收與Q4指引雙超預期，上調AI資本開支下限，擬發行無投票權新股
-- 中金：如何對沖AI風險？
-- 儲能拖累特斯拉Q3營收遜色，但自由現金流修復，EPS強於預期，毛利率回升
-- 貝森特閉門會向華爾街放話：看不出AI有什麼「系統性風險」
-- 美股槓桿加不動了？華爾街「已耗盡資產負債表」，只能勸對沖基金「加空倉」
-- 特斯拉電話會：2030年目標年產約500萬輛車，Optimus機器人明年底商業化，2027年Megapack幾乎售罄
-- 沙特油田遭致命襲擊加劇中東供應擔憂，WTI逼近98美元、布倫特一度站上110美元
+- 高盛警告「逼空風險」：對沖基金股票空頭押注升至近五年高位，科技股成關鍵戰場
+- 高盛：大家都在關心的CoreWeave，到底還需要籌多少錢？
+- 油價「更高更久」成新常態？美伊再度劍拔弩張，明年油價回落希望迅速破滅
+- 美以密謀新一輪打擊？伊朗最高領袖罕見露面，軍方警告祭出「炸彈之父」，海底電纜也可能是反擊目標
+- 泡泡瑪特Q3業績看點：營收預計下降三成，海外市場全面承壓
+- 經濟學家洪灝：現在是黎明前的黑暗，四季度市場會有一波好的反彈
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Meta電話會：Muse圈粉千萬，首周購物交易量擠爆額度，明年成本效率提升十倍
-- 美股收盤 | 強勁季報提振AI交易，納指反彈超1%，芯片、存儲、光集體走強；加密概念漲幅居前，Strategy漲超7%；金價走高
-- Anthropic推出全天候AI智能體Claude Duet，與Meta、OpenAI展開競爭
-- 成交額TOP20 | SpaceX大漲8%，特斯拉漲超3%，兩公司討論合併事宜；Wedbush績前唱好AMD；奈飛業績不及預期，績後跌超5%
-- 軍事威懾升級！數十架以軍戰機曾逼近伊朗邊境，美國擴大制裁、據稱擬撤離部分中東使館人員
-- SAP 2026年Q3營收爲102.7億歐元，同比增長13%，調整後EPS爲1.89歐元，同比增長19%
-- IBM2026年Q3營收171億美元，調整後EPS2.95美元，延遲訂單加速回暖，軟件業務增長8.3%
-- 德州儀器2026年Q3營收60.55億美元，同比增長28%；EPS2.62美元，同比增長77%
-- 泛林集團2027財年Q1營收82.2億美元，環比增長22%；調整後EPS2.2美元，環比增長21%
-- 特斯拉2026年Q3營收280.46億美元，調整後EPS0.48美元，利潤連續兩季下滑，自由現金流未轉負
+- 北水減倉港股超92億港元，淨買入騰訊控股近5億港元
+- 全球資管巨頭：黃金還會繼續漲
+- 報道：特斯拉和SpaceX的合併，馬斯克要趕在特朗普任期內完成
+- Meta業績亮眼卻難撐股價！短線哪些關鍵價位值得關注？
+- 收市速睇 | 港股表現弱勢，三大指數齊跌，恒指跌3.03%；科網股、半導體股普跌，阿里跌超6%，壁仞科技跌超10%
+- 棄4F²、HBM4量產、G11 NAND提速……美光技術研討會亮明路線圖，摩通維持「增持」評級
+- 摩根大通：新雲廠商融資承壓難撼AI基建週期，科技板塊今年仍有4000億美元盈餘
+- 谷歌再度跌破200日均線，趨勢轉熊還是誘空？
+- 油價又飆升，報道稱美以已制定對伊朗新一輪打擊具體計劃
+- 諾基亞第三季度銷售淨額51.54億歐元，高於市場預期
 
 --- 跨站重点主题（多站出现=更重要）---
 - 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中)
-- 中国/欧盟: Yahoo Finance (EN), SCMP (EN/中)
-- 伊朗/中东: 富途资讯 (繁中)
-- 油价/霍尔木兹: Yahoo Finance (EN)
+- 伊朗/中东: SCMP (EN/中), 富途资讯 (繁中)
+- 油价/霍尔木兹: Yahoo Finance (EN), SCMP (EN/中)
+- 就业数据: SCMP (EN/中)
+- 中国/欧盟: SCMP (EN/中)
 
 --- 粘贴结束 ---
