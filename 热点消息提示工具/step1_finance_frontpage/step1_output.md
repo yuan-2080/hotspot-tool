@@ -3,17 +3,17 @@
 ## 一、各站抓取情况
 
 - **Yahoo Finance (EN)** ✓
-  - 头版/首屏: U.S. markets open in 2h 1m | How Musk became the most powerful non-governmental actor | Apple could soon dethrone Nvidia as most valuable company | Wall Street's safest stock just had its biggest day since the pandemic crash | Apple could soon dethrone Nvidia as most valuable company | Wall Street's safest stock just had its biggest day since the pandemic crash | Big Tech’s capex spend looks different as Meta, Tesla save for later | SpaceX may not follow Meta's bold plan to raise money for AI
+  - 头版/首屏: U.S. markets open in 1h 31m | How Musk became the most powerful non-governmental actor | Apple could soon dethrone Nvidia as most valuable company | Wall Street's safest stock just had its biggest day since the pandemic crash | Apple could soon dethrone Nvidia as most valuable company | Wall Street's safest stock just had its biggest day since the pandemic crash | Big Tech’s capex spend looks different as Meta, Tesla save for later | SpaceX may not follow Meta's bold plan to raise money for AI
   - 其他: Top Stories | Markets & Economy | Tech & AI | SpaceX could buy 80,000 cell towers to challenge Verizon, AT&T, T-Mobile | AI stock bears probably missed this point on Tesla
 
 - **Benzinga (EN)** ✓
   - 头版/首屏: You are unable to access benzinga.com | Why have I been blocked? | What can I do to resolve this?
 
-- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f1d78e07b00>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
+- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f9fc8aafda0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
 
 - **SCMP (EN/中)** ✓
   - 头版/首屏: Could Europe’s cost-of-living protests sharpen EU-China trade tensions? | Global Economy | How China captured nearly 82% of the world’s new ship orders | Society | Sauce maker to close after 90 years, making way for Northern Metropolis | Politics | Typhoon Champi grounds hundreds of Taiwan flights, threatens Shanghai and Japan | Military
-  - 其他: Unrest over economic hardship could strengthen calls to protect industry and jobs, though direct impact on trade talks is uncertain. | Taiwan’s largest airports face large-scale flight cancellations, and 14 airports across eastern mainland China are projected to be affected. | Japan university defence bids surge as post-war taboo fades amid China concerns | Changing security norms and cash shortages push Japanese researchers to pursue state-funded defence tech projects. | Science
+  - 其他: Unrest over economic hardship could strengthen calls to protect industry and jobs, though direct impact on trade talks is uncertain. | Taiwan’s largest airports face large-scale flight cancellations, and 14 airports across eastern mainland China are projected to be affected. | Japan university defence bids surge as post-war taboo fades amid China concerns | Changing security norms and cash shortages push Japanese researchers to pursue state-funded defence tech projects. | Malaysia’s oil-rich Sarawak heads to polls, forcing Anwar into yet another federal test
 
 - **经济通 (繁中)** ✓
   - 头版/首屏: 沪深港通 热点观察国际动态【FOCUS】 | 电商加强管控，阿里京东齐失红底，可否趁低部署吸纳？ | DeepSeek传完成千亿人币融资 挑战美AI巨头 | 美俄乌会谈将重启 或11月初举行 | AI拯救史诗“漏洞”，腾讯阿里难逃“泡沫诅咒” | 指数环球商品外汇 | 国金观点 | 港股大市分析
@@ -30,23 +30,23 @@
 ## 二、跨站主题（多站出现 = 更重要）
 
 - **科技股/个股** — 出现于: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中) (4 站)
-- **中国/欧盟** — 出现于: Yahoo Finance (EN), SCMP (EN/中) (2 站)
 - **伊朗/中东局势** — 出现于: 富途资讯 (繁中) (1 站)
 - **美国关税（15%等）** — 出现于: 富途资讯 (繁中) (1 站)
 - **油价/能源/霍尔木兹** — 出现于: SCMP (EN/中) (1 站)
 - **就业/经济数据** — 出现于: SCMP (EN/中) (1 站)
 - **黄金/大宗商品** — 出现于: Yahoo Finance (EN) (1 站)
 - **美联储/利率** — 出现于: SCMP (EN/中) (1 站)
+- **中国/欧盟** — 出现于: SCMP (EN/中) (1 站)
 
 ## 三、检测到的主题（供参考，由总结摘要 Prompt 自行判断重要性）
 
 - 科技股/个股（4 站）
-- 中国/欧盟（2 站）
 - 伊朗/中东局势（1 站）
 - 关税/贸易政策（1 站）
 - 油价/能源（1 站）
 - 就业/经济数据（1 站）
 - 黄金/大宗商品（1 站）
 - 美联储/利率（1 站）
+- 中国/欧盟（1 站）
 - 加密货币（0 站）
 - 中国政策（0 站）

@@ -104,11 +104,11 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026102319
+抓取时间: 2026102320
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets open in 2h 1m
+- U.S. markets open in 1h 31m
 - How Musk became the most powerful non-governmental actor
 - Apple could soon dethrone Nvidia as most valuable company
 - Wall Street's safest stock just had its biggest day since the pandemic crash
@@ -117,9 +117,9 @@
 - Big Tech’s capex spend looks different as Meta, Tesla save for later
 - SpaceX may not follow Meta's bold plan to raise money for AI
 - Stocks wobble after sharp tech sell-off
+- BofA's Hartnett sees risk-off mood lasting until mid-November
 - Brent hits 5-month high on Mideast risk
 - Chip stocks break a bear trap after a $3T rout — key levels for bulls
-- China’s fiscal revenue up 5.1% in January-September
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
@@ -129,8 +129,8 @@
 - OpenAI shifts value to $1.25T as funding talks finalize
 - AI tech fears push global credit spreads to 17-month high
 - Popular
-- Anthropic’s IPO is shaping up as a windfall for its backers
-- A strange scam has Norwegians leaving gold in the forest
+- Weight-loss drugs fuel protein boom, but with more consumer scrutiny
+- Chipotle's softening sales force analyst to throw in the towel
 
 ## Benzinga (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -139,7 +139,7 @@
 - What can I do to resolve this?
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f1d78e07b00>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f9fc8aafda0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -156,12 +156,12 @@
 - Taiwan’s largest airports face large-scale flight cancellations, and 14 airports across eastern mainland China are projected to be affected.
 - Japan university defence bids surge as post-war taboo fades amid China concerns
 - Changing security norms and cash shortages push Japanese researchers to pursue state-funded defence tech projects.
-- Science
-- China’s head transplant advocate completes landmark spinal surgery in Russia
-- In Moscow, joint Chinese and Russian team used groundbreaking tissue fusion technique on paralysed patient, according to the surgeon.
+- Malaysia’s oil-rich Sarawak heads to polls, forcing Anwar into yet another federal test
+- Sarawak’s ‘confident’ ruling coalition is pushing for greater autonomy and control over the Borneo state’s vast oil and gas resources.
 - How the Philippines’ energy crisis is opening doors for deeper US military ties
 - A proposed US-backed oil stockpile offers the Philippines energy relief while strengthening American military logistics in the region.
 - Banking & Finance
+- Standard Chartered sharpens its yuan advisory edge as currency’s global rise continues
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -213,13 +213,13 @@
 
 --- 跨站重点主题（多站出现=更重要）---
 - 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
-- 中国/欧盟: Yahoo Finance (EN), SCMP (EN/中)
 - 伊朗/中东: 富途资讯 (繁中)
 - 美国关税: 富途资讯 (繁中)
 - 油价/霍尔木兹: SCMP (EN/中)
 - 就业数据: SCMP (EN/中)
 - 黄金/大宗: Yahoo Finance (EN)
 - 美联储: SCMP (EN/中)
+- 中国/欧盟: SCMP (EN/中)
 
 --- 粘贴结束 ---
 <!-- 资讯来源结束 -->
