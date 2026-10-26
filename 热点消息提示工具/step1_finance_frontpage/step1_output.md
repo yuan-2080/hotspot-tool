@@ -3,50 +3,48 @@
 ## 一、各站抓取情况
 
 - **Yahoo Finance (EN)** ✓
-  - 头版/首屏: U.S. markets open in 1h 31m | How Musk became the most powerful non-governmental actor | Apple could soon dethrone Nvidia as most valuable company | Wall Street's safest stock just had its biggest day since the pandemic crash | Apple could soon dethrone Nvidia as most valuable company | Wall Street's safest stock just had its biggest day since the pandemic crash | Big Tech’s capex spend looks different as Meta, Tesla save for later | SpaceX may not follow Meta's bold plan to raise money for AI
-  - 其他: Top Stories | Markets & Economy | Tech & AI | SpaceX could buy 80,000 cell towers to challenge Verizon, AT&T, T-Mobile | AI stock bears probably missed this point on Tesla
+  - 头版/首屏: U.S. markets closed | 'The world's super company': Wall Street weighs SpaceX earnings, potential Tesla merger | Inflation under Trump is only about half the rate under Biden. Voters are still just as mad. | SpaceX and Meta are dropping clues you should not ignore | Inflation under Trump is only about half the rate under Biden. Voters are still just as mad. | SpaceX and Meta are dropping clues you should not ignore | Trump says decision time nears on Iran: Deal or 'finish it off' | AT&T, Verizon, T-Mobile warn FCC of Musk's SpaceX phone network
+  - 其他: Top Stories | Markets & Economy | Your Money | Social Security says it's cleaning up millions of records. What that means for you. | Before you donate this year, know the new tax rules
 
 - **Benzinga (EN)** ✓
   - 头版/首屏: You are unable to access benzinga.com | Why have I been blocked? | What can I do to resolve this?
 
-- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f9fc8aafda0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
+- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f140f5117c0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
 
 - **SCMP (EN/中)** ✓
-  - 头版/首屏: Could Europe’s cost-of-living protests sharpen EU-China trade tensions? | Global Economy | How China captured nearly 82% of the world’s new ship orders | Society | Sauce maker to close after 90 years, making way for Northern Metropolis | Politics | Typhoon Champi grounds hundreds of Taiwan flights, threatens Shanghai and Japan | Military
-  - 其他: Unrest over economic hardship could strengthen calls to protect industry and jobs, though direct impact on trade talks is uncertain. | Taiwan’s largest airports face large-scale flight cancellations, and 14 airports across eastern mainland China are projected to be affected. | Japan university defence bids surge as post-war taboo fades amid China concerns | Changing security norms and cash shortages push Japanese researchers to pursue state-funded defence tech projects. | Malaysia’s oil-rich Sarawak heads to polls, forcing Anwar into yet another federal test
+  - 头版/首屏: Developing | Lula pulls off Brazil’s first-ever run-off comeback to beat Bolsonaro | Politics | How China’s regional leadership changes offer clues to the party’s future | Law and Crime | Hong Kong Interpol meeting to consider ‘silver notice’ targeting criminal assets | Diplomacy | War of words over Xinjiang erupts between Chinese and Turkish social media users | People
+  - 其他: Victory keeps China’s top overseas investment destination in the hands of a leftist who twice visited Beijing in his current term. | The row comes amid a growing drive by Ankara to promote a pan-Turkic agenda that has proved to be sensitive area in relations with Beijing. | South Korean CEO’s 4-year jail term over plant fire that killed 23 spurs anger | One Chinese mother, who lost her 24-year-old daughter, is seeking to continue the legal fight against battery maker Aricell. | Military
 
 - **经济通 (繁中)** ✓
-  - 头版/首屏: 沪深港通 热点观察国际动态【FOCUS】 | 电商加强管控，阿里京东齐失红底，可否趁低部署吸纳？ | DeepSeek传完成千亿人币融资 挑战美AI巨头 | 美俄乌会谈将重启 或11月初举行 | AI拯救史诗“漏洞”，腾讯阿里难逃“泡沫诅咒” | 指数环球商品外汇 | 国金观点 | 港股大市分析
-  - 其他: 恒生指数23189.72+255.04(+1.11%)
-                    etnet.com.hk@copyright | 国企指数7789.43+100.24(+1.30%)
+  - 头版/首屏: 沪深港通 热点观察国际动态【FOCUS】 | 电商加强管控，阿里京东齐失红底，可否趁低部署吸纳？ | DeepSeek传完成千亿人币融资 挑战美AI巨头 | 美俄乌会谈将重启 或11月初举行 | 谈癌色变寻灵丹，AI真是“药神”？ | 指数环球商品外汇 | 国金观点 | 港股大市分析
+  - 其他: 恒生指数23093.37+158.69(+0.69%)
+                    etnet.com.hk@copyright | 国企指数7756.25+67.06(+0.87%)
                     etnet.com.hk@copyright | 理财/管理 | 时尚艺术 | 健康人生
 
 - **智通财经 (简中)** ✓
 
 - **富途资讯 (繁中)** ✓
-  - 头版/首屏: 彭博：韓國股市成爲首個跌破5倍市盈率的萬億美元級市場 | 金屬價格上漲驅動，紫金礦業Q3歸母淨利潤同比增長25.97% | 做空VS做多？兩位華爾街老將給出不同的2027年 | 紫金礦業：2026年第三季度歸母淨利潤183.56億元 同比增長25.97% | 馬斯克的終極野心：打造科技「全棧帝國」，將AI產業命脈握在自己手中 | 本週美股牛股 | 艾可菲周累計漲超16%，EPS超預期加AI驅動生產力提升；Zscaler漲近15%，PHP漏洞波及全球網絡安全需求升溫；湯森路透漲超13%，推出可闡釋判斷依據的稅務與審計AI解決方案 | 馬斯克「大嘴」惹麻煩？公開支持SpaceX特斯拉合併 或令交易延期數週 | 沃什下週迎來棘手一戰：暫停加息容易，如何穩住抗通脹預期？
-  - 其他: 摩根大通解讀：美債本輪反彈的持續性如何？ | 北水減倉港股近17億港元，智譜、騰訊控股分別獲淨買入逾17億、12億港元；阿里巴巴、中芯國際分別遭淨賣出14億、8億港元 | Meta連日下跌，高盛爲何上調目標價？2300億美元AI投資背後的增長與風險 | 中韓「大奇蹟日」喚醒半導體牛市敘事？AI算力需求撐起看漲底氣，下週四大科技巨頭業績將續驗投資成色 | 費城半導體指數測試200日均線關鍵支撐，能否守住？
+  - 头版/首屏: 富途早報 | 烏美俄擬於11月舉行三方技術層級工作會談，巴西總統盧拉連任；SpaceX完成400億美元GPU融資，亞馬遜雲服務容量售罄至2027年；東山精密、微億智造今日公佈中籤結果 | 特朗普稱對伊朗到了「決斷時刻」：達協議還是再開打？內塔尼亞胡選情添變數 | 油價高企與AI融資成本夾擊，「資產定價之錨」回落至5%附近! 沃什「拒絕劇透」背景下市場如何定價AI牛市? | 高盛：散戶交易較2025年末降45%，家庭買盤仍成美股「壓艙石」，維持標普500年底看漲至8000點 | 400億美元買GPU！馬斯克稱SpaceX表外融資落地，警告新雲廠商危機將至 | 一週前瞻｜聯儲局決議疊加美國GDP與核心PCE重磅登場！谷歌、微軟、亞馬遜密集放榜，美股進入業績期高峰；東山精密、微億智造港股上市 | 市場過度恐慌？野村：存儲短缺將延續至2028年，AI資本開支韌性仍強 | SemiAnalysis創始人深度解析：AI投資還能撐多久？英偉達護城河還能守住嗎？內存荒何時結束？
+  - 其他: 美銀Hartnett：「戰術避險」至11月中旬，短期判斷取決於「三大條件」 | 週末讀物 | 馬斯克的終極野心：打造科技「全棧帝國」，將AI產業命脈握在自己手中 | 對沖基金創紀錄拋售後，高盛建議抄底：「有選擇」地配置AI，但信心不足 | 銅價逼近紀錄高位，韓國冶煉廠卻考慮減產：真正短缺的原來是銅精礦 | AI軍備競賽燒向上遊！報道稱英特爾、英偉達、AMD預付逾千億臺幣鎖定高階IC載板產能
 
 ## 二、跨站主题（多站出现 = 更重要）
 
 - **科技股/个股** — 出现于: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中) (4 站)
-- **伊朗/中东局势** — 出现于: 富途资讯 (繁中) (1 站)
-- **美国关税（15%等）** — 出现于: 富途资讯 (繁中) (1 站)
-- **油价/能源/霍尔木兹** — 出现于: SCMP (EN/中) (1 站)
-- **就业/经济数据** — 出现于: SCMP (EN/中) (1 站)
-- **黄金/大宗商品** — 出现于: Yahoo Finance (EN) (1 站)
-- **美联储/利率** — 出现于: SCMP (EN/中) (1 站)
+- **伊朗/中东局势** — 出现于: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中) (3 站)
+- **加密货币** — 出现于: Yahoo Finance (EN) (1 站)
+- **黄金/大宗商品** — 出现于: SCMP (EN/中) (1 站)
+- **美联储/利率** — 出现于: Yahoo Finance (EN) (1 站)
 - **中国/欧盟** — 出现于: SCMP (EN/中) (1 站)
 
 ## 三、检测到的主题（供参考，由总结摘要 Prompt 自行判断重要性）
 
 - 科技股/个股（4 站）
-- 伊朗/中东局势（1 站）
-- 关税/贸易政策（1 站）
-- 油价/能源（1 站）
-- 就业/经济数据（1 站）
+- 伊朗/中东局势（3 站）
+- 加密货币（1 站）
 - 黄金/大宗商品（1 站）
 - 美联储/利率（1 站）
 - 中国/欧盟（1 站）
-- 加密货币（0 站）
+- 关税/贸易政策（0 站）
+- 油价/能源（0 站）
+- 就业/经济数据（0 站）
 - 中国政策（0 站）

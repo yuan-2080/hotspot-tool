@@ -7,8 +7,8 @@
 你是港美股热点运营助手，服务于一个在中国做港美股内容运营的团队。
 你的输出将直接发到 Slack 群，供团队确认当日运营优先级，无需再二次加工。
 
-**当前模式：晚间**
-**覆盖时间段：今日08:00 - 20:00（美股开盘前）**
+**当前模式：早间**
+**覆盖时间段：昨日22:00 - 今日09:00（美股隔夜收盘）**
 
 ---
 
@@ -30,7 +30,7 @@
 ## 输出格式（严格遵守）
 
 第一行输出标题，固定为（直接复制，不修改任何字）：
-`晚间热点线索 · 2026年10月23日`
+`早间热点线索 · 2026年10月26日`
 
 空一行后，输出正文条目，每条格式：
 `* 事实描述（含关键数据）。仅写资讯来源中已明确发生的涨跌，不推断其他标的受到联动。标的代码直接写在正文中，结尾不另加标的列表。`
@@ -62,15 +62,15 @@
 
 ---
 
-## 晚间模式操作指令
+## 早间模式操作指令
 
-聚焦：今晚美股开盘前的运营清单。不涉及港股，只关注美股。
+聚焦：隔夜美股收盘结果 + 影响今日港股开盘的信息。
 
 重点关注（按重要性排序写入）：
-1. 盘前重要财报及初步反应（EPS/营收 vs 预期——仅限资讯来源中有明确数据）
-2. 盘前个股异动（涨跌 5% 以上 + 原因一句话）
-3. 影响今晚开盘情绪的宏观事件（Fed 官员讲话、重要数据——仅限资讯来源中明确出现）
-4. 其他值得今晚关注的美股消息
+1. 美股三大指数昨夜涨跌及核心驱动，一句话概括（必须有资讯来源支撑，不得推断）
+2. 个股重大异动（财报或重大消息驱动涨跌 5% 以上）
+3. 隔夜重要宏观数据（非农/CPI/PCE/美联储表态——仅限资讯来源中明确出现）
+4. 隔夜消息中可能影响港股相关板块的内容，重点关注：光通信、存储/HBM、半导体、中概互联网等；若有明确利好/利空驱动，须点明对应港股板块或个股
 
 ---
 
@@ -104,33 +104,33 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026102320
+抓取时间: 2026102609
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets open in 1h 31m
-- How Musk became the most powerful non-governmental actor
-- Apple could soon dethrone Nvidia as most valuable company
-- Wall Street's safest stock just had its biggest day since the pandemic crash
-- Apple could soon dethrone Nvidia as most valuable company
-- Wall Street's safest stock just had its biggest day since the pandemic crash
-- Big Tech’s capex spend looks different as Meta, Tesla save for later
-- SpaceX may not follow Meta's bold plan to raise money for AI
-- Stocks wobble after sharp tech sell-off
-- BofA's Hartnett sees risk-off mood lasting until mid-November
-- Brent hits 5-month high on Mideast risk
-- Chip stocks break a bear trap after a $3T rout — key levels for bulls
+- U.S. markets closed
+- 'The world's super company': Wall Street weighs SpaceX earnings, potential Tesla merger
+- Inflation under Trump is only about half the rate under Biden. Voters are still just as mad.
+- SpaceX and Meta are dropping clues you should not ignore
+- Inflation under Trump is only about half the rate under Biden. Voters are still just as mad.
+- SpaceX and Meta are dropping clues you should not ignore
+- Trump says decision time nears on Iran: Deal or 'finish it off'
+- AT&T, Verizon, T-Mobile warn FCC of Musk's SpaceX phone network
+- Jamie Dimon warns of 5 big threats to the US economy
+- Warsh tells traders to watch the data. They still follow the Fed
+- Zero-day option traders are betting against big S&P 500 swings
+- Americans call economy bad but keep spending despite midterm polls
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
-- Tech & AI
-- SpaceX could buy 80,000 cell towers to challenge Verizon, AT&T, T-Mobile
-- AI stock bears probably missed this point on Tesla
-- OpenAI shifts value to $1.25T as funding talks finalize
-- AI tech fears push global credit spreads to 17-month high
+- Your Money
+- Social Security says it's cleaning up millions of records. What that means for you.
+- Before you donate this year, know the new tax rules
+- Why Social Security's latest COLA may fall short for retirees
+- The 10-year Treasury yield is above 5%. Should savers lock in now?
 - Popular
-- Weight-loss drugs fuel protein boom, but with more consumer scrutiny
-- Chipotle's softening sales force analyst to throw in the towel
+- JetBlue, Virgin Voyages $2,750 kid-free package sells out
+- Health insurance 'might just be rigged against you': Mark Cuban
 
 ## Benzinga (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -139,29 +139,29 @@
 - What can I do to resolve this?
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f9fc8aafda0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f140f5117c0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- Could Europe’s cost-of-living protests sharpen EU-China trade tensions?
-- Global Economy
-- How China captured nearly 82% of the world’s new ship orders
-- Society
-- Sauce maker to close after 90 years, making way for Northern Metropolis
+- Developing | Lula pulls off Brazil’s first-ever run-off comeback to beat Bolsonaro
 - Politics
-- Typhoon Champi grounds hundreds of Taiwan flights, threatens Shanghai and Japan
-- Military
+- How China’s regional leadership changes offer clues to the party’s future
+- Law and Crime
+- Hong Kong Interpol meeting to consider ‘silver notice’ targeting criminal assets
+- Diplomacy
+- War of words over Xinjiang erupts between Chinese and Turkish social media users
+- People
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Unrest over economic hardship could strengthen calls to protect industry and jobs, though direct impact on trade talks is uncertain.
-- Taiwan’s largest airports face large-scale flight cancellations, and 14 airports across eastern mainland China are projected to be affected.
-- Japan university defence bids surge as post-war taboo fades amid China concerns
-- Changing security norms and cash shortages push Japanese researchers to pursue state-funded defence tech projects.
-- Malaysia’s oil-rich Sarawak heads to polls, forcing Anwar into yet another federal test
-- Sarawak’s ‘confident’ ruling coalition is pushing for greater autonomy and control over the Borneo state’s vast oil and gas resources.
-- How the Philippines’ energy crisis is opening doors for deeper US military ties
-- A proposed US-backed oil stockpile offers the Philippines energy relief while strengthening American military logistics in the region.
-- Banking & Finance
-- Standard Chartered sharpens its yuan advisory edge as currency’s global rise continues
+- Victory keeps China’s top overseas investment destination in the hands of a leftist who twice visited Beijing in his current term.
+- The row comes amid a growing drive by Ankara to promote a pan-Turkic agenda that has proved to be sensitive area in relations with Beijing.
+- South Korean CEO’s 4-year jail term over plant fire that killed 23 spurs anger
+- One Chinese mother, who lost her 24-year-old daughter, is seeking to continue the legal fight against battery maker Aricell.
+- Military
+- Eye on China: Japan reopens taboo debate over nuclear-powered submarines
+- Proposal divides Japan’s ruling coalition amid questions over the costs, legal hurdles and military value of nuclear propulsion.
+- Food & Drink
+- He hated studying. So he built 24/7 study cafes to motivate people like him
+- After leaving finance and giving up a successful online tutoring business, Luca Yang set out to create a more welcoming place to learn.
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -169,7 +169,7 @@
 - 电商加强管控，阿里京东齐失红底，可否趁低部署吸纳？
 - DeepSeek传完成千亿人币融资 挑战美AI巨头
 - 美俄乌会谈将重启 或11月初举行
-- AI拯救史诗“漏洞”，腾讯阿里难逃“泡沫诅咒”
+- 谈癌色变寻灵丹，AI真是“药神”？
 - 指数环球商品外汇
 - 国金观点
 - 港股大市分析
@@ -178,9 +178,9 @@
 - 环球基金：
 - ETF：
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 恒生指数23189.72+255.04(+1.11%)
+- 恒生指数23093.37+158.69(+0.69%)
                     etnet.com.hk@copyright
-- 国企指数7789.43+100.24(+1.30%)
+- 国企指数7756.25+67.06(+0.87%)
                     etnet.com.hk@copyright
 - 理财/管理
 - 时尚艺术
@@ -191,34 +191,32 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 彭博：韓國股市成爲首個跌破5倍市盈率的萬億美元級市場
-- 金屬價格上漲驅動，紫金礦業Q3歸母淨利潤同比增長25.97%
-- 做空VS做多？兩位華爾街老將給出不同的2027年
-- 紫金礦業：2026年第三季度歸母淨利潤183.56億元 同比增長25.97%
-- 馬斯克的終極野心：打造科技「全棧帝國」，將AI產業命脈握在自己手中
-- 本週美股牛股 | 艾可菲周累計漲超16%，EPS超預期加AI驅動生產力提升；Zscaler漲近15%，PHP漏洞波及全球網絡安全需求升溫；湯森路透漲超13%，推出可闡釋判斷依據的稅務與審計AI解決方案
-- 馬斯克「大嘴」惹麻煩？公開支持SpaceX特斯拉合併 或令交易延期數週
-- 沃什下週迎來棘手一戰：暫停加息容易，如何穩住抗通脹預期？
+- 富途早報 | 烏美俄擬於11月舉行三方技術層級工作會談，巴西總統盧拉連任；SpaceX完成400億美元GPU融資，亞馬遜雲服務容量售罄至2027年；東山精密、微億智造今日公佈中籤結果
+- 特朗普稱對伊朗到了「決斷時刻」：達協議還是再開打？內塔尼亞胡選情添變數
+- 油價高企與AI融資成本夾擊，「資產定價之錨」回落至5%附近! 沃什「拒絕劇透」背景下市場如何定價AI牛市?
+- 高盛：散戶交易較2025年末降45%，家庭買盤仍成美股「壓艙石」，維持標普500年底看漲至8000點
+- 400億美元買GPU！馬斯克稱SpaceX表外融資落地，警告新雲廠商危機將至
+- 一週前瞻｜聯儲局決議疊加美國GDP與核心PCE重磅登場！谷歌、微軟、亞馬遜密集放榜，美股進入業績期高峰；東山精密、微億智造港股上市
+- 市場過度恐慌？野村：存儲短缺將延續至2028年，AI資本開支韌性仍強
+- SemiAnalysis創始人深度解析：AI投資還能撐多久？英偉達護城河還能守住嗎？內存荒何時結束？
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 摩根大通解讀：美債本輪反彈的持續性如何？
-- 北水減倉港股近17億港元，智譜、騰訊控股分別獲淨買入逾17億、12億港元；阿里巴巴、中芯國際分別遭淨賣出14億、8億港元
-- Meta連日下跌，高盛爲何上調目標價？2300億美元AI投資背後的增長與風險
-- 中韓「大奇蹟日」喚醒半導體牛市敘事？AI算力需求撐起看漲底氣，下週四大科技巨頭業績將續驗投資成色
-- 費城半導體指數測試200日均線關鍵支撐，能否守住？
-- 博通運行於下降楔形中，向上還是向下突破，近期見分曉？
-- Terafab有望威脅到台積電？ 分析師警告：馬斯克+英特爾=大麻煩！
-- 收市速睇 | 三大指數齊漲，科指漲2.05%，快手-W漲超4%；光通信、半導體、AI應用股普漲，中際旭創漲超4%，兆易創新漲近9%，MINIMAX大漲近17%
-- 瓦萊羅能源Q3電話會：管理層看好裂解價差持續性，美灣煉廠原料成本優勢凸顯
-- 美國準備與伊朗長期對峙！美高官稱海上封鎖可持續，核協議仍是核心目標
+- 美銀Hartnett：「戰術避險」至11月中旬，短期判斷取決於「三大條件」
+- 週末讀物 | 馬斯克的終極野心：打造科技「全棧帝國」，將AI產業命脈握在自己手中
+- 對沖基金創紀錄拋售後，高盛建議抄底：「有選擇」地配置AI，但信心不足
+- 銅價逼近紀錄高位，韓國冶煉廠卻考慮減產：真正短缺的原來是銅精礦
+- AI軍備競賽燒向上遊！報道稱英特爾、英偉達、AMD預付逾千億臺幣鎖定高階IC載板產能
+- 博弈選舉，美以伊「下大棋」
+- OpenAI、Anthropic齊參與！全球首個AI生物安全實驗室將問世
+- 10月不加息，12月再出手？聯儲局下週公佈最新利率決議，聚焦沃什講話
+- 週末讀物 | 從AI、奈飛到「現代版伯克希爾」，這是比爾·阿克曼近幾年最值得細讀的一場投資對話
+- AAA級地產債也賣不動了！美歐融資延期潮席捲寫字樓、公寓與數據中心
 
 --- 跨站重点主题（多站出现=更重要）---
 - 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
-- 伊朗/中东: 富途资讯 (繁中)
-- 美国关税: 富途资讯 (繁中)
-- 油价/霍尔木兹: SCMP (EN/中)
-- 就业数据: SCMP (EN/中)
-- 黄金/大宗: Yahoo Finance (EN)
-- 美联储: SCMP (EN/中)
+- 伊朗/中东: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中)
+- 加密货币: Yahoo Finance (EN)
+- 黄金/大宗: SCMP (EN/中)
+- 美联储: Yahoo Finance (EN)
 - 中国/欧盟: SCMP (EN/中)
 
 --- 粘贴结束 ---
