@@ -1,33 +1,33 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026102620
+抓取时间: 2026102709
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets open in 1h 30m
-- Meta rises as it launches $35B offering to fund AI
-- Musk: SpaceX closed $40B Nvidia chip debt
-- Google, Microsoft, Amazon, and the Fed step up to a skittish market: What to watch this week
-- Musk: SpaceX closed $40B Nvidia chip debt
-- Google, Microsoft, Amazon, and the Fed step up to a skittish market: What to watch this week
-- Elon Musk warning on neoclouds: They will face 'guppy level' death
-- Surgery Partners soars as Bon Secours nears $6B takeover
-- Brazilian stocks plunge after Lula's surprising election victory
-- Stock futures rise ahead of busy week of earnings, Fed rate decision
-- Oil drops from near six-month highs on hopes Iran war hostilities to ease
-- The Fed faces a tough rate decision just days before the midterms
+- U.S. markets closed
+- Why Google investors may not suffer the same fate as Meta investors
+- Foldable fears come true for some iPhone Duo buyers
+- Meet ANT: Anthropic’s IPO filing reveals $16.3B in revenue
+- Foldable fears come true for some iPhone Duo buyers
+- Meet ANT: Anthropic’s IPO filing reveals $16.3B in revenue
+- Skydance offers buyouts and calls staff back to the office
+- Anthropic plans to go public at a time when AI tokens have never been cheaper
+- Instacart’s possible $17 billion sale to DoorDash lifts its stock
+- Carney says a US trade deal is getting closer, but isn’t done
+- 1 chart explains why the S&P 500 has basically been dead money
+- Tesla speeds to the front of the Magnificent Seven pack
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
 - Tech & AI
-- CoreWeave rout sends warning sign to rest of the stock market
-- US growth boosted by AI, but no sign of a turning point higher
-- Anthropic's Claude accessed Georgia state vote count data behind paywall
-- SK Hynix leveraged funds to be delisted in US as AI rally cools
+- Microsoft offers voluntary buyout to 60,000 employees
+- SpaceX locks in $40B GPU financing deal with Apollo
+- Anthropic is renting data centers to cut its cloud dependence
+- Hollywood’s AI debate gets a star-studded cast
 - Popular
-- XP sinks as Brazil’s markets brace for selloff after Lula’s reelection
-- JetBlue, Virgin Voyages $2,750 kid-free package sells out
+- Here's a simple tip to begin your wealth-building journey today
+- Thinking of buying Anthropic stock? Learn these 12 terms first
 
 ## Benzinga (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -36,29 +36,29 @@
 - What can I do to resolve this?
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fd21ad065d0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fcf94e13230>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- Pentagon chief Hegseth to visit Philippines to meet US allies at Asean events
-- Policy
-- China drafts rules to protect trade secrets from ‘foreign entities’
-- Global Economy
-- China’s airlines are adding 288 domestic routes. Can the sector’s recovery keep up?
-- Health & Environment
-- How will city’s ‘cardboard grannies’ survive as prices drop after new policy?
-- Tech War
+- Win for Lula boosts China’s foothold and gives Brazil rare earths leverage
+- Military
+- What message is China sending with latest footage of ‘no-notice’ DF rocket drill?
+- Hong Kong Economy
+- In Focus | Can Hong Kong deliver in trying to build its yuan credentials?
+- China EVs
+- China grants permits to VW joint venture and Xpeng as driverless car race builds
+- Law and Crime
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- SCMP has previously reported that Quad and Squad meetings were being planned on the sidelines of Asean events.
-- New policy rolled out this month to support Tuen Mun pulp facility and curb export of paper recycling services leaves downstream operators reeling.
-- As Chinese chipmakers close the tech gap, South Korea races to protect its lead
-- Report urges Samsung, SK Hynix to sharpen cost competitiveness in commodity memory while doubling down on cutting-edge sectors.
-- Politics
-- Communist Party opens fifth plenum with focus on discipline and loyalty to Xi
-- Four-day session cites lavish dining, illicit gifts and vanity projects as state media defends decade-long corruption crackdown.
+- Luiz Inacio Lula da Silva, 80, has secured an unprecedented fourth term after beating right-wing rival and Trump ally Flavio Bolsonaro.
+- The latest approvals push the global robotaxi sector closer to a projected US$1 trillion market by 2040.
+- Evening sessions urged as fraud, money-laundering cases pack Hong Kong courts
+- District Court waits exceed target by 3.5 times amid 68 per cent caseload spike, prompting calls for evening hearings and more judicial hires.
 - Economics
-- Climate damage to Philippine ports could cost US$70b a year by 2100
-- Rising seas and fiercer typhoons threaten to paralyse trade lines, driving up food costs and devastating coastal communities.
+- Southeast Asia’s housing paradox: too many homes, too few buyers
+- Analysts point to speculative investment, financing hurdles and poor locations as factors leaving properties empty.
+- Middle East
+- Netanyahu touts Trump endorsement on eve of vote, suggests restarting Iran war
+- Tuesday’s election is Israel’s first since the October 7 attacks. Netanyahu’s main rival Gadi Eisenkot praised Trump as a ‘friend of Israel’.
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -88,33 +88,30 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 報道稱SK海力士擬推出新增股東回報方案，最高60萬億韓元
-- 據福克斯商業頻道：Anthropic將於美東時間上午9點發布S-1文件
+- 富途早報 | 斡旋方推美伊5日互讓協議，國際油價微跌；Anthropic正式提交IPO申請；Meta股權融資籌集至多950億美元；SK海力士、希捷科技、康寧等將發財報；東山精密今日港股暗盤交易
+- 聯儲局本週決議重點不在利率，而在沃什會否向市場「解釋」
+- Anthropic「亦敵亦友」的生意：谷歌、亞馬遜、微軟既是夥伴也是對手
+- Anthropic正式提交IPO申請！上半年淨虧807億美元，公司稱未來可能無法實現盈利，警示人類「生存危機」
+- 沙特、土耳其、巴基斯坦赴德黑蘭求降溫，美伊據報被推動五天內互讓
+- 10月FOMC前瞻：預期之外的交易線索在哪裏？
+- 170億美元收購案浮出：DoorDash深入洽購Instacart，最早本週官宣
 - 美股迎來「黃金8日」！中期選舉歷史升市機率近95%，這次能否重演？
-- Meta擬發行股票募資350億美元，英偉達、AMD等有意認購至多50億美元
-- 華爾街預警：AI交易的「金絲雀」在哀嚎！CoreWeave或帶崩美股大盤
-- 重磅！據傳蘋果正測試首款摺疊屏iPad，或於2028年推出
-- 北水減倉港股近21億港元，淨買入智譜超4億港元，淨賣出阿里巴巴逾6億港元
-- GPU被CPU拖慢？Arm祭出新評測方法論
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 中興通訊：第三季度營業收入388.13億元，同比增長33.99%
-- 藥明康德：前三季度收入455.4億元，上調全年收入指引至610-619億元
-- 收市速睇 | 三大指數漲跌不一，恒指漲0.51%，科指跌0.36%；科網股漲跌不一，美團漲超3%；石油股走強，中石油漲近6%；半導體股走低，兆易創新跌近6%
-- 市場「瑟瑟發抖」！「資本開支」高度敏感之際，美國雲三巨頭本週一起「交業績」
-- 馬斯克公開唱淡「新雲」：200多家公司或迎淘汰潮，SpaceX明確不會收購
-- PE僅3倍、估值已跌至金融危機水平！三星、SK海力士業績將近，能否逆轉股價頹勢？
-- 港銀比內銀貴，爲什麼聰明錢還是喜歡追港銀？
-- 亞馬遜CEO：AWS雲計算容量已售罄至2027 年，2028 年也已有大量產能被客戶承諾預訂
-- NEBIUS嚴重超賣，雙支撐線交會處能否獲得有效支撐？
-- 英偉達再度測試關鍵支撐，能否獲得有效承接並反彈？
+- 英特爾宣佈收購以色列獨角獸Classiq，CEO陳立武：將打造全棧量子計算業務
+- 蘋果回應iPhone Duo摺疊屏開裂問題：承認少量設備受影響，建議用戶申請換機
+- 四大華爾街巨頭630億美元豪擲Anthropic算力，博通爲芯片殘值託底
+- 美股收盤 | Anthropic IPO重燃AI情緒，三大指數集體收漲；芯片指數漲近3%，存儲、光通信概念領漲，Lumentum漲超8%，SK海力士漲超4%；美債、油價齊回落
+- 成交額TOP20 | 特斯拉漲超5%，核心業務前景改善，目標股價獲機構上調；蘋果回應iPhone Duo屏幕開裂投訴；微軟擬向6萬名員工提供自願離職補償方案
+- 城堡證券：AI交易已無容錯空間，資本開支淪爲"雙向風險"
+- 盧拉逆襲嚇壞巴西市場：股市創近三十年最慘日跌，雷亞爾跌幅二十年最大，60億美元股權融資擱淺
+- 聖誕旺季美國快遞費將創新高！柴油暴漲引發燃油附加費飆升
+- 聯儲局10月會議前瞻：本週料按兵不動，沃什溝通迎大考，市場聚焦12月
+- 博通與多家銀行合作進行630億美元AI融資
 
 --- 跨站重点主题（多站出现=更重要）---
 - 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
-- 油价/霍尔木兹: Yahoo Finance (EN), 富途资讯 (繁中)
-- 中国/欧盟: Yahoo Finance (EN), SCMP (EN/中)
-- 伊朗/中东: Yahoo Finance (EN)
-- 美国关税: 富途资讯 (繁中)
-- 加密货币: Yahoo Finance (EN)
-- 美联储: Yahoo Finance (EN)
+- 伊朗/中东: SCMP (EN/中), 富途资讯 (繁中)
+- 油价/霍尔木兹: Yahoo Finance (EN)
+- 中国/欧盟: SCMP (EN/中)
 
 --- 粘贴结束 ---
