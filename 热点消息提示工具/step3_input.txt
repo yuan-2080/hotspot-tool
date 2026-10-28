@@ -108,18 +108,18 @@
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets open in 2h 26m
+- U.S. markets open in 2h 14m
 - The stock market's best 6 months of the year start Monday: Chart of the Day
 - SK Hynix, Nvidia and Micron send one clear message to investors with their stocks off the highs
 - Jamie Dimon retiring? Not with SpaceX and Anthropic IPO work
 - SK Hynix, Nvidia and Micron send one clear message to investors with their stocks off the highs
 - Jamie Dimon retiring? Not with SpaceX and Anthropic IPO work
 - Robinhood stock falls after earnings miss despite record trading volumes
-- Wall Street lines up $21 billion in debt for Broadcom chip deal
+- Wall Street's AI debt machine is starting to choke on supply
 - Stock futures mixed ahead of Fed decision, Big Tech earnings
 - Food and household brands warn of more price hikes as Iran war costs bite
+- Fed likely to go into wait-and-see mode on rates
 - Oil rises 1% as Saudi refinery attack revives supply fears
-- Dollar steady ahead of Fed decision
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
@@ -139,11 +139,11 @@
 - What can I do to resolve this?
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f8ca7980380>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f52653fdb80>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- Developing | China’s former vice-premier Liu Yandong dies at age 80
+- China’s former vice-premier Liu Yandong dies at age 80
 - Big Tech
 - Huawei’s Tau Scaling Law roll-out reaches base stations in blow to US chip curbs
 - Economic Indicators
@@ -193,13 +193,14 @@
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - 今夜凌晨2:00聯儲局決議：通脹越燒越熱，加息卻按下暫停鍵？沃什迎來公信力大考
 - SK海力士「盈喜大漲」、希捷「盈喜重挫」，市場正在定價什麼？
-- SK海力士期權指南：業績超預期、股東回報加碼，如何利用期權布局下一波行情？
+- 物理AI下一站，誰是最大贏家？
 - 一圖前瞻｜亞馬遜10月29日盤後放榜：雲業務增長加速，市場能否繼續接受愈發龐大的AI投資賬單？
-- Vertiv Holdings Q3淨銷售額爲43.13億美元，同比增長61%
+- SK海力士期權指南：業績超預期、股東回報加碼，如何利用期權布局下一波行情？
 - 一圖前瞻｜微軟10月28日盤後放榜：Azure高增速能否延續，資本開支指引仍有上調可能？
-- 北水淨買入智譜、中芯國際均超5億港元，淨賣出泡泡瑪特逾6億港元
+- Vertiv Holdings Q3淨銷售額爲43.13億美元，同比增長61%
 - 一圖前瞻 | 閃迪業績10月29日盤後揭曉：希捷、SK海力士驗證存儲景氣度，閃迪股價能否實現 「利好兌現」？
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
+- 北水淨買入智譜、中芯國際均超5億港元，淨賣出泡泡瑪特逾6億港元
 - Lumentum自200日均線附近展開反彈，能否回補近期跳空缺口？
 - 閃迪最新業績公布前再度測試200日移動均線支撐，能否重拾上升動能？
 - 收市速睇 | 三大指數齊漲，科指漲1.40%；存儲、光通信、PCB、半導體股走強，兆易創新漲近10%，中際旭創、建滔積層板漲超8%，中芯國際漲超5%
@@ -209,7 +210,6 @@
 - Anthropic全面殺入AI製藥！收購「一人藥企」，聯手6大巨頭，最新研發進度曝光
 - 港股AI硬件、機器人股持續走強：光通信、PCB概念普漲，長飛光纖光纜漲超10%，中際旭創、劍橋科技漲8%；鼎泰高科、建滔積層板漲8%；三花智控、 越疆、 優必選 、 禾賽-W漲超10%。
 - 港股午評 | 三大指數齊漲，科指漲1.80%；科網、半導體股普漲，阿里漲超2%，瀾起科技漲近9%；物理AI概念股延續強勢，優必選漲超10%；MINIMAX漲超7%
-- 甲骨文AI雲再擴芯片陣容：2027年上半年部署Cerebras，英偉達合作同步升至「多吉瓦級」
 
 --- 跨站重点主题（多站出现=更重要）---
 - 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
