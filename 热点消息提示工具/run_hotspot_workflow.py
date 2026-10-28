@@ -151,7 +151,10 @@ def step3_summary(use_llm: bool = False, dry_run: bool = False) -> bool:
         summary_text = _call_llm_for_summary(prompt_body)
         if not summary_text:
             summary_text = "（未生成：请配置 OPENAI_API_KEY 后使用 --llm 重跑，或将 step3_input.txt 发给模型，把回复粘贴到本文件「正文」下方。）"
-            print("[Step 3] LLM 未返回内容，请检查 API 配置或手动复制", PROMPT_READY_FILE, "到模型")
+            print("[Step 3] 失败：LLM 未返回内容，请检查 API 配置或手动复制", PROMPT_READY_FILE, "到模型")
+            _write_step3_output(summary_text, dry_run=False)
+            # 返回失败，让 GitHub Actions 标红且跳过 Slack 推送
+            return False
     else:
         summary_text = "（未生成：运行 python3 run_hotspot_workflow.py --llm 自动出摘要，或将 step3_input.txt 发给模型，把回复粘贴到本文件「正文」下方。）"
         print("[Step 3] 未启用 LLM。将", PROMPT_READY_FILE, "内容复制到模型即可得到晚间/早间关注摘要。")
