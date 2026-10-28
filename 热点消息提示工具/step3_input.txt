@@ -7,8 +7,8 @@
 你是港美股热点运营助手，服务于一个在中国做港美股内容运营的团队。
 你的输出将直接发到 Slack 群，供团队确认当日运营优先级，无需再二次加工。
 
-**当前模式：晚间**
-**覆盖时间段：今日08:00 - 20:00（美股开盘前）**
+**当前模式：早间**
+**覆盖时间段：昨日22:00 - 今日09:00（美股隔夜收盘）**
 
 ---
 
@@ -30,7 +30,7 @@
 ## 输出格式（严格遵守）
 
 第一行输出标题，固定为（直接复制，不修改任何字）：
-`晚间热点线索 · 2026年10月27日`
+`早间热点线索 · 2026年10月28日`
 
 空一行后，输出正文条目，每条格式：
 `* 事实描述（含关键数据）。仅写资讯来源中已明确发生的涨跌，不推断其他标的受到联动。标的代码直接写在正文中，结尾不另加标的列表。`
@@ -62,15 +62,15 @@
 
 ---
 
-## 晚间模式操作指令
+## 早间模式操作指令
 
-聚焦：今晚美股开盘前的运营清单。不涉及港股，只关注美股。
+聚焦：隔夜美股收盘结果 + 影响今日港股开盘的信息。
 
 重点关注（按重要性排序写入）：
-1. 盘前重要财报及初步反应（EPS/营收 vs 预期——仅限资讯来源中有明确数据）
-2. 盘前个股异动（涨跌 5% 以上 + 原因一句话）
-3. 影响今晚开盘情绪的宏观事件（Fed 官员讲话、重要数据——仅限资讯来源中明确出现）
-4. 其他值得今晚关注的美股消息
+1. 美股三大指数昨夜涨跌及核心驱动，一句话概括（必须有资讯来源支撑，不得推断）
+2. 个股重大异动（财报或重大消息驱动涨跌 5% 以上）
+3. 隔夜重要宏观数据（非农/CPI/PCE/美联储表态——仅限资讯来源中明确出现）
+4. 隔夜消息中可能影响港股相关板块的内容，重点关注：光通信、存储/HBM、半导体、中概互联网等；若有明确利好/利空驱动，须点明对应港股板块或个股
 
 ---
 
@@ -104,33 +104,33 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026102720
+抓取时间: 2026102809
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets open in 1h 30m
-- Big Tech just went from crushing the average stock to losing to it
-- Coca-Cola posts earnings beat, raises guidance
-- Anthropic IPO: AI could face cigarette-level scrutiny
-- Coca-Cola posts earnings beat, raises guidance
-- Anthropic IPO: AI could face cigarette-level scrutiny
-- Saks, Neiman Marcus CEO betting on retail transformation — not just survival
-- JPMorgan's Michele sees US bonds returning 7%-8% over 12 months
-- Nasdaq’s big week: GM switch, Anthropic IPO
-- Stocks rise as tech bounces back
-- Oil rises despite renewed Houthi attacks
-- Gold steadies near $4,000 as traders prepare for Fed rate call
+- U.S. markets closed
+- Apple hit by 'Crackgate' outcry over iPhone Duo screen problems
+- Wall Street lines up $21 billion in debt for Broadcom chip deal
+- With gas above Biden levels, Trump calls it ‘short-term pain’
+- Wall Street lines up $21 billion in debt for Broadcom chip deal
+- With gas above Biden levels, Trump calls it ‘short-term pain’
+- Stock market today: Chip stocks lead a tech-fueled rally
+- Washington bets $5 billion on Constellation’s nuclear plans
+- How much is enough to retire? Many Americans have no clue
+- Higher prices could stick around into 2027, economists say
+- 3 takeaways from Whirlpool, Hilton, and Coca-Cola earnings
+- Robinhood stock falls 7% after earnings miss despite record trading volumes
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
 - Tech & AI
-- Nvidia investing $3B in Meta in Muse partnership
-- SpaceX has a lot riding on Anthropic’s IPO
-- Anthropic IPO could bring banks a windfall
-- Anthropic’s 407-page IPO filing has two Wall Street positives
+- All eyes on Azure as Microsoft reports earnings
+- Apple launches new MacBook Pro, iMac
+- Google heads into earnings with Meta’s Muse on its mind
+- Hedge funds want AI to help, not to do their thinking for them
 - Popular
-- Hilton Worldwide stock falls amid revenue miss
-- UPS tops estimates as efficiency drive gains momentum
+- AT&T settlement payouts could reach $5,000 for eligible customers
+- Coke’s CEO is fine with Diet Coke being called a ‘fridge cigarette’
 
 ## Benzinga (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -139,37 +139,37 @@
 - What can I do to resolve this?
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f34788ccef0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f42c4eb10d0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- How AI powered ByteDance’s founder to a record fortune and drove wealth surge
-- China Economy
-- Football star Kylian Mbappe faces huge China backlash over ‘unacceptable’ remark
+- In Focus | How Hong Kong went from a yuan gateway to a complete currency ecosystem
 - Diplomacy
-- US ends Pacific visa waiver over birth tourism, people smuggling allegations
-- Society
-- Injured Hong Kong delivery rider seeks full trial on employment status question
+- FBI urges caution on China travel as US students fear security clearance risks
+- Hong Kong Economy
+- ‘Don’t have the illusion’: graduate job ads down 22% as AI rewrites the rules
+- Science
+- China’s battery factories could be sitting right on top of vast lithium deposits
 - China Business
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- DeepSeek’s Liang Wenfeng debuts on the China list at No 7 as AI chipmaker Cambricon’s Chen Tianshi breaks into the top 10.
-- Deliveroo liquidator says claim should be struck out as claimant has only ‘bare assertion’ he was an employee at the time of the accident.
-- China’s Pop Mart reports 45 to 50% revenue decline as Labubu sales weaken
-- The steep drop in digital and overseas operations comes as investors question the long-term demand for the collectible dolls.
-- Military
-- Is China’s H-6K strategic bomber getting powerful jamming capabilities?
-- The PLA aircraft has been spotted in flight with two new electronic warfare pods, according to images circulating on social media.
+- Yuan can now be used in a wide variety of scenarios in the city, from multi-asset investments to hedging and consumption.
+- Study identifies areas where volcanoes may have deposited the critical mineral and they overlap with the Chinese power unit heartland.
+- ‘Awfully bleak’: why global carmakers keep losing ground in China’s vast market
+- Carmakers are scrambling to revamp their strategies as China’s cash-strapped consumers turn away from expensive foreign brands.
 - Politics
-- Indonesia’s 4-nation defence pact: strategic coup or paper tiger?
-- The Badr pact with Turkey, Qatar and Pakistan offers Indonesia defence equipment and capital, but tangled regional geopolitics pose a test.
+- Why is the US reluctant to give South Korea wartime control of its troops?
+- Seoul wants full military command returned by 2028, but Washington is holding back – and analysts say China is the reason.
+- The ‘Queen of the Chinese’ and a forgotten history on the US-Mexico border
+- As descendants rediscover their Texas roots, past discrimination against Chinese immigrants echoes in new restrictions on foreign nationals.
+- Middle East
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - 沪深港通 热点观察国际动态【FOCUS】
-- 月之暗面推3万亿级参数模型，MiniMax智谱可否博反弹？
+- Anthropic正式提交IPO申请，AI股边类股份较值博？
 - 国家队资金扫ETF护盘 沪指两连升
 - 海湾国出口15亿桶石油 美军助绕霍峡封锁
-- 谈癌色变寻灵丹，AI真是“药神”？
+- “蚂蚁”重现世纪招股，Anthropic豪赌算力账单
 - 指数环球商品外汇
 - 国金观点
 - 港股大市分析
@@ -178,9 +178,9 @@
 - 环球基金：
 - ETF：
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 恒生指数23063.28-148.53(-0.64%)
+- 恒生指数23041.32-170.49(-0.73%)
                     etnet.com.hk@copyright
-- 国企指数7783.17-18.92(-0.24%)
+- 国企指数7766.91-35.18(-0.45%)
                     etnet.com.hk@copyright
 - 理财/管理
 - 时尚艺术
@@ -191,33 +191,32 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 一圖前瞻 | SK海力士股價跌去三成後再迎業績大考，HBM4放量與DRAM漲價能否再點燃漲勢？
+- 富途早報 | 美將接收首批100萬桶委內瑞拉原油；甲骨文擴大英偉達芯片合作，谷歌發佈新版人工智能世界模型Genie 4；績優股SK海力士夜盤漲超2%，績差股恩智浦跌超7%；東山精密港股上市
+- SK海力士三季報營收、營業利潤雙超預期，淨利潤意外不及預期，祭出百萬億韓元史詩級股東回報
+- 630億美元，史上最大規模AI基建融資！博通CEO"親自下場"，華爾街緊盯明年Q1"鉅債發行"
+- 中東石油出口量「已超過戰前」，但油價依然高企，「4月短缺的是原油，10月則是運輸成本」
+- SK海力士第三季度營收突破100萬億韓元，今年將執行約100萬億韓元規模的股東回報
 - Anthropic正式提交IPO申請！4大重點不可不知
-- 波音：Q3營收241.88億美元略高於預期，核心每股虧損34美分
+- 恩智浦Q3營收增19%超預期，但Q4指引低於預期，股價盤後重挫
 - 一圖前瞻 | 谷歌Q3業績10月28日盤後來襲：雲業務高增長可期，資本開支指引成核心博弈點
-- 康寧第三季度核心銷售額50.8億美元超預期，同比增長19%
-- 現金超越亞馬遜！Anthropic「很有錢，卻更燒錢」，招股書揭開AI史上最狂軍備競賽
-- 北水減倉港股超12億港元，淨買入小米集團超5億港元，加倉智譜超4億港元；淨賣出長飛光纖光纜逾5億港元
-- 泡泡瑪特Q3整體收益同比下降45%-50%，美洲最深降75%，海外市場全面承壓
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Firmus折戟陰影未散，Anthropic來救場？IPO向澳洲投資者開閘，散戶與萬億養老基金靜候入場
-- 亞洲存儲四巨頭本週交卷 AI泡沫之爭迎關鍵考驗
-- 泡泡瑪特：2026年第三季度整體收益同比下降45%-50%
-- 收市速睇 | 三大指數齊跌，科指跌1.48%；科網股走低，小米跌近5%，美團跌近3%；滙豐控股績後跌超5%；智譜漲近9%
-- 英偉達擬投資30億美元入股Meta，雙方深化AI助手Muse合作
-- 存儲巨頭迎來超級業績周！SK海力士週二美股盤後率先披露
-- 高盛警告：煉油廠停產規模已超此前最壞預期，全球成品油緊張或持續至2027年
-- 報道：台積電擬上調先進封裝價格10%-20%，英偉達、AMD成本承壓
-- 高盛前瞻蘋果Q4季報：iPhone Duo/18系列撐起新財年增長，上調目標價至390美元
-- 摩根資管CIO：未來12個月美債回報有望達7%-8%，長端更具價值
+- 希捷科技Q1財季營收同比增長61%，自由現金流、毛利率齊創紀錄新高
+- 美股收盤 | AI反彈行情延續，納指漲超1%，芯片指數漲近4%；雲服務商強勢反彈，NEBIUS大漲11%，CoreWeave漲8%；油價續跌，金價走強
+- 成交額TOP20 | 芯片股走強，AMD漲超5%，博通漲4%；谷歌推出最強世界模型Genie 4；蘋果發佈搭載M6芯片的24英寸iMac；波音績後跌逾10%
+- 「新聯儲局通訊社」：聯儲局高層爆發路線之爭，沃什的"沉默策略"能走多遠？
+- M6芯片加持！新款蘋果iMac AI性能直接翻5倍，起售價12499元
+- 出口民調顯示內塔尼亞****未獲議會多數，以色列組閣前景添變數
+- Visa 2026財年Q4營收121億美元，同比增長13%；調整後每股收益3.48美元，同比增長17%。
+- 恩智浦三季度營收37.9億美元，同比增長19%；調整後每股收益4.2美元
+- 以色列議會選舉出口民調出爐 暫無明顯贏家
+- Robinhood 2026年Q3營收爲14億美元，調整後每股收益0.6美元
 
 --- 跨站重点主题（多站出现=更重要）---
 - 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
-- 油价/霍尔木兹: Yahoo Finance (EN), 经济通 (繁中)
-- 中国/欧盟: Yahoo Finance (EN), SCMP (EN/中)
-- 就业数据: SCMP (EN/中)
-- 黄金/大宗: Yahoo Finance (EN)
-- 美联储: Yahoo Finance (EN)
+- 油价/霍尔木兹: SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
+- 伊朗/中东: 富途资讯 (繁中)
+- 就业数据: Yahoo Finance (EN)
+- 中国/欧盟: SCMP (EN/中)
 
 --- 粘贴结束 ---
 <!-- 资讯来源结束 -->
