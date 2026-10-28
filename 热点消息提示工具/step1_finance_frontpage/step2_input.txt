@@ -1,18 +1,18 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026102819
+抓取时间: 2026102820
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets open in 2h 14m
+- U.S. markets open in 1h 30m
 - The stock market's best 6 months of the year start Monday: Chart of the Day
+- Fed meeting live updates: Federal Reserve weighs elevated inflation
+- Stellantis stock rises as it affirms outlook
+- Fed meeting live updates: Federal Reserve weighs elevated inflation
+- Stellantis stock rises as it affirms outlook
 - SK Hynix, Nvidia and Micron send one clear message to investors with their stocks off the highs
 - Jamie Dimon retiring? Not with SpaceX and Anthropic IPO work
-- SK Hynix, Nvidia and Micron send one clear message to investors with their stocks off the highs
-- Jamie Dimon retiring? Not with SpaceX and Anthropic IPO work
-- Robinhood stock falls after earnings miss despite record trading volumes
-- Wall Street's AI debt machine is starting to choke on supply
 - Stock futures mixed ahead of Fed decision, Big Tech earnings
 - Food and household brands warn of more price hikes as Iran war costs bite
 - Fed likely to go into wait-and-see mode on rates
@@ -21,13 +21,13 @@
 - Top Stories
 - Markets & Economy
 - Tech & AI
+- SK Hynix profit jumps 632%, sees shortage lasting to 2030
 - Google, Microsoft, and Amazon have to justify the AI spending boom this week
 - GM is pitching itself more as a tech company like Tesla
 - OpenAI plans to buy Google's chips as part of its AI build-out
-- SK Hynix profit jumps seven-fold to soothe doubts over AI rush
 - Popular
-- AT&T settlement payouts could reach $5,000 for eligible customers
-- Coke’s CEO is fine with Diet Coke being called a ‘fridge cigarette’
+- Robinhood stock falls after earnings miss despite record trading volumes
+- Enphase Energy stock sinks amid Q3 earnings and revenue miss
 
 ## Benzinga (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -36,7 +36,7 @@
 - What can I do to resolve this?
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f52653fdb80>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f694d80cec0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -45,17 +45,17 @@
 - Huawei’s Tau Scaling Law roll-out reaches base stations in blow to US chip curbs
 - Economic Indicators
 - China’s private sector wages waver as gap widens with non-private firms
-- Hong Kong Economy
-- Hong Kong exports jump nearly 65% in September, highest growth in over 40 years
-- China Economy
+- Education
+- Hong Kong labour chief says human-machine collaboration is key amid AI fears
+- Military
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Liu was among China’s most prominent female officials in recent decades.
+- Chris Sun says employers want staff who pair AI know-how with deep domain expertise and strong soft skills.
+- China’s military holds talks in France and Germany despite rising trade tensions
+- Recent visits to Paris and Berlin suggest defence strategy consultations are on track, as Beijing says they agreed to enhance mutual trust.
+- Hong Kong Economy
+- Hong Kong exports jump nearly 65% in September, highest growth in over 40 years
 - September’s increase was the highest growth since 65.1 per cent recorded in January 1984.
-- How China’s Yangtze River Delta is helping keep Beijing’s GDP target on track
-- Surging hi-tech exports are helping the region outpace national growth, though analysts warn weak investment and domestic demand cloud outlook.
-- Diplomacy
-- Why China-Serbia ties face scrutiny, not severance, after historic Vucic loss
-- There may be sharper scrutiny of Chinese investments, but the shift is unlikely to upend a relationship built over years, experts say.
 - Politics
 - Japan’s US$6 billion port plan aims to revive Bangladesh’s bruised economy
 - Tokyo’s backing for the Matarbari deep-sea port offers Dhaka economic breathing room and promises to reshape Indo-Pacific trade routes.
@@ -112,7 +112,6 @@
 - 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
 - 伊朗/中东: Yahoo Finance (EN)
 - 油价/霍尔木兹: Yahoo Finance (EN)
-- 就业数据: Yahoo Finance (EN)
 - 美联储: Yahoo Finance (EN)
 - 中国/欧盟: SCMP (EN/中)
 
