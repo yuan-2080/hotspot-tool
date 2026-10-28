@@ -148,7 +148,7 @@ def step3_summary(use_llm: bool = False, dry_run: bool = False) -> bool:
 
     summary_text = ""
     if use_llm:
-        summary_text = _call_llm_for_summary(prompt_body)
+        summary_text = _strip_pending_tags(_call_llm_for_summary(prompt_body))
         if not summary_text:
             summary_text = "（未生成：请配置 OPENAI_API_KEY 后使用 --llm 重跑，或将 step3_input.txt 发给模型，把回复粘贴到本文件「正文」下方。）"
             print("[Step 3] 失败：LLM 未返回内容，请检查 API 配置或手动复制", PROMPT_READY_FILE, "到模型")
@@ -188,6 +188,13 @@ def _call_llm_for_summary(prompt: str) -> str:
             return out
         print("[Step 3] %s 未返回有效内容，尝试备用 Key" % label)
     return ""
+
+
+def _strip_pending_tags(text: str) -> str:
+    """兜底：删掉模型偶尔仍会输出的「[数据待确认]」类标注"""
+    text = re.sub(r"[，,；;]?\s*(具体)?(跌幅|涨幅|幅度)?\s*[\[【（(]\s*数据待确认\s*[\]】）)]", "", text)
+    text = re.sub(r"[，,；;]\s*(具体)?(跌幅|涨幅|幅度)待确认", "", text)
+    return re.sub(r"[ \t]+([。；，])", r"\1", text)
 
 
 def _call_llm_once(client, model: str, prompt: str) -> str:
