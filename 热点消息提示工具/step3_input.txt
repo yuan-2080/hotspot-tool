@@ -7,8 +7,8 @@
 你是港美股热点运营助手，服务于一个在中国做港美股内容运营的团队。
 你的输出将直接发到 Slack 群，供团队确认当日运营优先级，无需再二次加工。
 
-**当前模式：早间**
-**覆盖时间段：昨日22:00 - 今日09:00（美股隔夜收盘）**
+**当前模式：晚间**
+**覆盖时间段：今日08:00 - 20:00（美股开盘前）**
 
 ---
 
@@ -30,7 +30,7 @@
 ## 输出格式（严格遵守）
 
 第一行输出标题，固定为（直接复制，不修改任何字）：
-`早间热点线索 · 2026年10月29日`
+`晚间热点线索 · 2026年10月29日`
 
 空一行后，输出正文条目，每条格式：
 `* 事实描述（含关键数据）。仅写资讯来源中已明确发生的涨跌，不推断其他标的受到联动。标的代码直接写在正文中，结尾不另加标的列表。`
@@ -62,15 +62,15 @@
 
 ---
 
-## 早间模式操作指令
+## 晚间模式操作指令
 
-聚焦：隔夜美股收盘结果 + 影响今日港股开盘的信息。
+聚焦：今晚美股开盘前的运营清单。不涉及港股，只关注美股。
 
 重点关注（按重要性排序写入）：
-1. 美股三大指数昨夜涨跌及核心驱动，一句话概括（必须有资讯来源支撑，不得推断）
-2. 个股重大异动（财报或重大消息驱动涨跌 5% 以上）
-3. 隔夜重要宏观数据（非农/CPI/PCE/美联储表态——仅限资讯来源中明确出现）
-4. 隔夜消息中可能影响港股相关板块的内容，重点关注：光通信、存储/HBM、半导体、中概互联网等；若有明确利好/利空驱动，须点明对应港股板块或个股
+1. 盘前重要财报及初步反应（EPS/营收 vs 预期——仅限资讯来源中有明确数据）
+2. 盘前个股异动（涨跌 5% 以上 + 原因一句话）
+3. 影响今晚开盘情绪的宏观事件（Fed 官员讲话、重要数据——仅限资讯来源中明确出现）
+4. 其他值得今晚关注的美股消息
 
 ---
 
@@ -104,33 +104,33 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026102909
+抓取时间: 2026102920
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets closed
-- What caught Robinhood's CFO's eye in the Anthropic IPO prospectus
+- U.S. markets open in 1h 30m
+- Alphabet and Microsoft are on both sides of the AI boom's biggest bills
+- Earnings live updates: Eli Lilly stock pops as strong GLP-1 drug demand lifts results
+- Why Microsoft isn’t getting crushed like Google
+- Earnings live updates: Eli Lilly stock pops as strong GLP-1 drug demand lifts results
+- Why Microsoft isn’t getting crushed like Google
+- Google stock shredded: 2 reasons investors hated the quarter
 - Fed holds rates in split vote as inflation sticks
-- Canada reports limited progress in trade talks with US
-- Fed holds rates in split vote as inflation sticks
-- Canada reports limited progress in trade talks with US
-- Oil slips on hints of renewed diplomacy with Iran
-- Warsh drops a 2027 rate decision, raising the stakes for the rest
+- Stock futures fall as Alphabet stock sells off, AI jitters return
+- Google stock plunges as Q3 sales fall short of expectations
 - Microsoft earnings live: First look at its new AI-first segments
-- Intel to report Q3 earnings as chip stocks continue to rebound
-- What the Fed's interest rate decision means for your money
-- Stocks climb as Fed votes to hold rates steady, Big Tech earnings loom
+- Oil falls as diplomacy hopes outweigh Middle East escalation fears
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
 - Tech & AI
+- Robinhood is seeing retail investor habits change dramatically as stock trading cools
+- The key questions that Anthropic's IPO filing left unanswered
+- What caught Robinhood's CFO's eye in the Anthropic IPO prospectus
 - SpaceX slides back toward $140 as smaller space names leave it behind
-- Google bets on AI search ads to revive slowing ad growth
-- Oracle projects $30B free cash flow in fiscal 2029
-- Apple announces $2,899 MacBook Pro — its first touchscreen laptop
 - Popular
-- When will you get your Social Security check? See payment schedule.
-- Airbus bets big on a year-end delivery rush to hit its targets
+- The rest of Chipotle's year hinges on brisket
+- Caterpillar falls despite beat as AI power demand grows
 
 ## Benzinga (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -139,36 +139,36 @@
 - What can I do to resolve this?
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fe767afc8f0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7ff3cdfc89b0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- In Focus | Beijing has made Hong Kong a lab for digital yuan. Will the experiment work?
+- Developing | China promotes Zhang Shengmin, key player in PLA anti-graft drive, to Politburo
+- China Economy
+- China certifies over 80% of US devices. What would a testing ban mean?
+- Society
+- Lit cigarette, combustibles and ‘human fault’ led to deadly Hong Kong fire: report
 - Diplomacy
-- Hegseth pledges stronger military framework with Philippines, but lacks details
-- Transport
-- Immigration rules deter nearly half of Asia-Pacific air travellers, survey finds
-- Australia returns ancient stone heads to China after more than 30 years
-- Huawei opens defence in US criminal trial, touting its record of innovation
-- Economics
+- Germany does not want China decoupling but must defend interests, president says
+- Housing chief resigns, government admits ‘decades of failure’ led to Tai Po fire
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- With the city as a test bed for China’s matrix of digital currencies and transfer services, the yuan’s reach and influence can expand, analysts said.
-- The Song dynasty sculptures were given to the National Gallery of Australia in the 1990s, a time when art theft was rife in China.
-- Chinese tech giant seeks to show its global success stems from research and development, not trade secret theft or sanctions violations.
-- South Korea’s chipmakers are raking it in. Can China close the gap?
-- SK Hynix and Samsung are riding the AI chip frenzy to record profits, but Chinese competitors are coming for their market share.
-- Real Madrid issues apology to China over Mbappe’s Mao remarks
-- Spanish football club seeks to quell anger after its initial response was rejected by Chinese state broadcaster CCTV Sports.
+- Promotion announced at the closing of the fifth plenum of the 20th Central Committee party on Thursday.
+- Frank-Walter Steinmeier calls for fairer partnership, telling audience at Peking University that ‘win-win must not turn into win-lose’.
+- Chief Executive John Lee is holding a press briefing alongside top officials to outline the administration’s follow-up actions and systemic reforms.
+- Chain of failures: 5 key takeaways from report on Tai Po blaze
+- John Lee announces housing chief’s exit, setting up body to assist homeowners in renovation projects and criminalising bid-rigging.
+- Politics
+- Japan looks to Asean as ‘normative anchor’ amid great-power rivalry
+- Defence chief Shinjiro Koizumi has proposed updating cooperation between Japan, Asean and external partners in emerging security areas.
 - Business
 - Why Hong Kong’s extensive I&T ecosystem and global connectivity appeal to top-tier talent
-- United States & Canada
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - 沪深港通 热点观察国际动态【FOCUS】
-- 泡泡玛特第三季收益近乎腰斩，股价回稳可否再吼？
-- 张一鸣重登胡润中国首富 身家6700亿
-- 韩受惠AI 上季GDP年增3.4%胜预期
+- 新东方和江西铜股价齐插一成，边只仍可吼？
+- “手机玻璃女王”周群飞 登中国女首富
+- 以大选无政党过半 内塔尼亚胡恐下台
 - “蚂蚁”重现世纪招股，Anthropic豪赌算力账单
 - 指数环球商品外汇
 - 国金观点
@@ -178,9 +178,9 @@
 - 环球基金：
 - ETF：
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 恒生指数23094.83+53.51(+0.23%)
+- 恒生指数22958.65-136.18(-0.59%)
                     etnet.com.hk@copyright
-- 国企指数7791.63+24.72(+0.32%)
+- 国企指数7755.66-35.97(-0.46%)
                     etnet.com.hk@copyright
 - 理财/管理
 - 时尚艺术
@@ -191,31 +191,32 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 富途早報 | 萬斯致信試圖重啓和平談判；甲骨文指引2028財年下半年現金流轉正；邁威爾科技擬收購Lumentum；微軟谷歌績後分化；亞馬遜、閃迪、英特爾盤後發財報；三星電子9:00舉行業績發佈會
-- AI投資回報向好：微軟上季Azure收入超預期增48%，資本支出未「失控」
-- 三星電子第三季度營收195.3萬億韓元，營業利潤107.4萬億韓元
-- 谷歌Q3業績不及預期，自由現金流大幅下降，AI投入回報質疑加劇
-- 微軟電話會：預計本財季Azure收入增長高達50%，資本支出受制於「第三方延遲」
-- 聯儲局如期按兵不動，重現分歧但鷹派減少，庫克等兩票委支持加息
-- 中金：美國能承受多高的利率？
-- 甲骨文預計2029財年資本支出將減少，設定2030財年長期營收目標爲2250億美元以上
+- AI雲大廠股價劇烈分化，市場正在獎勵剋制、懲罰開支？
+- 微軟啓動2017年來首次高等級美元債發行，擬籌集至少250億美元
+- 中際旭創Q3營收環比增24.62%至277.69億元，淨利潤環比增8.46%至85.87億元，匯兌及投資損失拖累利潤
+- 勝宏科技：2026年第三季度淨利潤5.27億元，同比下降52.17%
+- 美股投資必備！11月重磅大事搶先看，這些影響漲跌的日子都圈出來了
+- 高盛押注AI反彈的姿勢變了：不直接做多，而是先買好「保險」
+- 禮來Q3營收244億美元超預期，同比增長39%；上調全年營收展望
+- 中際旭創：第三季淨利潤85.87億元，同比增長173.74%
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 谷歌的「大麻煩」：AI還要燒錢，但搜索已受衝擊
-- 華爾街「琢磨」沃什講話：暗示還將加息，但幅度不會太大
-- 多項指標大超預期+上調全年指引：飛塔信息「好成績」爲何換不來好股價?
-- 萬斯致信伊朗強硬派試探和談，特朗普卻否認授意重啓談判！
-- 彭博：邁威爾科技即將收購光模塊廠商Lumentum，交易最快下週宣佈
-- 美股收盤 | 聯儲局按兵不動，三大指數小幅收漲；存儲概念走勢強勁，SK海力士漲超13%，閃迪漲超7%；甲骨文發佈樂觀業績預期漲11%；油價高位震盪
-- 蘋果MacBook Pro重大改版：首次搭載觸控屏，打破喬布斯時代延續近20年的產品理念
-- 谷歌「網安高手」Gemini 4 Carbon登頂AI智能榜，漏洞檢測得分88.2%，標準價持平Argon
-- 成交額TOP20 | 甲骨文大漲近11%，發佈樂觀業績預期；蘋果發佈首款觸屏筆記本電腦；谷歌推出Gemini 4 Carbon前沿AI模型；液冷龍頭Vertiv Holdings績後飆升16%
-- 邁威爾科技據稱正就收購Lumentum進行深入談判
+- 英特爾期權指南：數據中心需求升溫，財報能否兌現增長預期？
+- 谷歌期權指南：搜索廣告與現金流承壓，財報後跌近一成
+- 瀾起科技：2026年第三季度淨利潤12.4億元 同比增長161.98%
+- 比亞迪股份：第三季度淨利潤100.20億元，同比增長28.08%
+- 北水減倉港股超33億港元，中國平安獲淨買入近3億港元；中芯國際、阿里巴巴分別遭淨賣出逾8億、7億港元
+- 三星電話會：存儲短缺或至2028年，AI需求從HBM擴展至SSD，內存商業模式正徹底重塑
+- 谷歌績後大跌，短線哪些重要價位值得關注？
+- 兆易創新：第三季度淨利潤42.09億元，同比增長728.93%
+- 衛星通信領域迎來併購潮?傳亞馬遜、AST SpaceMobile競逐衛訊 SpaceX盯上回聲星通信
+- 收市速睇 | 三大指數齊跌，科指跌2.84%；科網股走低，快手跌超3%，阿里、美團跌近3%；半導體股下行，華虹宏力跌近8%，瀾起科技跌近7%
 
 --- 跨站重点主题（多站出现=更重要）---
-- 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
-- 伊朗/中东: Yahoo Finance (EN), 富途资讯 (繁中)
-- 美联储: Yahoo Finance (EN), SCMP (EN/中)
+- 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中)
 - 油价/霍尔木兹: Yahoo Finance (EN)
+- 加密货币: Yahoo Finance (EN)
+- 就业数据: SCMP (EN/中)
+- 美联储: Yahoo Finance (EN)
 - 中国/欧盟: SCMP (EN/中)
 
 --- 粘贴结束 ---
