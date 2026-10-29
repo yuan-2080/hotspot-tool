@@ -1,33 +1,33 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026102820
+抓取时间: 2026102909
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets open in 1h 30m
-- The stock market's best 6 months of the year start Monday: Chart of the Day
-- Fed meeting live updates: Federal Reserve weighs elevated inflation
-- Stellantis stock rises as it affirms outlook
-- Fed meeting live updates: Federal Reserve weighs elevated inflation
-- Stellantis stock rises as it affirms outlook
-- SK Hynix, Nvidia and Micron send one clear message to investors with their stocks off the highs
-- Jamie Dimon retiring? Not with SpaceX and Anthropic IPO work
-- Stock futures mixed ahead of Fed decision, Big Tech earnings
-- Food and household brands warn of more price hikes as Iran war costs bite
-- Fed likely to go into wait-and-see mode on rates
-- Oil rises 1% as Saudi refinery attack revives supply fears
+- U.S. markets closed
+- What caught Robinhood's CFO's eye in the Anthropic IPO prospectus
+- Fed holds rates in split vote as inflation sticks
+- Canada reports limited progress in trade talks with US
+- Fed holds rates in split vote as inflation sticks
+- Canada reports limited progress in trade talks with US
+- Oil slips on hints of renewed diplomacy with Iran
+- Warsh drops a 2027 rate decision, raising the stakes for the rest
+- Microsoft earnings live: First look at its new AI-first segments
+- Intel to report Q3 earnings as chip stocks continue to rebound
+- What the Fed's interest rate decision means for your money
+- Stocks climb as Fed votes to hold rates steady, Big Tech earnings loom
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
 - Tech & AI
-- SK Hynix profit jumps 632%, sees shortage lasting to 2030
-- Google, Microsoft, and Amazon have to justify the AI spending boom this week
-- GM is pitching itself more as a tech company like Tesla
-- OpenAI plans to buy Google's chips as part of its AI build-out
+- SpaceX slides back toward $140 as smaller space names leave it behind
+- Google bets on AI search ads to revive slowing ad growth
+- Oracle projects $30B free cash flow in fiscal 2029
+- Apple announces $2,899 MacBook Pro — its first touchscreen laptop
 - Popular
-- Robinhood stock falls after earnings miss despite record trading volumes
-- Enphase Energy stock sinks amid Q3 earnings and revenue miss
+- When will you get your Social Security check? See payment schedule.
+- Airbus bets big on a year-end delivery rush to hit its targets
 
 ## Benzinga (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -36,29 +36,29 @@
 - What can I do to resolve this?
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f694d80cec0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fe767afc8f0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- China’s former vice-premier Liu Yandong dies at age 80
-- Big Tech
-- Huawei’s Tau Scaling Law roll-out reaches base stations in blow to US chip curbs
-- Economic Indicators
-- China’s private sector wages waver as gap widens with non-private firms
-- Education
-- Hong Kong labour chief says human-machine collaboration is key amid AI fears
-- Military
+- In Focus | Beijing has made Hong Kong a lab for digital yuan. Will the experiment work?
+- Diplomacy
+- Hegseth pledges stronger military framework with Philippines, but lacks details
+- Transport
+- Immigration rules deter nearly half of Asia-Pacific air travellers, survey finds
+- Australia returns ancient stone heads to China after more than 30 years
+- Huawei opens defence in US criminal trial, touting its record of innovation
+- Economics
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Liu was among China’s most prominent female officials in recent decades.
-- Chris Sun says employers want staff who pair AI know-how with deep domain expertise and strong soft skills.
-- China’s military holds talks in France and Germany despite rising trade tensions
-- Recent visits to Paris and Berlin suggest defence strategy consultations are on track, as Beijing says they agreed to enhance mutual trust.
-- Hong Kong Economy
-- Hong Kong exports jump nearly 65% in September, highest growth in over 40 years
-- September’s increase was the highest growth since 65.1 per cent recorded in January 1984.
-- Politics
-- Japan’s US$6 billion port plan aims to revive Bangladesh’s bruised economy
-- Tokyo’s backing for the Matarbari deep-sea port offers Dhaka economic breathing room and promises to reshape Indo-Pacific trade routes.
+- With the city as a test bed for China’s matrix of digital currencies and transfer services, the yuan’s reach and influence can expand, analysts said.
+- The Song dynasty sculptures were given to the National Gallery of Australia in the 1990s, a time when art theft was rife in China.
+- Chinese tech giant seeks to show its global success stems from research and development, not trade secret theft or sanctions violations.
+- South Korea’s chipmakers are raking it in. Can China close the gap?
+- SK Hynix and Samsung are riding the AI chip frenzy to record profits, but Chinese competitors are coming for their market share.
+- Real Madrid issues apology to China over Mbappe’s Mao remarks
+- Spanish football club seeks to quell anger after its initial response was rejected by Chinese state broadcaster CCTV Sports.
+- Business
+- Why Hong Kong’s extensive I&T ecosystem and global connectivity appeal to top-tier talent
+- United States & Canada
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -88,31 +88,31 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 今夜凌晨2:00聯儲局決議：通脹越燒越熱，加息卻按下暫停鍵？沃什迎來公信力大考
-- SK海力士「盈喜大漲」、希捷「盈喜重挫」，市場正在定價什麼？
-- 物理AI下一站，誰是最大贏家？
-- 一圖前瞻｜亞馬遜10月29日盤後放榜：雲業務增長加速，市場能否繼續接受愈發龐大的AI投資賬單？
-- SK海力士期權指南：業績超預期、股東回報加碼，如何利用期權布局下一波行情？
-- 一圖前瞻｜微軟10月28日盤後放榜：Azure高增速能否延續，資本開支指引仍有上調可能？
-- Vertiv Holdings Q3淨銷售額爲43.13億美元，同比增長61%
-- 一圖前瞻 | 閃迪業績10月29日盤後揭曉：希捷、SK海力士驗證存儲景氣度，閃迪股價能否實現 「利好兌現」？
+- 富途早報 | 萬斯致信試圖重啓和平談判；甲骨文指引2028財年下半年現金流轉正；邁威爾科技擬收購Lumentum；微軟谷歌績後分化；亞馬遜、閃迪、英特爾盤後發財報；三星電子9:00舉行業績發佈會
+- AI投資回報向好：微軟上季Azure收入超預期增48%，資本支出未「失控」
+- 三星電子第三季度營收195.3萬億韓元，營業利潤107.4萬億韓元
+- 谷歌Q3業績不及預期，自由現金流大幅下降，AI投入回報質疑加劇
+- 微軟電話會：預計本財季Azure收入增長高達50%，資本支出受制於「第三方延遲」
+- 聯儲局如期按兵不動，重現分歧但鷹派減少，庫克等兩票委支持加息
+- 中金：美國能承受多高的利率？
+- 甲骨文預計2029財年資本支出將減少，設定2030財年長期營收目標爲2250億美元以上
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 北水淨買入智譜、中芯國際均超5億港元，淨賣出泡泡瑪特逾6億港元
-- Lumentum自200日均線附近展開反彈，能否回補近期跳空缺口？
-- 閃迪最新業績公布前再度測試200日移動均線支撐，能否重拾上升動能？
-- 收市速睇 | 三大指數齊漲，科指漲1.40%；存儲、光通信、PCB、半導體股走強，兆易創新漲近10%，中際旭創、建滔積層板漲超8%，中芯國際漲超5%
-- MACD金叉形態逐漸形成，美光科技能否「奪回」關鍵100日均線支撐？
-- 特斯拉再次突破400美元大關，後續哪些重要價位值得關注？
-- 摩根大通：若AI驅動盈利持續，美股可承受10年期美債收益率升至5.5%-6.0%
-- Anthropic全面殺入AI製藥！收購「一人藥企」，聯手6大巨頭，最新研發進度曝光
-- 港股AI硬件、機器人股持續走強：光通信、PCB概念普漲，長飛光纖光纜漲超10%，中際旭創、劍橋科技漲8%；鼎泰高科、建滔積層板漲8%；三花智控、 越疆、 優必選 、 禾賽-W漲超10%。
-- 港股午評 | 三大指數齊漲，科指漲1.80%；科網、半導體股普漲，阿里漲超2%，瀾起科技漲近9%；物理AI概念股延續強勢，優必選漲超10%；MINIMAX漲超7%
+- 谷歌的「大麻煩」：AI還要燒錢，但搜索已受衝擊
+- 華爾街「琢磨」沃什講話：暗示還將加息，但幅度不會太大
+- 多項指標大超預期+上調全年指引：飛塔信息「好成績」爲何換不來好股價?
+- 萬斯致信伊朗強硬派試探和談，特朗普卻否認授意重啓談判！
+- 彭博：邁威爾科技即將收購光模塊廠商Lumentum，交易最快下週宣佈
+- 美股收盤 | 聯儲局按兵不動，三大指數小幅收漲；存儲概念走勢強勁，SK海力士漲超13%，閃迪漲超7%；甲骨文發佈樂觀業績預期漲11%；油價高位震盪
+- 蘋果MacBook Pro重大改版：首次搭載觸控屏，打破喬布斯時代延續近20年的產品理念
+- 谷歌「網安高手」Gemini 4 Carbon登頂AI智能榜，漏洞檢測得分88.2%，標準價持平Argon
+- 成交額TOP20 | 甲骨文大漲近11%，發佈樂觀業績預期；蘋果發佈首款觸屏筆記本電腦；谷歌推出Gemini 4 Carbon前沿AI模型；液冷龍頭Vertiv Holdings績後飆升16%
+- 邁威爾科技據稱正就收購Lumentum進行深入談判
 
 --- 跨站重点主题（多站出现=更重要）---
 - 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
-- 伊朗/中东: Yahoo Finance (EN)
+- 伊朗/中东: Yahoo Finance (EN), 富途资讯 (繁中)
+- 美联储: Yahoo Finance (EN), SCMP (EN/中)
 - 油价/霍尔木兹: Yahoo Finance (EN)
-- 美联储: Yahoo Finance (EN)
 - 中国/欧盟: SCMP (EN/中)
 
 --- 粘贴结束 ---
