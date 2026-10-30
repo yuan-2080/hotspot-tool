@@ -7,8 +7,8 @@
 你是港美股热点运营助手，服务于一个在中国做港美股内容运营的团队。
 你的输出将直接发到 Slack 群，供团队确认当日运营优先级，无需再二次加工。
 
-**当前模式：早间**
-**覆盖时间段：昨日22:00 - 今日09:00（美股隔夜收盘）**
+**当前模式：晚间**
+**覆盖时间段：今日08:00 - 20:00（美股开盘前）**
 
 ---
 
@@ -30,7 +30,7 @@
 ## 输出格式（严格遵守）
 
 第一行输出标题，固定为（直接复制，不修改任何字）：
-`早间热点线索 · 2026年10月30日`
+`晚间热点线索 · 2026年10月30日`
 
 空一行后，输出正文条目，每条格式：
 `* 事实描述（含关键数据）。仅写资讯来源中已明确发生的涨跌，不推断其他标的受到联动。标的代码直接写在正文中，结尾不另加标的列表。`
@@ -62,15 +62,15 @@
 
 ---
 
-## 早间模式操作指令
+## 晚间模式操作指令
 
-聚焦：隔夜美股收盘结果 + 影响今日港股开盘的信息。
+聚焦：今晚美股开盘前的运营清单。不涉及港股，只关注美股。
 
 重点关注（按重要性排序写入）：
-1. 美股三大指数昨夜涨跌及核心驱动，一句话概括（必须有资讯来源支撑，不得推断）
-2. 个股重大异动（财报或重大消息驱动涨跌 5% 以上）
-3. 隔夜重要宏观数据（非农/CPI/PCE/美联储表态——仅限资讯来源中明确出现）
-4. 隔夜消息中可能影响港股相关板块的内容，重点关注：光通信、存储/HBM、半导体、中概互联网等；若有明确利好/利空驱动，须点明对应港股板块或个股
+1. 盘前重要财报及初步反应（EPS/营收 vs 预期——仅限资讯来源中有明确数据）
+2. 盘前个股异动（涨跌 5% 以上 + 原因一句话）
+3. 影响今晚开盘情绪的宏观事件（Fed 官员讲话、重要数据——仅限资讯来源中明确出现）
+4. 其他值得今晚关注的美股消息
 
 ---
 
@@ -104,33 +104,33 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026103009
+抓取时间: 2026103020
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets closed
-- Alphabet loses $482B in its worst day since its 2004 IPO
-- Many Americans don't know a 22% Social Security cut is looming
+- U.S. markets open in 1h 31m
+- Amazon, Alphabet, SpaceX and Meta are all to blame for the new tech stock rout
+- Google is happy AI is cannibalizing its most profitable business
+- Intel sinks 20% as weak Q4 outlook overshadows Q3 beat
+- Google is happy AI is cannibalizing its most profitable business
+- Intel sinks 20% as weak Q4 outlook overshadows Q3 beat
 - Amazon stock slides after Q3 earnings miss
-- Many Americans don't know a 22% Social Security cut is looming
-- Amazon stock slides after Q3 earnings miss
-- Stocks slip as Alphabet stock sell-off drags on tech, AI jitters return
-- FTC demands data from 9 companies on personalized pricing
-- Sandisk delivers solid results and an 8-for-1 split
-- Intel tops Q3 earnings estimates, but falls short of Q4 outlook
-- Oil rises on signs US could renew strikes on Iran
-- Coinbase reports Q3 revenue decline amid crypto slump
+- Oil set for fourth monthly gain as Hormuz tanker attack highlights supply risks
+- Amazon's AI build-out just pushed its cash burn to a record: Chart of the Day
+- The Magnificent 7 stocks are seeing stunning declines
+- Bitcoin, digital assets tumble as Binance says $6.3B hit in suspected record hack
+- Stock futures fall as Amazon, Intel earnings rattle investors
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
 - Tech & AI
-- Why Microsoft isn't getting crushed like Google
+- Intel warns on memory chips as Sandisk shrugs off a shortage
+- YouTube isn't just dominating TV — it's dominating Google
+- Alphabet loses $482 billion in market value, the biggest drop in its history
 - Rivian’s cheaper R2 SUV helps lift its full-year forecast
-- Reddit to limit access for logged-out users in strategy shift
-- Ares CEO says it's avoiding backing AI chips, citing complexity
 - Popular
-- Google stock shredded: 2 reasons investors hated the quarter
-- Hershey CEO warns Halloween candy sales are looking scary
+- Reddit shares plunge 23% on DAUs deceleration, weak guidance
+- Sandisk stock falls as it announces 8-for-1 split
 
 ## Benzinga (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -139,36 +139,36 @@
 - What can I do to resolve this?
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f9dad40c140>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fdef834ce60>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- In Focus | Hong Kong’s wider yuan push: a gateway to the world?
-- US bans Chinese labs from testing electronics ahead of Trump-Xi meeting
+- China’s top 10 powerhouse provinces propel economy towards GDP target
 - Diplomacy
-- Chinese scientists dissatisfied with jobs but optimistic about future: survey
+- Beijing drills water cannons and drones near disputed South China Sea shoals
 - Military
-- China’s fourth aircraft carrier may be on track for 2027 launch, US analysts say
-- Hong Kong
-- Will Tai Po fire reforms wipe out collusion in building maintenance industry?
+- Developing | China launches GJ-21 drone from first Type 076 warship Sichuan: state media
+- Law and Crime
+- Security chief vows his task force will root out bid-rigging in Hong Kong
+- Australian PM to visit Beijing after China-hosted Apec summit as tensions simmer
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Government has made wider use of the currency a priority, but consumer habits and other obstacles remain.
-- Shipyard activity at Dalian showing Type 004 underscores Beijing’s military ambitions by 2035, according to experts.
-- Experts say implementation will be a challenge, but changes signal a desire to shift deep-seated attitudes and take on longstanding systemic problems.
-- Markets
-- As Anthropic eyes a mega-IPO, why are Chinese tech valuations so far behind?
-- The firm’s fundraising ambitions highlight the gulf between investor enthusiasm for US AI companies and the lower valuations of Chinese counterparts.
-- Society
-- John Lee apologises for Tai Po fire, unveils reforms as housing chief resigns
-- City leader and seven other top officials bow their heads in apology, while housing chief Winnie Ho resigns to take political responsibility.
-- Business
+- Following the fifth plenum, Beijing is banking on robust output from 10 provinces to offset laggards and secure national growth.
+- Task force will combine intelligence and enforcement powers from police, Independent Commission Against Corruption and Competition Commission.
+- Despite efforts to stabilise relations, Canberra’s ties with Beijing continue to be tested by a range of issues.
+- Transport
+- Cathay Pacific says data from 53,000 bookings compromised in Amadeus cyberattack
+- Carrier says most cases involved exposed passenger names and flight details, with no evidence financial data was accessed.
+- Economics
+- Will diversifying fuel imports be enough to fix Indonesia’s energy shortfall?
+- Analysts say Indonesia will need to close its production gaps by stepping up refinery modernisation and investment in alternative fuels.
+- Banking & Finance
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - 沪深港通 热点观察国际动态【FOCUS】
-- 新东方和江西铜股价齐插一成，边只仍可吼？
-- “手机玻璃女王”周群飞 登中国女首富
-- 以大选无政党过半 内塔尼亚胡恐下台
+- 友邦获大行唱好股价弹逾3%仍可追入？
+- HP华硕等 拟将生产线搬回中国
+- 弗拉维奥抵美 自称巴西合法领导人
 - “蚂蚁”重现世纪招股，Anthropic豪赌算力账单
 - 指数环球商品外汇
 - 国金观点
@@ -178,9 +178,9 @@
 - 环球基金：
 - ETF：
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 恒生指数22958.65-136.18(-0.59%)
+- 恒生指数23294.42+335.77(+1.46%)
                     etnet.com.hk@copyright
-- 国企指数7755.66-35.97(-0.46%)
+- 国企指数7862.22+106.56(+1.37%)
                     etnet.com.hk@copyright
 - 理财/管理
 - 时尚艺术
@@ -191,33 +191,31 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 富途早報 | 伊堅持要求美國滿足七項條件，WTI原油、布油漲近1%；蘋果發佈新款MacBook Pro，谷歌債務風險指標上升；績優股禮來夜盤上漲，英特爾、亞馬遜績後下跌；埃克森美孚、雪佛龍美股盤前發財報
-- 英特爾Q4指引遠遜預期，以色列工廠爆炸，PC需求疲軟，AI芯片供應受限
-- AI芯片供不應求，英特爾卻暴跌20%
-- 亞馬遜Q3自由現金流惡化，線上銷售乏力，AWS收入勁增39%但AI支出嚇退市場
-- 中金：AI「次貸」的金融裂縫
-- 閃迪Q1財季營收同比暴增近4倍，Q2營收指引超預期，數據中心仍是明年增長核心
-- 英特爾電話會：AI服務器需求持續超越供應，PC市場短期承壓，2026年爲投資之年
-- 營收不及預期、交易量腰斬，Coinbase Q3靠比特幣浮盈扭虧
+- 鎧俠Q3營業利潤環比飆升57%，資本開支大幅不及預期，Q4利潤指引也低於預期
+- 摩根資管談2027年全球佈局：看好AI長期需求
+- 一圖前瞻｜蘋果11月2日盤後放榜：iPhone Duo/18系列撐起新財年增長，高盛上調目標價至390美元
+- 特朗普經濟議程成績單喜憂參半！增長與投資強勁 但貿易逆差難解、製造業回流成效不及預期
+- 智算中心需求拉動，長飛光纖Q3營收同比增長139.42%，淨利潤同增1741.52%
+- 本週美股牛股 | Genmab本週累漲29%，抗癌藥物LiGeR-HN1試驗報捷；FTAI Aviation累漲近27%，航空航天業務收入亮眼，宣佈5億美元加速股份回購計劃
+- 長飛光纖：2026年第三季度淨利潤32.03億元，同比增長1741.52%
+- 鎧俠Q2營業利潤1.99萬億日元，淨利潤1.36萬億日元；預計Q3營業利潤2萬億日元，低於市場預期
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 美股收盤 | 谷歌重挫拖累納指跌超1%，股指終結三連漲；軟件股ServiceNow大跌27%；醫療股逆勢走強，禮來漲超6%創新高，默沙東漲超3%
-- 美軍中東最高指揮官罕見赴白宮彙報對伊方案！10架運輸機緊急赴以補充彈藥
-- 英偉達洽談爲雲廠商一筆 450 億美元 Anthropic 相關交易提供數十億美元信貸支持
-- SpaceX最大單一客戶曝光，Anthropic每月付款逾30億美元，Q3營收佔比超1/3
-- 美國債務佔GDP破100%：經濟高增仍追不上舉債，淨利息成預算"最不可撼動"支出
-- 成交額TOP20 | 谷歌績後重挫12%，創上市以來最大單日跌幅；禮來漲超6%創新高，年內三次上調全年指引；蘋果逆勢再破頂；微軟擬募集250億美元債
-- 大空頭Eisman質疑Anthropic"非常刻意"隱瞞最新業績，AI安全敘事遭遇信任危機
-- Strategy2026年Q3營收1.254億美元，同比下降3%；稀釋後EPS44.75美元，CFO將離職
-- Coinbase2026年Q3營收12.15億美元，同比下降34%；調整後EBITDA3.33億美元
-- 閃迪2027財年Q1營收110億美元，環比增長23%；調整後EPS49.51美元，將按8-1拆股
+- 北水減倉港股逾35億港元，金斯瑞生物-一千獲淨買入超1億港元；中芯國際、小米集團分別遭淨賣出近10億、7億港元
+- 劍橋科技：Q3歸母淨利潤4.33億元，同比增長212.81%；擬17.69億港元擴產光模塊
+- 光模塊業務增長強勁，東山精密Q3歸母淨利增401%至23.32億元，環比增長26%
+- 蘋果逆市升1.48%，避險屬性再現，能否再創新高？
+- AI巨頭現金流轉負引發市場擔憂，QQQ大幅回撤，短線哪些關鍵價位值得關注？
+- 中國海油前三季度淨利潤1191億元 同比增長16.8%
+- 收市速睇 | 三大指數齊漲，恒指漲1.46%；科網股多股上行，美團、小米漲超3%；新消費、石油股走高，毛戈平漲近14%，蜜雪集團漲超8%，中石化、中石油漲約6%
+- 聖誕行情、還是2000年泡沫重演？華爾街兩大歷史劇本正面交鋒
+- 日本央行行長：通脹取得階段性勝利，暗示年內仍可能加息
+- 港股異動 | 食品股全線走高，食品飲料漲價潮持續發酵+多數龍頭PE處於歷史偏低分位，資金面再平衡帶動板塊走強
 
 --- 跨站重点主题（多站出现=更重要）---
+- 油价/霍尔木兹: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中)
 - 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中)
-- 伊朗/中东: Yahoo Finance (EN), 富途资讯 (繁中)
-- 油价/霍尔木兹: Yahoo Finance (EN), SCMP (EN/中)
-- 加密货币: Yahoo Finance (EN), 富途资讯 (繁中)
-- 就业数据: SCMP (EN/中), 富途资讯 (繁中)
-- 中国/欧盟: SCMP (EN/中)
+- 中国/欧盟: Yahoo Finance (EN), SCMP (EN/中)
+- 加密货币: Yahoo Finance (EN)
 - 中国政策/两会: 富途资讯 (繁中)
 
 --- 粘贴结束 ---

@@ -3,49 +3,47 @@
 ## 一、各站抓取情况
 
 - **Yahoo Finance (EN)** ✓
-  - 头版/首屏: U.S. markets closed | Alphabet loses $482B in its worst day since its 2004 IPO | Many Americans don't know a 22% Social Security cut is looming | Amazon stock slides after Q3 earnings miss | Many Americans don't know a 22% Social Security cut is looming | Amazon stock slides after Q3 earnings miss | Stocks slip as Alphabet stock sell-off drags on tech, AI jitters return | FTC demands data from 9 companies on personalized pricing
-  - 其他: Top Stories | Markets & Economy | Tech & AI | Why Microsoft isn't getting crushed like Google | Rivian’s cheaper R2 SUV helps lift its full-year forecast
+  - 头版/首屏: U.S. markets open in 1h 31m | Amazon, Alphabet, SpaceX and Meta are all to blame for the new tech stock rout | Google is happy AI is cannibalizing its most profitable business | Intel sinks 20% as weak Q4 outlook overshadows Q3 beat | Google is happy AI is cannibalizing its most profitable business | Intel sinks 20% as weak Q4 outlook overshadows Q3 beat | Amazon stock slides after Q3 earnings miss | Oil set for fourth monthly gain as Hormuz tanker attack highlights supply risks
+  - 其他: Top Stories | Markets & Economy | Tech & AI | Intel warns on memory chips as Sandisk shrugs off a shortage | YouTube isn't just dominating TV — it's dominating Google
 
 - **Benzinga (EN)** ✓
   - 头版/首屏: You are unable to access benzinga.com | Why have I been blocked? | What can I do to resolve this?
 
-- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f9dad40c140>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
+- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fdef834ce60>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
 
 - **SCMP (EN/中)** ✓
-  - 头版/首屏: In Focus | Hong Kong’s wider yuan push: a gateway to the world? | US bans Chinese labs from testing electronics ahead of Trump-Xi meeting | Diplomacy | Chinese scientists dissatisfied with jobs but optimistic about future: survey | Military | China’s fourth aircraft carrier may be on track for 2027 launch, US analysts say | Hong Kong | Will Tai Po fire reforms wipe out collusion in building maintenance industry?
-  - 其他: Government has made wider use of the currency a priority, but consumer habits and other obstacles remain. | Shipyard activity at Dalian showing Type 004 underscores Beijing’s military ambitions by 2035, according to experts. | Experts say implementation will be a challenge, but changes signal a desire to shift deep-seated attitudes and take on longstanding systemic problems. | Markets | As Anthropic eyes a mega-IPO, why are Chinese tech valuations so far behind?
+  - 头版/首屏: China’s top 10 powerhouse provinces propel economy towards GDP target | Diplomacy | Beijing drills water cannons and drones near disputed South China Sea shoals | Military | Developing | China launches GJ-21 drone from first Type 076 warship Sichuan: state media | Law and Crime | Security chief vows his task force will root out bid-rigging in Hong Kong | Australian PM to visit Beijing after China-hosted Apec summit as tensions simmer
+  - 其他: Following the fifth plenum, Beijing is banking on robust output from 10 provinces to offset laggards and secure national growth. | Task force will combine intelligence and enforcement powers from police, Independent Commission Against Corruption and Competition Commission. | Despite efforts to stabilise relations, Canberra’s ties with Beijing continue to be tested by a range of issues. | Transport | Cathay Pacific says data from 53,000 bookings compromised in Amadeus cyberattack
 
 - **经济通 (繁中)** ✓
-  - 头版/首屏: 沪深港通 热点观察国际动态【FOCUS】 | 新东方和江西铜股价齐插一成，边只仍可吼？ | “手机玻璃女王”周群飞 登中国女首富 | 以大选无政党过半 内塔尼亚胡恐下台 | “蚂蚁”重现世纪招股，Anthropic豪赌算力账单 | 指数环球商品外汇 | 国金观点 | 港股大市分析
-  - 其他: 恒生指数22958.65-136.18(-0.59%)
-                    etnet.com.hk@copyright | 国企指数7755.66-35.97(-0.46%)
+  - 头版/首屏: 沪深港通 热点观察国际动态【FOCUS】 | 友邦获大行唱好股价弹逾3%仍可追入？ | HP华硕等 拟将生产线搬回中国 | 弗拉维奥抵美 自称巴西合法领导人 | “蚂蚁”重现世纪招股，Anthropic豪赌算力账单 | 指数环球商品外汇 | 国金观点 | 港股大市分析
+  - 其他: 恒生指数23294.42+335.77(+1.46%)
+                    etnet.com.hk@copyright | 国企指数7862.22+106.56(+1.37%)
                     etnet.com.hk@copyright | 理财/管理 | 时尚艺术 | 健康人生
 
 - **智通财经 (简中)** ✓
 
 - **富途资讯 (繁中)** ✓
-  - 头版/首屏: 富途早報 | 伊堅持要求美國滿足七項條件，WTI原油、布油漲近1%；蘋果發佈新款MacBook Pro，谷歌債務風險指標上升；績優股禮來夜盤上漲，英特爾、亞馬遜績後下跌；埃克森美孚、雪佛龍美股盤前發財報 | 英特爾Q4指引遠遜預期，以色列工廠爆炸，PC需求疲軟，AI芯片供應受限 | AI芯片供不應求，英特爾卻暴跌20% | 亞馬遜Q3自由現金流惡化，線上銷售乏力，AWS收入勁增39%但AI支出嚇退市場 | 中金：AI「次貸」的金融裂縫 | 閃迪Q1財季營收同比暴增近4倍，Q2營收指引超預期，數據中心仍是明年增長核心 | 英特爾電話會：AI服務器需求持續超越供應，PC市場短期承壓，2026年爲投資之年 | 營收不及預期、交易量腰斬，Coinbase Q3靠比特幣浮盈扭虧
-  - 其他: 美股收盤 | 谷歌重挫拖累納指跌超1%，股指終結三連漲；軟件股ServiceNow大跌27%；醫療股逆勢走強，禮來漲超6%創新高，默沙東漲超3% | 美軍中東最高指揮官罕見赴白宮彙報對伊方案！10架運輸機緊急赴以補充彈藥 | 英偉達洽談爲雲廠商一筆 450 億美元 Anthropic 相關交易提供數十億美元信貸支持 | SpaceX最大單一客戶曝光，Anthropic每月付款逾30億美元，Q3營收佔比超1/3 | 美國債務佔GDP破100%：經濟高增仍追不上舉債，淨利息成預算"最不可撼動"支出
+  - 头版/首屏: 鎧俠Q3營業利潤環比飆升57%，資本開支大幅不及預期，Q4利潤指引也低於預期 | 摩根資管談2027年全球佈局：看好AI長期需求 | 一圖前瞻｜蘋果11月2日盤後放榜：iPhone Duo/18系列撐起新財年增長，高盛上調目標價至390美元 | 特朗普經濟議程成績單喜憂參半！增長與投資強勁 但貿易逆差難解、製造業回流成效不及預期 | 智算中心需求拉動，長飛光纖Q3營收同比增長139.42%，淨利潤同增1741.52% | 本週美股牛股 | Genmab本週累漲29%，抗癌藥物LiGeR-HN1試驗報捷；FTAI Aviation累漲近27%，航空航天業務收入亮眼，宣佈5億美元加速股份回購計劃 | 長飛光纖：2026年第三季度淨利潤32.03億元，同比增長1741.52% | 鎧俠Q2營業利潤1.99萬億日元，淨利潤1.36萬億日元；預計Q3營業利潤2萬億日元，低於市場預期
+  - 其他: 北水減倉港股逾35億港元，金斯瑞生物-一千獲淨買入超1億港元；中芯國際、小米集團分別遭淨賣出近10億、7億港元 | 劍橋科技：Q3歸母淨利潤4.33億元，同比增長212.81%；擬17.69億港元擴產光模塊 | 光模塊業務增長強勁，東山精密Q3歸母淨利增401%至23.32億元，環比增長26% | 蘋果逆市升1.48%，避險屬性再現，能否再創新高？ | AI巨頭現金流轉負引發市場擔憂，QQQ大幅回撤，短線哪些關鍵價位值得關注？
 
 ## 二、跨站主题（多站出现 = 更重要）
 
+- **油价/能源/霍尔木兹** — 出现于: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中) (3 站)
 - **科技股/个股** — 出现于: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中) (3 站)
-- **伊朗/中东局势** — 出现于: Yahoo Finance (EN), 富途资讯 (繁中) (2 站)
-- **油价/能源/霍尔木兹** — 出现于: Yahoo Finance (EN), SCMP (EN/中) (2 站)
-- **加密货币** — 出现于: Yahoo Finance (EN), 富途资讯 (繁中) (2 站)
-- **就业/经济数据** — 出现于: SCMP (EN/中), 富途资讯 (繁中) (2 站)
-- **中国/欧盟** — 出现于: SCMP (EN/中) (1 站)
+- **中国/欧盟** — 出现于: Yahoo Finance (EN), SCMP (EN/中) (2 站)
+- **加密货币** — 出现于: Yahoo Finance (EN) (1 站)
 - **中国重大政策/两会** — 出现于: 富途资讯 (繁中) (1 站)
 
 ## 三、检测到的主题（供参考，由总结摘要 Prompt 自行判断重要性）
 
+- 油价/能源（3 站）
 - 科技股/个股（3 站）
-- 伊朗/中东局势（2 站）
-- 油价/能源（2 站）
-- 加密货币（2 站）
-- 就业/经济数据（2 站）
-- 中国/欧盟（1 站）
+- 中国/欧盟（2 站）
+- 加密货币（1 站）
 - 中国政策（1 站）
+- 伊朗/中东局势（0 站）
 - 关税/贸易政策（0 站）
+- 就业/经济数据（0 站）
 - 黄金/大宗商品（0 站）
 - 美联储/利率（0 站）
