@@ -3,48 +3,48 @@
 ## 一、各站抓取情况
 
 - **Yahoo Finance (EN)** ✓
-  - 头版/首屏: U.S. markets closed | Stock futures open a monster week after a $5 trillion AI wipeout | Big Tech earnings, midterms, sell-off: What to watch this week | Apple to report Q4 earnings Monday, with iPhone 18 sales in the spotlight | Big Tech earnings, midterms, sell-off: What to watch this week | Apple to report Q4 earnings Monday, with iPhone 18 sales in the spotlight | Elon Musk's new warning rattles investors heading into 2027 | Microsoft and Skydance announced buyouts. What does it mean for workers in a 'low-hire' market?
-  - 其他: Top Stories | Markets & Economy | Your Money | How much money is considered rich? | AT&T settlement payouts could reach $5,000 for eligible customers
+  - 头版/首屏: U.S. markets open in 2h 30m | Stock futures jump ahead of a monster week after a $5 trillion AI rout | Nvidia stock valuation gets torched by tech stock rout | ‘More and more disenchanted’: Trump’s economic approval before midterms | Nvidia stock valuation gets torched by tech stock rout | ‘More and more disenchanted’: Trump’s economic approval before midterms | Big Tech earnings, midterms, sell-off: What to watch this week | Apple to report Q4 earnings Monday, with iPhone 18 sales in the spotlight
+  - 其他: Top Stories | Markets & Economy | Tech & AI | Wall Street’s bearish on hyperscalers more than you’d think | Tech stock plunge aftermath a seen in 3 pictures
 
 - **Benzinga (EN)** ✓
   - 头版/首屏: You are unable to access benzinga.com | Why have I been blocked? | What can I do to resolve this?
 
-- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f609c41ce60>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
+- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f0972457890>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
 
 - **SCMP (EN/中)** ✓
-  - 头版/首屏: Joshua Cooper Ramo on whether the US can handle the stress test of China’s rise | Diplomacy | Could a midterm defeat tame Trump? Not on foreign policy, Chinese experts say | Hong Kong Economy | Drug maker Rohto plans clinical trials in Hong Kong as OASES’ first Japan partner | Wealth | In Focus | Could New York’s tax-the-rich agenda send its wealthiest residents to Hong Kong? | US Elections
-  - 其他: If the superpowers cannot work together, the world’s problems cannot be addressed, the ex-CEO of Kissinger Associates says. | Analysts say Hong Kong could benefit as New York’s tax debate prompts wealthy families to reassess their options. | Will losing US midterms see Trump double down or signal beginning of the end? | Trump will almost surely retain the ability to block legislation challenging his plans, but voters’ frustrations over his policies grow. | Cryptocurrency
+  - 头版/首屏: Breaking China, Asia, HK News, Opinions and Insights | China unearths new critical mineral deposit, bolstering supply chain security | Diplomacy | Talks are the only way out, China tells Iran as US threat hangs over Mideast | Markets | Beijing launches US$15b asset swap to support China’s markets after sell-off | Society | Meta says it met Hong Kong privacy watchdog over AI-enabled glasses concerns
+  - 其他: The discovery included a major stock of zircon, but analysts were unclear how much could be commercially developed to reduce imports. | Office of the Privacy Commissioner for Personal Data earlier warned tech giant’s product may enable covert recording, excessive personal data collection. | Tech War | China’s CXMT defends push into new DRAM architecture as US chip curbs bite | The company plans to send customers samples of its first server-grade DRAM product built on the 4F² architecture by the end of this year.
 
 - **经济通 (繁中)** ✓
-  - 头版/首屏: 沪深港通 热点观察国际动态【FOCUS】 | 友邦获大行唱好股价弹逾3%仍可追入？ | HP华硕等 拟将生产线搬回中国 | 弗拉维奥抵美 自称巴西合法领导人 | “蚂蚁”重现世纪招股，Anthropic豪赌算力账单 | 指数环球商品外汇 | 国金观点 | 港股大市分析
-  - 其他: 恒生指数23294.42+335.77(+1.46%)
-                    etnet.com.hk@copyright | 国企指数7862.22+106.56(+1.37%)
+  - 头版/首屏: 沪深港通 热点观察国际动态【FOCUS】 | 第三季除税后溢利按季跌逾9%，股价逆市下挫未宜沾手？ | 车企10月交付数据出炉 零跑连续4个月超10万辆 | 法连续3周末示威 德抗议爆冲突 | 农历“9．24”，今时不同往日 | 指数环球商品外汇 | 国金观点 | 港股大市分析
+  - 其他: 恒生指数23393.32+98.90(+0.42%)
+                    etnet.com.hk@copyright | 国企指数7906.11+43.89(+0.56%)
                     etnet.com.hk@copyright | 理财/管理 | 时尚艺术 | 健康人生
 
 - **智通财经 (简中)** ✓
 
 - **富途资讯 (繁中)** ✓
-  - 头版/首屏: 富途早報 | 伊外長披露「兩天計劃」，歐佩克+維持12月產油量配額不變；金融管理部門今日將召開會議；Okta11月4日納入標普500指數；蘋果、Palantir盤後發財報 | 決定下週市場走勢！美國中選「最大懸念」：共和黨意外守住參院 vs 民主黨取得53席以上 | 中金：港股如何見底？ | AI「完美風暴」劇本：債市「吹響號角」，業績「雪上加霜」，中選「最後一擊」？ | 歐佩克+如期維持12月產量目標不變，11月 29日定明年框架才是大考 | 一週前瞻 | 美國中期選舉、非農接連登場，蘋果與AMD業績檢驗科技股預期；金融管理部門將召開會議，研究推動支持資本市場工具使用；北美地區實行冬令時 | 美伊局勢追蹤：伊朗外長披露「兩天計劃」，美方履約方能重啓伊美談判 | 美股投資必備！11月重磅大事搶先看，這些影響漲跌的日子都圈出來了
-  - 其他: 美股大盤8000點在招手？大摩威爾遜堅定唱好：無論誰贏得中期選舉，都應逢低買入 | 兩大巨頭廣告業務迎來「分水嶺」！AI成就Meta卻成谷歌搜索「緊箍咒」 | 海灣國家急阻美以重啓對伊打擊！伊朗警告報復不設地域限制，下一輪戰爭恐更具破壞性 | 華爾街嚴陣以待！週三美債發行指引或迎近三年來最大調整：長債發行料削減，短債依賴上升 | 中信建投：底部形成過程保持耐心，等待做多機會
+  - 头版/首屏: 美國中期選舉倒計時！摩根士丹利：市場真正盯着這三件事 | 一圖前瞻 | Palantir週一盤後迎業績大考：營收增速料達84%，指引能否繼續上調成為焦點 | 黃金跌破3900美元后，華爾街多頭集體「投降」，散戶蜂擁抄底 | 一圖前瞻 | AMD Q3業績11月3日盤後公佈！英特爾大跌後迎關鍵考驗，AI增長能否對沖PC擔憂？ | AI融資承壓且科技股遭血洗後 Anthropic欲赴日本募資35億美元 亟需現金護航AI算力擴張 | 高盛：NAND供需緊張或延續至2027年，鎧俠產能基本售罄 | 期權收租｜半導體異動成交放大，SOXL單日跌近25%，如何捕捉高波動？ | 北水減倉港股近45億港元，淨買入中國海洋石油近9億港元，加倉智譜近4億港元；淨賣出小米集團逾18億港元
+  - 其他: AI可以免疫高利率？泡沫末期，市場往往充斥着幻想 | 香港港交所：延長衍生產品收市後交易時段 | 央行：將於11月3日開展證券、基金、保險公司互換便利操作，申請額度超1000億元 | 收市速睇 | 三大指數齊漲，科指漲2.25%；科網股上行，小米漲超6%，阿里、騰訊漲超2%；光通信、鋰電池股走強，長飛光纖光纜漲超11%，寧德時代漲超6% | 英偉達回撤至200日均線關鍵支撐，能否獲有效承接？
 
 ## 二、跨站主题（多站出现 = 更重要）
 
+- **伊朗/中东局势** — 出现于: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中) (3 站)
 - **科技股/个股** — 出现于: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中) (3 站)
-- **伊朗/中东局势** — 出现于: 富途资讯 (繁中) (1 站)
-- **加密货币** — 出现于: SCMP (EN/中) (1 站)
-- **就业/经济数据** — 出现于: Yahoo Finance (EN) (1 站)
-- **美联储/利率** — 出现于: SCMP (EN/中) (1 站)
-- **中国/欧盟** — 出现于: SCMP (EN/中) (1 站)
+- **油价/能源/霍尔木兹** — 出现于: Yahoo Finance (EN), 富途资讯 (繁中) (2 站)
+- **就业/经济数据** — 出现于: Yahoo Finance (EN), SCMP (EN/中) (2 站)
+- **中国/欧盟** — 出现于: Yahoo Finance (EN), SCMP (EN/中) (2 站)
+- **中国重大政策/两会** — 出现于: 富途资讯 (繁中) (1 站)
 
 ## 三、检测到的主题（供参考，由总结摘要 Prompt 自行判断重要性）
 
+- 伊朗/中东局势（3 站）
 - 科技股/个股（3 站）
-- 伊朗/中东局势（1 站）
-- 加密货币（1 站）
-- 就业/经济数据（1 站）
-- 美联储/利率（1 站）
-- 中国/欧盟（1 站）
+- 油价/能源（2 站）
+- 就业/经济数据（2 站）
+- 中国/欧盟（2 站）
+- 中国政策（1 站）
 - 关税/贸易政策（0 站）
-- 油价/能源（0 站）
+- 加密货币（0 站）
 - 黄金/大宗商品（0 站）
-- 中国政策（0 站）
+- 美联储/利率（0 站）
