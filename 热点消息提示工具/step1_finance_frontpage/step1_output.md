@@ -3,17 +3,17 @@
 ## 一、各站抓取情况
 
 - **Yahoo Finance (EN)** ✓
-  - 头版/首屏: U.S. markets open in 1h 31m | Amazon, Alphabet, SpaceX and Meta are all to blame for the new tech stock rout | Google is happy AI is cannibalizing its most profitable business | Intel sinks 20% as weak Q4 outlook overshadows Q3 beat | Google is happy AI is cannibalizing its most profitable business | Intel sinks 20% as weak Q4 outlook overshadows Q3 beat | Amazon stock slides after Q3 earnings miss | Oil set for fourth monthly gain as Hormuz tanker attack highlights supply risks
-  - 其他: Top Stories | Markets & Economy | Tech & AI | Intel warns on memory chips as Sandisk shrugs off a shortage | YouTube isn't just dominating TV — it's dominating Google
+  - 头版/首屏: U.S. markets closed | Stock futures open a monster week after a $5 trillion AI wipeout | Big Tech earnings, midterms, sell-off: What to watch this week | Apple to report Q4 earnings Monday, with iPhone 18 sales in the spotlight | Big Tech earnings, midterms, sell-off: What to watch this week | Apple to report Q4 earnings Monday, with iPhone 18 sales in the spotlight | Elon Musk's new warning rattles investors heading into 2027 | Microsoft and Skydance announced buyouts. What does it mean for workers in a 'low-hire' market?
+  - 其他: Top Stories | Markets & Economy | Your Money | How much money is considered rich? | AT&T settlement payouts could reach $5,000 for eligible customers
 
 - **Benzinga (EN)** ✓
   - 头版/首屏: You are unable to access benzinga.com | Why have I been blocked? | What can I do to resolve this?
 
-- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fdef834ce60>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
+- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f609c41ce60>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
 
 - **SCMP (EN/中)** ✓
-  - 头版/首屏: China’s top 10 powerhouse provinces propel economy towards GDP target | Diplomacy | Beijing drills water cannons and drones near disputed South China Sea shoals | Military | Developing | China launches GJ-21 drone from first Type 076 warship Sichuan: state media | Law and Crime | Security chief vows his task force will root out bid-rigging in Hong Kong | Australian PM to visit Beijing after China-hosted Apec summit as tensions simmer
-  - 其他: Following the fifth plenum, Beijing is banking on robust output from 10 provinces to offset laggards and secure national growth. | Task force will combine intelligence and enforcement powers from police, Independent Commission Against Corruption and Competition Commission. | Despite efforts to stabilise relations, Canberra’s ties with Beijing continue to be tested by a range of issues. | Transport | Cathay Pacific says data from 53,000 bookings compromised in Amadeus cyberattack
+  - 头版/首屏: Joshua Cooper Ramo on whether the US can handle the stress test of China’s rise | Diplomacy | Could a midterm defeat tame Trump? Not on foreign policy, Chinese experts say | Hong Kong Economy | Drug maker Rohto plans clinical trials in Hong Kong as OASES’ first Japan partner | Wealth | In Focus | Could New York’s tax-the-rich agenda send its wealthiest residents to Hong Kong? | US Elections
+  - 其他: If the superpowers cannot work together, the world’s problems cannot be addressed, the ex-CEO of Kissinger Associates says. | Analysts say Hong Kong could benefit as New York’s tax debate prompts wealthy families to reassess their options. | Will losing US midterms see Trump double down or signal beginning of the end? | Trump will almost surely retain the ability to block legislation challenging his plans, but voters’ frustrations over his policies grow. | Cryptocurrency
 
 - **经济通 (繁中)** ✓
   - 头版/首屏: 沪深港通 热点观察国际动态【FOCUS】 | 友邦获大行唱好股价弹逾3%仍可追入？ | HP华硕等 拟将生产线搬回中国 | 弗拉维奥抵美 自称巴西合法领导人 | “蚂蚁”重现世纪招股，Anthropic豪赌算力账单 | 指数环球商品外汇 | 国金观点 | 港股大市分析
@@ -24,26 +24,27 @@
 - **智通财经 (简中)** ✓
 
 - **富途资讯 (繁中)** ✓
-  - 头版/首屏: 鎧俠Q3營業利潤環比飆升57%，資本開支大幅不及預期，Q4利潤指引也低於預期 | 摩根資管談2027年全球佈局：看好AI長期需求 | 一圖前瞻｜蘋果11月2日盤後放榜：iPhone Duo/18系列撐起新財年增長，高盛上調目標價至390美元 | 特朗普經濟議程成績單喜憂參半！增長與投資強勁 但貿易逆差難解、製造業回流成效不及預期 | 智算中心需求拉動，長飛光纖Q3營收同比增長139.42%，淨利潤同增1741.52% | 本週美股牛股 | Genmab本週累漲29%，抗癌藥物LiGeR-HN1試驗報捷；FTAI Aviation累漲近27%，航空航天業務收入亮眼，宣佈5億美元加速股份回購計劃 | 長飛光纖：2026年第三季度淨利潤32.03億元，同比增長1741.52% | 鎧俠Q2營業利潤1.99萬億日元，淨利潤1.36萬億日元；預計Q3營業利潤2萬億日元，低於市場預期
-  - 其他: 北水減倉港股逾35億港元，金斯瑞生物-一千獲淨買入超1億港元；中芯國際、小米集團分別遭淨賣出近10億、7億港元 | 劍橋科技：Q3歸母淨利潤4.33億元，同比增長212.81%；擬17.69億港元擴產光模塊 | 光模塊業務增長強勁，東山精密Q3歸母淨利增401%至23.32億元，環比增長26% | 蘋果逆市升1.48%，避險屬性再現，能否再創新高？ | AI巨頭現金流轉負引發市場擔憂，QQQ大幅回撤，短線哪些關鍵價位值得關注？
+  - 头版/首屏: 富途早報 | 伊外長披露「兩天計劃」，歐佩克+維持12月產油量配額不變；金融管理部門今日將召開會議；Okta11月4日納入標普500指數；蘋果、Palantir盤後發財報 | 決定下週市場走勢！美國中選「最大懸念」：共和黨意外守住參院 vs 民主黨取得53席以上 | 中金：港股如何見底？ | AI「完美風暴」劇本：債市「吹響號角」，業績「雪上加霜」，中選「最後一擊」？ | 歐佩克+如期維持12月產量目標不變，11月 29日定明年框架才是大考 | 一週前瞻 | 美國中期選舉、非農接連登場，蘋果與AMD業績檢驗科技股預期；金融管理部門將召開會議，研究推動支持資本市場工具使用；北美地區實行冬令時 | 美伊局勢追蹤：伊朗外長披露「兩天計劃」，美方履約方能重啓伊美談判 | 美股投資必備！11月重磅大事搶先看，這些影響漲跌的日子都圈出來了
+  - 其他: 美股大盤8000點在招手？大摩威爾遜堅定唱好：無論誰贏得中期選舉，都應逢低買入 | 兩大巨頭廣告業務迎來「分水嶺」！AI成就Meta卻成谷歌搜索「緊箍咒」 | 海灣國家急阻美以重啓對伊打擊！伊朗警告報復不設地域限制，下一輪戰爭恐更具破壞性 | 華爾街嚴陣以待！週三美債發行指引或迎近三年來最大調整：長債發行料削減，短債依賴上升 | 中信建投：底部形成過程保持耐心，等待做多機會
 
 ## 二、跨站主题（多站出现 = 更重要）
 
-- **油价/能源/霍尔木兹** — 出现于: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中) (3 站)
 - **科技股/个股** — 出现于: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中) (3 站)
-- **中国/欧盟** — 出现于: Yahoo Finance (EN), SCMP (EN/中) (2 站)
-- **加密货币** — 出现于: Yahoo Finance (EN) (1 站)
-- **中国重大政策/两会** — 出现于: 富途资讯 (繁中) (1 站)
+- **伊朗/中东局势** — 出现于: 富途资讯 (繁中) (1 站)
+- **加密货币** — 出现于: SCMP (EN/中) (1 站)
+- **就业/经济数据** — 出现于: Yahoo Finance (EN) (1 站)
+- **美联储/利率** — 出现于: SCMP (EN/中) (1 站)
+- **中国/欧盟** — 出现于: SCMP (EN/中) (1 站)
 
 ## 三、检测到的主题（供参考，由总结摘要 Prompt 自行判断重要性）
 
-- 油价/能源（3 站）
 - 科技股/个股（3 站）
-- 中国/欧盟（2 站）
+- 伊朗/中东局势（1 站）
 - 加密货币（1 站）
-- 中国政策（1 站）
-- 伊朗/中东局势（0 站）
+- 就业/经济数据（1 站）
+- 美联储/利率（1 站）
+- 中国/欧盟（1 站）
 - 关税/贸易政策（0 站）
-- 就业/经济数据（0 站）
+- 油价/能源（0 站）
 - 黄金/大宗商品（0 站）
-- 美联储/利率（0 站）
+- 中国政策（0 站）

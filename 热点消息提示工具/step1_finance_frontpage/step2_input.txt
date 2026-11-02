@@ -1,33 +1,33 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026103020
+抓取时间: 2026110209
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets open in 1h 31m
-- Amazon, Alphabet, SpaceX and Meta are all to blame for the new tech stock rout
-- Google is happy AI is cannibalizing its most profitable business
-- Intel sinks 20% as weak Q4 outlook overshadows Q3 beat
-- Google is happy AI is cannibalizing its most profitable business
-- Intel sinks 20% as weak Q4 outlook overshadows Q3 beat
-- Amazon stock slides after Q3 earnings miss
-- Oil set for fourth monthly gain as Hormuz tanker attack highlights supply risks
-- Amazon's AI build-out just pushed its cash burn to a record: Chart of the Day
-- The Magnificent 7 stocks are seeing stunning declines
-- Bitcoin, digital assets tumble as Binance says $6.3B hit in suspected record hack
-- Stock futures fall as Amazon, Intel earnings rattle investors
+- U.S. markets closed
+- Stock futures open a monster week after a $5 trillion AI wipeout
+- Big Tech earnings, midterms, sell-off: What to watch this week
+- Apple to report Q4 earnings Monday, with iPhone 18 sales in the spotlight
+- Big Tech earnings, midterms, sell-off: What to watch this week
+- Apple to report Q4 earnings Monday, with iPhone 18 sales in the spotlight
+- Elon Musk's new warning rattles investors heading into 2027
+- Microsoft and Skydance announced buyouts. What does it mean for workers in a 'low-hire' market?
+- 'Octoberphobia' just wiped $5 trillion off AI stocks — history says the cure comes next
+- 3 sectors could be in focus next year, no matter who wins on Tuesday
+- A buyout in a slow job market: Smart move or gamble?
+- Tech stock meltdown could get a lot of worse if history is any guide
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
-- Tech & AI
-- Intel warns on memory chips as Sandisk shrugs off a shortage
-- YouTube isn't just dominating TV — it's dominating Google
-- Alphabet loses $482 billion in market value, the biggest drop in its history
-- Rivian’s cheaper R2 SUV helps lift its full-year forecast
+- Your Money
+- How much money is considered rich?
+- AT&T settlement payouts could reach $5,000 for eligible customers
+- Over 40% of Americans don't know how much they'll need for retirement
+- California's Prop 40: What to know about the billionaire wealth tax
 - Popular
-- Reddit shares plunge 23% on DAUs deceleration, weak guidance
-- Sandisk stock falls as it announces 8-for-1 split
+- SpaceX hits back at T-Mobile over Starlink spectrum rules
+- Thousands of jobs at Virgin Media O2 to be cut
 
 ## Benzinga (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -36,29 +36,29 @@
 - What can I do to resolve this?
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7fdef834ce60>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f609c41ce60>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- China’s top 10 powerhouse provinces propel economy towards GDP target
+- Joshua Cooper Ramo on whether the US can handle the stress test of China’s rise
 - Diplomacy
-- Beijing drills water cannons and drones near disputed South China Sea shoals
-- Military
-- Developing | China launches GJ-21 drone from first Type 076 warship Sichuan: state media
-- Law and Crime
-- Security chief vows his task force will root out bid-rigging in Hong Kong
-- Australian PM to visit Beijing after China-hosted Apec summit as tensions simmer
+- Could a midterm defeat tame Trump? Not on foreign policy, Chinese experts say
+- Hong Kong Economy
+- Drug maker Rohto plans clinical trials in Hong Kong as OASES’ first Japan partner
+- Wealth
+- In Focus | Could New York’s tax-the-rich agenda send its wealthiest residents to Hong Kong?
+- US Elections
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Following the fifth plenum, Beijing is banking on robust output from 10 provinces to offset laggards and secure national growth.
-- Task force will combine intelligence and enforcement powers from police, Independent Commission Against Corruption and Competition Commission.
-- Despite efforts to stabilise relations, Canberra’s ties with Beijing continue to be tested by a range of issues.
-- Transport
-- Cathay Pacific says data from 53,000 bookings compromised in Amadeus cyberattack
-- Carrier says most cases involved exposed passenger names and flight details, with no evidence financial data was accessed.
-- Economics
-- Will diversifying fuel imports be enough to fix Indonesia’s energy shortfall?
-- Analysts say Indonesia will need to close its production gaps by stepping up refinery modernisation and investment in alternative fuels.
+- If the superpowers cannot work together, the world’s problems cannot be addressed, the ex-CEO of Kissinger Associates says.
+- Analysts say Hong Kong could benefit as New York’s tax debate prompts wealthy families to reassess their options.
+- Will losing US midterms see Trump double down or signal beginning of the end?
+- Trump will almost surely retain the ability to block legislation challenging his plans, but voters’ frustrations over his policies grow.
+- Cryptocurrency
+- Binance withdrawals spike as exchange returns online after US$6.3 billion hack
+- The cryptocurrency exchange has begun to allow withdrawals after last week’s theft which the FBI believes came from North Korea.
 - Banking & Finance
+- Global finance titans convene in Hong Kong to reassess investment strategies
+- Financial heavyweights will share their thoughts on macroeconomic headwinds, including elevated interest rates and AI regulatory scrutiny.
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -88,31 +88,32 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 鎧俠Q3營業利潤環比飆升57%，資本開支大幅不及預期，Q4利潤指引也低於預期
-- 摩根資管談2027年全球佈局：看好AI長期需求
-- 一圖前瞻｜蘋果11月2日盤後放榜：iPhone Duo/18系列撐起新財年增長，高盛上調目標價至390美元
-- 特朗普經濟議程成績單喜憂參半！增長與投資強勁 但貿易逆差難解、製造業回流成效不及預期
-- 智算中心需求拉動，長飛光纖Q3營收同比增長139.42%，淨利潤同增1741.52%
-- 本週美股牛股 | Genmab本週累漲29%，抗癌藥物LiGeR-HN1試驗報捷；FTAI Aviation累漲近27%，航空航天業務收入亮眼，宣佈5億美元加速股份回購計劃
-- 長飛光纖：2026年第三季度淨利潤32.03億元，同比增長1741.52%
-- 鎧俠Q2營業利潤1.99萬億日元，淨利潤1.36萬億日元；預計Q3營業利潤2萬億日元，低於市場預期
+- 富途早報 | 伊外長披露「兩天計劃」，歐佩克+維持12月產油量配額不變；金融管理部門今日將召開會議；Okta11月4日納入標普500指數；蘋果、Palantir盤後發財報
+- 決定下週市場走勢！美國中選「最大懸念」：共和黨意外守住參院 vs 民主黨取得53席以上
+- 中金：港股如何見底？
+- AI「完美風暴」劇本：債市「吹響號角」，業績「雪上加霜」，中選「最後一擊」？
+- 歐佩克+如期維持12月產量目標不變，11月 29日定明年框架才是大考
+- 一週前瞻 | 美國中期選舉、非農接連登場，蘋果與AMD業績檢驗科技股預期；金融管理部門將召開會議，研究推動支持資本市場工具使用；北美地區實行冬令時
+- 美伊局勢追蹤：伊朗外長披露「兩天計劃」，美方履約方能重啓伊美談判
+- 美股投資必備！11月重磅大事搶先看，這些影響漲跌的日子都圈出來了
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 北水減倉港股逾35億港元，金斯瑞生物-一千獲淨買入超1億港元；中芯國際、小米集團分別遭淨賣出近10億、7億港元
-- 劍橋科技：Q3歸母淨利潤4.33億元，同比增長212.81%；擬17.69億港元擴產光模塊
-- 光模塊業務增長強勁，東山精密Q3歸母淨利增401%至23.32億元，環比增長26%
-- 蘋果逆市升1.48%，避險屬性再現，能否再創新高？
-- AI巨頭現金流轉負引發市場擔憂，QQQ大幅回撤，短線哪些關鍵價位值得關注？
-- 中國海油前三季度淨利潤1191億元 同比增長16.8%
-- 收市速睇 | 三大指數齊漲，恒指漲1.46%；科網股多股上行，美團、小米漲超3%；新消費、石油股走高，毛戈平漲近14%，蜜雪集團漲超8%，中石化、中石油漲約6%
-- 聖誕行情、還是2000年泡沫重演？華爾街兩大歷史劇本正面交鋒
-- 日本央行行長：通脹取得階段性勝利，暗示年內仍可能加息
-- 港股異動 | 食品股全線走高，食品飲料漲價潮持續發酵+多數龍頭PE處於歷史偏低分位，資金面再平衡帶動板塊走強
+- 美股大盤8000點在招手？大摩威爾遜堅定唱好：無論誰贏得中期選舉，都應逢低買入
+- 兩大巨頭廣告業務迎來「分水嶺」！AI成就Meta卻成谷歌搜索「緊箍咒」
+- 海灣國家急阻美以重啓對伊打擊！伊朗警告報復不設地域限制，下一輪戰爭恐更具破壞性
+- 華爾街嚴陣以待！週三美債發行指引或迎近三年來最大調整：長債發行料削減，短債依賴上升
+- 中信建投：底部形成過程保持耐心，等待做多機會
+- 誰能阻止科技股下跌？野村：中選沒有用，只有聯儲局！
+- 金融管理部門將召開會議，研究推動支持資本市場工具使用
+- 高盛內部「多空辯論」：盈利已經見頂 vs 投資回報明確
+- 一生難愈：高盛發現被AI取代的工人通常再就業困難，且往往落入AI的下一個獵場
+- 週末讀物 | 華爾街仍然低估了AI繁榮？加文·貝克最新對話，深談Anthropic的真實需求、持續上漲的算力價格以及資本新來源
 
 --- 跨站重点主题（多站出现=更重要）---
-- 油价/霍尔木兹: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中)
 - 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中)
-- 中国/欧盟: Yahoo Finance (EN), SCMP (EN/中)
-- 加密货币: Yahoo Finance (EN)
-- 中国政策/两会: 富途资讯 (繁中)
+- 伊朗/中东: 富途资讯 (繁中)
+- 加密货币: SCMP (EN/中)
+- 就业数据: Yahoo Finance (EN)
+- 美联储: SCMP (EN/中)
+- 中国/欧盟: SCMP (EN/中)
 
 --- 粘贴结束 ---
