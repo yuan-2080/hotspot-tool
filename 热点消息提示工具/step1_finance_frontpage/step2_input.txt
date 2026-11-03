@@ -1,67 +1,67 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026110309
+抓取时间: 2026110320
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets closed
+- U.S. markets open in 2h 30m
+- Why Palantir doesn’t deserve AI meltdown hit
+- Apple's $136 billion cash haul leaves AI's big spenders in the dust: Chart of the Day
+- Prediction markets vs. polls: Election forecasting industry faces midterm test
+- Apple's $136 billion cash haul leaves AI's big spenders in the dust: Chart of the Day
+- Prediction markets vs. polls: Election forecasting industry faces midterm test
 - Apple beats on strong iPhone sales but misses on China
-- Disney’s theme parks, TV and movie units face deep cuts, report says
 - Palantir raises full-year outlook as US commercial sales accelerate
-- Disney’s theme parks, TV and movie units face deep cuts, report says
-- Palantir raises full-year outlook as US commercial sales accelerate
-- Oil prices fall ahead of US midterm elections
-- Robinhood in 'food fight' for Anthropic IPO retail allocation
-- Lumentum goes from $1B spinoff to $115B takeover
-- Treasury yields extend last month’s slide as oil tumbles
-- Apollo flexes its underwriting power with a $9.6B ADT debt deal
-- Why drivers could soon see some relief at the gas pump
+- Apple shows consumers complain, but still pay
+- The economy is 'less K-shaped than you think' — and that's bad news for the Fed
+- Stock futures waver ahead of midterm election results, AMD earnings
+- Nvidia's Huang gave blessing to Marvell-Lumentum megadeal
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
 - Tech & AI
-- Musk is throttling Grok because its cost is 'unsustainably high'
-- One image shows why tech stocks are being dumped
+- Nvidia orders data centre clients to reduce China exposure
 - AMD to report Q3 results following disappointing showing from Intel
-- Intel’s stock collapse deepens as the $3.5T chip rout spreads
+- One image shows why tech stocks are being dumped
+- Baidu AI chip unit's Hong Kong IPO is said to slip to next year
 - Popular
-- Apple could owe iPhone owners up to $95. Here's how to claim it.
-- US market correction nearing end, Morgan Stanley strategists say
+- Oil rises as Iran says war deal remains distant, US strikes Qeshm
+- Dollar drifts on Mideast, midterm risks
 
 ## Benzinga (EN)
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7cde88be1f40>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7916b80b0c80>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - Breaking China, Asia, HK News, Opinions and Insights
-- In Focus | Weakened at home? Why midterm losses could force Trump’s hand on China
-- Politics
-- Trump ends midterm campaign calling Democratic candidates ‘most dangerous ever’
-- Hong Kong
-- First Northern Metropolis Marathon hit by complaints after 15,000 sign up
+- China-US AI investment gap narrower than figures suggest: report
+- Military
+- China’s HQ series intercepts 2 new missile types as PLA tests weapon platform
 - China Business
-- As sales slow, carmakers in China use overt marketing tactics, face controversy
+- Why Hong Kong’s bridge role matters more than ever in a ‘reglobalisation’ era
+- Business
+- Vice-Premier He Lifeng vows support for Hong Kong as global financial centre
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- If the Democrats win control of the House it could bring volatility, but analysts expect Trump to continue trying to stabilise ties.
-- Inflated claims and a slang term have seen Chinese automakers in hot water with consumers.
-- OpenAI executive urges caution in China-US AI talks, warns of distillation
-- Caroline Zier backs dialogue with Beijing but questions shared understanding of AI risks and warns of threats to US technology.
-- How Xi, Communist Party elders shaped key plenum document addressing wrongdoing
-- Landmark resolution sets forth over 200 measures to regulate cadre conduct, curb corruption and rein in unchecked top officials.
-- Cryptocurrency
-- Crypto industry confronts stark security challenges after US$6.4b Binance hack
-- The question of how to prevent more massive hacks – especially in the AI era – hangs over gathering of fintech leaders in Hong Kong.
-- Banking & Finance
+- However, China Finance 40 Forum research team says artificial intelligence is making greater contribution to growth of American economy.
+- At opening of investment summit in city, He says finance sector ‘plays an irreplaceable role in Hong Kong’s high-quality development’.
+- Diplomacy
+- Beijing offers to boost China-Pakistan corridor safety as terror threat grows
+- On visit to country, senior Communist Party official offers to foster a ‘secure environment’ for key Belt and Road project.
+- Society
+- Hong Kong government reconsiders proxy vote proposals after homeowners’ feedback
+- Nearly 70 per cent of the 550 submissions reject limits on authorised representatives and more than half object to proxy vote caps.
+- Economics
+- Why a midterm mauling for Trump will not bring Asia trade relief
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - 沪深港通 热点观察国际动态【FOCUS】
-- 第三季除税后溢利按季跌逾9%，股价逆市下挫未宜沾手？
-- 车企10月交付数据出炉 零跑连续4个月超10万辆
-- 法连续3周末示威 德抗议爆冲突
+- 传三部门开会研救市措施，内险股绩差照升可续博反弹？
+- 人行组合拳 回购增持再贷款减息至1厘
+- 南韩预算4.8万亿 倍增AI半导体投资
 - 农历“9．24”，今时不同往日
 - 指数环球商品外汇
 - 国金观点
@@ -71,9 +71,9 @@
 - 环球基金：
 - ETF：
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 恒生指数23393.32+98.90(+0.42%)
+- 恒生指数23456.28+62.96(+0.27%)
                     etnet.com.hk@copyright
-- 国企指数7906.11+43.89(+0.56%)
+- 国企指数7914.08+7.97(+0.10%)
                     etnet.com.hk@copyright
 - 理财/管理
 - 时尚艺术
@@ -84,33 +84,34 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 富途早報 | 中期選舉今日投票，特朗普稱不會在中期選舉後發動打擊，國際油價下跌；邁威爾科技溢價23.9%收購Lumentum；蘋果、Palantir績後股價均跌近3%；SHOP盤前、AMD與SMCI盤後發業績
-- 蘋果上季營收盈利均超預期，iPhone和Mac表現亮眼，但在華業績遜色、服務增速放緩
-- 央行：11月15日起上調金融機構外匯存款準備金率2個百分點
-- Marvell暴跌13%，Lumentum重挫19%！史上第二大科技併購爲何引發市場拋售？
-- 蘋果電話會：服務收入降速引擔憂，高管明確AI商業化路徑，硬件銷售面臨「艱難對比」
-- 特朗普對伊態度明顯軟化：不會在中期選舉後發動打擊，協議可能達成
-- 高通業績前瞻：存儲芯片漲價恐重創智能手機市場 伯恩斯坦下調目標價至155美元
-- Anthropic IPO前更新招股書凸顯盈利壓力：Q3營收近170億美元、同比增11倍，淨虧損擴大92%，算力承諾近9000億
+- 邁威爾千億 「以股換光」 ，爲何遭市場用腳投票？對國內光通信有何影響？
+- 美國東部多州開啓中期選舉投票
+- 中期選舉後美股19次全漲？歷史規律遇2027年三大變數：美債、通脹與AI
+- 期權收租｜英特爾3日累跌超35%，基本面壓力仍待消化？
+- AI交易遭遇清算後 阿克曼力挺雲計算巨頭增長潛力：華爾街高估AI基建成本，低估AI盈利曲線
+- 邊談邊打！報道：美軍中選前夕襲擊了伊朗格什姆島，談判信號同步推進
+- 國務院關於金融工作情況的報告：實施好支持資本市場的貨幣政策工具，做好金融支持融資平台退出後市場化轉型工作
+- 北水掃貨港股超234億港元，盈富基金獲淨買入超165億港元；小米集團、中芯國際均遭淨賣出近4億港元
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 邁威爾千億美元「鯨吞」Lumentum背後：激光器市場「極度緊張」
-- Palantir Q3營收翻倍，美國商業收入首超政府收入，全年指引上調，但盤後下跌
-- 蘋果預計第一財季全公司營收將增長7%至10%，預計內存採購價格將持續上漲
-- 美國中期選舉或成黃金轉折點，赤字憂慮有望重燃避險需求
-- 美股收盤 | 納指、標普現"A殺"，納指100跌入技術調整；芯片指數跌超3%，美光跌6%；金龍指數漲超2%；原油重挫8%，黃金走強
-- 成交額TOP20 | 英特爾續跌9%；邁威爾三日累跌32%，Lumentum重挫19%；Meta、谷歌、甲骨文同日宣佈融資，擬合計搶籌近500億美元加碼AI
-- 蘋果2026財年Q4營收1144.8億美元，同比增長12%；稀釋後EPS2.10美元
-- Palantir2026年Q3營收23.13億美元，調整後EPS0.44美元，上調全年營收展望，美國商業收入首次超過美國政府收入
-- 時隔半年再籌200億鉅債，Meta擬首次發售歐元債券拓展AI資金池
-- 華爾街嚴陣以待美債發行多年來最大調整：長債或提前減量，短債融資佔比面臨考驗
+- 邁威爾科技(MRVL.US)千億美元收購電話會：CEO重申“現在就是時機“ ，合併將定義AI光互連新時代
+- 大摩Wilson：美股調整已進入尾聲，中選結束或是抄底良機
+- 收市速睇 | 三大指數齊漲，科指漲0.74%；科網股上漲，京東漲近6%；光通信、半導體股走低，中際旭創跌近11%，天數智芯跌超8%
+- 港交所宣佈將推出12只新股票期貨合約，包括MINIMAX、聯想集團等
+- 世界黃金協會：下調全年黃金投資需求增長預期至200噸，全球央行購金提速、ETF持倉創新高
+- 百度否認崑崙芯IPO推遲市場傳聞
+- 南向資金淨買入額達200億港元
+- SpaceX目前處於下降收斂三角形通道底部，向上突破還是繼續回調？
+- Palantir Q3電話會：商業、政府收入雙雙破10億美元 主權AI革命才剛起步
+- 餐飲股逆勢走強，機構看好「高賠率」左側配置價值，哪些公司宣佈了回購？
 
 --- 跨站重点主题（多站出现=更重要）---
-- 就业数据: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中)
-- 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中)
+- 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
+- 伊朗/中东: Yahoo Finance (EN), 富途资讯 (繁中)
 - 中国/欧盟: Yahoo Finance (EN), SCMP (EN/中)
-- 伊朗/中东: SCMP (EN/中)
 - 油价/霍尔木兹: Yahoo Finance (EN)
-- 加密货币: SCMP (EN/中)
+- 加密货币: Yahoo Finance (EN)
+- 黄金/大宗: Yahoo Finance (EN)
+- 美联储: Yahoo Finance (EN)
 - 中国政策/两会: 富途资讯 (繁中)
 
 --- 粘贴结束 ---
