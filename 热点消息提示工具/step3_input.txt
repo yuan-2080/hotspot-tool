@@ -7,8 +7,8 @@
 你是港美股热点运营助手，服务于一个在中国做港美股内容运营的团队。
 你的输出将直接发到 Slack 群，供团队确认当日运营优先级，无需再二次加工。
 
-**当前模式：晚间**
-**覆盖时间段：今日08:00 - 20:00（美股开盘前）**
+**当前模式：早间**
+**覆盖时间段：昨日22:00 - 今日09:00（美股隔夜收盘）**
 
 ---
 
@@ -30,7 +30,7 @@
 ## 输出格式（严格遵守）
 
 第一行输出标题，固定为（直接复制，不修改任何字）：
-`晚间热点线索 · 2026年11月2日`
+`早间热点线索 · 2026年11月3日`
 
 空一行后，输出正文条目，每条格式：
 `* 事实描述（含关键数据）。仅写资讯来源中已明确发生的涨跌，不推断其他标的受到联动。标的代码直接写在正文中，结尾不另加标的列表。`
@@ -62,15 +62,15 @@
 
 ---
 
-## 晚间模式操作指令
+## 早间模式操作指令
 
-聚焦：今晚美股开盘前的运营清单。不涉及港股，只关注美股。
+聚焦：隔夜美股收盘结果 + 影响今日港股开盘的信息。
 
 重点关注（按重要性排序写入）：
-1. 盘前重要财报及初步反应（EPS/营收 vs 预期——仅限资讯来源中有明确数据）
-2. 盘前个股异动（涨跌 5% 以上 + 原因一句话）
-3. 影响今晚开盘情绪的宏观事件（Fed 官员讲话、重要数据——仅限资讯来源中明确出现）
-4. 其他值得今晚关注的美股消息
+1. 美股三大指数昨夜涨跌及核心驱动，一句话概括（必须有资讯来源支撑，不得推断）
+2. 个股重大异动（财报或重大消息驱动涨跌 5% 以上）
+3. 隔夜重要宏观数据（非农/CPI/PCE/美联储表态——仅限资讯来源中明确出现）
+4. 隔夜消息中可能影响港股相关板块的内容，重点关注：光通信、存储/HBM、半导体、中概互联网等；若有明确利好/利空驱动，须点明对应港股板块或个股
 
 ---
 
@@ -104,64 +104,60 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026110220
+抓取时间: 2026110309
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets open in 2h 30m
-- Stock futures jump ahead of a monster week after a $5 trillion AI rout
-- Nvidia stock valuation gets torched by tech stock rout
-- ‘More and more disenchanted’: Trump’s economic approval before midterms
-- Nvidia stock valuation gets torched by tech stock rout
-- ‘More and more disenchanted’: Trump’s economic approval before midterms
-- Big Tech earnings, midterms, sell-off: What to watch this week
-- Apple to report Q4 earnings Monday, with iPhone 18 sales in the spotlight
-- Stock futures recover from bruising sell-off ahead of busy week
-- Wall Street braces for biggest Treasury sales overhaul in years
-- S&P 500's perfect midterm record faces a test in 2026
-- Oil falls 4% on hopes for Iran war talks
+- U.S. markets closed
+- Apple beats on strong iPhone sales but misses on China
+- Disney’s theme parks, TV and movie units face deep cuts, report says
+- Palantir raises full-year outlook as US commercial sales accelerate
+- Disney’s theme parks, TV and movie units face deep cuts, report says
+- Palantir raises full-year outlook as US commercial sales accelerate
+- Oil prices fall ahead of US midterm elections
+- Robinhood in 'food fight' for Anthropic IPO retail allocation
+- Lumentum goes from $1B spinoff to $115B takeover
+- Treasury yields extend last month’s slide as oil tumbles
+- Apollo flexes its underwriting power with a $9.6B ADT debt deal
+- Why drivers could soon see some relief at the gas pump
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
 - Tech & AI
-- Wall Street’s bearish on hyperscalers more than you’d think
-- Tech stock plunge aftermath a seen in 3 pictures
-- Need a break from AI stocks? Here's how Warren Buffett still looms over red-hot Brooks Running.
-- Anthropic seeks up to $3.5B in Japan for its mega US IPO
+- Musk is throttling Grok because its cost is 'unsustainably high'
+- One image shows why tech stocks are being dumped
+- AMD to report Q3 results following disappointing showing from Intel
+- Intel’s stock collapse deepens as the $3.5T chip rout spreads
 - Popular
-- China's slow buying of US farm goods tests $17B trade pledge
-- SpaceX hits back at T-Mobile over Starlink spectrum rules
+- Apple could owe iPhone owners up to $95. Here's how to claim it.
+- US market correction nearing end, Morgan Stanley strategists say
 
 ## Benzinga (EN)
-头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- You are unable to access benzinga.com
-- Why have I been blocked?
-- What can I do to resolve this?
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7f0972457890>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7cde88be1f40>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - Breaking China, Asia, HK News, Opinions and Insights
-- China unearths new critical mineral deposit, bolstering supply chain security
-- Diplomacy
-- Talks are the only way out, China tells Iran as US threat hangs over Mideast
-- Markets
-- Beijing launches US$15b asset swap to support China’s markets after sell-off
-- Society
-- Meta says it met Hong Kong privacy watchdog over AI-enabled glasses concerns
-其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- The discovery included a major stock of zircon, but analysts were unclear how much could be commercially developed to reduce imports.
-- Office of the Privacy Commissioner for Personal Data earlier warned tech giant’s product may enable covert recording, excessive personal data collection.
-- Tech War
-- China’s CXMT defends push into new DRAM architecture as US chip curbs bite
-- The company plans to send customers samples of its first server-grade DRAM product built on the 4F² architecture by the end of this year.
-- Military
-- Beijing doubles down on Type 071 amphibious warships, signalling a Taiwan focus
-- Move challenges US assessments that Beijing lacks the maritime lift and logistical support needed for a large-scale attack on the island.
+- In Focus | Weakened at home? Why midterm losses could force Trump’s hand on China
 - Politics
-- India offers Asean counterterrorism lessons, but will one size fit all?
+- Trump ends midterm campaign calling Democratic candidates ‘most dangerous ever’
+- Hong Kong
+- First Northern Metropolis Marathon hit by complaints after 15,000 sign up
+- China Business
+- As sales slow, carmakers in China use overt marketing tactics, face controversy
+其他 (首页其他位置，按重要性排序，仅标题无摘要):
+- If the Democrats win control of the House it could bring volatility, but analysts expect Trump to continue trying to stabilise ties.
+- Inflated claims and a slang term have seen Chinese automakers in hot water with consumers.
+- OpenAI executive urges caution in China-US AI talks, warns of distillation
+- Caroline Zier backs dialogue with Beijing but questions shared understanding of AI risks and warns of threats to US technology.
+- How Xi, Communist Party elders shaped key plenum document addressing wrongdoing
+- Landmark resolution sets forth over 200 measures to regulate cadre conduct, curb corruption and rein in unchecked top officials.
+- Cryptocurrency
+- Crypto industry confronts stark security challenges after US$6.4b Binance hack
+- The question of how to prevent more massive hacks – especially in the AI era – hangs over gathering of fintech leaders in Hong Kong.
+- Banking & Finance
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -191,32 +187,33 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 美國中期選舉倒計時！摩根士丹利：市場真正盯着這三件事
-- 一圖前瞻 | Palantir週一盤後迎業績大考：營收增速料達84%，指引能否繼續上調成為焦點
-- 黃金跌破3900美元后，華爾街多頭集體「投降」，散戶蜂擁抄底
-- 一圖前瞻 | AMD Q3業績11月3日盤後公佈！英特爾大跌後迎關鍵考驗，AI增長能否對沖PC擔憂？
-- AI融資承壓且科技股遭血洗後 Anthropic欲赴日本募資35億美元 亟需現金護航AI算力擴張
-- 高盛：NAND供需緊張或延續至2027年，鎧俠產能基本售罄
-- 期權收租｜半導體異動成交放大，SOXL單日跌近25%，如何捕捉高波動？
-- 北水減倉港股近45億港元，淨買入中國海洋石油近9億港元，加倉智譜近4億港元；淨賣出小米集團逾18億港元
+- 富途早報 | 中期選舉今日投票，特朗普稱不會在中期選舉後發動打擊，國際油價下跌；邁威爾科技溢價23.9%收購Lumentum；蘋果、Palantir績後股價均跌近3%；SHOP盤前、AMD與SMCI盤後發業績
+- 蘋果上季營收盈利均超預期，iPhone和Mac表現亮眼，但在華業績遜色、服務增速放緩
+- 央行：11月15日起上調金融機構外匯存款準備金率2個百分點
+- Marvell暴跌13%，Lumentum重挫19%！史上第二大科技併購爲何引發市場拋售？
+- 蘋果電話會：服務收入降速引擔憂，高管明確AI商業化路徑，硬件銷售面臨「艱難對比」
+- 特朗普對伊態度明顯軟化：不會在中期選舉後發動打擊，協議可能達成
+- 高通業績前瞻：存儲芯片漲價恐重創智能手機市場 伯恩斯坦下調目標價至155美元
+- Anthropic IPO前更新招股書凸顯盈利壓力：Q3營收近170億美元、同比增11倍，淨虧損擴大92%，算力承諾近9000億
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- AI可以免疫高利率？泡沫末期，市場往往充斥着幻想
-- 香港港交所：延長衍生產品收市後交易時段
-- 央行：將於11月3日開展證券、基金、保險公司互換便利操作，申請額度超1000億元
-- 收市速睇 | 三大指數齊漲，科指漲2.25%；科網股上行，小米漲超6%，阿里、騰訊漲超2%；光通信、鋰電池股走強，長飛光纖光纜漲超11%，寧德時代漲超6%
-- 英偉達回撤至200日均線關鍵支撐，能否獲有效承接？
-- 特斯拉週K突破下降通道，能否延續近期強勁升勢？
-- 央行明日啓動第三次證券、基金、保險公司互換便利操作招標
-- 伊朗外交部發言人巴加埃：與美國外交的基礎是伊朗的七步方案，未來幾天存在實施該方案的可能性。與美方的信息交流仍在繼續，外交部副部長加里巴巴迪曾赴多哈爲此提供協助。
-- 高盛：美股出現七大「修復」信號，但投資者得先熬過2026年
-- 美股現出現罕見背離：10月AI股大跌13%、「標普500剔除AI」後創下新高
+- 邁威爾千億美元「鯨吞」Lumentum背後：激光器市場「極度緊張」
+- Palantir Q3營收翻倍，美國商業收入首超政府收入，全年指引上調，但盤後下跌
+- 蘋果預計第一財季全公司營收將增長7%至10%，預計內存採購價格將持續上漲
+- 美國中期選舉或成黃金轉折點，赤字憂慮有望重燃避險需求
+- 美股收盤 | 納指、標普現"A殺"，納指100跌入技術調整；芯片指數跌超3%，美光跌6%；金龍指數漲超2%；原油重挫8%，黃金走強
+- 成交額TOP20 | 英特爾續跌9%；邁威爾三日累跌32%，Lumentum重挫19%；Meta、谷歌、甲骨文同日宣佈融資，擬合計搶籌近500億美元加碼AI
+- 蘋果2026財年Q4營收1144.8億美元，同比增長12%；稀釋後EPS2.10美元
+- Palantir2026年Q3營收23.13億美元，調整後EPS0.44美元，上調全年營收展望，美國商業收入首次超過美國政府收入
+- 時隔半年再籌200億鉅債，Meta擬首次發售歐元債券拓展AI資金池
+- 華爾街嚴陣以待美債發行多年來最大調整：長債或提前減量，短債融資佔比面臨考驗
 
 --- 跨站重点主题（多站出现=更重要）---
-- 伊朗/中东: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中)
+- 就业数据: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中)
 - 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中)
-- 油价/霍尔木兹: Yahoo Finance (EN), 富途资讯 (繁中)
-- 就业数据: Yahoo Finance (EN), SCMP (EN/中)
 - 中国/欧盟: Yahoo Finance (EN), SCMP (EN/中)
+- 伊朗/中东: SCMP (EN/中)
+- 油价/霍尔木兹: Yahoo Finance (EN)
+- 加密货币: SCMP (EN/中)
 - 中国政策/两会: 富途资讯 (繁中)
 
 --- 粘贴结束 ---
