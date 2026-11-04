@@ -7,8 +7,8 @@
 你是港美股热点运营助手，服务于一个在中国做港美股内容运营的团队。
 你的输出将直接发到 Slack 群，供团队确认当日运营优先级，无需再二次加工。
 
-**当前模式：晚间**
-**覆盖时间段：今日08:00 - 20:00（美股开盘前）**
+**当前模式：早间**
+**覆盖时间段：昨日22:00 - 今日09:00（美股隔夜收盘）**
 
 ---
 
@@ -30,7 +30,7 @@
 ## 输出格式（严格遵守）
 
 第一行输出标题，固定为（直接复制，不修改任何字）：
-`晚间热点线索 · 2026年11月3日`
+`早间热点线索 · 2026年11月4日`
 
 空一行后，输出正文条目，每条格式：
 `* 事实描述（含关键数据）。仅写资讯来源中已明确发生的涨跌，不推断其他标的受到联动。标的代码直接写在正文中，结尾不另加标的列表。`
@@ -62,15 +62,15 @@
 
 ---
 
-## 晚间模式操作指令
+## 早间模式操作指令
 
-聚焦：今晚美股开盘前的运营清单。不涉及港股，只关注美股。
+聚焦：隔夜美股收盘结果 + 影响今日港股开盘的信息。
 
 重点关注（按重要性排序写入）：
-1. 盘前重要财报及初步反应（EPS/营收 vs 预期——仅限资讯来源中有明确数据）
-2. 盘前个股异动（涨跌 5% 以上 + 原因一句话）
-3. 影响今晚开盘情绪的宏观事件（Fed 官员讲话、重要数据——仅限资讯来源中明确出现）
-4. 其他值得今晚关注的美股消息
+1. 美股三大指数昨夜涨跌及核心驱动，一句话概括（必须有资讯来源支撑，不得推断）
+2. 个股重大异动（财报或重大消息驱动涨跌 5% 以上）
+3. 隔夜重要宏观数据（非农/CPI/PCE/美联储表态——仅限资讯来源中明确出现）
+4. 隔夜消息中可能影响港股相关板块的内容，重点关注：光通信、存储/HBM、半导体、中概互联网等；若有明确利好/利空驱动，须点明对应港股板块或个股
 
 ---
 
@@ -104,60 +104,60 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026110320
+抓取时间: 2026110409
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets open in 2h 30m
-- Why Palantir doesn’t deserve AI meltdown hit
-- Apple's $136 billion cash haul leaves AI's big spenders in the dust: Chart of the Day
-- Prediction markets vs. polls: Election forecasting industry faces midterm test
-- Apple's $136 billion cash haul leaves AI's big spenders in the dust: Chart of the Day
-- Prediction markets vs. polls: Election forecasting industry faces midterm test
-- Apple beats on strong iPhone sales but misses on China
-- Palantir raises full-year outlook as US commercial sales accelerate
-- Apple shows consumers complain, but still pay
-- The economy is 'less K-shaped than you think' — and that's bad news for the Fed
-- Stock futures waver ahead of midterm election results, AMD earnings
-- Nvidia's Huang gave blessing to Marvell-Lumentum megadeal
+- U.S. markets closed
+- A Democratic sweep may not move stocks much, history shows
+- Bettors vs. pollsters: The midterm showdown
+- Fake job interviews helped hackers pull off Binance's record crypto heist
+- Bettors vs. pollsters: The midterm showdown
+- Fake job interviews helped hackers pull off Binance's record crypto heist
+- I bonds are back: Why the new 5.51% rate is so attractive
+- Why HOA fees have spiked in recent years
+- CVS stock climbs on report of a historic breakup
+- AMD beats Q3 estimates, as data center revenue climbs 97%
+- Earnings live: Duolingo stock jumps on user growth, upbeat guidance
+- Super Micro tops Q1 estimates with a strong Q2 outlook
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
 - Tech & AI
-- Nvidia orders data centre clients to reduce China exposure
-- AMD to report Q3 results following disappointing showing from Intel
-- One image shows why tech stocks are being dumped
-- Baidu AI chip unit's Hong Kong IPO is said to slip to next year
+- CrowdStrike announces 'kill switch' for AI agents
+- Everything you need to know ahead of Anthropic's IPO
+- Google gives schools a Gemini off switch, with one big gap
+- Apple's $136B cash haul leaves AI's big spenders in the dust
 - Popular
-- Oil rises as Iran says war deal remains distant, US strikes Qeshm
-- Dollar drifts on Mideast, midterm risks
+- Social Security changes for anyone born before 1967
+- Apple could owe iPhone owners up to $95. Here's how to claim it.
 
 ## Benzinga (EN)
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7916b80b0c80>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7920d304ce60>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - Breaking China, Asia, HK News, Opinions and Insights
-- China-US AI investment gap narrower than figures suggest: report
-- Military
-- China’s HQ series intercepts 2 new missile types as PLA tests weapon platform
-- China Business
-- Why Hong Kong’s bridge role matters more than ever in a ‘reglobalisation’ era
-- Business
-- Vice-Premier He Lifeng vows support for Hong Kong as global financial centre
-其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- However, China Finance 40 Forum research team says artificial intelligence is making greater contribution to growth of American economy.
-- At opening of investment summit in city, He says finance sector ‘plays an irreplaceable role in Hong Kong’s high-quality development’.
-- Diplomacy
-- Beijing offers to boost China-Pakistan corridor safety as terror threat grows
-- On visit to country, senior Communist Party official offers to foster a ‘secure environment’ for key Belt and Road project.
+- High voter turnout as first US midterm results test Trump’s grip on Congress
+- US Elections
+- US midterms: what happened while Asia slept, and when to expect results
 - Society
-- Hong Kong government reconsiders proxy vote proposals after homeowners’ feedback
-- Nearly 70 per cent of the 550 submissions reject limits on authorised representatives and more than half object to proxy vote caps.
-- Economics
-- Why a midterm mauling for Trump will not bring Asia trade relief
+- Praised as heroes, stung by criticism: firefighters torn over Tai Po blaze report
+- China Economy
+- In Focus | Trash is treasured: why China’s high scrap prices are sparking a recycling boom
+其他 (首页其他位置，按重要性排序，仅标题无摘要):
+- Will Donald Trump become a lame-duck president? With the Republican Party unpopular and the Democrats resurgent, it may happen.
+- Price rises for primary materials, a result of Iran war and other factors, have given recyclers’ profits a boost despite low volume.
+- Diplomacy
+- China training Solomon Islands police to use water cannons under security pact
+- Training programme announced after new government said it would review its current agreements with Beijing.
+- China accuses Philippine politicians of ‘intolerable’ conduct as tensions rise
+- China’s top diplomat Wang Yi urges the Philippines to rein in politicians who had repeatedly ‘smeared’ Beijing and crossed its ‘red lines’.
+- Israel deepens Somaliland ties with first ambassador, testing regional balance
+- China and Djibouti jointly reaffirm Somalia’s territorial integrity and emphasise importance of freedom of navigation.
+- Business
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -174,9 +174,9 @@
 - 环球基金：
 - ETF：
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 恒生指数23456.28+62.96(+0.27%)
+- 恒生指数23525.97+132.65(+0.57%)
                     etnet.com.hk@copyright
-- 国企指数7914.08+7.97(+0.10%)
+- 国企指数7943.10+36.99(+0.47%)
                     etnet.com.hk@copyright
 - 理财/管理
 - 时尚艺术
@@ -187,35 +187,33 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 邁威爾千億 「以股換光」 ，爲何遭市場用腳投票？對國內光通信有何影響？
-- 美國東部多州開啓中期選舉投票
-- 中期選舉後美股19次全漲？歷史規律遇2027年三大變數：美債、通脹與AI
-- 期權收租｜英特爾3日累跌超35%，基本面壓力仍待消化？
-- AI交易遭遇清算後 阿克曼力挺雲計算巨頭增長潛力：華爾街高估AI基建成本，低估AI盈利曲線
-- 邊談邊打！報道：美軍中選前夕襲擊了伊朗格什姆島，談判信號同步推進
-- 國務院關於金融工作情況的報告：實施好支持資本市場的貨幣政策工具，做好金融支持融資平台退出後市場化轉型工作
-- 北水掃貨港股超234億港元，盈富基金獲淨買入超165億港元；小米集團、中芯國際均遭淨賣出近4億港元
+- 富途早報 | 美伊談判尚未達成新進展，特朗普稱沒有立即打擊伊朗計劃；SK海力士紐約新建芯片工廠計劃受阻；績優股AMD、超微電腦、Block、Arista Networks盤後上漲；Circle盤前、Coherent、Arm與高通盤後發業績
+- 未步英特爾後塵！AMD Q3營收超預期增45%，數據中心收入近翻倍，Q4指引提速又新高
+- 美國中選，今天市場怎麼看？關鍵時間節點一覽
+- 超微電腦大漲Q1財季營收及業績指引雙超預期，AI服務器需求強勁
+- 美財政部今夜有重磅聲明！摩根資管提前喊話：取消20年期美債
+- 234億港元創近半年新高！南下資金在買什麼？
+- AMD電話會：Q4 AI芯片收入將首次超越服務器CPU，明年數據中心收入佔比將破80%
+- 據英國金融時報：特朗普表示，美國目前沒有立即打擊伊朗的計劃
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 邁威爾科技(MRVL.US)千億美元收購電話會：CEO重申“現在就是時機“ ，合併將定義AI光互連新時代
-- 大摩Wilson：美股調整已進入尾聲，中選結束或是抄底良機
-- 收市速睇 | 三大指數齊漲，科指漲0.74%；科網股上漲，京東漲近6%；光通信、半導體股走低，中際旭創跌近11%，天數智芯跌超8%
-- 港交所宣佈將推出12只新股票期貨合約，包括MINIMAX、聯想集團等
-- 世界黃金協會：下調全年黃金投資需求增長預期至200噸，全球央行購金提速、ETF持倉創新高
-- 百度否認崑崙芯IPO推遲市場傳聞
-- 南向資金淨買入額達200億港元
-- SpaceX目前處於下降收斂三角形通道底部，向上突破還是繼續回調？
-- Palantir Q3電話會：商業、政府收入雙雙破10億美元 主權AI革命才剛起步
-- 餐飲股逆勢走強，機構看好「高賠率」左側配置價值，哪些公司宣佈了回購？
+- Arista Networks Q3增收增利能力創歷史最佳，Q4業績指引超預期
+- Astera Labs Q3業績、指引超預期， Scorpio躍升爲營收第一大產品線
+- 美股收盤 | 選舉日標普納指止步三連跌；芯片指數漲3%，AMD漲4%；比特幣承壓反彈，Coinbase漲超5%；黃金3900失而復得
+- 蘋果發佈開發者測試版：AI聽音功能與新版健康應用上線
+- 中際旭創回應傳言：絕大部分客戶未下修需求，部分客戶1.6T需求增長，野村：330元目標價傳聞不屬實
+- 成交額TOP20 | 甲骨文大漲6%，折價11%配售百億股票；黃仁勳親自點頭光巨頭併購；特斯拉歐洲銷量暴增；蘋果換帥首秀走弱，內存漲價成桎梏
+- AMD 2026年Q3營收133.77億美元，調整後EPS2.09美元，數據中心業務營收同比增長97%
+- 超微電腦2027財年Q1營收199億美元，調整後EPS1.81美元，上調全年銷售預期
+- Astera Labs 2026年Q3營收5.85億美元，同比增長154%；調整後EPS1.32美元
+- 監管生變？加密股10月承壓今日反彈，美國中選或改寫特朗普時代金融市場格局
 
 --- 跨站重点主题（多站出现=更重要）---
 - 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
-- 伊朗/中东: Yahoo Finance (EN), 富途资讯 (繁中)
-- 中国/欧盟: Yahoo Finance (EN), SCMP (EN/中)
-- 油价/霍尔木兹: Yahoo Finance (EN)
-- 加密货币: Yahoo Finance (EN)
-- 黄金/大宗: Yahoo Finance (EN)
-- 美联储: Yahoo Finance (EN)
-- 中国政策/两会: 富途资讯 (繁中)
+- 伊朗/中东: SCMP (EN/中), 富途资讯 (繁中)
+- 加密货币: Yahoo Finance (EN), 富途资讯 (繁中)
+- 就业数据: SCMP (EN/中)
+- 黄金/大宗: SCMP (EN/中)
+- 中国/欧盟: SCMP (EN/中)
 
 --- 粘贴结束 ---
 <!-- 资讯来源结束 -->
