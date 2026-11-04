@@ -3,47 +3,48 @@
 ## 一、各站抓取情况
 
 - **Yahoo Finance (EN)** ✓
-  - 头版/首屏: U.S. markets closed | A Democratic sweep may not move stocks much, history shows | Bettors vs. pollsters: The midterm showdown | Fake job interviews helped hackers pull off Binance's record crypto heist | Bettors vs. pollsters: The midterm showdown | Fake job interviews helped hackers pull off Binance's record crypto heist | I bonds are back: Why the new 5.51% rate is so attractive | Why HOA fees have spiked in recent years
-  - 其他: Top Stories | Markets & Economy | Tech & AI | CrowdStrike announces 'kill switch' for AI agents | Everything you need to know ahead of Anthropic's IPO
+  - 头版/首屏: U.S. markets open in 2h 30m | Democrats win Congress, target healthcare, tariffs, Trump allies | The AI sell-off saved Apple from a sell-off of its own | Wall Street reacts to blue wave: Winners, losers, in-betweens | The AI sell-off saved Apple from a sell-off of its own | Wall Street reacts to blue wave: Winners, losers, in-betweens | A Democrat won the Texas governor's race after promising to halt new data center construction | Midterm elections 2026: How the S&P 500 has performed after a Democratic sweep
+  - 其他: Top Stories | Markets & Economy | Tech & AI | Why the Democrat blue wave could be a good thing for Apple stock | Nvidia China clients to get 1% of $70B RTX chips ordered
 
 - **Benzinga (EN)** ✓
 
-- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7920d304ce60>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
+- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x709b22944a70>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
 
 - **SCMP (EN/中)** ✓
-  - 头版/首屏: Breaking China, Asia, HK News, Opinions and Insights | High voter turnout as first US midterm results test Trump’s grip on Congress | US Elections | US midterms: what happened while Asia slept, and when to expect results | Society | Praised as heroes, stung by criticism: firefighters torn over Tai Po blaze report | China Economy | In Focus | Trash is treasured: why China’s high scrap prices are sparking a recycling boom
-  - 其他: Will Donald Trump become a lame-duck president? With the Republican Party unpopular and the Democrats resurgent, it may happen. | Price rises for primary materials, a result of Iran war and other factors, have given recyclers’ profits a boost despite low volume. | Diplomacy | China training Solomon Islands police to use water cannons under security pact | Training programme announced after new government said it would review its current agreements with Beijing.
+  - 头版/首屏: Breaking China, Asia, HK News, Opinions and Insights | In Asia, midterms spark worries about diplomatic uncertainty, economic pressure | China and beyond: how the Democrats’ blue midterm wave has rippled around the world | US midterm shift could squeeze China on AI, bring clarity to bilateral talks | Chinese exporters see respite as Beijing curbs yuan rise amid record surplus | Global Economy | At this year’s CIIE, EU firms test Beijing’s promise to open up its markets | Health & Environment
+  - 其他: For US allies, there are concerns that a lame-duck Trump administration might squeeze them to score some easy diplomatic wins | The central bank’s move to slow the yuan’s offers a breather to exporters, they say. | Hongkongers to draft end-of-life treatment refusals online from next year | Diplomacy | US midterm takeaways: Trump’s blame game, Elon’s space lasers and the rest of the world
 
 - **经济通 (繁中)** ✓
-  - 头版/首屏: 沪深港通 热点观察国际动态【FOCUS】 | 传三部门开会研救市措施，内险股绩差照升可续博反弹？ | 人行组合拳 回购增持再贷款减息至1厘 | 南韩预算4.8万亿 倍增AI半导体投资 | 农历“9．24”，今时不同往日 | 指数环球商品外汇 | 国金观点 | 港股大市分析
-  - 其他: 恒生指数23525.97+132.65(+0.57%)
-                    etnet.com.hk@copyright | 国企指数7943.10+36.99(+0.47%)
+  - 头版/首屏: 沪深港通 热点观察国际动态【FOCUS】 | 港股再录北水净流入，医药股获大行唱好炒上可再吼？ | 人行上调外汇存款准备金率 缓人币升势 | 美中选开打 5700万人提前投票新高 | “红州”骨牌式失守，侵侵“踩油门”反击？ | 指数环球商品外汇 | 国金观点 | 港股大市分析
+  - 其他: 恒生指数23919.50+393.53(+1.67%)
+                    etnet.com.hk@copyright | 国企指数8057.59+114.49(+1.44%)
                     etnet.com.hk@copyright | 理财/管理 | 时尚艺术 | 健康人生
 
 - **智通财经 (简中)** ✓
 
 - **富途资讯 (繁中)** ✓
-  - 头版/首屏: 富途早報 | 美伊談判尚未達成新進展，特朗普稱沒有立即打擊伊朗計劃；SK海力士紐約新建芯片工廠計劃受阻；績優股AMD、超微電腦、Block、Arista Networks盤後上漲；Circle盤前、Coherent、Arm與高通盤後發業績 | 未步英特爾後塵！AMD Q3營收超預期增45%，數據中心收入近翻倍，Q4指引提速又新高 | 美國中選，今天市場怎麼看？關鍵時間節點一覽 | 超微電腦大漲Q1財季營收及業績指引雙超預期，AI服務器需求強勁 | 美財政部今夜有重磅聲明！摩根資管提前喊話：取消20年期美債 | 234億港元創近半年新高！南下資金在買什麼？ | AMD電話會：Q4 AI芯片收入將首次超越服務器CPU，明年數據中心收入佔比將破80% | 據英國金融時報：特朗普表示，美國目前沒有立即打擊伊朗的計劃
-  - 其他: Arista Networks Q3增收增利能力創歷史最佳，Q4業績指引超預期 | Astera Labs Q3業績、指引超預期， Scorpio躍升爲營收第一大產品線 | 美股收盤 | 選舉日標普納指止步三連跌；芯片指數漲3%，AMD漲4%；比特幣承壓反彈，Coinbase漲超5%；黃金3900失而復得 | 蘋果發佈開發者測試版：AI聽音功能與新版健康應用上線 | 中際旭創回應傳言：絕大部分客戶未下修需求，部分客戶1.6T需求增長，野村：330元目標價傳聞不屬實
+  - 头版/首屏: 歷史性大勝！民主黨重掌國會，參衆兩院雙雙易主，一文梳理：對全球資產意味着什麼？ | 共和黨中選失利、4.5億美元泡湯？「大金主」馬斯克發聲，旗下特斯拉與SpaceX股價承壓 | Circle第三季度總收入及儲備收益爲8.65億美元超預期，同比增長17% | 美國中期選舉迎來決戰！摩根大通預測：哪種結果最利好美股？ | AI基建融資戰線延至歐洲! Meta(META.US)首發歐元債券，AI雄心壯志遭遇現金流與信用大考 | 中選慘敗後，特朗普對伊朗態度軟化，稱「可能沒必要再打」 | 民主黨橫掃國會後，投資者最關注的12個問題 | 北水減倉港股近33億港元，淨買入中芯國際近12億港元，加倉中際旭創近6億港元；淨賣出小米集團逾2億港元
+  - 其他: 期權收租｜納指三倍槓桿ETF放量反彈，選舉懸念落地後TQQQ能否延續漲勢？ | 千問接入國行蘋果智能，系統調用與App承接 | 收市速睇 | 三大指數午後強勢上行，恒指漲1.67%，科指漲1.77%；芯片、PCB、光通信股走強，華虹宏力大漲近16%，建滔積層板漲超14%，長飛光纖光纜漲超9% | 中金AI十年展望：Personal Agent——消費級AI的破曉時分 | 民主黨大勝，全球股市「先崩後拉」、金銀大漲，市場在交易什麼？
 
 ## 二、跨站主题（多站出现 = 更重要）
 
-- **科技股/个股** — 出现于: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中) (4 站)
-- **伊朗/中东局势** — 出现于: SCMP (EN/中), 富途资讯 (繁中) (2 站)
-- **加密货币** — 出现于: Yahoo Finance (EN), 富途资讯 (繁中) (2 站)
-- **就业/经济数据** — 出现于: SCMP (EN/中) (1 站)
-- **黄金/大宗商品** — 出现于: SCMP (EN/中) (1 站)
-- **中国/欧盟** — 出现于: SCMP (EN/中) (1 站)
+- **科技股/个股** — 出现于: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中) (3 站)
+- **伊朗/中东局势** — 出现于: Yahoo Finance (EN), 富途资讯 (繁中) (2 站)
+- **中国/欧盟** — 出现于: Yahoo Finance (EN), SCMP (EN/中) (2 站)
+- **美国关税（15%等）** — 出现于: Yahoo Finance (EN) (1 站)
+- **油价/能源/霍尔木兹** — 出现于: Yahoo Finance (EN) (1 站)
+- **加密货币** — 出现于: Yahoo Finance (EN) (1 站)
+- **黄金/大宗商品** — 出现于: Yahoo Finance (EN) (1 站)
 
 ## 三、检测到的主题（供参考，由总结摘要 Prompt 自行判断重要性）
 
-- 科技股/个股（4 站）
+- 科技股/个股（3 站）
 - 伊朗/中东局势（2 站）
-- 加密货币（2 站）
-- 就业/经济数据（1 站）
+- 中国/欧盟（2 站）
+- 关税/贸易政策（1 站）
+- 油价/能源（1 站）
+- 加密货币（1 站）
 - 黄金/大宗商品（1 站）
-- 中国/欧盟（1 站）
-- 关税/贸易政策（0 站）
-- 油价/能源（0 站）
+- 就业/经济数据（0 站）
 - 美联储/利率（0 站）
 - 中国政策（0 站）

@@ -7,8 +7,8 @@
 你是港美股热点运营助手，服务于一个在中国做港美股内容运营的团队。
 你的输出将直接发到 Slack 群，供团队确认当日运营优先级，无需再二次加工。
 
-**当前模式：早间**
-**覆盖时间段：昨日22:00 - 今日09:00（美股隔夜收盘）**
+**当前模式：晚间**
+**覆盖时间段：今日08:00 - 20:00（美股开盘前）**
 
 ---
 
@@ -30,7 +30,7 @@
 ## 输出格式（严格遵守）
 
 第一行输出标题，固定为（直接复制，不修改任何字）：
-`早间热点线索 · 2026年11月4日`
+`晚间热点线索 · 2026年11月4日`
 
 空一行后，输出正文条目，每条格式：
 `* 事实描述（含关键数据）。仅写资讯来源中已明确发生的涨跌，不推断其他标的受到联动。标的代码直接写在正文中，结尾不另加标的列表。`
@@ -62,15 +62,15 @@
 
 ---
 
-## 早间模式操作指令
+## 晚间模式操作指令
 
-聚焦：隔夜美股收盘结果 + 影响今日港股开盘的信息。
+聚焦：今晚美股开盘前的运营清单。不涉及港股，只关注美股。
 
 重点关注（按重要性排序写入）：
-1. 美股三大指数昨夜涨跌及核心驱动，一句话概括（必须有资讯来源支撑，不得推断）
-2. 个股重大异动（财报或重大消息驱动涨跌 5% 以上）
-3. 隔夜重要宏观数据（非农/CPI/PCE/美联储表态——仅限资讯来源中明确出现）
-4. 隔夜消息中可能影响港股相关板块的内容，重点关注：光通信、存储/HBM、半导体、中概互联网等；若有明确利好/利空驱动，须点明对应港股板块或个股
+1. 盘前重要财报及初步反应（EPS/营收 vs 预期——仅限资讯来源中有明确数据）
+2. 盘前个股异动（涨跌 5% 以上 + 原因一句话）
+3. 影响今晚开盘情绪的宏观事件（Fed 官员讲话、重要数据——仅限资讯来源中明确出现）
+4. 其他值得今晚关注的美股消息
 
 ---
 
@@ -104,68 +104,68 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026110409
+抓取时间: 2026110420
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets closed
-- A Democratic sweep may not move stocks much, history shows
-- Bettors vs. pollsters: The midterm showdown
-- Fake job interviews helped hackers pull off Binance's record crypto heist
-- Bettors vs. pollsters: The midterm showdown
-- Fake job interviews helped hackers pull off Binance's record crypto heist
-- I bonds are back: Why the new 5.51% rate is so attractive
-- Why HOA fees have spiked in recent years
-- CVS stock climbs on report of a historic breakup
+- U.S. markets open in 2h 30m
+- Democrats win Congress, target healthcare, tariffs, Trump allies
+- The AI sell-off saved Apple from a sell-off of its own
+- Wall Street reacts to blue wave: Winners, losers, in-betweens
+- The AI sell-off saved Apple from a sell-off of its own
+- Wall Street reacts to blue wave: Winners, losers, in-betweens
+- A Democrat won the Texas governor's race after promising to halt new data center construction
+- Midterm elections 2026: How the S&P 500 has performed after a Democratic sweep
+- Stock futures rise after Democrats take control of House, Senate
 - AMD beats Q3 estimates, as data center revenue climbs 97%
-- Earnings live: Duolingo stock jumps on user growth, upbeat guidance
 - Super Micro tops Q1 estimates with a strong Q2 outlook
+- Uber Q3 earnings preview: Bookings, users and robotaxi costs in focus
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
 - Tech & AI
-- CrowdStrike announces 'kill switch' for AI agents
-- Everything you need to know ahead of Anthropic's IPO
-- Google gives schools a Gemini off switch, with one big gap
-- Apple's $136B cash haul leaves AI's big spenders in the dust
+- Why the Democrat blue wave could be a good thing for Apple stock
+- Nvidia China clients to get 1% of $70B RTX chips ordered
+- Tesla, SpaceX shares take early hit as midterm blue wave unfolds
+- Oracle cancels $7B Tencent AI deal under Trump pressure
 - Popular
-- Social Security changes for anyone born before 1967
-- Apple could owe iPhone owners up to $95. Here's how to claim it.
+- Gold gains as dollar slides after Democratic midterm gains
+- Oil falls on Iran war uncertainty, US Democrats' midterm sweep
 
 ## Benzinga (EN)
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7920d304ce60>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x709b22944a70>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - Breaking China, Asia, HK News, Opinions and Insights
-- High voter turnout as first US midterm results test Trump’s grip on Congress
-- US Elections
-- US midterms: what happened while Asia slept, and when to expect results
-- Society
-- Praised as heroes, stung by criticism: firefighters torn over Tai Po blaze report
-- China Economy
-- In Focus | Trash is treasured: why China’s high scrap prices are sparking a recycling boom
+- In Asia, midterms spark worries about diplomatic uncertainty, economic pressure
+- China and beyond: how the Democrats’ blue midterm wave has rippled around the world
+- US midterm shift could squeeze China on AI, bring clarity to bilateral talks
+- Chinese exporters see respite as Beijing curbs yuan rise amid record surplus
+- Global Economy
+- At this year’s CIIE, EU firms test Beijing’s promise to open up its markets
+- Health & Environment
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Will Donald Trump become a lame-duck president? With the Republican Party unpopular and the Democrats resurgent, it may happen.
-- Price rises for primary materials, a result of Iran war and other factors, have given recyclers’ profits a boost despite low volume.
+- For US allies, there are concerns that a lame-duck Trump administration might squeeze them to score some easy diplomatic wins
+- The central bank’s move to slow the yuan’s offers a breather to exporters, they say.
+- Hongkongers to draft end-of-life treatment refusals online from next year
 - Diplomacy
-- China training Solomon Islands police to use water cannons under security pact
-- Training programme announced after new government said it would review its current agreements with Beijing.
-- China accuses Philippine politicians of ‘intolerable’ conduct as tensions rise
-- China’s top diplomat Wang Yi urges the Philippines to rein in politicians who had repeatedly ‘smeared’ Beijing and crossed its ‘red lines’.
-- Israel deepens Somaliland ties with first ambassador, testing regional balance
-- China and Djibouti jointly reaffirm Somalia’s territorial integrity and emphasise importance of freedom of navigation.
-- Business
+- US midterm takeaways: Trump’s blame game, Elon’s space lasers and the rest of the world
+- The American president points to petrol prices, Musk looks to the skies and China singles out strategic stability.
+- Markets
+- US midterm blue tsunami jolts Asian markets as tighter AI, fiscal scrutiny looms
+- Assets from stocks to commodities in Asia feel the impact of the Democratic victory, as investors brace for tougher oversight of AI, spending.
+- Hong Kong Economy
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - 沪深港通 热点观察国际动态【FOCUS】
-- 传三部门开会研救市措施，内险股绩差照升可续博反弹？
-- 人行组合拳 回购增持再贷款减息至1厘
-- 南韩预算4.8万亿 倍增AI半导体投资
-- 农历“9．24”，今时不同往日
+- 港股再录北水净流入，医药股获大行唱好炒上可再吼？
+- 人行上调外汇存款准备金率 缓人币升势
+- 美中选开打 5700万人提前投票新高
+- “红州”骨牌式失守，侵侵“踩油门”反击？
 - 指数环球商品外汇
 - 国金观点
 - 港股大市分析
@@ -174,9 +174,9 @@
 - 环球基金：
 - ETF：
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 恒生指数23525.97+132.65(+0.57%)
+- 恒生指数23919.50+393.53(+1.67%)
                     etnet.com.hk@copyright
-- 国企指数7943.10+36.99(+0.47%)
+- 国企指数8057.59+114.49(+1.44%)
                     etnet.com.hk@copyright
 - 理财/管理
 - 时尚艺术
@@ -187,33 +187,34 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 富途早報 | 美伊談判尚未達成新進展，特朗普稱沒有立即打擊伊朗計劃；SK海力士紐約新建芯片工廠計劃受阻；績優股AMD、超微電腦、Block、Arista Networks盤後上漲；Circle盤前、Coherent、Arm與高通盤後發業績
-- 未步英特爾後塵！AMD Q3營收超預期增45%，數據中心收入近翻倍，Q4指引提速又新高
-- 美國中選，今天市場怎麼看？關鍵時間節點一覽
-- 超微電腦大漲Q1財季營收及業績指引雙超預期，AI服務器需求強勁
-- 美財政部今夜有重磅聲明！摩根資管提前喊話：取消20年期美債
-- 234億港元創近半年新高！南下資金在買什麼？
-- AMD電話會：Q4 AI芯片收入將首次超越服務器CPU，明年數據中心收入佔比將破80%
-- 據英國金融時報：特朗普表示，美國目前沒有立即打擊伊朗的計劃
+- 歷史性大勝！民主黨重掌國會，參衆兩院雙雙易主，一文梳理：對全球資產意味着什麼？
+- 共和黨中選失利、4.5億美元泡湯？「大金主」馬斯克發聲，旗下特斯拉與SpaceX股價承壓
+- Circle第三季度總收入及儲備收益爲8.65億美元超預期，同比增長17%
+- 美國中期選舉迎來決戰！摩根大通預測：哪種結果最利好美股？
+- AI基建融資戰線延至歐洲! Meta(META.US)首發歐元債券，AI雄心壯志遭遇現金流與信用大考
+- 中選慘敗後，特朗普對伊朗態度軟化，稱「可能沒必要再打」
+- 民主黨橫掃國會後，投資者最關注的12個問題
+- 北水減倉港股近33億港元，淨買入中芯國際近12億港元，加倉中際旭創近6億港元；淨賣出小米集團逾2億港元
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Arista Networks Q3增收增利能力創歷史最佳，Q4業績指引超預期
-- Astera Labs Q3業績、指引超預期， Scorpio躍升爲營收第一大產品線
-- 美股收盤 | 選舉日標普納指止步三連跌；芯片指數漲3%，AMD漲4%；比特幣承壓反彈，Coinbase漲超5%；黃金3900失而復得
-- 蘋果發佈開發者測試版：AI聽音功能與新版健康應用上線
-- 中際旭創回應傳言：絕大部分客戶未下修需求，部分客戶1.6T需求增長，野村：330元目標價傳聞不屬實
-- 成交額TOP20 | 甲骨文大漲6%，折價11%配售百億股票；黃仁勳親自點頭光巨頭併購；特斯拉歐洲銷量暴增；蘋果換帥首秀走弱，內存漲價成桎梏
-- AMD 2026年Q3營收133.77億美元，調整後EPS2.09美元，數據中心業務營收同比增長97%
-- 超微電腦2027財年Q1營收199億美元，調整後EPS1.81美元，上調全年銷售預期
-- Astera Labs 2026年Q3營收5.85億美元，同比增長154%；調整後EPS1.32美元
-- 監管生變？加密股10月承壓今日反彈，美國中選或改寫特朗普時代金融市場格局
+- 期權收租｜納指三倍槓桿ETF放量反彈，選舉懸念落地後TQQQ能否延續漲勢？
+- 千問接入國行蘋果智能，系統調用與App承接
+- 收市速睇 | 三大指數午後強勢上行，恒指漲1.67%，科指漲1.77%；芯片、PCB、光通信股走強，華虹宏力大漲近16%，建滔積層板漲超14%，長飛光纖光纜漲超9%
+- 中金AI十年展望：Personal Agent——消費級AI的破曉時分
+- 民主黨大勝，全球股市「先崩後拉」、金銀大漲，市場在交易什麼？
+- 功率半導體板塊漲幅居前，三季度行業盈利明顯改善，機構看好AIDC帶動百億級需求增量
+- AMD業績優於市場預期，能否重新站上100日移動均線關鍵價位？
+- Wegovy口服片需求強勁，諾和諾德Q3營收盈利齊超預期、再次上調全年業績指引
+- 「藍色浪潮」席捲美國！一文梳理：民主黨橫掃國會意味着什麼？
+- 中期選舉結果將揭曉，美股七巨頭回測關鍵趨勢線支撐，能否維持升勢？
 
 --- 跨站重点主题（多站出现=更重要）---
-- 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
-- 伊朗/中东: SCMP (EN/中), 富途资讯 (繁中)
-- 加密货币: Yahoo Finance (EN), 富途资讯 (繁中)
-- 就业数据: SCMP (EN/中)
-- 黄金/大宗: SCMP (EN/中)
-- 中国/欧盟: SCMP (EN/中)
+- 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中)
+- 伊朗/中东: Yahoo Finance (EN), 富途资讯 (繁中)
+- 中国/欧盟: Yahoo Finance (EN), SCMP (EN/中)
+- 美国关税: Yahoo Finance (EN)
+- 油价/霍尔木兹: Yahoo Finance (EN)
+- 加密货币: Yahoo Finance (EN)
+- 黄金/大宗: Yahoo Finance (EN)
 
 --- 粘贴结束 ---
 <!-- 资讯来源结束 -->
