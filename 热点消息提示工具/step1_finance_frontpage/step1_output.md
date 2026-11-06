@@ -3,16 +3,16 @@
 ## 一、各站抓取情况
 
 - **Yahoo Finance (EN)** ✓
-  - 头版/首屏: U.S. markets open in 2h 30m | Trump’s Fed pressure hits Democratic wall in Senate | Layoffs are muted and companies are expanding seasonal hiring plans: Challenger | Prediction markets call election before TV networks | Layoffs are muted and companies are expanding seasonal hiring plans: Challenger | Prediction markets call election before TV networks | OpenAI to change how it handles data center efforts after outcry | Why stocks are rallying after Democrats seized power
-  - 其他: Top Stories | Markets & Economy | Tech & AI | Amazon teams up with Uber Eats as subscription fatigue grows | Alphabet's search dominance is at risk from its own AI success
+  - 头版/首屏: U.S. markets closed | Retail traders throw in the towel for 'buy the dip' | Stocks plunge as Nasdaq enters correction in AI trade meltdown | Why Micron and SanDisk valuations look unbelievable right now | Stocks plunge as Nasdaq enters correction in AI trade meltdown | Why Micron and SanDisk valuations look unbelievable right now | 1 in 10 first-time homebuyers paid all cash, the most on record | OpenAI president Greg Brockman says company could be IPO ready in 2027
+  - 其他: Top Stories | Markets & Economy | Tech & AI | Nvidia has lost nearly $1.4 trillion since its October record | 'They're shooting the generals': Strategist on AI trade unwind
 
 - **Benzinga (EN)** ✓
 
-- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7d7338452060>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
+- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x75f976e79730>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
 
 - **SCMP (EN/中)** ✓
-  - 头版/首屏: Breaking China, Asia, HK News, Opinions and Insights | Powered by GPT-6, Unitree humanoid robots master painting without prior training | Diplomacy | Facing 2 years as a lame duck, what can Trump do to stay in control? | Chinese and North Korean officials step up diplomatic drive in wake of Kim visit | Law and Crime | Abby Choi could have been hit on head 7 times with hammer, murder trial told | Science
-  - 其他: Unitree founder says the industry’s biggest hurdle is no longer digital reasoning or planning but closing a ‘last-millimetre’ mechanical gap. | Forensic pathologist Dr Kwok Ka-ki tells court that 28-year-old influencer was fatally struck on the head with a blunt object. | China performs world-first precision laser-cutting experiment in space | Researchers use a device mounted on the outside of the Tiangong space station to make millimetre-scale cuts. | Hong Kong activist Joshua Wong jailed for 10 years in foreign collusion case
+  - 头版/首屏: Breaking China, Asia, HK News, Opinions and Insights | In Focus | After Lula’s shock victory, are Chinese firms in Brazil also celebrating? | US Elections | Defiant Hegseth tells US Democrats their impeachment push ‘won’t work’ | Education | Overseas institutions keen on Hong Kong university towns, happy to help peers | Big Tech | As political bet fails, what happens now to Musk’s Tesla, SpaceX and China ties?
+  - 其他: Following Brazil’s knife-edge election result, uncertainty remains for Chinese investors navigating a complex, politically polarised country. | Billionaire may face congressional scrutiny over SpaceX’s government contracts and Tesla’s China links, analysts say. | Companies | ‘Bullish on China’: US brand Levi’s bucks retail headwinds through localisation | Executive vice-president predicts China will ‘become a much bigger portion of our business globally’.
 
 - **经济通 (繁中)** ✓
   - 头版/首屏: 沪深港通 热点观察国际动态【FOCUS】 | 憧憬美伊战事落幕，油股及金矿股应如何部署？ | 人行降回购增持再贷款利率 沪指弹2.2% | 两院“蓝色海啸” 特或藉否决权抗衡 | 中选之后AI挨闷棍，福利大拉锯 | 指数环球商品外汇 | 国金观点 | 港股大市分析
@@ -23,29 +23,25 @@
 - **智通财经 (简中)** ✓
 
 - **富途资讯 (繁中)** ✓
-  - 头版/首屏: 特朗普政策面臨制衡！以史為鑑：美股反而有望迎來新一輪升勢？ | 美國「藍色浪潮」將會限制AI資本投入？分析：AI資本開支或趁政策收緊前搶跑，算力受限下雲巨頭受益 | 中期選舉後是談判還是軍事升級？伊朗、美國都面臨誤判風險 | 620億歐元創紀錄搶籌Meta新債! 科技巨頭們股債獲追捧背後：風險偏好轉向高質量增長 | 恒科五連陽、阿里騰訊暴漲！港股價值重估開始了？ | 北水拋售港股超213億港元，淨買入建滔積層板近8億港元，加倉長飛光纖光纜近5億港元；淨賣出小米集團逾31億港元 | SpaceX(SPCX.US)掘金通信與AI，Rocket Lab(RKLB.US)邁向百次發射! 股價震盪之下，商業航天醞釀新一輪上行? | 期權收租｜美國中期選舉衝擊數據中心預期，美光單日跌7%趨勢破位
-  - 其他: 華虹宏力：第三季度母公司擁有人應占利潤1.234億美元，同比上升147.1% | 收市速睇 | 三大指數大幅上行，恒指漲3.67%，科指漲5.55%；科網股爆發，小米漲近9%，阿里漲超8%，騰訊漲超7%；汽車股走強，理想汽車漲近9%，蔚來漲近7% | 特斯拉近期上升趨勢受阻，能否守住200日移動均線關鍵支撐？ | 美光回踩200日移動均線，能否獲有效支撐？ | 費城半導體指數同時跌穿多個關鍵支撐，接下來有哪些點位值得關注？
+  - 头版/首屏: 富途早報 | 美國10月非農數據今日公佈；得州當選州長稱可與馬斯克合作，但須先停止數據中心建設；英偉達提出AI內存全棧協同設計方案，績優股Cloudflare盤後漲超14%、愛彼迎漲近11%；Moderna、Oklo美股盤前發業績 | 特朗普稱將「很快」決定是否重啓對伊全面戰爭，外交斡旋同步提速 | 美科技股歷史性暴跌！納指陷入回調 以史為鑒：接下來何去何從？ | 美國得州當選州長：在保護人民利益措施出台之前，必須暫停數據中心 | 績後飆漲！AI刺激網絡需求，Cloudflare年內第三次上調全年盈利指引 | 得州候任州長：並不反對數據中心產業本身 可在符合條件的前提下與馬斯克及其旗下企業保持良好合作關係 | 特朗普：股市因選舉結果遭遇歷史上最糟糕的交易日之一 | 美股收盤 | 6.4%！納指100創6年來最大跌幅；科技股遭血洗，特斯拉跌10%；芯片指數狂瀉12%；金龍指數收漲；恐慌指數飆升；比特幣重挫
+  - 其他: 成交額TOP20 | 閃迪崩跌22%，美光、AMD跌超17%；英偉達蒸發4470億美元市值；谷歌170億美元加碼數據中心；Applovin績後暴漲31% | AI交易概念盤後小幅回暖，閃迪、泛林集團漲3%，NEBIUS漲超2%，美光、AMD、博通、邁威爾科技漲超1%。 | 聯儲局鷹聲再起！Hammack稱利率需升至限制性水平，傾向於更頻繁、小幅加息 | Anthropic推出個人財務功能：Claude可接入銀行帳戶，回答用戶理財問題 | Cloudflare2026年Q3營收7.83億美元，同比增長39%；調整後EPS0.38美元，再次上調利潤展望
 
 ## 二、跨站主题（多站出现 = 更重要）
 
 - **科技股/个股** — 出现于: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中) (4 站)
-- **伊朗/中东局势** — 出现于: Yahoo Finance (EN), 富途资讯 (繁中) (2 站)
-- **中国/欧盟** — 出现于: Yahoo Finance (EN), SCMP (EN/中) (2 站)
 - **美国关税（15%等）** — 出现于: Yahoo Finance (EN) (1 站)
-- **油价/能源/霍尔木兹** — 出现于: Yahoo Finance (EN) (1 站)
-- **加密货币** — 出现于: Yahoo Finance (EN) (1 站)
-- **黄金/大宗商品** — 出现于: Yahoo Finance (EN) (1 站)
-- **美联储/利率** — 出现于: Yahoo Finance (EN) (1 站)
+- **就业/经济数据** — 出现于: Yahoo Finance (EN) (1 站)
+- **中国/欧盟** — 出现于: SCMP (EN/中) (1 站)
 
 ## 三、检测到的主题（供参考，由总结摘要 Prompt 自行判断重要性）
 
 - 科技股/个股（4 站）
-- 伊朗/中东局势（2 站）
-- 中国/欧盟（2 站）
 - 关税/贸易政策（1 站）
-- 油价/能源（1 站）
-- 加密货币（1 站）
-- 黄金/大宗商品（1 站）
-- 美联储/利率（1 站）
-- 就业/经济数据（0 站）
+- 就业/经济数据（1 站）
+- 中国/欧盟（1 站）
+- 伊朗/中东局势（0 站）
+- 油价/能源（0 站）
+- 加密货币（0 站）
+- 黄金/大宗商品（0 站）
+- 美联储/利率（0 站）
 - 中国政策（0 站）

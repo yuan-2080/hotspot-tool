@@ -7,8 +7,8 @@
 你是港美股热点运营助手，服务于一个在中国做港美股内容运营的团队。
 你的输出将直接发到 Slack 群，供团队确认当日运营优先级，无需再二次加工。
 
-**当前模式：晚间**
-**覆盖时间段：今日08:00 - 20:00（美股开盘前）**
+**当前模式：早间**
+**覆盖时间段：昨日22:00 - 今日09:00（美股隔夜收盘）**
 
 ---
 
@@ -30,7 +30,7 @@
 ## 输出格式（严格遵守）
 
 第一行输出标题，固定为（直接复制，不修改任何字）：
-`晚间热点线索 · 2026年11月5日`
+`早间热点线索 · 2026年11月6日`
 
 空一行后，输出正文条目，每条格式：
 `* 事实描述（含关键数据）。仅写资讯来源中已明确发生的涨跌，不推断其他标的受到联动。标的代码直接写在正文中，结尾不另加标的列表。`
@@ -62,15 +62,15 @@
 
 ---
 
-## 晚间模式操作指令
+## 早间模式操作指令
 
-聚焦：今晚美股开盘前的运营清单。不涉及港股，只关注美股。
+聚焦：隔夜美股收盘结果 + 影响今日港股开盘的信息。
 
 重点关注（按重要性排序写入）：
-1. 盘前重要财报及初步反应（EPS/营收 vs 预期——仅限资讯来源中有明确数据）
-2. 盘前个股异动（涨跌 5% 以上 + 原因一句话）
-3. 影响今晚开盘情绪的宏观事件（Fed 官员讲话、重要数据——仅限资讯来源中明确出现）
-4. 其他值得今晚关注的美股消息
+1. 美股三大指数昨夜涨跌及核心驱动，一句话概括（必须有资讯来源支撑，不得推断）
+2. 个股重大异动（财报或重大消息驱动涨跌 5% 以上）
+3. 隔夜重要宏观数据（非农/CPI/PCE/美联储表态——仅限资讯来源中明确出现）
+4. 隔夜消息中可能影响港股相关板块的内容，重点关注：光通信、存储/HBM、半导体、中概互联网等；若有明确利好/利空驱动，须点明对应港股板块或个股
 
 ---
 
@@ -104,60 +104,60 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026110520
+抓取时间: 2026110609
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets open in 2h 30m
-- Trump’s Fed pressure hits Democratic wall in Senate
-- Layoffs are muted and companies are expanding seasonal hiring plans: Challenger
-- Prediction markets call election before TV networks
-- Layoffs are muted and companies are expanding seasonal hiring plans: Challenger
-- Prediction markets call election before TV networks
-- OpenAI to change how it handles data center efforts after outcry
-- Why stocks are rallying after Democrats seized power
-- California's billionaire tax on track for defeat as the state continues to count votes
-- Stocks trade mixed as post-election relief rally cools, oil falls
-- Treasury yields fall as US vote fuels hopes for curbing bond supply
-- Bitcoin rises as US elections buoy risk appetite
+- U.S. markets closed
+- Retail traders throw in the towel for 'buy the dip'
+- Stocks plunge as Nasdaq enters correction in AI trade meltdown
+- Why Micron and SanDisk valuations look unbelievable right now
+- Stocks plunge as Nasdaq enters correction in AI trade meltdown
+- Why Micron and SanDisk valuations look unbelievable right now
+- 1 in 10 first-time homebuyers paid all cash, the most on record
+- OpenAI president Greg Brockman says company could be IPO ready in 2027
+- Intel's crash bears an uncanny resemblance to its dot-com bust
+- Palantir, CrowdStrike, and Cloudflare get swept up in the AI selloff
+- Chip stocks plunge as market heads to worst post-midterm day in history
+- Market fear hits its biggest jump since the 2025 tariff shock
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
 - Tech & AI
-- Amazon teams up with Uber Eats as subscription fatigue grows
-- Alphabet's search dominance is at risk from its own AI success
-- Qualcomm falls as earnings outlook disappoints
-- Goldman and Apollo look to offload SpaceX’s $40 billion AI financing
+- Nvidia has lost nearly $1.4 trillion since its October record
+- 'They're shooting the generals': Strategist on AI trade unwind
+- Anthropic's IPO odds plunge amid widespread market selloff
+- Blue Owl bets on scarcity as voters sour on data centers
 - Popular
-- Think Medicare is free? Plenty of Americans do, and they're wrong.
-- Zillow stock falls after Q3 sales miss expectations
+- 'Tax the rich' wins in ballot measures across the US
+- What to do with your retirement savings when stocks fall
 
 ## Benzinga (EN)
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7d7338452060>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x75f976e79730>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - Breaking China, Asia, HK News, Opinions and Insights
-- Powered by GPT-6, Unitree humanoid robots master painting without prior training
-- Diplomacy
-- Facing 2 years as a lame duck, what can Trump do to stay in control?
-- Chinese and North Korean officials step up diplomatic drive in wake of Kim visit
-- Law and Crime
-- Abby Choi could have been hit on head 7 times with hammer, murder trial told
-- Science
+- In Focus | After Lula’s shock victory, are Chinese firms in Brazil also celebrating?
+- US Elections
+- Defiant Hegseth tells US Democrats their impeachment push ‘won’t work’
+- Education
+- Overseas institutions keen on Hong Kong university towns, happy to help peers
+- Big Tech
+- As political bet fails, what happens now to Musk’s Tesla, SpaceX and China ties?
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Unitree founder says the industry’s biggest hurdle is no longer digital reasoning or planning but closing a ‘last-millimetre’ mechanical gap.
-- Forensic pathologist Dr Kwok Ka-ki tells court that 28-year-old influencer was fatally struck on the head with a blunt object.
-- China performs world-first precision laser-cutting experiment in space
-- Researchers use a device mounted on the outside of the Tiangong space station to make millimetre-scale cuts.
-- Hong Kong activist Joshua Wong jailed for 10 years in foreign collusion case
-- Latest sentence handed down after jailed activist admitted conspiring with Nathan Law and others to lobby West for sanctions after 2019 protests.
-- Politics
-- Vietnam seeks Russia’s help for its nuclear ambition. Will sanctions stall it?
-- The two countries have agreed to let Vietnamese experts gain access to a Russian nuclear reactor under construction.
-- Banking & Finance
+- Following Brazil’s knife-edge election result, uncertainty remains for Chinese investors navigating a complex, politically polarised country.
+- Billionaire may face congressional scrutiny over SpaceX’s government contracts and Tesla’s China links, analysts say.
+- Companies
+- ‘Bullish on China’: US brand Levi’s bucks retail headwinds through localisation
+- Executive vice-president predicts China will ‘become a much bigger portion of our business globally’.
+- United States & Canada
+- AI storm dooms tech stocks to biggest drop since Trump’s ‘Liberation Day’ rout
+- A sweeping US midterm victory by the Democratic Party has sparked investor fears that the buildout of AI data centres will be stalled.
+- Law and Crime
+- Hong Kong police to enable AI facial recognition on CCTV network this month
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -187,35 +187,31 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 特朗普政策面臨制衡！以史為鑑：美股反而有望迎來新一輪升勢？
-- 美國「藍色浪潮」將會限制AI資本投入？分析：AI資本開支或趁政策收緊前搶跑，算力受限下雲巨頭受益
-- 中期選舉後是談判還是軍事升級？伊朗、美國都面臨誤判風險
-- 620億歐元創紀錄搶籌Meta新債! 科技巨頭們股債獲追捧背後：風險偏好轉向高質量增長
-- 恒科五連陽、阿里騰訊暴漲！港股價值重估開始了？
-- 北水拋售港股超213億港元，淨買入建滔積層板近8億港元，加倉長飛光纖光纜近5億港元；淨賣出小米集團逾31億港元
-- SpaceX(SPCX.US)掘金通信與AI，Rocket Lab(RKLB.US)邁向百次發射! 股價震盪之下，商業航天醞釀新一輪上行?
-- 期權收租｜美國中期選舉衝擊數據中心預期，美光單日跌7%趨勢破位
+- 富途早報 | 美國10月非農數據今日公佈；得州當選州長稱可與馬斯克合作，但須先停止數據中心建設；英偉達提出AI內存全棧協同設計方案，績優股Cloudflare盤後漲超14%、愛彼迎漲近11%；Moderna、Oklo美股盤前發業績
+- 特朗普稱將「很快」決定是否重啓對伊全面戰爭，外交斡旋同步提速
+- 美科技股歷史性暴跌！納指陷入回調 以史為鑒：接下來何去何從？
+- 美國得州當選州長：在保護人民利益措施出台之前，必須暫停數據中心
+- 績後飆漲！AI刺激網絡需求，Cloudflare年內第三次上調全年盈利指引
+- 得州候任州長：並不反對數據中心產業本身 可在符合條件的前提下與馬斯克及其旗下企業保持良好合作關係
+- 特朗普：股市因選舉結果遭遇歷史上最糟糕的交易日之一
+- 美股收盤 | 6.4%！納指100創6年來最大跌幅；科技股遭血洗，特斯拉跌10%；芯片指數狂瀉12%；金龍指數收漲；恐慌指數飆升；比特幣重挫
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 華虹宏力：第三季度母公司擁有人應占利潤1.234億美元，同比上升147.1%
-- 收市速睇 | 三大指數大幅上行，恒指漲3.67%，科指漲5.55%；科網股爆發，小米漲近9%，阿里漲超8%，騰訊漲超7%；汽車股走強，理想汽車漲近9%，蔚來漲近7%
-- 特斯拉近期上升趨勢受阻，能否守住200日移動均線關鍵支撐？
-- 美光回踩200日移動均線，能否獲有效支撐？
-- 費城半導體指數同時跌穿多個關鍵支撐，接下來有哪些點位值得關注？
-- 4.7億美元打水漂！馬斯克的「鈔能力」在中期選舉撞上鐵板，民主黨還將「秋後算賬」？
-- 砸近5億美元仍未能左右選舉結果！馬斯克的政治佈局遠未結束，2028年或投入更多資金
-- 黃金牛市命系中東！花旗：局勢緩和衝5000美元，僵局持續恐跌至3500
-- 中國金融政策釋放五大信號：穩股市、穩樓市、穩匯率，貨幣政策繼續寬鬆
-- 微軟拒絕與英國AI新貴Nscale達成數百億美元擴容協議
+- 成交額TOP20 | 閃迪崩跌22%，美光、AMD跌超17%；英偉達蒸發4470億美元市值；谷歌170億美元加碼數據中心；Applovin績後暴漲31%
+- AI交易概念盤後小幅回暖，閃迪、泛林集團漲3%，NEBIUS漲超2%，美光、AMD、博通、邁威爾科技漲超1%。
+- 聯儲局鷹聲再起！Hammack稱利率需升至限制性水平，傾向於更頻繁、小幅加息
+- Anthropic推出個人財務功能：Claude可接入銀行帳戶，回答用戶理財問題
+- Cloudflare2026年Q3營收7.83億美元，同比增長39%；調整後EPS0.38美元，再次上調利潤展望
+- IREN2027財年Q1營收2.28億美元，環比增長66%；調整後EBITDA6600萬美元
+- AAOI2026年Q3營收2.7億美元，去年同期爲1.19億美元；調整後EPS0.17美元
+- IONQ2026年Q3營收1.738億美元，同比增長336%；稀釋後EPS1.35美元
+- 英偉達詳解AI內存全棧協同設計：HBM容量僅增3%，Agent吞吐量/美元最高提升30倍
+- AI交易大撤退、1.8萬億蒸發！盤中納指跌近6%、芯片指數狂瀉超10%，數據中心產業鏈跳水
 
 --- 跨站重点主题（多站出现=更重要）---
 - 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
-- 伊朗/中东: Yahoo Finance (EN), 富途资讯 (繁中)
-- 中国/欧盟: Yahoo Finance (EN), SCMP (EN/中)
 - 美国关税: Yahoo Finance (EN)
-- 油价/霍尔木兹: Yahoo Finance (EN)
-- 加密货币: Yahoo Finance (EN)
-- 黄金/大宗: Yahoo Finance (EN)
-- 美联储: Yahoo Finance (EN)
+- 就业数据: Yahoo Finance (EN)
+- 中国/欧盟: SCMP (EN/中)
 
 --- 粘贴结束 ---
 <!-- 资讯来源结束 -->
