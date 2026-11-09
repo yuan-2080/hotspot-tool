@@ -1,60 +1,60 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026110620
+抓取时间: 2026110909
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets open in 2h 30m
-- Retail traders throw in the towel for 'buy the dip'
-- US chip stocks rebound sharply after brutal selloff
-- Why the data center backlash could leave Big Tech the last ones standing
-- US chip stocks rebound sharply after brutal selloff
-- Why the data center backlash could leave Big Tech the last ones standing
-- Friday's jobs report is expected to show the labor market chugging along
-- Nvidia boosts chip tracking in Southeast Asia to fight smuggling
-- Stocks mixed after brutal sell-off, with key jobs report on deck
-- US inflation too high; essential to get back to 2%: Fed's Williams
-- US Treasury traders make bullish bets ahead of jobs report
-- Oil heads for sharp weekly drop on Mideast export hopes
+- U.S. markets closed
+- Huang reportedly admits affair to Nvidia staff amid spy allegations
+- Anthropic's IPO dilemma after the AI sell-off: 'Damned if you do, damned if you don't'
+- Fiat’s tiny Topolino is aimed at America’s booming golf-cart market.
+- Anthropic's IPO dilemma after the AI sell-off: 'Damned if you do, damned if you don't'
+- Fiat’s tiny Topolino is aimed at America’s booming golf-cart market.
+- AI stocks have been blown up, but keep this in mind
+- IRS announces 2027 income tax brackets. Here's what's changing.
+- Cryptocurrencies slide to two-month lows after US midterms
+- The market bloodbath just exposed Wall Street’s true fears about U.S. debt, top economist warns
+- Blackstone’s real estate arm tries to bounce back from losses
+- Treasury yields fall as the midterms rattle AI stocks
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
-- Tech & AI
-- Tesla to wind down Cybertruck production as appeal fades
-- After voters pushed back on data centers, OpenAI says it will pay its own way
-- Nvidia chips pile up in Hong Kong as China withholds import approval
-- Cloudflare shares soar amid blowout Q3 results, strong forecast
+- Your Money
+- Staying home is the new going out. But is it really cheaper?
+- I bonds now pay 5.51%: What to know before you buy
+- The $80,000 price tag of selling a house, explained
+- The highest savings account rates you can get today
 - Popular
-- Wall Street peers into abyss of AI trade as midterms expose risk
-- World food prices dip in October, but remain higher than a year ago
+- Fidelity, Vanguard share sobering 10-year outlook for US retirees
+- Ted Cruz warns 401(k) holders after 'bloodbath' midterm
 
 ## Benzinga (EN)
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7ef3e8a05160>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x799a70359b20>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - Breaking China, Asia, HK News, Opinions and Insights
-- Tokyo still ‘dodging the issue’ a year on from Takaichi row, Beijing says
+- Consumer goods ‘should not be dragged into political conflicts’: Dong Mingzhu
+- Tech
+- Nvidia CEO Jensen Huang admits to affair; board orders investigation
 - Science
-- Beijing approves giant Long March 9 rocket for deep-space and lunar base runs
-- Law and Crime
-- Hong Kong authorities arrest 28 in crackdown on bid-rigging after Tai Po fire
-- Chinese space firm builds wooden rocket nose cone for cheaper, regular launches
-- Economy
-其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Foreign ministry says Japan is entirely to blame for poor relations following the row over the prime minister’s comments on Taiwan.
-- The Jiangsu-based firm uses a lightweight plywood outer skin and metal frame to cut costs and time for commercial satellite launches.
-- China deepens trade offensive with probes into key EU and Japanese materials
-- Defending the moves on Friday, the ministry said Beijing had exercised ‘restraint’ compared with Brussels in its use of trade measures.
+- Will China’s slow and steady moon landing plan be a safer bet than the US’?
+- Agents pitch Hong Kong VTC as route to residency for babies of mainland mothers
 - Military
-- China puts DF missiles on display amid speculation about ICBM test
-- State media showcase the nuclear-capable DF-61 and the rarely seen DF-100 as Beijing marks anniversary of the first Dongfeng-series missile.
+其他 (首页其他位置，按重要性排序，仅标题无摘要):
+- Gree chairwoman, recently named a ‘Cool Leader’ by UN Environment Programme, says green energy is one emerging growth driver.
+- Agencies and influencers promote vocational courses as a cheap route for pregnant mainlanders to secure Hong Kong passports for babies.
+- Is China getting faster at integrating new nuclear missiles into its forces?
+- Newest ICBM the DF-61 has progressed to routine drills but that does not necessarily point to more efficient development, analysts say.
 - Politics
-- Diploma dispute fuels speculation of growing Prabowo-Widodo rift in Indonesia
-- Political factions are proposing using parliamentary oversight powers to investigate Gibran after his high school diploma was ruled ‘invalid’.
+- China orders statistics bureau to fight fake data with modern technology
+- The NBS will overhaul its survey methods by adopting big data, cloud computing and AI to boost ‘efficiency and scientific rigour’.
+- Law and Crime
+- Hong Kong records nearly 18% rise in ransomware cases amid drop in tech crime
+- Fighting fire with fire, police deploy AI-powered detection system, including in Interpol operation, amid rise in attacks aided by such technology.
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -84,34 +84,30 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 美股暴跌後，非農今晚21:30來襲！一場勞動力韌性與脆弱美股的博弈
-- Moderna第三季度營收13.1億美元，超市場預期
-- 銅價跌至7月以來最低！民主黨拿下國會引發市場兩大擔憂
-- 國常會：完善資本市場穩市機制，增強股市內在穩定性，促進資本市場平穩健康發展
-- AI拋售撞上非農大考，避險資金蜂擁至債市！就業意外走強會否打亂美債多頭佈局?
-- MiniMax創始人罕見公開訪談：將一直開源直到實現AGI，盈利靠壓低推理成本不靠漲價
-- 華盛頓太陽報：民主黨擬調查蘋果、Meta及馬斯克旗下公司
-- 本週美股牛股 | Applovin周累計漲近56%，大模型升級疊加電商放量；Unity Software漲超29%，業績亮眼疊加沙特資本擬收購；費哲金融服務漲超25%，業績超預期並設立10億美元成本削減目標
+- 富途早報 | 「藍色浪潮」持續席捲AI數據中心，電費與模型安全列爲重點；黃仁勳陷「婚外情」致歉，英偉達貨物離奇失蹤；CoreWeave致信得州候任州長，願承擔電網接入成本
+- 特朗普最新發聲：再次打擊伊朗可能性極低，「鐵門」特遣行動正全面展開
+- 黃仁勳會因爲緋聞辭職嗎？英偉達股價面臨「關鍵人物風險」
+- 伯克希爾Q3淨利潤大降28%，投資收益縮水近半，回購創年內單季新高，現金升至3774億美元
+- AI交易「風向標」：Meta發債「一波三折」
+- 一週前瞻 | 中、美CPI相繼出爐！CoreWeave、中芯國際等業績接連公佈；Anthropic最快於11月9日當週啓動IPO路演
+- 馬斯克中選後要被「秋後算賬」？德銀：算力越緊張SpaceX越賺錢，政治風險被高估
+- 黃仁勳承認婚外情並公開致歉，英偉達董事會已啓動獨立調查
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 北水加倉港股超24億港元，騰訊控股、美團分別獲淨買入超7億、6億港元；小米集團遭淨賣出逾12億港元
-- 美股盤前：存儲、光通信、半導體股反彈，閃迪漲超9%；績優股表現亮眼，IREN漲超18%
-- 韓國救市！三個月內豁免140%信用擔保比例維持義務
-- 三星電子CEO斥資6.3億韓元增持自家股票
-- 收市速睇 | 三大指數齊跌，科指跌1.83%；科網股走弱，阿里跌近4%，小米跌近3%；半導體股走低，瀾起科技跌超9%，中芯國際跌超4%；華虹宏力逆市漲超4%
-- 暗盤情報 | 「儲能系統解決方案供應商」遠信儲能現漲近125%，一手賺6110港元
-- 期權收租｜存儲晶片恐慌殺跌，美光單日重挫17%，如何用期權低位接貨？
-- 費城半導體單日重挫12%! 大摩尋找東方AI投資機遇，亞洲電力主題六大受益標的浮現
-- 高盛大砍黃金目標價！央行購金擋不住聯儲局轉鷹，當前格局像極了2022年
-- 野村拆解美股黑色星期四：一場由1000億美元「搶跑」引爆的反身性風暴
+- 九年來首次！美股科技股邁入「比大盤便宜」時代
+- 美股暴跌後，「木頭姐」：市場越擔憂我越樂觀，牛市未完
+- 野村：「藍色浪潮」衝擊美國數據中心，中國AI反而受益
+- 共和黨中選大敗，幣圈「好事到頭」了？
+- 谷歌爲190億美元AI數據中心租約提供信用支持，Anthropic算力支出激增77%
+- 定了，5×23！納斯達克12月6日正式進入23小時交易時代
+- 「反對數據中心」浪潮不止在美國，歐洲多國爆發抗議
+- 週末讀物 | AI失去的第一個秋天：當選票比芯片更稀缺
+- 科技股「黑色一週」之後，華爾街高呼「抄底」
+- 原油「暴跌一週」：8天前還是「戰火紛飛」，中選後對沖基金狂賣66億美元
 
 --- 跨站重点主题（多站出现=更重要）---
 - 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
-- 美国关税: Yahoo Finance (EN), 富途资讯 (繁中)
-- 中国/欧盟: Yahoo Finance (EN), SCMP (EN/中)
-- 伊朗/中东: SCMP (EN/中)
-- 油价/霍尔木兹: Yahoo Finance (EN)
-- 就业数据: Yahoo Finance (EN)
-- 美联储: Yahoo Finance (EN)
-- 中国政策/两会: 富途资讯 (繁中)
+- 伊朗/中东: SCMP (EN/中), 富途资讯 (繁中)
+- 加密货币: Yahoo Finance (EN)
+- 中国/欧盟: SCMP (EN/中)
 
 --- 粘贴结束 ---

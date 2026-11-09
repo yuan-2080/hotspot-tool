@@ -3,16 +3,16 @@
 ## 一、各站抓取情况
 
 - **Yahoo Finance (EN)** ✓
-  - 头版/首屏: U.S. markets open in 2h 30m | Retail traders throw in the towel for 'buy the dip' | US chip stocks rebound sharply after brutal selloff | Why the data center backlash could leave Big Tech the last ones standing | US chip stocks rebound sharply after brutal selloff | Why the data center backlash could leave Big Tech the last ones standing | Friday's jobs report is expected to show the labor market chugging along | Nvidia boosts chip tracking in Southeast Asia to fight smuggling
-  - 其他: Top Stories | Markets & Economy | Tech & AI | Tesla to wind down Cybertruck production as appeal fades | After voters pushed back on data centers, OpenAI says it will pay its own way
+  - 头版/首屏: U.S. markets closed | Huang reportedly admits affair to Nvidia staff amid spy allegations | Anthropic's IPO dilemma after the AI sell-off: 'Damned if you do, damned if you don't' | Fiat’s tiny Topolino is aimed at America’s booming golf-cart market. | Anthropic's IPO dilemma after the AI sell-off: 'Damned if you do, damned if you don't' | Fiat’s tiny Topolino is aimed at America’s booming golf-cart market. | AI stocks have been blown up, but keep this in mind | IRS announces 2027 income tax brackets. Here's what's changing.
+  - 其他: Top Stories | Markets & Economy | Your Money | Staying home is the new going out. But is it really cheaper? | I bonds now pay 5.51%: What to know before you buy
 
 - **Benzinga (EN)** ✓
 
-- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7ef3e8a05160>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
+- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x799a70359b20>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
 
 - **SCMP (EN/中)** ✓
-  - 头版/首屏: Breaking China, Asia, HK News, Opinions and Insights | Tokyo still ‘dodging the issue’ a year on from Takaichi row, Beijing says | Science | Beijing approves giant Long March 9 rocket for deep-space and lunar base runs | Law and Crime | Hong Kong authorities arrest 28 in crackdown on bid-rigging after Tai Po fire | Chinese space firm builds wooden rocket nose cone for cheaper, regular launches | Economy
-  - 其他: Foreign ministry says Japan is entirely to blame for poor relations following the row over the prime minister’s comments on Taiwan. | The Jiangsu-based firm uses a lightweight plywood outer skin and metal frame to cut costs and time for commercial satellite launches. | China deepens trade offensive with probes into key EU and Japanese materials | Defending the moves on Friday, the ministry said Beijing had exercised ‘restraint’ compared with Brussels in its use of trade measures. | Military
+  - 头版/首屏: Breaking China, Asia, HK News, Opinions and Insights | Consumer goods ‘should not be dragged into political conflicts’: Dong Mingzhu | Tech | Nvidia CEO Jensen Huang admits to affair; board orders investigation | Science | Will China’s slow and steady moon landing plan be a safer bet than the US’? | Agents pitch Hong Kong VTC as route to residency for babies of mainland mothers | Military
+  - 其他: Gree chairwoman, recently named a ‘Cool Leader’ by UN Environment Programme, says green energy is one emerging growth driver. | Agencies and influencers promote vocational courses as a cheap route for pregnant mainlanders to secure Hong Kong passports for babies. | Is China getting faster at integrating new nuclear missiles into its forces? | Newest ICBM the DF-61 has progressed to routine drills but that does not necessarily point to more efficient development, analysts say. | Politics
 
 - **经济通 (繁中)** ✓
   - 头版/首屏: 沪深港通 热点观察国际动态【FOCUS】 | 忧民主党阻建数据中心AI硬件股急挫,科网股急弹更值博? | 人行降回购增持再贷款利率 沪指弹2.2% | 民主党定新国会议程 首要降生活成本 | 抖音“股神”反艇，三大血泪启示 | 指数环球商品外汇 | 国金观点 | 港股大市分析
@@ -23,29 +23,25 @@
 - **智通财经 (简中)** ✓
 
 - **富途资讯 (繁中)** ✓
-  - 头版/首屏: 美股暴跌後，非農今晚21:30來襲！一場勞動力韌性與脆弱美股的博弈 | Moderna第三季度營收13.1億美元，超市場預期 | 銅價跌至7月以來最低！民主黨拿下國會引發市場兩大擔憂 | 國常會：完善資本市場穩市機制，增強股市內在穩定性，促進資本市場平穩健康發展 | AI拋售撞上非農大考，避險資金蜂擁至債市！就業意外走強會否打亂美債多頭佈局? | MiniMax創始人罕見公開訪談：將一直開源直到實現AGI，盈利靠壓低推理成本不靠漲價 | 華盛頓太陽報：民主黨擬調查蘋果、Meta及馬斯克旗下公司 | 本週美股牛股 | Applovin周累計漲近56%，大模型升級疊加電商放量；Unity Software漲超29%，業績亮眼疊加沙特資本擬收購；費哲金融服務漲超25%，業績超預期並設立10億美元成本削減目標
-  - 其他: 北水加倉港股超24億港元，騰訊控股、美團分別獲淨買入超7億、6億港元；小米集團遭淨賣出逾12億港元 | 美股盤前：存儲、光通信、半導體股反彈，閃迪漲超9%；績優股表現亮眼，IREN漲超18% | 韓國救市！三個月內豁免140%信用擔保比例維持義務 | 三星電子CEO斥資6.3億韓元增持自家股票 | 收市速睇 | 三大指數齊跌，科指跌1.83%；科網股走弱，阿里跌近4%，小米跌近3%；半導體股走低，瀾起科技跌超9%，中芯國際跌超4%；華虹宏力逆市漲超4%
+  - 头版/首屏: 富途早報 | 「藍色浪潮」持續席捲AI數據中心，電費與模型安全列爲重點；黃仁勳陷「婚外情」致歉，英偉達貨物離奇失蹤；CoreWeave致信得州候任州長，願承擔電網接入成本 | 特朗普最新發聲：再次打擊伊朗可能性極低，「鐵門」特遣行動正全面展開 | 黃仁勳會因爲緋聞辭職嗎？英偉達股價面臨「關鍵人物風險」 | 伯克希爾Q3淨利潤大降28%，投資收益縮水近半，回購創年內單季新高，現金升至3774億美元 | AI交易「風向標」：Meta發債「一波三折」 | 一週前瞻 | 中、美CPI相繼出爐！CoreWeave、中芯國際等業績接連公佈；Anthropic最快於11月9日當週啓動IPO路演 | 馬斯克中選後要被「秋後算賬」？德銀：算力越緊張SpaceX越賺錢，政治風險被高估 | 黃仁勳承認婚外情並公開致歉，英偉達董事會已啓動獨立調查
+  - 其他: 九年來首次！美股科技股邁入「比大盤便宜」時代 | 美股暴跌後，「木頭姐」：市場越擔憂我越樂觀，牛市未完 | 野村：「藍色浪潮」衝擊美國數據中心，中國AI反而受益 | 共和黨中選大敗，幣圈「好事到頭」了？ | 谷歌爲190億美元AI數據中心租約提供信用支持，Anthropic算力支出激增77%
 
 ## 二、跨站主题（多站出现 = 更重要）
 
 - **科技股/个股** — 出现于: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中) (4 站)
-- **美国关税（15%等）** — 出现于: Yahoo Finance (EN), 富途资讯 (繁中) (2 站)
-- **中国/欧盟** — 出现于: Yahoo Finance (EN), SCMP (EN/中) (2 站)
-- **伊朗/中东局势** — 出现于: SCMP (EN/中) (1 站)
-- **油价/能源/霍尔木兹** — 出现于: Yahoo Finance (EN) (1 站)
-- **就业/经济数据** — 出现于: Yahoo Finance (EN) (1 站)
-- **美联储/利率** — 出现于: Yahoo Finance (EN) (1 站)
-- **中国重大政策/两会** — 出现于: 富途资讯 (繁中) (1 站)
+- **伊朗/中东局势** — 出现于: SCMP (EN/中), 富途资讯 (繁中) (2 站)
+- **加密货币** — 出现于: Yahoo Finance (EN) (1 站)
+- **中国/欧盟** — 出现于: SCMP (EN/中) (1 站)
 
 ## 三、检测到的主题（供参考，由总结摘要 Prompt 自行判断重要性）
 
 - 科技股/个股（4 站）
-- 关税/贸易政策（2 站）
-- 中国/欧盟（2 站）
-- 伊朗/中东局势（1 站）
-- 油价/能源（1 站）
-- 就业/经济数据（1 站）
-- 美联储/利率（1 站）
-- 中国政策（1 站）
-- 加密货币（0 站）
+- 伊朗/中东局势（2 站）
+- 加密货币（1 站）
+- 中国/欧盟（1 站）
+- 关税/贸易政策（0 站）
+- 油价/能源（0 站）
+- 就业/经济数据（0 站）
 - 黄金/大宗商品（0 站）
+- 美联储/利率（0 站）
+- 中国政策（0 站）
