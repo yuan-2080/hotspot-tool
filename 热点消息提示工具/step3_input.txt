@@ -7,8 +7,8 @@
 你是港美股热点运营助手，服务于一个在中国做港美股内容运营的团队。
 你的输出将直接发到 Slack 群，供团队确认当日运营优先级，无需再二次加工。
 
-**当前模式：早间**
-**覆盖时间段：昨日22:00 - 今日09:00（美股隔夜收盘）**
+**当前模式：晚间**
+**覆盖时间段：今日08:00 - 20:00（美股开盘前）**
 
 ---
 
@@ -30,7 +30,7 @@
 ## 输出格式（严格遵守）
 
 第一行输出标题，固定为（直接复制，不修改任何字）：
-`早间热点线索 · 2026年11月9日`
+`晚间热点线索 · 2026年11月9日`
 
 空一行后，输出正文条目，每条格式：
 `* 事实描述（含关键数据）。仅写资讯来源中已明确发生的涨跌，不推断其他标的受到联动。标的代码直接写在正文中，结尾不另加标的列表。`
@@ -62,15 +62,15 @@
 
 ---
 
-## 早间模式操作指令
+## 晚间模式操作指令
 
-聚焦：隔夜美股收盘结果 + 影响今日港股开盘的信息。
+聚焦：今晚美股开盘前的运营清单。不涉及港股，只关注美股。
 
 重点关注（按重要性排序写入）：
-1. 美股三大指数昨夜涨跌及核心驱动，一句话概括（必须有资讯来源支撑，不得推断）
-2. 个股重大异动（财报或重大消息驱动涨跌 5% 以上）
-3. 隔夜重要宏观数据（非农/CPI/PCE/美联储表态——仅限资讯来源中明确出现）
-4. 隔夜消息中可能影响港股相关板块的内容，重点关注：光通信、存储/HBM、半导体、中概互联网等；若有明确利好/利空驱动，须点明对应港股板块或个股
+1. 盘前重要财报及初步反应（EPS/营收 vs 预期——仅限资讯来源中有明确数据）
+2. 盘前个股异动（涨跌 5% 以上 + 原因一句话）
+3. 影响今晚开盘情绪的宏观事件（Fed 官员讲话、重要数据——仅限资讯来源中明确出现）
+4. 其他值得今晚关注的美股消息
 
 ---
 
@@ -104,68 +104,68 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026110909
+抓取时间: 2026110920
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets closed
-- Huang reportedly admits affair to Nvidia staff amid spy allegations
-- Anthropic's IPO dilemma after the AI sell-off: 'Damned if you do, damned if you don't'
-- Fiat’s tiny Topolino is aimed at America’s booming golf-cart market.
-- Anthropic's IPO dilemma after the AI sell-off: 'Damned if you do, damned if you don't'
-- Fiat’s tiny Topolino is aimed at America’s booming golf-cart market.
-- AI stocks have been blown up, but keep this in mind
-- IRS announces 2027 income tax brackets. Here's what's changing.
+- U.S. markets open in 2h 30m
+- Jensen Huang just handed Wall Street its first $4.5T CEO scandal
+- Nvidia stock falls as Huang admits affair amid spy allegations
+- 2 big AI narratives wrestle with each other: What to watch this week
+- Nvidia stock falls as Huang admits affair amid spy allegations
+- 2 big AI narratives wrestle with each other: What to watch this week
+- Trump backs Nvidia CEO after he admits affair with suspected spy
+- Golf carts are having a moment. So is this $15K Fiat.
+- Financial sector adds 7,000 jobs in October as Wall Street hiring picks up
+- Stocks rise with Nvidia stock, AI trade in focus
+- Oil falls as Trump signals restraint on Iran despite fresh shipping attacks
 - Cryptocurrencies slide to two-month lows after US midterms
-- The market bloodbath just exposed Wall Street’s true fears about U.S. debt, top economist warns
-- Blackstone’s real estate arm tries to bounce back from losses
-- Treasury yields fall as the midterms rattle AI stocks
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
-- Your Money
-- Staying home is the new going out. But is it really cheaper?
-- I bonds now pay 5.51%: What to know before you buy
-- The $80,000 price tag of selling a house, explained
-- The highest savings account rates you can get today
+- Tech & AI
+- Nvidia CEO Jensen Huang's debacle highlights this one glaring issue
+- Jensen Huang just made Nvidia’s cheap stock even cheaper
+- Why Anthropic's IPO is 'the only thing that matters' for the AI trade
+- Citi strategists cut US stocks after AI turmoil
 - Popular
-- Fidelity, Vanguard share sobering 10-year outlook for US retirees
-- Ted Cruz warns 401(k) holders after 'bloodbath' midterm
+- Reactions to Nvidia's probe into CEO Jensen Huang
+- Dollar nudges lower as AI, Mideast worries ease
 
 ## Benzinga (EN)
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x799a70359b20>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x77c9b57c3320>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - Breaking China, Asia, HK News, Opinions and Insights
-- Consumer goods ‘should not be dragged into political conflicts’: Dong Mingzhu
-- Tech
-- Nvidia CEO Jensen Huang admits to affair; board orders investigation
+- Why Manila’s call for softer tone will not ease South China Sea row with Beijing
 - Science
-- Will China’s slow and steady moon landing plan be a safer bet than the US’?
-- Agents pitch Hong Kong VTC as route to residency for babies of mainland mothers
-- Military
+- China eyes new grip on EV sector with high-performance rare-earth rubber
+- Economy
+- Why is China’s demand for gold continuing to grow despite falling prices?
+- Society
+- Hong Kong lawmakers call for more scrutiny of Student Aid Society funding
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Gree chairwoman, recently named a ‘Cool Leader’ by UN Environment Programme, says green energy is one emerging growth driver.
-- Agencies and influencers promote vocational courses as a cheap route for pregnant mainlanders to secure Hong Kong passports for babies.
-- Is China getting faster at integrating new nuclear missiles into its forces?
-- Newest ICBM the DF-61 has progressed to routine drills but that does not necessarily point to more efficient development, analysts say.
-- Politics
-- China orders statistics bureau to fight fake data with modern technology
-- The NBS will overhaul its survey methods by adopting big data, cloud computing and AI to boost ‘efficiency and scientific rigour’.
-- Law and Crime
-- Hong Kong records nearly 18% rise in ransomware cases amid drop in tech crime
-- Fighting fire with fire, police deploy AI-powered detection system, including in Interpol operation, amid rise in attacks aided by such technology.
+- Philippine foreign ministry cautions against hostile rhetoric, but analyst says it is more about the message than any strategic pivot.
+- NGO is seeking funding for a HK$377.3 million service building project after denying allegations from residents and former staff.
+- UBS’ Sergio Ermotti on navigating crises and regulatory webs
+- The Swiss bank CEO reflects on steering an integration with Credit Suisse, current regulatory pressures and the US midterms.
+- Big Tech
+- Nvidia CEO Jensen Huang admits to affair; board orders investigation
+- In memo published on company website, he apologises to his family and colleagues.
+- People
+- In Malaysia, Najib’s house arrest pits palace against prosecutors
+- A royal pardon cleared the former PM to serve time at home, but a last-minute prosecutorial intervention has left his release in limbo.
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - 沪深港通 热点观察国际动态【FOCUS】
-- 忧民主党阻建数据中心AI硬件股急挫,科网股急弹更值博?
-- 人行降回购增持再贷款利率 沪指弹2.2%
-- 民主党定新国会议程 首要降生活成本
-- 抖音“股神”反艇，三大血泪启示
+- 优必选推全球首个仿生人形机器人主播,机械人股可再吼?
+- 寒潮南下袭多省 华南降温逾10度
+- 以反对派获授权组阁 内塔尼亚胡或下台
+- 黄仁勋亲认出轨，“非他不可”再考验
 - 指数环球商品外汇
 - 国金观点
 - 港股大市分析
@@ -174,9 +174,9 @@
 - 环球基金：
 - ETF：
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 恒生指数24481.86-315.12(-1.27%)
+- 恒生指数24448.95-32.91(-0.13%)
                     etnet.com.hk@copyright
-- 国企指数8274.10-94.98(-1.13%)
+- 国企指数8260.15-13.95(-0.17%)
                     etnet.com.hk@copyright
 - 理财/管理
 - 时尚艺术
@@ -187,31 +187,35 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 富途早報 | 「藍色浪潮」持續席捲AI數據中心，電費與模型安全列爲重點；黃仁勳陷「婚外情」致歉，英偉達貨物離奇失蹤；CoreWeave致信得州候任州長，願承擔電網接入成本
-- 特朗普最新發聲：再次打擊伊朗可能性極低，「鐵門」特遣行動正全面展開
-- 黃仁勳會因爲緋聞辭職嗎？英偉達股價面臨「關鍵人物風險」
-- 伯克希爾Q3淨利潤大降28%，投資收益縮水近半，回購創年內單季新高，現金升至3774億美元
-- AI交易「風向標」：Meta發債「一波三折」
-- 一週前瞻 | 中、美CPI相繼出爐！CoreWeave、中芯國際等業績接連公佈；Anthropic最快於11月9日當週啓動IPO路演
-- 馬斯克中選後要被「秋後算賬」？德銀：算力越緊張SpaceX越賺錢，政治風險被高估
-- 黃仁勳承認婚外情並公開致歉，英偉達董事會已啓動獨立調查
+- 九年來首次！美股科技股估值竟比大盤更便宜？
+- 黃仁勳風波後，伯恩斯坦警告「關鍵人物風險」，投資者等待業績與閉門聽證
+- 以媒：伊朗似乎已放棄霍爾木茲海峽收費要求
+- CoreWeave主動向得州候任州長示好 尋求數據中心項目合作
+- 中期選舉暴露市場脆弱性！AI交易遭遇嚴苛拷問 美股盈利預期或迎大調整
+- SpaceX解禁潮撞上指數調倉！高盛測算：12月調倉或帶來109億美元被動買盤
+- 北水加倉港股超18億港元，淨買入美團近6億港元，淨賣出騰訊控股逾3億港元
+- 特朗普即將會見關鍵調解人，稱無意升級伊朗戰事，魯比奧潑冷水：談判遠未突破
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 九年來首次！美股科技股邁入「比大盤便宜」時代
-- 美股暴跌後，「木頭姐」：市場越擔憂我越樂觀，牛市未完
-- 野村：「藍色浪潮」衝擊美國數據中心，中國AI反而受益
-- 共和黨中選大敗，幣圈「好事到頭」了？
-- 谷歌爲190億美元AI數據中心租約提供信用支持，Anthropic算力支出激增77%
-- 定了，5×23！納斯達克12月6日正式進入23小時交易時代
-- 「反對數據中心」浪潮不止在美國，歐洲多國爆發抗議
-- 週末讀物 | AI失去的第一個秋天：當選票比芯片更稀缺
-- 科技股「黑色一週」之後，華爾街高呼「抄底」
-- 原油「暴跌一週」：8天前還是「戰火紛飛」，中選後對沖基金狂賣66億美元
+- 黃仁勳風波背後：英偉達繞不開的 「關鍵人依賴」
+- 收市速睇 | 三大指數齊跌，科指跌0.92%；科網、汽車股多數下跌，美團跌超6%，零跑汽車跌超7%；煤炭、生物技術股普漲，首鋼資源漲近13%，再鼎醫藥漲超14%
+- Rocket Lab期權指南：收入增長預期強勁，Neutron火箭延期與收購風險能否消化？
+- 暗盤情報 | 「半導體封測服務提供商」芯德半導體現漲近22%，一手賺960港元
+- 期權收租｜AI芯片反彈，AMD單日飆漲11%，如何捕捉高波動？
+- 業績前瞻 | Rocket Lab營收高增之際盈利壓力仍待破解，Neutron延期陰霾逐漸消散
+- 馬斯克Terafab目標曝光：瞄準月產70萬片存儲芯片晶圓，接近三星DRAM總產能
+- 美官員稱與黃仁勳婚外情女子爲中國情報機構工作，外交部：純屬捕風捉影
+- 特朗普稱將與中俄元首在APEC討論美伊衝突及無核化問題，外交部回應
+- 美光連續破位，下一個關鍵支撐區域在哪？
 
 --- 跨站重点主题（多站出现=更重要）---
-- 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
-- 伊朗/中东: SCMP (EN/中), 富途资讯 (繁中)
+- 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中)
+- 中国/欧盟: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中)
+- 伊朗/中东: Yahoo Finance (EN), 富途资讯 (繁中)
+- 美国关税: Yahoo Finance (EN)
+- 油价/霍尔木兹: Yahoo Finance (EN)
 - 加密货币: Yahoo Finance (EN)
-- 中国/欧盟: SCMP (EN/中)
+- 就业数据: Yahoo Finance (EN)
+- 黄金/大宗: SCMP (EN/中)
 
 --- 粘贴结束 ---
 <!-- 资讯来源结束 -->
