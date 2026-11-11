@@ -3,16 +3,16 @@
 ## 一、各站抓取情况
 
 - **Yahoo Finance (EN)** ✓
-  - 头版/首屏: U.S. markets open in 2h 30m | Wall Street's $1.6T rebound may look like a bottom — history says it often isn't | Stocks trade mixed ahead of key inflation data | Why Nvidia's alleged Chinese spy scandal is going to confuse markets — and the government | Stocks trade mixed ahead of key inflation data | Why Nvidia's alleged Chinese spy scandal is going to confuse markets — and the government | Anthropic seeks to raise $69.3B via its IPO: Report | 'Nvidia needs to decide: Is it Jensen or is it Nvidia?' Expert on key-person risk.
-  - 其他: Top Stories | Markets & Economy | Tech & AI | Jensen Huang’s affair has short-circuited Wall Street analysts | Nvidia intervened in US probe of Megaspeed chip smuggling
+  - 头版/首屏: U.S. markets closed | Anthropic says a key AI safety alarm has been triggered, days before IPO | Nvidia stock drops on report CEO affair aided $7.5B in China chip shipments | US push for higher German drug prices would backfire | Nvidia stock drops on report CEO affair aided $7.5B in China chip shipments | US push for higher German drug prices would backfire | Bond yields surge most in 19 months as traders brace for Fed rate hikes | American paychecks are losing to inflation again — here are the most painful categories
+  - 其他: Top Stories | Markets & Economy | Tech & AI | OpenAI Q3 revenue jumped 50% to $10 billion | BofA warns the S&P 500 itself is 'the most crowded equity ticker in the world'
 
 - **Benzinga (EN)** ✓
 
-- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x74d90c62d9a0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
+- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x741564453980>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
 
 - **SCMP (EN/中)** ✓
-  - 头版/首屏: Breaking China, Asia, HK News, Opinions and Insights | China warns against fake spy claims after jealous public servant frames rival | Military | Could US Marines sustain a war with China? Officers warn of Pacific weaknesses | Tech War | Who is Alice Huang and why is her relationship with Nvidia’s CEO under scrutiny? | Hong Kong Economy | UK remains ‘much valued business partner’ to Hong Kong, John Lee says
-  - 其他: Top intelligence agency says that even though the smear was motivated by personal grievance, it still hurt national security. | Speaking at British Chamber of Commerce’s annual summit, city leader cites opportunities in Northern Metropolis for UK firms and universities. | Elon Musk, Michael Miebach are joining Trump at Apec. What about Jensen Huang? | Nvidia chief’s attendance in doubt amid foreign intelligence investigation, as Beijing blasts allegation as ‘unsubstantiated’. | Politics
+  - 头版/首屏: Breaking China, Asia, HK News, Opinions and Insights | PLA cyber expert Guo Shize removed from Chinese Academy of Sciences website | Diplomacy | Could Jensen Huang’s affair become another ‘spy balloon’ saga for US-China ties? | Transport | A fare fight? What Hong Kong’s ride-hailing shake-up means for passengers | How Asian-American campaigners helped turn the US deep-red South blue | China mocks US ‘congratulations’ over Dominican closure of Chinese-run factory
+  - 其他: Guo and his two roommates at Harbin Institute of Technology all rose to become prominent academicians at top Chinese scientific institutions. | Asian-American organisers in Georgia, Texas and North Carolina drew on years of local community engagement to spur Democrats on to victory. | Beijing’s embassy hits back at State Department official Juan Pablo Segura for praising shutdown of the Chinese-operated Cartesa plant. | Business | Developers woo cross-border buyers as new Huanggang Port spurs 40% viewing surge
 
 - **经济通 (繁中)** ✓
   - 头版/首屏: 沪深港通 热点观察国际动态【FOCUS】 | 特朗普淡化攻击伊朗油价急挫，三桶油未宜沾手？ | 10月乘用车零售 按年降逾27% | 乌俄美三方今起会谈 特暗示乌或需割地 | 《持械入宋》VS《后会友期》，资本重估“人心价值” | 指数环球商品外汇 | 国金观点 | 港股大市分析
@@ -23,28 +23,27 @@
 - **智通财经 (简中)** ✓
 
 - **富途资讯 (繁中)** ✓
-  - 头版/首屏: 聯儲局12月會加息嗎？今晚21:30公佈的CPI一錘定音！ | 衝刺萬億美元IPO！Anthropic募資目標下調至644億美元，七大科技巨頭另投260億美元，發行價擬定70-78美元 | 聯儲局理事沃勒：支持12月應加息50點子，並非超級偏鷹，不會把利率提高150或200個點子 | 智譜：擬最多40億港元回購H股，上限爲已發行股份1% | CoreWeave業績期權指南：1290億美元訂單與新增承諾，算力交付能否兌現收入？ | Anthropic IPO最新招股文件曝光：擬以每股70至78美元發行8.25億股 | 快手將推出AI互動玩法平台Yoola，探索內容創作與商業化新機會 | 宏觀期權指南：核心CPI預期降至0.2%，SPY、QQQ反彈能否突破關鍵均線？
-  - 其他: 聯儲局理事沃勒：我們並非超級鷹派 不會加息150或200個點子 | ANT終將奔向10萬億 | 北水減倉港股超27億港元，淨買入阿里巴巴近9億港元，淨賣出騰訊控股逾6億港元 | 估值處歷史2%分位，港股消費股到擊球區了嗎？ | 不換黃仁勳，英偉達仍可繼續持有
+  - 头版/首屏: 富途早報 | 聯儲局官員接連放鷹，鮑曼警告AI押注落空或引股市重挫；英偉達連跌兩日，調查訴訟風波未歇；Anthropic上市前搶攻辦公軟件，微軟盤中跳水；阿里確認拆分平頭哥上市 | Anthropic公佈路演視頻，瞄準35%長期經營利潤目標 | Anthropic IPO路演之際，OpenAI也披露財務數據：Q3收入不及預期，虧損遠超預期 | CoreWeave Q3營收超預期大漲168%，全年指引上調 | 聯儲局12月100%加息？多位官員密集「放鷹」 德銀料「三連加」 | 太空AI加速備戰：SpaceX訂購太陽能產線，星艦挑戰首次「雙回收」 | OpenAI推出ChatGPT企業功能，向谷歌廣告市場發起挑戰 | 成交額TOP20 | 英偉達跌超5%，較高點回撤30%；微軟跌超2%，Anthropic進軍Office市場；台積電收復暴跌失地，10月營收暴增60%
+  - 其他: 美股收盤 | CPI大超預期，股指承壓收跌；太空股Rocket Lab漲超6%，業績後一度跌10%；英偉達較高點蒸發近2萬億美元；美債收益率跳升 | 快手將推出AI互動玩法平台Yoola，探索內容創作與商業化新機會 | IPO路演日加碼企業辦公市場！Anthropic推出多款AI工具，正面挑戰微軟Office | Anthropic IPO定價在即：高盛預測2030年營收破6850億，7位創始人IPO套現17.5億美元 | 聯儲局理事鮑曼警告：若AI押注落空，股市或將大幅回調
 
 ## 二、跨站主题（多站出现 = 更重要）
 
+- **伊朗/中东局势** — 出现于: SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中) (3 站)
 - **科技股/个股** — 出现于: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中) (3 站)
-- **伊朗/中东局势** — 出现于: Yahoo Finance (EN), 经济通 (繁中) (2 站)
-- **油价/能源/霍尔木兹** — 出现于: Yahoo Finance (EN), 经济通 (繁中) (2 站)
 - **中国/欧盟** — 出现于: Yahoo Finance (EN), SCMP (EN/中) (2 站)
-- **美国关税（15%等）** — 出现于: 富途资讯 (繁中) (1 站)
-- **就业/经济数据** — 出现于: SCMP (EN/中) (1 站)
+- **油价/能源/霍尔木兹** — 出现于: 经济通 (繁中) (1 站)
+- **黄金/大宗商品** — 出现于: Yahoo Finance (EN) (1 站)
 - **美联储/利率** — 出现于: Yahoo Finance (EN) (1 站)
 
 ## 三、检测到的主题（供参考，由总结摘要 Prompt 自行判断重要性）
 
+- 伊朗/中东局势（3 站）
 - 科技股/个股（3 站）
-- 伊朗/中东局势（2 站）
-- 油价/能源（2 站）
 - 中国/欧盟（2 站）
-- 关税/贸易政策（1 站）
-- 就业/经济数据（1 站）
+- 油价/能源（1 站）
+- 黄金/大宗商品（1 站）
 - 美联储/利率（1 站）
+- 关税/贸易政策（0 站）
 - 加密货币（0 站）
-- 黄金/大宗商品（0 站）
+- 就业/经济数据（0 站）
 - 中国政策（0 站）

@@ -7,8 +7,8 @@
 你是港美股热点运营助手，服务于一个在中国做港美股内容运营的团队。
 你的输出将直接发到 Slack 群，供团队确认当日运营优先级，无需再二次加工。
 
-**当前模式：晚间**
-**覆盖时间段：今日08:00 - 20:00（美股开盘前）**
+**当前模式：早间**
+**覆盖时间段：昨日22:00 - 今日09:00（美股隔夜收盘）**
 
 ---
 
@@ -30,7 +30,7 @@
 ## 输出格式（严格遵守）
 
 第一行输出标题，固定为（直接复制，不修改任何字）：
-`晚间热点线索 · 2026年11月10日`
+`早间热点线索 · 2026年11月11日`
 
 空一行后，输出正文条目，每条格式：
 `* 事实描述（含关键数据）。仅写资讯来源中已明确发生的涨跌，不推断其他标的受到联动。标的代码直接写在正文中，结尾不另加标的列表。`
@@ -62,15 +62,15 @@
 
 ---
 
-## 晚间模式操作指令
+## 早间模式操作指令
 
-聚焦：今晚美股开盘前的运营清单。不涉及港股，只关注美股。
+聚焦：隔夜美股收盘结果 + 影响今日港股开盘的信息。
 
 重点关注（按重要性排序写入）：
-1. 盘前重要财报及初步反应（EPS/营收 vs 预期——仅限资讯来源中有明确数据）
-2. 盘前个股异动（涨跌 5% 以上 + 原因一句话）
-3. 影响今晚开盘情绪的宏观事件（Fed 官员讲话、重要数据——仅限资讯来源中明确出现）
-4. 其他值得今晚关注的美股消息
+1. 美股三大指数昨夜涨跌及核心驱动，一句话概括（必须有资讯来源支撑，不得推断）
+2. 个股重大异动（财报或重大消息驱动涨跌 5% 以上）
+3. 隔夜重要宏观数据（非农/CPI/PCE/美联储表态——仅限资讯来源中明确出现）
+4. 隔夜消息中可能影响港股相关板块的内容，重点关注：光通信、存储/HBM、半导体、中概互联网等；若有明确利好/利空驱动，须点明对应港股板块或个股
 
 ---
 
@@ -104,60 +104,60 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026111020
+抓取时间: 2026111109
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets open in 2h 30m
-- Wall Street's $1.6T rebound may look like a bottom — history says it often isn't
-- Stocks trade mixed ahead of key inflation data
-- Why Nvidia's alleged Chinese spy scandal is going to confuse markets — and the government
-- Stocks trade mixed ahead of key inflation data
-- Why Nvidia's alleged Chinese spy scandal is going to confuse markets — and the government
-- Anthropic seeks to raise $69.3B via its IPO: Report
-- 'Nvidia needs to decide: Is it Jensen or is it Nvidia?' Expert on key-person risk.
-- The stock market is doing some of the Fed's dirty work
-- Nvidia CEO Jensen Huang's affair with a reported Chinese spy damages this key investing factor
-- October inflation is expected to have cooled from September
-- Oil dips below $90 as Trump cools Iran fears
+- U.S. markets closed
+- Anthropic says a key AI safety alarm has been triggered, days before IPO
+- Nvidia stock drops on report CEO affair aided $7.5B in China chip shipments
+- US push for higher German drug prices would backfire
+- Nvidia stock drops on report CEO affair aided $7.5B in China chip shipments
+- US push for higher German drug prices would backfire
+- Bond yields surge most in 19 months as traders brace for Fed rate hikes
+- American paychecks are losing to inflation again — here are the most painful categories
+- Goldman Sachs makes big call after stock rout. Here are its top picks.
+- Traders who rushed to safety of bonds get rattled in reversal
+- Why this top Wall Street strategist isn't bullish on the S&P 500 for 2027
+- Fed's Bowman says inflation is broadening: 'There's more work to do' on rates
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
 - Tech & AI
-- Jensen Huang’s affair has short-circuited Wall Street analysts
-- Nvidia intervened in US probe of Megaspeed chip smuggling
-- CoreWeave has a sentiment problem even strong earnings can't fix
-- AI is not popular right now, but the US has to lead
+- OpenAI Q3 revenue jumped 50% to $10 billion
+- BofA warns the S&P 500 itself is 'the most crowded equity ticker in the world'
+- Anthropic IPO: How to participate in the IPO
+- Is China really winning on AI prices? OpenAI's CFO says no
 - Popular
-- Anthropic plans IPO lives stream with Amodei, JPMorgan CEO Dimon
-- SoftBank logs $7B loss after US data center costs swell
+- Is the stock market open on Veterans Day?
+- California's billionaire tax is defeated
 
 ## Benzinga (EN)
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x74d90c62d9a0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x741564453980>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - Breaking China, Asia, HK News, Opinions and Insights
-- China warns against fake spy claims after jealous public servant frames rival
-- Military
-- Could US Marines sustain a war with China? Officers warn of Pacific weaknesses
-- Tech War
-- Who is Alice Huang and why is her relationship with Nvidia’s CEO under scrutiny?
-- Hong Kong Economy
-- UK remains ‘much valued business partner’ to Hong Kong, John Lee says
+- PLA cyber expert Guo Shize removed from Chinese Academy of Sciences website
+- Diplomacy
+- Could Jensen Huang’s affair become another ‘spy balloon’ saga for US-China ties?
+- Transport
+- A fare fight? What Hong Kong’s ride-hailing shake-up means for passengers
+- How Asian-American campaigners helped turn the US deep-red South blue
+- China mocks US ‘congratulations’ over Dominican closure of Chinese-run factory
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Top intelligence agency says that even though the smear was motivated by personal grievance, it still hurt national security.
-- Speaking at British Chamber of Commerce’s annual summit, city leader cites opportunities in Northern Metropolis for UK firms and universities.
-- Elon Musk, Michael Miebach are joining Trump at Apec. What about Jensen Huang?
-- Nvidia chief’s attendance in doubt amid foreign intelligence investigation, as Beijing blasts allegation as ‘unsubstantiated’.
-- Politics
-- China’s top general urges joint military-civilian crackdown on arms corruption
-- Zhang Shengmin urges better ‘information-sharing, coordinated action and joint sanctions’ mechanisms in article on fifth plenum outcomes.
-- People
-- Loke resigns after Malaysia court clears Najib to start house arrest
-- The transport minister followed through on a pledge to step down if Najib was allowed to serve his sentence at home.
+- Guo and his two roommates at Harbin Institute of Technology all rose to become prominent academicians at top Chinese scientific institutions.
+- Asian-American organisers in Georgia, Texas and North Carolina drew on years of local community engagement to spur Democrats on to victory.
+- Beijing’s embassy hits back at State Department official Juan Pablo Segura for praising shutdown of the Chinese-operated Cartesa plant.
+- Business
+- Developers woo cross-border buyers as new Huanggang Port spurs 40% viewing surge
+- Wellspring is the first residential phase of the Shenzhen New World 188 project, with about 70 per cent of the initial 315 flats already sold.
+- Europe
+- US charges 3 ‘Iranian operatives’ over UK airbase plot
+- A farmer reported seeing ‘suspicious’ activity at the RAF Fairford site in September, prompting the US to withdraw its B-1 bombers.
+- UK talent connect with Hong Kong and mainland China employers at London career showcase
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -187,33 +187,32 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 聯儲局12月會加息嗎？今晚21:30公佈的CPI一錘定音！
-- 衝刺萬億美元IPO！Anthropic募資目標下調至644億美元，七大科技巨頭另投260億美元，發行價擬定70-78美元
-- 聯儲局理事沃勒：支持12月應加息50點子，並非超級偏鷹，不會把利率提高150或200個點子
-- 智譜：擬最多40億港元回購H股，上限爲已發行股份1%
-- CoreWeave業績期權指南：1290億美元訂單與新增承諾，算力交付能否兌現收入？
-- Anthropic IPO最新招股文件曝光：擬以每股70至78美元發行8.25億股
-- 快手將推出AI互動玩法平台Yoola，探索內容創作與商業化新機會
-- 宏觀期權指南：核心CPI預期降至0.2%，SPY、QQQ反彈能否突破關鍵均線？
+- 富途早報 | 聯儲局官員接連放鷹，鮑曼警告AI押注落空或引股市重挫；英偉達連跌兩日，調查訴訟風波未歇；Anthropic上市前搶攻辦公軟件，微軟盤中跳水；阿里確認拆分平頭哥上市
+- Anthropic公佈路演視頻，瞄準35%長期經營利潤目標
+- Anthropic IPO路演之際，OpenAI也披露財務數據：Q3收入不及預期，虧損遠超預期
+- CoreWeave Q3營收超預期大漲168%，全年指引上調
+- 聯儲局12月100%加息？多位官員密集「放鷹」 德銀料「三連加」
+- 太空AI加速備戰：SpaceX訂購太陽能產線，星艦挑戰首次「雙回收」
+- OpenAI推出ChatGPT企業功能，向谷歌廣告市場發起挑戰
+- 成交額TOP20 | 英偉達跌超5%，較高點回撤30%；微軟跌超2%，Anthropic進軍Office市場；台積電收復暴跌失地，10月營收暴增60%
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 聯儲局理事沃勒：我們並非超級鷹派 不會加息150或200個點子
-- ANT終將奔向10萬億
-- 北水減倉港股超27億港元，淨買入阿里巴巴近9億港元，淨賣出騰訊控股逾6億港元
-- 估值處歷史2%分位，港股消費股到擊球區了嗎？
-- 不換黃仁勳，英偉達仍可繼續持有
-- 美股AI巨震，如何把握港A的AI產業鏈分化機遇？
-- 聯儲局理事沃勒：將支持下月加息25個點子，必要時50個點子
-- Anthropic IPO擬募資693億美元，衝刺下週四、五上市！七巨頭斥資260億美元入股
-- 收市速睇 | 三大指數齊漲，科指漲1.08%，智譜、MINIMAX漲超10%；物理AI、半導體、光通信股普漲，群核科技大漲超25%，天數智芯漲超15%，長飛光纖光纜漲近6%
-- 暗盤情報 | 「中藥飲片產品供應商」新荷花現漲超171%，一手賺3440港元
+- 美股收盤 | CPI大超預期，股指承壓收跌；太空股Rocket Lab漲超6%，業績後一度跌10%；英偉達較高點蒸發近2萬億美元；美債收益率跳升
+- 快手將推出AI互動玩法平台Yoola，探索內容創作與商業化新機會
+- IPO路演日加碼企業辦公市場！Anthropic推出多款AI工具，正面挑戰微軟Office
+- Anthropic IPO定價在即：高盛預測2030年營收破6850億，7位創始人IPO套現17.5億美元
+- 聯儲局理事鮑曼警告：若AI押注落空，股市或將大幅回調
+- 據The Information：OpenAI第三季度營收躍升至100億美元。
+- CoreWeave 2026年Q3營收36.6億美元，稀釋後每股虧損1.27美元，上調全年營收展望
+- 聯儲局再次放鷹！今年票委Logan：至少還需加息兩次，步伐或將加快
+- MiniMax開源H3 Image：4K圖像生成僅10秒，支持多達16張參考圖，首週五折優惠
+- CPI暴擊美債！2年期收益率盤中飆升逾20點子，金銀大跌
 
 --- 跨站重点主题（多站出现=更重要）---
+- 伊朗/中东: SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
 - 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中)
-- 伊朗/中东: Yahoo Finance (EN), 经济通 (繁中)
-- 油价/霍尔木兹: Yahoo Finance (EN), 经济通 (繁中)
 - 中国/欧盟: Yahoo Finance (EN), SCMP (EN/中)
-- 美国关税: 富途资讯 (繁中)
-- 就业数据: SCMP (EN/中)
+- 油价/霍尔木兹: 经济通 (繁中)
+- 黄金/大宗: Yahoo Finance (EN)
 - 美联储: Yahoo Finance (EN)
 
 --- 粘贴结束 ---
