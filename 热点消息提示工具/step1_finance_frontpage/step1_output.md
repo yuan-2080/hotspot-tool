@@ -3,47 +3,46 @@
 ## 一、各站抓取情况
 
 - **Yahoo Finance (EN)** ✓
-  - 头版/首屏: U.S. markets closed | Nvidia reportedly preparing to oust CEO Huang over affairs | Nvidia live updates: Stock tanks in after-hours after allegations of a second affair surface | Who is Nvidia executive Kimberly Powell? | Nvidia live updates: Stock tanks in after-hours after allegations of a second affair surface | Who is Nvidia executive Kimberly Powell? | Trump plans to sell public land, reducing size of federal estate | The Fed's hold looks like a 'mistake,' and now a jumbo hike is on the table
-  - 其他: Top Stories | Markets & Economy | Tech & AI | Meta is losing its longtime head of  infrastructure | Hugging Face cofounder: Open-weight AI models were ‘our savior’
+  - 头版/首屏: U.S. markets open in 2h 30m | Nvidia reportedly preparing to oust CEO Huang over affairs | Nvidia live updates: Stock tanks in after-hours after allegations of a second affair surface | Who is Nvidia executive Kimberly Powell? | Nvidia live updates: Stock tanks in after-hours after allegations of a second affair surface | Who is Nvidia executive Kimberly Powell? | Trump plans to sell public land, reducing size of federal estate | The Fed's hold looks like a 'mistake,' and now a jumbo hike is on the table
+  - 其他: Top Stories | Markets & Economy | Tech & AI | Nvidia working with outside firm to identify CEO candidates | Nvidia turmoil lifts AMD, Broadcom on bets for business gains
 
 - **Benzinga (EN)** ✓
 
-- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7a1522d670e0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
+- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x772dbc68c440>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
 
 - **SCMP (EN/中)** ✓
-  - 头版/首屏: Breaking China, Asia, HK News, Opinions and Insights | In Focus | ‘Impossible to hide’: scrutiny complicates Singapore’s role as testbed for China | Diplomacy | Rubio, Wang hold phone call before Xi-Trump meeting next week | Politics | How deep are Nvidia-linked executive Alice Huang’s Hong Kong business ties? | Tech | Nvidia shares plunge in after-hours trading on concerns about CEO Jensen Huang
-  - 其他: Singapore has been a global springboard for Chinese firms, but greater attention from the West – especially after the Jensen Huang affair – may create challenges. | US media reports have said company’s board could meet as soon as today to consider his role. | China backs Cuba as Havana raises US fuel pressure in Beijing | Havana reaffirms its commitment to the one-China principle and backs Xi Jinping’s four global initiatives, Beijing says. | Business
+  - 头版/首屏: Breaking China, Asia, HK News, Opinions and Insights | On Sun Yat-sen anniversary, Xi calls for dialogue on Taiwan with ‘people of vision’ | Science | Nvidia’s Jensen Huang affair revives China Initiative concerns in Silicon Valley | Law and Crime | Tai Po fire claims: Hong Kong judiciary urges mediation before court action | Big Tech | A look at the Nvidia board deciding CEO Jensen Huang’s fate
+  - 其他: Xi Jinping tells event marking 160th anniversary of Sun’s birth that Beijing will take ‘full account of Taiwan’s realities’. | The potential ousting of the 63-year-old Huang would leave a leadership vacuum at the US$4 trillion AI chip giant he co-founded in 1993. | Companies | Former ByteDance scientist says drug-discovery AI tops world leaders | Quanquan Gu says Geodesic’s AI beats Isomorphic Labs’ IsoDDE and DeepMind’s AlphaFold 3 in benchmarks.
 
 - **经济通 (繁中)** ✓
-  - 头版/首屏: 沪深港通 热点观察国际动态【FOCUS】 | 黄仁勋事件持续发酵，英伟达相关产业链股份不宜沾手？ | AI需求带动 内地10月出口增35.2% | 参院推法案 促数据中心分担电费 | 平头哥“卖铲”必升？可灵辟估值新局 | 指数环球商品外汇 | 国金观点 | 港股大市分析
-  - 其他: 恒生指数24315.92-241.12(-0.98%)
-                    etnet.com.hk@copyright | 国企指数8171.45-94.36(-1.14%)
+  - 头版/首屏: 沪深港通 热点观察国际动态【FOCUS】 | 传长江存储力争明年首季上市，芯片股逆市炒上可再吼？ | “双11”电商攻AI 推词元充值套餐 | 美国倡纳入欧洲 建俄乌战后安全架构 | 税局晒单+财爸打假，灰色地带“透明化” | 指数环球商品外汇 | 国金观点 | 港股大市分析
+  - 其他: 恒生指数24008.55-307.37(-1.26%)
+                    etnet.com.hk@copyright | 国企指数8056.76-114.69(-1.40%)
                     etnet.com.hk@copyright | 理财/管理 | 时尚艺术 | 健康人生
 
 - **智通财经 (简中)** ✓
 
 - **富途资讯 (繁中)** ✓
-  - 头版/首屏: 富途早報 | 震驚市場！據報黃仁勳去留最快今日定；華爾街加息預期再升，高盛料減息明年底至；中際旭創H股獲納入MSCI新興市場指數，中芯國際今日放榜 | 黃仁勳再曝新婚外情，董事會據悉準備罷免！英偉達盤後大跌8% | 我們正目睹科技史上最嚴重的逼宮：上一次還是在1985年的蘋果 | CoreWeave擬發行至少40億美元投資級貸款 | Sixth Street掌門人警示2000億美元芯片滯庫! AI基建迎來信用分化 「把算力訂單煉成現金流」開始主導AI投資 | 聯儲局高層人事暗戰浮現！威廉姆斯離任時間成爭議，沃什或提前掌握關鍵任命權 | CoreWeave上調營收指引後擬融資至少40億美元：AI算力供應商開啓「垃圾級→投資級」信用躍遷 | 華爾街日報：英偉達準備罷免CEO黃仁勳
-  - 其他: 美股收盤 | AI交易重燃，三大指數齊漲；CoreWeave飆升24%，NEBIUS漲超15%；芯片指數漲超5%；美元續漲，黃金跌破4000 | 明晟公司（MSCI）：MicroStrategy將被從MSCI全球標準指數中剔除。 | 紐約時報：黃仁勳曾與一位向他彙報工作的英偉達高管有染 | 成交額TOP20 | CoreWeave大漲25%，創1年來最大單日漲幅；黃仁勳被曝與自家副總裁有染；美光漲超11%，閃迪漲超13% | AI交易熱潮回歸，CoreWeave單日暴漲24%，納指100勢將收復中選後失地
+  - 头版/首屏: 失去黃仁勳，英偉達會怎樣？ | 聯儲局12月：50bp加息的勝率與賠率 | 全世界都在猜黃仁勳的去留，庫克被傳是潛在繼任者 | 中芯國際Q3歸母淨利潤同比增長87.6%，環比下降逾8%，預計Q4收入環比增長4%-6% | 「拯救黃仁勳」！馬斯克等商界大佬集體聲援：調查結束前不應解僱 | 中芯國際：第三季度淨利潤同比增長87.6% | 北水加倉港股超58億港元，阿里巴巴、智譜分別獲淨買入超11億、8億港元 | Anthropic股價料在IPO後快速衝高？指數納入或引發近200億美元買入
+  - 其他: Strategy正式被MSCI剔除出指數，這對加密貨幣持倉股意味着什麼？ | 收市速睇 | 三大指數齊跌，科指跌2.36%；科網、黃金股普跌，阿里跌近7%，紫金黃金國際跌超10%；傳音控股逆市大漲超22%，新股一微科技漲超38% | AI交易再遭考驗！英偉達風波未平，Cerebras、應用材料業績又將登場，芯片需求冷暖線索成關鍵變量 | 期權收租｜存儲芯片急反彈！美光科技單日漲近12%重返800美元上方 | 沒有黃仁勳，英偉達還值多少錢？
 
 ## 二、跨站主题（多站出现 = 更重要）
 
 - **科技股/个股** — 出现于: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中) (4 站)
-- **伊朗/中东局势** — 出现于: SCMP (EN/中), 富途资讯 (繁中) (2 站)
-- **美国关税（15%等）** — 出现于: 富途资讯 (繁中) (1 站)
-- **黄金/大宗商品** — 出现于: Yahoo Finance (EN) (1 站)
+- **就业/经济数据** — 出现于: Yahoo Finance (EN), SCMP (EN/中) (2 站)
+- **中国/欧盟** — 出现于: Yahoo Finance (EN), SCMP (EN/中) (2 站)
+- **油价/能源/霍尔木兹** — 出现于: Yahoo Finance (EN) (1 站)
 - **美联储/利率** — 出现于: Yahoo Finance (EN) (1 站)
-- **中国/欧盟** — 出现于: SCMP (EN/中) (1 站)
 
 ## 三、检测到的主题（供参考，由总结摘要 Prompt 自行判断重要性）
 
 - 科技股/个股（4 站）
-- 伊朗/中东局势（2 站）
-- 关税/贸易政策（1 站）
-- 黄金/大宗商品（1 站）
+- 就业/经济数据（2 站）
+- 中国/欧盟（2 站）
+- 油价/能源（1 站）
 - 美联储/利率（1 站）
-- 中国/欧盟（1 站）
-- 油价/能源（0 站）
+- 伊朗/中东局势（0 站）
+- 关税/贸易政策（0 站）
 - 加密货币（0 站）
-- 就业/经济数据（0 站）
+- 黄金/大宗商品（0 站）
 - 中国政策（0 站）
