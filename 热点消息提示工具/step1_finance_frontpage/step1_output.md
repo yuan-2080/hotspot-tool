@@ -3,16 +3,16 @@
 ## 一、各站抓取情况
 
 - **Yahoo Finance (EN)** ✓
-  - 头版/首屏: U.S. markets open in 2h 30m | CoreWeave stock pops as Q3 revenue beats estimates, company raises full-year outlook | Nvidia stock drops on report CEO affair aided $7.5B in China chip shipments | Wall Street regulator poised to bring charges against Kalshi, Politico reports | Nvidia stock drops on report CEO affair aided $7.5B in China chip shipments | Wall Street regulator poised to bring charges against Kalshi, Politico reports | US push for higher German drug prices would backfire | What we know about Joon H. Kim and Wachtell, the law firm probing Huang
-  - 其他: Top Stories | Markets & Economy | Tech & AI | Anthropic's lower-than-expected IPO valuation: strategy or trouble? | OpenAI CFO says China's lead in model pricing is one of the 'myths of 2026'
+  - 头版/首屏: U.S. markets closed | Nvidia reportedly preparing to oust CEO Huang over affairs | Nvidia live updates: Stock tanks in after-hours after allegations of a second affair surface | Who is Nvidia executive Kimberly Powell? | Nvidia live updates: Stock tanks in after-hours after allegations of a second affair surface | Who is Nvidia executive Kimberly Powell? | Trump plans to sell public land, reducing size of federal estate | The Fed's hold looks like a 'mistake,' and now a jumbo hike is on the table
+  - 其他: Top Stories | Markets & Economy | Tech & AI | Meta is losing its longtime head of  infrastructure | Hugging Face cofounder: Open-weight AI models were ‘our savior’
 
 - **Benzinga (EN)** ✓
 
-- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7d1c71665640>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
+- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7a1522d670e0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
 
 - **SCMP (EN/中)** ✓
-  - 头版/首屏: Breaking China, Asia, HK News, Opinions and Insights | India forms specialist police commando units to patrol border with China | China Economy | Taxing the rich? China’s offshore trust crackdown nets US$24 billion | Law and Crime | My brother killed ex-wife Abby Choi in rage after car insults, tearful Kwong says | Big Tech | Amid Nvidia saga, T-Head IPO crucial for Alibaba – and Chinese AI
-  - 其他: The Indo-Tibetan Border Police’s new Shaurya platoons are reported to have been given specialised training in high-altitude operations. | Analysts say the spin-off is more than just a litmus test for Alibaba’s valuation and a potential boost to its AI growth plans. | Tech War | Nvidia CEO Jensen Huang’s affair: everything you need to know | From how the affair may impact US-China ties to Trump’s reaction, here’s everything you need to know about the aftermath of the Jensen Huang scandal.
+  - 头版/首屏: Breaking China, Asia, HK News, Opinions and Insights | In Focus | ‘Impossible to hide’: scrutiny complicates Singapore’s role as testbed for China | Diplomacy | Rubio, Wang hold phone call before Xi-Trump meeting next week | Politics | How deep are Nvidia-linked executive Alice Huang’s Hong Kong business ties? | Tech | Nvidia shares plunge in after-hours trading on concerns about CEO Jensen Huang
+  - 其他: Singapore has been a global springboard for Chinese firms, but greater attention from the West – especially after the Jensen Huang affair – may create challenges. | US media reports have said company’s board could meet as soon as today to consider his role. | China backs Cuba as Havana raises US fuel pressure in Beijing | Havana reaffirms its commitment to the one-China principle and backs Xi Jinping’s four global initiatives, Beijing says. | Business
 
 - **经济通 (繁中)** ✓
   - 头版/首屏: 沪深港通 热点观察国际动态【FOCUS】 | 黄仁勋事件持续发酵，英伟达相关产业链股份不宜沾手？ | AI需求带动 内地10月出口增35.2% | 参院推法案 促数据中心分担电费 | 平头哥“卖铲”必升？可灵辟估值新局 | 指数环球商品外汇 | 国金观点 | 港股大市分析
@@ -23,26 +23,27 @@
 - **智通财经 (简中)** ✓
 
 - **富途资讯 (繁中)** ✓
-  - 头版/首屏: CoreWeave季報暫緩AI放緩擔憂：營收暴增168%、全年指引上調，但債務依然高企 | 半導體拋售已過度，大摩高喊抄底：英偉達、博通居首，存儲緊隨 | 韓國政府週五召開資本市場座談會，或討論KOSDAQ振興措施 | 英偉達盤前反彈！ 「大空頭」伯裏看好短期交易機會，但警告長期恐難逃競爭優勢衰退 | MSCI新規首次「大考」來襲，Strategy或面臨基準指數除名 | CoreWeave強勁業績助攻新雲板塊反彈！NEBIUS能否接力交出高增長成績單成關鍵考驗 | 央行：用好債市非銀大額贖回互換便利，維護股票、債券、外匯等金融市場平穩運行 | Nebius(NBIS.US)業績期權指南：收入預期突破9億美元，逾400億美元長約能否順利交付？
-  - 其他: CoreWeave(CRWV.US)業績期權指南：積壓訂單創新高、全年指引上調，AI算力擴張能否消化融資壓力？ | 北水加倉港股近46億港元，阿里巴巴、中芯國際分別獲淨買入超12億、9億港元；騰訊控股遭淨賣出超5億港元 | 台積電週二升2.02%，能否重回上升趨勢？ | 英偉達滾動市盈率跌至2019年以來最低值，能否在關鍵支撐平台企穩？ | 「過剩交易」捲土重來！摩根大通：美伊若達成協議，布油或跌至70美元中段
+  - 头版/首屏: 富途早報 | 震驚市場！據報黃仁勳去留最快今日定；華爾街加息預期再升，高盛料減息明年底至；中際旭創H股獲納入MSCI新興市場指數，中芯國際今日放榜 | 黃仁勳再曝新婚外情，董事會據悉準備罷免！英偉達盤後大跌8% | 我們正目睹科技史上最嚴重的逼宮：上一次還是在1985年的蘋果 | CoreWeave擬發行至少40億美元投資級貸款 | Sixth Street掌門人警示2000億美元芯片滯庫! AI基建迎來信用分化 「把算力訂單煉成現金流」開始主導AI投資 | 聯儲局高層人事暗戰浮現！威廉姆斯離任時間成爭議，沃什或提前掌握關鍵任命權 | CoreWeave上調營收指引後擬融資至少40億美元：AI算力供應商開啓「垃圾級→投資級」信用躍遷 | 華爾街日報：英偉達準備罷免CEO黃仁勳
+  - 其他: 美股收盤 | AI交易重燃，三大指數齊漲；CoreWeave飆升24%，NEBIUS漲超15%；芯片指數漲超5%；美元續漲，黃金跌破4000 | 明晟公司（MSCI）：MicroStrategy將被從MSCI全球標準指數中剔除。 | 紐約時報：黃仁勳曾與一位向他彙報工作的英偉達高管有染 | 成交額TOP20 | CoreWeave大漲25%，創1年來最大單日漲幅；黃仁勳被曝與自家副總裁有染；美光漲超11%，閃迪漲超13% | AI交易熱潮回歸，CoreWeave單日暴漲24%，納指100勢將收復中選後失地
 
 ## 二、跨站主题（多站出现 = 更重要）
 
 - **科技股/个股** — 出现于: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中) (4 站)
-- **中国/欧盟** — 出现于: Yahoo Finance (EN), SCMP (EN/中) (2 站)
+- **伊朗/中东局势** — 出现于: SCMP (EN/中), 富途资讯 (繁中) (2 站)
+- **美国关税（15%等）** — 出现于: 富途资讯 (繁中) (1 站)
 - **黄金/大宗商品** — 出现于: Yahoo Finance (EN) (1 站)
 - **美联储/利率** — 出现于: Yahoo Finance (EN) (1 站)
-- **中国重大政策/两会** — 出现于: 富途资讯 (繁中) (1 站)
+- **中国/欧盟** — 出现于: SCMP (EN/中) (1 站)
 
 ## 三、检测到的主题（供参考，由总结摘要 Prompt 自行判断重要性）
 
 - 科技股/个股（4 站）
-- 中国/欧盟（2 站）
+- 伊朗/中东局势（2 站）
+- 关税/贸易政策（1 站）
 - 黄金/大宗商品（1 站）
 - 美联储/利率（1 站）
-- 中国政策（1 站）
-- 伊朗/中东局势（0 站）
-- 关税/贸易政策（0 站）
+- 中国/欧盟（1 站）
 - 油价/能源（0 站）
 - 加密货币（0 站）
 - 就业/经济数据（0 站）
+- 中国政策（0 站）
