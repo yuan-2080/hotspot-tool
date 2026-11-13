@@ -3,44 +3,45 @@
 ## 一、各站抓取情况
 
 - **Yahoo Finance (EN)** ✓
-  - 头版/首屏: U.S. markets closed | Huang had an affair with a second employee, Reuters reports | Who is Colette Kress, Nvidia's new interim CEO? | Nvidia market cap plunges $490B following former CEO's affair scandals | Who is Colette Kress, Nvidia's new interim CEO? | Nvidia market cap plunges $490B following former CEO's affair scandals | Nvidia executive Ian Buck emerges as CEO frontrunner on prediction markets | Stocks turn lower, yields rise after Nvidia’s Huang resigns
-  - 其他: Huang Resigns | Markets & Economy | Tech & AI | Bill Ackman: Microsoft's position is 'really, really strong' | Vanguard CEO sees a 'disturbing' trend with prediction markets
+  - 头版/首屏: U.S. markets open in 2h 30m | The Nvidia scandal has hidden upside potential for the AI trade | Dow, S&P 500, Nasdaq futures waver as Nvidia tumult deepens | Jensen Huang scandal trail leads to Alibaba, the king of free Chinese AI | Dow, S&P 500, Nasdaq futures waver as Nvidia tumult deepens | Jensen Huang scandal trail leads to Alibaba, the king of free Chinese AI | The Nvidia exec prediction markets say is the CEO frontrunner | Bill Ackman: Anthropic is an 'amazing business' — but I'm not buying
+  - 其他: Top Stories | Markets & Economy | Tech & AI | Anthropic's IPO is about six times oversubscribed | Bill Ackman: Microsoft's position is 'really, really strong'
 
 - **Benzinga (EN)** ✓
 
-- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7a87303efd40>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
+- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7dbe50159a90>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
 
 - **SCMP (EN/中)** ✓
-  - 头版/首屏: Breaking China, Asia, HK News, Opinions and Insights | Jensen Huang resigns as Nvidia CEO amid affairs scandal | Diplomacy | Nvidia’s hunt for Jensen Huang’s successor: insiders, rivals and a Trump pick | Hong Kong Economy | In Focus | Why city is losing ground in AI data centre race as Malaysia, Singapore advance | Military | As Japan looks to strengthen defences and strategy, analysts warn of escalation
-  - 其他: Nvidia CFO Colette Kress steps in as interim CEO while AI chip giant searches for successor; Donald Trump backs Apple’s Tim Cook for role. | Updated National Security Strategy introduces ‘collective resilience’ to cut reliance on China for minerals, energy and food. | US invests in Peru’s Callao as port battle with China’s Chancay megaport goes on | US State Department disclosed US$4.5 million in military aid as Lima moves its main naval base to make room for cargo. | Economics
+  - 头版/首屏: Breaking China, Asia, HK News, Opinions and Insights | Nvidia’s supply chain clout tested after Jensen Huang’s exit | Global Economy | Fierce competition sparks BMW lay-offs – and blowback for China’s rust belt | Hong Kong Economy | Anthony Kwong destroyed Abby Choi’s things, discarded them with ‘pork bones’, court hears | Military | Algeria test-fires apparent Chinese YJ-12 missile in Mediterranean drill
+  - 其他: SemiAnalysis says Huang’s personal ties were key in securing chipmaking slots in Taiwan and access to high-bandwidth memory in South Korea. | Rare footage released by Algerian military shows a coastal-defence missile system resembling the CM-302, the export variant of the YJ-12. | Politics | How a bad impression put a 2,000-year-old Han cliff inscription at risk | Chinese heritage enthusiasts condemn illicit tampering at the remote steppe monument amid fears of irreversible vandalism.
 
 - **经济通 (繁中)** ✓
-  - 头版/首屏: 沪深港通 热点观察国际动态【FOCUS】 | 传长江存储力争明年首季上市，芯片股逆市炒上可再吼？ | “双11”电商攻AI 推词元充值套餐 | 美国倡纳入欧洲 建俄乌战后安全架构 | 税局晒单+财爸打假，灰色地带“透明化” | 指数环球商品外汇 | 国金观点 | 港股大市分析
-  - 其他: 恒生指数24008.55-307.37(-1.26%)
-                    etnet.com.hk@copyright | 国企指数8056.76-114.69(-1.40%)
+  - 头版/首屏: 沪深港通 热点观察国际动态【FOCUS】 | 拟分拆平头哥在港上市，股价反急插失红底可以点部署？ | 遭“  AI换脸”演出 女星告红果短剧侵权 | 西班牙400万人不满房屋危机 14年首大罢工 | 三十功名尘与土，“后教主时代”可捞底？ | 指数环球商品外汇 | 国金观点 | 港股大市分析
+  - 其他: 恒生指数23637.60-370.95(-1.55%)
+                    etnet.com.hk@copyright | 国企指数7937.53-119.23(-1.48%)
                     etnet.com.hk@copyright | 理财/管理 | 时尚艺术 | 健康人生
 
 - **智通财经 (简中)** ✓
 
 - **富途资讯 (繁中)** ✓
-  - 头版/首屏: 富途早報 | 黃仁勳卸任離場，美國司法部將調查英偉達；特斯拉與SpaceX合併推進，最快12月公佈；思科上調全年指引，應用材料交出亮眼業績 | 史上最大IPO蓄勢待發：Anthropic IPO據稱獲約六倍超額認購 | Cerebras大漲！Q3營收超預期，雲業務激增272%，上調全年指引 | 不用Flash命名，谷歌發佈Gemini 4 Hydrogen：幻覺減少5倍，速度翻倍 | 聯儲局鷹派陣營迅速升溫! 戴利：需進一步加息壓通脹，企業正醞釀提價轉嫁成本 | 思科Q1財季營收創十五年來最快增速，上調全年指引，AI相關收入料將翻倍 | 黃仁勳辭職，「AI央行」大地震，衝擊會沿融資鏈傳多遠？ | 美股收盤 | AI央行大地震，三大指數跌約0.4%；AMD、博通五連漲，累漲44%、25%；美元三連漲破103，黃金跌破3900，美債遭拋售
-  - 其他: SpaceX計劃投資740億美元，在亞利桑那州和德克薩斯州建設數據中心 | 黃仁勳突然離任震動AI行業！英偉達大跌、新雲與硬件承壓、AMD大漲，Anthropic IPO受審視 | 成交額TOP20 | 英偉達低開高走收跌4%，臨時CEO曾多次質疑黃仁勳，持倉概念NEBIUS績後暴跌17%；SpaceX與特斯拉合併談判取得進展 | 黃仁勳再次被曝與第二名女員工有染 | 英偉達新任董事會主席致全體員工：公司實力源於團隊、技術和生態
+  - 头版/首屏: 3.47萬億美元！特斯拉與SpaceX合併提速，交易最快12月官宣 | 高盛展望2027年大宗商品：能源價格或回落 銅和黃金看漲 | AI新雲「三巨頭」已交卷，釋放什麼投資信號？ | 英偉達跌出14年最低估值！「大多頭」Tom Lee喊抄底，散戶越跌越買，華爾街卻出現分歧 | 黃仁勳離任，國產替代再成焦點！港股芯片產業鏈有哪些機會？ | 聯儲局緊縮風險升溫！加密市場全面承壓 比特幣跌破6.9萬美元 | 段永平：目前不會賣出英偉達，已賣出不少看跌期權，未來黃仁勳或以「影子CEO」回歸 | 景順Q3持倉大挪移：減持英偉達及半導體設備，SpaceX持倉激增至超百億美元
+  - 其他: 摩根大通Q3持倉：大舉加倉英偉達、AI算力巨頭仍是「壓艙石」，半導體硬件股遭系統性減持 | 北水加倉港股超23億港元，騰訊控股、智譜分別獲淨買入近7億、6億港元，阿里巴巴遭淨賣出近19億港元 | 央行：前十個月社會融資規模存量同比增長7.2%；十月末M2餘額359.06萬億元，同比增長7.1%； 前十個月人民幣貸款新增11.42萬億元 | 英偉達黑天鵝，量化陣營分化，有人離場，有人堅守 | 美國財政再亮紅燈：10月赤字創歷史同期新高，過去一年28%的稅收拿去付利息
 
 ## 二、跨站主题（多站出现 = 更重要）
 
 - **科技股/个股** — 出现于: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中) (4 站)
 - **中国/欧盟** — 出现于: Yahoo Finance (EN), SCMP (EN/中) (2 站)
+- **就业/经济数据** — 出现于: SCMP (EN/中) (1 站)
 - **中国重大政策/两会** — 出现于: 富途资讯 (繁中) (1 站)
 
 ## 三、检测到的主题（供参考，由总结摘要 Prompt 自行判断重要性）
 
 - 科技股/个股（4 站）
 - 中国/欧盟（2 站）
+- 就业/经济数据（1 站）
 - 中国政策（1 站）
 - 伊朗/中东局势（0 站）
 - 关税/贸易政策（0 站）
 - 油价/能源（0 站）
 - 加密货币（0 站）
-- 就业/经济数据（0 站）
 - 黄金/大宗商品（0 站）
 - 美联储/利率（0 站）
