@@ -1,60 +1,60 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026111220
+抓取时间: 2026111309
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets open in 2h 30m
-- Nvidia reportedly preparing to oust CEO Huang over affairs
-- Nvidia live updates: Stock tanks in after-hours after allegations of a second affair surface
-- Who is Nvidia executive Kimberly Powell?
-- Nvidia live updates: Stock tanks in after-hours after allegations of a second affair surface
-- Who is Nvidia executive Kimberly Powell?
-- Trump plans to sell public land, reducing size of federal estate
-- The Fed's hold looks like a 'mistake,' and now a jumbo hike is on the table
-- Nvidia's $450 billion loss leaves millions of 401(k)s exposed
-- Nvidia slides following reports of CEO's second affair, possible removal
-- Long US bonds reopen with gains as risk sentiment sours again
-- European stocks hit record high after Nvidia storm rattles Asia
+- U.S. markets closed
+- Huang had an affair with a second employee, Reuters reports
+- Who is Colette Kress, Nvidia's new interim CEO?
+- Nvidia market cap plunges $490B following former CEO's affair scandals
+- Who is Colette Kress, Nvidia's new interim CEO?
+- Nvidia market cap plunges $490B following former CEO's affair scandals
+- Nvidia executive Ian Buck emerges as CEO frontrunner on prediction markets
+- Stocks turn lower, yields rise after Nvidia’s Huang resigns
+- As airlines face pressure, United still has its eye on American
+- Microsoft outage disrupts Outlook, Teams, and Copilot for users 'in any region'
+- Vanguard CEO warns bond market volatility could be a key 2027 risk
+- National Beef says worst is over for US cattle cycle
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Top Stories
+- Huang Resigns
 - Markets & Economy
 - Tech & AI
-- Nvidia working with outside firm to identify CEO candidates
-- Nvidia turmoil lifts AMD, Broadcom on bets for business gains
-- United Airlines bans AI agents from booking flights
-- AI models swarmed Hugging Face. Its co-founder says labs still lack control.
+- Bill Ackman: Microsoft's position is 'really, really strong'
+- Vanguard CEO sees a 'disturbing' trend with prediction markets
+- SpaceX and Tesla talks on a record merger are progressing, reports say
+- Why Anthropic doesn't fit into billionaire Bill Ackman's portfolio
 - Popular
-- Costco returns cash to investors with a $30 dividend and $4B buyback
-- Is the stock market open today?
+- Shut out by carriers, Musk’s SpaceX seeks FCC OK for its own network
+- Who is Nvidia executive Kimberly Powell?
 
 ## Benzinga (EN)
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x772dbc68c440>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7a87303efd40>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - Breaking China, Asia, HK News, Opinions and Insights
-- On Sun Yat-sen anniversary, Xi calls for dialogue on Taiwan with ‘people of vision’
-- Science
-- Nvidia’s Jensen Huang affair revives China Initiative concerns in Silicon Valley
-- Law and Crime
-- Tai Po fire claims: Hong Kong judiciary urges mediation before court action
-- Big Tech
-- A look at the Nvidia board deciding CEO Jensen Huang’s fate
-其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Xi Jinping tells event marking 160th anniversary of Sun’s birth that Beijing will take ‘full account of Taiwan’s realities’.
-- The potential ousting of the 63-year-old Huang would leave a leadership vacuum at the US$4 trillion AI chip giant he co-founded in 1993.
-- Companies
-- Former ByteDance scientist says drug-discovery AI tops world leaders
-- Quanquan Gu says Geodesic’s AI beats Isomorphic Labs’ IsoDDE and DeepMind’s AlphaFold 3 in benchmarks.
+- Jensen Huang resigns as Nvidia CEO amid affairs scandal
+- Diplomacy
+- Nvidia’s hunt for Jensen Huang’s successor: insiders, rivals and a Trump pick
 - Hong Kong Economy
-- Hong Kong organiser offers refunds after Yuja Wang’s brief concert appearance
-- Late programme change meant pianist performed for just over half an hour at show on Tuesday, prompting complaints to Consumer Council.
-- Politics
-- How South Korea can curb Pyongyang’s job scams in Laos, weapons programmes
+- In Focus | Why city is losing ground in AI data centre race as Malaysia, Singapore advance
+- Military
+- As Japan looks to strengthen defences and strategy, analysts warn of escalation
+其他 (首页其他位置，按重要性排序，仅标题无摘要):
+- Nvidia CFO Colette Kress steps in as interim CEO while AI chip giant searches for successor; Donald Trump backs Apple’s Tim Cook for role.
+- Updated National Security Strategy introduces ‘collective resilience’ to cut reliance on China for minerals, energy and food.
+- US invests in Peru’s Callao as port battle with China’s Chancay megaport goes on
+- US State Department disclosed US$4.5 million in military aid as Lima moves its main naval base to make room for cargo.
+- Economics
+- Megaspeed ex-CEO Alice Huang barred from Singapore amid Nvidia saga
+- In February, Huang was ‘issued a stern warning’ by Singapore authorities and left the city state.
+- Business
+- Hong Kong retail rents to recover – unevenly – in 2027, led by luxury
+- Higher turnover rents and improved lease-renewal terms will support rental income next year, according to Citi.
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -84,31 +84,29 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 失去黃仁勳，英偉達會怎樣？
-- 聯儲局12月：50bp加息的勝率與賠率
-- 全世界都在猜黃仁勳的去留，庫克被傳是潛在繼任者
-- 中芯國際Q3歸母淨利潤同比增長87.6%，環比下降逾8%，預計Q4收入環比增長4%-6%
-- 「拯救黃仁勳」！馬斯克等商界大佬集體聲援：調查結束前不應解僱
-- 中芯國際：第三季度淨利潤同比增長87.6%
-- 北水加倉港股超58億港元，阿里巴巴、智譜分別獲淨買入超11億、8億港元
-- Anthropic股價料在IPO後快速衝高？指數納入或引發近200億美元買入
+- 富途早報 | 黃仁勳卸任離場，美國司法部將調查英偉達；特斯拉與SpaceX合併推進，最快12月公佈；思科上調全年指引，應用材料交出亮眼業績
+- 史上最大IPO蓄勢待發：Anthropic IPO據稱獲約六倍超額認購
+- Cerebras大漲！Q3營收超預期，雲業務激增272%，上調全年指引
+- 不用Flash命名，谷歌發佈Gemini 4 Hydrogen：幻覺減少5倍，速度翻倍
+- 聯儲局鷹派陣營迅速升溫! 戴利：需進一步加息壓通脹，企業正醞釀提價轉嫁成本
+- 思科Q1財季營收創十五年來最快增速，上調全年指引，AI相關收入料將翻倍
+- 黃仁勳辭職，「AI央行」大地震，衝擊會沿融資鏈傳多遠？
+- 美股收盤 | AI央行大地震，三大指數跌約0.4%；AMD、博通五連漲，累漲44%、25%；美元三連漲破103，黃金跌破3900，美債遭拋售
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Strategy正式被MSCI剔除出指數，這對加密貨幣持倉股意味着什麼？
-- 收市速睇 | 三大指數齊跌，科指跌2.36%；科網、黃金股普跌，阿里跌近7%，紫金黃金國際跌超10%；傳音控股逆市大漲超22%，新股一微科技漲超38%
-- AI交易再遭考驗！英偉達風波未平，Cerebras、應用材料業績又將登場，芯片需求冷暖線索成關鍵變量
-- 期權收租｜存儲芯片急反彈！美光科技單日漲近12%重返800美元上方
-- 沒有黃仁勳，英偉達還值多少錢？
-- AMD連收4支陽燭突破下降楔形，短線哪些關鍵點位值得關注？
-- 納指重返200日均線上方，能否延續升勢？
-- 英偉達跌破強支撐平台，接下來哪些重要點位值得關注？
-- 商務部：中美正就降稅、貿易、投資等問題保持密切溝通
-- 蘇姿豐、庫克、陳立武…誰能接黃仁勳的班？「Nobody」！分權或是更好的解法
+- SpaceX計劃投資740億美元，在亞利桑那州和德克薩斯州建設數據中心
+- 黃仁勳突然離任震動AI行業！英偉達大跌、新雲與硬件承壓、AMD大漲，Anthropic IPO受審視
+- 成交額TOP20 | 英偉達低開高走收跌4%，臨時CEO曾多次質疑黃仁勳，持倉概念NEBIUS績後暴跌17%；SpaceX與特斯拉合併談判取得進展
+- 黃仁勳再次被曝與第二名女員工有染
+- 英偉達新任董事會主席致全體員工：公司實力源於團隊、技術和生態
+- 思科2027財年Q1營收185億美元，調整後EPS1.40美元，上調全年展望
+- Cerebras Systems2026年Q3業績、Q4展望大超預期，剩餘履約義務261億美元
+- 應用材料2026財年Q4營收104.09億美元，同比增長53%；調整後EPS4.16美元，同比增長92%
+- 美股收盤：三大股指收跌 英偉達跌超4%
+- 彭博：SpaceX與特斯拉的合併可能最早於12月宣佈
 
 --- 跨站重点主题（多站出现=更重要）---
 - 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
-- 就业数据: Yahoo Finance (EN), SCMP (EN/中)
 - 中国/欧盟: Yahoo Finance (EN), SCMP (EN/中)
-- 油价/霍尔木兹: Yahoo Finance (EN)
-- 美联储: Yahoo Finance (EN)
+- 中国政策/两会: 富途资讯 (繁中)
 
 --- 粘贴结束 ---
