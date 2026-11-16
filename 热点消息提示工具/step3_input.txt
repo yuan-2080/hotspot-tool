@@ -7,8 +7,8 @@
 你是港美股热点运营助手，服务于一个在中国做港美股内容运营的团队。
 你的输出将直接发到 Slack 群，供团队确认当日运营优先级，无需再二次加工。
 
-**当前模式：晚间**
-**覆盖时间段：今日08:00 - 20:00（美股开盘前）**
+**当前模式：早间**
+**覆盖时间段：昨日22:00 - 今日09:00（美股隔夜收盘）**
 
 ---
 
@@ -30,7 +30,7 @@
 ## 输出格式（严格遵守）
 
 第一行输出标题，固定为（直接复制，不修改任何字）：
-`晚间热点线索 · 2026年11月13日`
+`早间热点线索 · 2026年11月16日`
 
 空一行后，输出正文条目，每条格式：
 `* 事实描述（含关键数据）。仅写资讯来源中已明确发生的涨跌，不推断其他标的受到联动。标的代码直接写在正文中，结尾不另加标的列表。`
@@ -62,15 +62,15 @@
 
 ---
 
-## 晚间模式操作指令
+## 早间模式操作指令
 
-聚焦：今晚美股开盘前的运营清单。不涉及港股，只关注美股。
+聚焦：隔夜美股收盘结果 + 影响今日港股开盘的信息。
 
 重点关注（按重要性排序写入）：
-1. 盘前重要财报及初步反应（EPS/营收 vs 预期——仅限资讯来源中有明确数据）
-2. 盘前个股异动（涨跌 5% 以上 + 原因一句话）
-3. 影响今晚开盘情绪的宏观事件（Fed 官员讲话、重要数据——仅限资讯来源中明确出现）
-4. 其他值得今晚关注的美股消息
+1. 美股三大指数昨夜涨跌及核心驱动，一句话概括（必须有资讯来源支撑，不得推断）
+2. 个股重大异动（财报或重大消息驱动涨跌 5% 以上）
+3. 隔夜重要宏观数据（非农/CPI/PCE/美联储表态——仅限资讯来源中明确出现）
+4. 隔夜消息中可能影响港股相关板块的内容，重点关注：光通信、存储/HBM、半导体、中概互联网等；若有明确利好/利空驱动，须点明对应港股板块或个股
 
 ---
 
@@ -104,60 +104,60 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026111320
+抓取时间: 2026111609
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets open in 2h 30m
-- The Nvidia scandal has hidden upside potential for the AI trade
-- Dow, S&P 500, Nasdaq futures waver as Nvidia tumult deepens
-- Jensen Huang scandal trail leads to Alibaba, the king of free Chinese AI
-- Dow, S&P 500, Nasdaq futures waver as Nvidia tumult deepens
-- Jensen Huang scandal trail leads to Alibaba, the king of free Chinese AI
-- The Nvidia exec prediction markets say is the CEO frontrunner
-- Bill Ackman: Anthropic is an 'amazing business' — but I'm not buying
-- Is a United-American airline merger still on the table?
-- US existing home sales slump to more than 16-year low in October
-- Microsoft outage disrupts Outlook, Teams, and Copilot for users 'in any region'
-- Vanguard CEO warns bond market volatility could be a key 2027 risk
+- U.S. markets closed
+- Nvidia’s ex-CEO is weighing a comeback, FT reports
+- Washington turns up the heat on Nvidia
+- Bitcoin's four-year cycle is about to turn bullish — if history repeats
+- Washington turns up the heat on Nvidia
+- Bitcoin's four-year cycle is about to turn bullish — if history repeats
+- Can Jensen Huang sell his $132 billion Nvidia stake? Here's when and how
+- Is the AI job apocalypse overblown? A new forecast says so
+- Oil steadies with Iranian attack on base in Bahrain in focus
+- 'Everybody needs to prepare': Market expert warns of December shock
+- China's hottest stocks these days have one thing in common: names that sound like sheep
+- Should you buy Nvidia stock after Jensen Huang's departure?
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
-- Tech & AI
-- Anthropic's IPO is about six times oversubscribed
-- Bill Ackman: Microsoft's position is 'really, really strong'
-- Vanguard CEO sees a 'disturbing' trend with prediction markets
-- SpaceX and Tesla talks on a record merger are progressing, reports say
+- Your Money
+- Vanguard and Fidelity have a sobering outlook for retirement savers
+- Could mortgage rates return to 3%?
+- Even wealthy people haven't saved as much as they need for retirement
+- Will Social Security go broke? CBO says benefits must be slashed.
 - Popular
-- Jensen Huang built Nvidia into a $4 trillion AI giant but owned less than 4% of it
-- Kalshi's hiring a Grand Theft Auto VI economist—what the job entails
+- Warren Buffett’s 90/10 rule: Does it still work for retirement?
+- AT&T settlement payouts could reach $5,000. Here’s how to claim
 
 ## Benzinga (EN)
 
 ## 华尔街见闻 (简中)
-（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7dbe50159a90>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
+（抓取失败: HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x79444ef95e80>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)'))）
 
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - Breaking China, Asia, HK News, Opinions and Insights
-- Nvidia’s supply chain clout tested after Jensen Huang’s exit
-- Global Economy
-- Fierce competition sparks BMW lay-offs – and blowback for China’s rust belt
-- Hong Kong Economy
-- Anthony Kwong destroyed Abby Choi’s things, discarded them with ‘pork bones’, court hears
+- Europe’s China policy suffers from a ‘fundamental contradiction’: Vuk Jeremic
+- US, China pursue military crisis pact as Washington weighs terms: sources
+- Are HK$500,000 ‘one-stop’ student hostel packages risking Hong Kong’s reputation?
+- United States & Canada
+- Jensen Huang discusses comeback as Nvidia CEO with allies: report
 - Military
-- Algeria test-fires apparent Chinese YJ-12 missile in Mediterranean drill
+- Chinese J-10C jet spotted with modified Russian-origin heavy-strike missile
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- SemiAnalysis says Huang’s personal ties were key in securing chipmaking slots in Taiwan and access to high-bandwidth memory in South Korea.
-- Rare footage released by Algerian military shows a coastal-defence missile system resembling the CM-302, the export variant of the YJ-12.
-- Politics
-- How a bad impression put a 2,000-year-old Han cliff inscription at risk
-- Chinese heritage enthusiasts condemn illicit tampering at the remote steppe monument amid fears of irreversible vandalism.
-- Hong Kong raises 2026 growth forecast to 4.8% as AI-driven exports power economy
-- Full-year growth is expected to be the best since 2021 although uncertainties in the external environment remain.
-- Malaysia turns to Turkey for warship missiles after Norway’s export freeze
-- Piggybacking on an existing order for Turkish missiles could save Malaysia up to US$220 million and shave six years off delivery.
+- Former UN General Assembly president says Europe will only achieve strategic autonomy when it can say no to Washington and yes to Beijing.
+- Silicon Valley backers plan ‘war room’ to lobby for former chief’s return days after he resigned over affair revelations.
+- Footage shows Kh-29T variant on workhorse jet used in Taiwan patrols, adding cheaper firepower for strikes on runways and bridges.
+- Geopolitics a threat to shipping but Hong Kong can tap China’s potential: experts
+- Kwai Tsing container port remains key piece of infrastructure that will help Hong Kong reverse recent decline in trade volume, they say.
+- Golf
+- Rory McIlroy wins record-equalling eighth Race to Dubai title on DP World Tour
+- Northern Irishman finishes second in DP World Tour Championship in Dubai to clinch season-long title, tying with Scotland’s Colin Montgomerie.
 - Business
+- UK talent connect with Hong Kong and mainland China employers at London career showcase
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -187,31 +187,33 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 3.47萬億美元！特斯拉與SpaceX合併提速，交易最快12月官宣
-- 高盛展望2027年大宗商品：能源價格或回落 銅和黃金看漲
-- AI新雲「三巨頭」已交卷，釋放什麼投資信號？
-- 英偉達跌出14年最低估值！「大多頭」Tom Lee喊抄底，散戶越跌越買，華爾街卻出現分歧
-- 黃仁勳離任，國產替代再成焦點！港股芯片產業鏈有哪些機會？
-- 聯儲局緊縮風險升溫！加密市場全面承壓 比特幣跌破6.9萬美元
-- 段永平：目前不會賣出英偉達，已賣出不少看跌期權，未來黃仁勳或以「影子CEO」回歸
-- 景順Q3持倉大挪移：減持英偉達及半導體設備，SpaceX持倉激增至超百億美元
+- 富途早報 | 黃仁勳據報謀求回歸，硅谷盟友力挺其復任；民主黨擬改能源法案，數據中心或多擔成本；美銀更新存儲價格預測，DRAM堅挺而NAND轉弱；百度小鵬業績將登場
+- 英國金融時報：黃仁勳考慮重返英偉達，硅谷盟友正組建遊說團推動其復職
+- 大摩力挺SpaceX：股價有望翻倍至300美元，企業AI爲最大估值來源
+- 一週前瞻 | APEC峰會啓幕；Anthropic登陸美股；Q3業績超級周來襲，英偉達迎業績大考，騰訊、阿里、拼多多等密集放榜；聯儲局會議紀要公佈
+- 美銀Hartnett：強美元衝擊全球流動性，風險資產暫難入場，轉折點推遲至明年春季
+- 存儲正在分化，美銀：DRAM依然堅挺 NAND已悄然走弱
+- AI資本開支見頂=美元見頂？高盛2027展望：美元即將迎來「最後一漲」
+- 週末讀物 | Anthropic上市在即：一家資本市場從沒見過的公司，與一名42歲的員工
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 摩根大通Q3持倉：大舉加倉英偉達、AI算力巨頭仍是「壓艙石」，半導體硬件股遭系統性減持
-- 北水加倉港股超23億港元，騰訊控股、智譜分別獲淨買入近7億、6億港元，阿里巴巴遭淨賣出近19億港元
-- 央行：前十個月社會融資規模存量同比增長7.2%；十月末M2餘額359.06萬億元，同比增長7.1%； 前十個月人民幣貸款新增11.42萬億元
-- 英偉達黑天鵝，量化陣營分化，有人離場，有人堅守
-- 美國財政再亮紅燈：10月赤字創歷史同期新高，過去一年28%的稅收拿去付利息
-- 收市速睇 | 三大指數下跌，科指跌3.02%，騰訊、阿里跌超3%；黃金、半導體股走弱，潼關黃金跌近6%，壁仞科技跌近7%
-- 期權收租｜比特幣失守7萬美元，Strategy被MSCI除名短線趨勢破位
-- 「把老闆請回來」！英偉達員工聯名呼籲黃仁勳回歸：他值得再給一次機會
-- 谷歌於關鍵支撐區展開反彈，能否延續升勢回補上方裂口？
-- 黃仁勳卸任，英偉達遭恐慌性拋售！接下來哪些點位值得重點關注？
+- 美國華人總動員！超13萬人署名請求黃仁勳回歸
+- 誰對黃仁勳「下黑手」？魯比奧還是Anthropic？
+- 週末讀物 | 重演「英特爾時刻」？英偉達「下架」一號位，一個敢於押注的人
+- 成功回收星艦上級，SpaceX首現「筷子夾飛船」，分析師：支撐萬億估值最關鍵一步
+- 比特幣跌破62000美元 再次創下本輪迴調新低
+- 遊戲業「超級印鈔機」上新！《GTA VI》緣何牽動華爾街？
+- 黃仁勳時代落幕，英偉達面臨三重考驗
+- 英偉達董事會：尚未「正式接觸」任何候選人
+- 週末讀物 | 霍華德·馬克斯：一個門外漢對人工智能的思考
+- 中美舉行中美經貿磋商機制項下貿易理事會首次會議
 
 --- 跨站重点主题（多站出现=更重要）---
 - 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中)
 - 中国/欧盟: Yahoo Finance (EN), SCMP (EN/中)
-- 就业数据: SCMP (EN/中)
-- 中国政策/两会: 富途资讯 (繁中)
+- 伊朗/中东: Yahoo Finance (EN)
+- 油价/霍尔木兹: Yahoo Finance (EN)
+- 加密货币: Yahoo Finance (EN)
+- 就业数据: Yahoo Finance (EN)
 
 --- 粘贴结束 ---
 <!-- 资讯来源结束 -->
