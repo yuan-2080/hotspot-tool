@@ -3,44 +3,46 @@
 ## 一、各站抓取情况
 
 - **Yahoo Finance (EN)** ✓
-  - 头版/首屏: U.S. markets closed | Silicon Valley wants Jensen Huang back at Nvidia. Here's the problem. | United Airlines hit by system outage days after FAA ground stop | Stocks slip ahead of pivotal earnings for AI traders | United Airlines hit by system outage days after FAA ground stop | Stocks slip ahead of pivotal earnings for AI traders | United Airlines outage: What you’re entitled to when flights are delayed or canceled | Bank outage reports spike: JPMorgan blames internal software bug for transaction delays
-  - 其他: Top Stories | Markets & Economy | Tech & AI | AMD finalizes $8.2B World Labs deal, 'godmother of AI' as EVP | OpenAI wants AI to handle your shopping. Here’s what to consider.
+  - 头版/首屏: U.S. markets open in 2h 30m | Nvidia forms board committee to oversee national security | Stocks slip in countdown to Nvidia earnings | Jensen Huang looks to have accepted his fate with Nvidia: He cleaned up his X profile | Stocks slip in countdown to Nvidia earnings | Jensen Huang looks to have accepted his fate with Nvidia: He cleaned up his X profile | US chip curbs force Xi to weigh response before Trump summit | Inside the $900B data centre bet behind Anthropic's IPO
+  - 其他: Top Stories | Markets & Economy | Tech & AI | AI stock optimists are holding on for dear life: Chart | Nvidia is being pulled in opposite directions by 2 powerful forces
 
 - **Benzinga (EN)** ✓
 
-- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x7a0181f939e0>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
+- **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api-prod.wallstreetcn.com', port=443) at 0x73d00d589370>, 'Connection to api-prod.wallstreetcn.com timed out. (connect timeout=30)')))
 
 - **SCMP (EN/中)** ✓
-  - 头版/首屏: Breaking China, Asia, HK News, Opinions and Insights | In Focus | From ‘passive recipient’ to ‘active shaper’ of global order: China’s Apec moment | US agency’s AI chip disclaimer exposes Trump administration rift: experts | Hong Kong to deploy over 100 police officers daily for Interpol assembly | Tech | US tightens AI chip export curbs to close China’s overseas data centre loophole | Trump floats Kim meeting in China, says he’ll discuss Ukraine with Xi and Putin | Diplomacy
-  - 其他: Analysts say 25 years of hosting major multilateral events have allowed Beijing to evolve into a shaper of the global order. | New rules target Chinese firms’ remote access to advanced US chips hosted abroad, including at data centres in Southeast Asia. | US president says he’s open to Jensen Huang returning to Nvidia and cautions against ‘insulting’ China before his visit. | China’s star bodyguard steals the show as Mexican leader arrives for Apec | Reliably identified as Xu Jin from public security ministry, protector of female dignitaries impresses with bearing and crisp efficiency.
+  - 头版/首屏: Breaking China, Asia, HK News, Opinions and Insights | Trump speaks at Quad summit, unveils maritime drills and US$85M AI ecosystem | Diplomacy | China and Canada agree fresh tariff relief as Xi and Carney continue thaw | ‘Welcome to Shenzhen’ – the machine rolling out the red carpet for Apec leaders | Society | Hong Kong incinerator fire likely caused by smoking or welding, probe finds | China and Vietnam should ‘weather the storm together’, Xi tells Lam in Shenzhen
+  - 其他: The US president is stopping over in the Philippines before heading to China for the Apec summit, where he is expected to meet Xi Jinping. | Investigators rule out electrical faults and arson in blaze that forced the temporary shutdown of the city’s first waste-to-energy plant. | Both leaders emphasised trade ties despite the Trump administration’s claims that China is using Vietnam to evade tariffs. | Politics | Taiwan tracks 2 Russian warplanes off eastern coast ahead of Apec summit
 
 - **经济通 (繁中)** ✓
-  - 头版/首屏: 沪深港通 热点观察国际动态【FOCUS】 | 新世界发展“1供11”复牌即插四成，小股东应否供股？ | 中越边境“大动脉” 天麻高速下周通车 | 美航空系统停摆 换光纤致故障 | 人币强势又低息，点心债的生意经 | 指数环球商品外汇 | 国金观点 | 港股大市分析
-  - 其他: 恒生指数23753.84+116.24(+0.49%)
-                    etnet.com.hk@copyright | 国企指数7981.54+44.01(+0.55%)
+  - 头版/首屏: 沪深港通 热点观察国际动态【FOCUS】 | 百度第三季扭亏赚14亿人币，股价反急插可否博反弹？ | 猪肉价续探底 生猪均价见10年新低 | 美停飞持续3日 特归咎拜登无能 | 鹰派狙击南洋“后门”，国产AI无底洞现形 | 指数环球商品外汇 | 国金观点 | 港股大市分析
+  - 其他: 恒生指数23508.17-245.67(-1.03%)
+                    etnet.com.hk@copyright | 国企指数7904.37-77.17(-0.97%)
                     etnet.com.hk@copyright | 理财/管理 | 时尚艺术 | 健康人生
 
 - **智通财经 (简中)** ✓
 
 - **富途资讯 (繁中)** ✓
-  - 头版/首屏: 富途早報 | 特朗普力挺黃仁勳回歸，董事會稱暫不考慮；伯克希爾加倉房企航空，減持美銀與第一資本；英偉達業績今夜來襲 | 聯儲局主席沃什最新講話全文：開始爲超級智能時代制定政策預案 | 特斯拉擬投30億歐元擴建德國工廠生產Cybercab，高管稱2029年投產 | 阿貝爾掌舵伯克希爾再加碼房產與航空股，美銀、Capital One繼續減持，新進「App翻新工廠」 | 「芯片美元」正在崛起！德銀：亞洲芯片貿易順差湧入美股成美元新支柱 | 英偉達三季度縮減上市股票持倉：英特爾遭減持25%，SpaceX獲增持6% | 美股收盤 | 納指領跌2.5%；芯片指數重挫5%，美光跌近8%；藍籌股可口可樂、保潔、好市多破新高；美元收復「解放日」失地 | 成交額TOP20 | 英偉達跌4%，董事會暫不考慮黃仁勳「復辟」；英特爾跌7%，英偉達減持25%持倉；微軟稱宕機元兇爲內存耗盡
-  - 其他: 橋水三季度轉向AI硬件與能源：重倉英偉達、博通，增持美光、閃迪，減持谷歌、亞馬遜 | 索羅斯家族辦公室領銜減持英偉達，黃仁勳離任前頂級富豪們已悄然套現 | SEC文件顯示，英偉達將其在英特爾的持股削減了25%，至1.611億股 | 微軟全球服務宕機調查：一個潛伏四個月的漏洞，15小時才發現問題所在 | 美國零售柴油價格跌破每加侖6美元，通脹壓力有所緩解
+  - 头版/首屏: 英偉達業績會明早06:00來襲：「後黃仁勳時代」首次大考，市場聚焦四大看點 | 路透：特朗普政府擬推進光收發器進口限制，不顧科技巨頭遊說反對 | 「芯片美元」首次超過「石油美元」！德銀：亞洲芯片貿易順差湧入美股成美元新支柱 | PE僅6.5倍，老鋪黃金跌到底了嗎？ | 一圖前瞻 | 拼多多週四盤前放榜：Q3預計增收不增利，聚焦投入回報與Temu盈利進展 | 英偉達董事會成立國家安全與出口管制監督委員會 | 一圖前瞻 | 快手Q3業績發佈在即，聚焦廣告、電商與可靈AI商業化進展 | 京東三季度淨營收3096億元，歸母淨利潤同比大增44%，新業務大幅減虧，自由現金流擴大至負239億元
+  - 其他: 京東：Q3營收3095.93億元，淨利潤65.03億元 | 期權收租｜英偉達減持疊加指引不及預期，英特爾單日重挫7%波動驟升 | 北水加倉港股超22億港元，掃貨騰訊控股近16億港元，中芯國際獲淨買入超11億港元；阿里巴巴遭淨賣出逾15億港元 | 微軟Ignite大會今起開幕！Copilot變現與AI算力回報成焦點，企業AI飛輪能否兌現？ | 收市速睇 | 三大指數走弱，科指跌1.14%，阿里跌超5%，快手跌超4%；部分半導體股上漲，華虹宏力漲近8%；貝殼績後漲超8%，小鵬績後漲近5%
 
 ## 二、跨站主题（多站出现 = 更重要）
 
-- **科技股/个股** — 出现于: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中) (3 站)
-- **就业/经济数据** — 出现于: Yahoo Finance (EN) (1 站)
-- **中国/欧盟** — 出现于: SCMP (EN/中) (1 站)
+- **科技股/个股** — 出现于: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中), 富途资讯 (繁中) (4 站)
+- **油价/能源/霍尔木兹** — 出现于: Yahoo Finance (EN), 富途资讯 (繁中) (2 站)
+- **中国/欧盟** — 出现于: Yahoo Finance (EN), SCMP (EN/中) (2 站)
+- **美国关税（15%等）** — 出现于: SCMP (EN/中) (1 站)
+- **美联储/利率** — 出现于: Yahoo Finance (EN) (1 站)
 
 ## 三、检测到的主题（供参考，由总结摘要 Prompt 自行判断重要性）
 
-- 科技股/个股（3 站）
-- 就业/经济数据（1 站）
-- 中国/欧盟（1 站）
+- 科技股/个股（4 站）
+- 油价/能源（2 站）
+- 中国/欧盟（2 站）
+- 关税/贸易政策（1 站）
+- 美联储/利率（1 站）
 - 伊朗/中东局势（0 站）
-- 关税/贸易政策（0 站）
-- 油价/能源（0 站）
 - 加密货币（0 站）
+- 就业/经济数据（0 站）
 - 黄金/大宗商品（0 站）
-- 美联储/利率（0 站）
 - 中国政策（0 站）
