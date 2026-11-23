@@ -7,8 +7,8 @@
 你是港美股热点运营助手，服务于一个在中国做港美股内容运营的团队。
 你的输出将直接发到 Slack 群，供团队确认当日运营优先级，无需再二次加工。
 
-**当前模式：早间**
-**覆盖时间段：昨日22:00 - 今日09:00（美股隔夜收盘）**
+**当前模式：晚间**
+**覆盖时间段：今日08:00 - 20:00（美股开盘前）**
 
 ---
 
@@ -30,7 +30,7 @@
 ## 输出格式（严格遵守）
 
 第一行输出标题，固定为（直接复制，不修改任何字）：
-`早间热点线索 · 2026年11月23日`
+`晚间热点线索 · 2026年11月23日`
 
 空一行后，输出正文条目，每条格式：
 `* 事实描述（含关键数据）。仅写资讯来源中已明确发生的涨跌，不推断其他标的受到联动。标的代码直接写在正文中，结尾不另加标的列表。`
@@ -62,15 +62,15 @@
 
 ---
 
-## 早间模式操作指令
+## 晚间模式操作指令
 
-聚焦：隔夜美股收盘结果 + 影响今日港股开盘的信息。
+聚焦：今晚美股开盘前的运营清单。不涉及港股，只关注美股。
 
 重点关注（按重要性排序写入）：
-1. 美股三大指数昨夜涨跌及核心驱动，一句话概括（必须有资讯来源支撑，不得推断）
-2. 个股重大异动（财报或重大消息驱动涨跌 5% 以上）
-3. 隔夜重要宏观数据（非农/CPI/PCE/美联储表态——仅限资讯来源中明确出现）
-4. 隔夜消息中可能影响港股相关板块的内容，重点关注：光通信、存储/HBM、半导体、中概互联网等；若有明确利好/利空驱动，须点明对应港股板块或个股
+1. 盘前重要财报及初步反应（EPS/营收 vs 预期——仅限资讯来源中有明确数据）
+2. 盘前个股异动（涨跌 5% 以上 + 原因一句话）
+3. 影响今晚开盘情绪的宏观事件（Fed 官员讲话、重要数据——仅限资讯来源中明确出现）
+4. 其他值得今晚关注的美股消息
 
 ---
 
@@ -104,33 +104,33 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026112309
+抓取时间: 2026112320
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets closed
-- 'Somebody wants OUT': Analyst flags a key test for the AI sell-off
-- Mamdani slams Amazon's new $5 NYC fee: 'It's greed'
-- US seeks answers on Nvidia's sale of chips to China, Bessent says
-- Mamdani slams Amazon's new $5 NYC fee: 'It's greed'
-- US seeks answers on Nvidia's sale of chips to China, Bessent says
-- Here's what happened when a coffee-shop founder experimented with a pay-what-you-want model
-- The AI boom is fueling demand for skilled trades
-- Efficiency jobs fall just as AI and Hormuz make them matter most
-- What a wealth tax looks like in the age of AI billionaires
-- The disconnect at the center of the tech stock massacre
-- After the selloff, Goldman traders see opportunity and danger
+- U.S. markets open in 2h 30m
+- Nvidia stock jumps as DC makes stunning u-turn on Huang
+- CrowdStrike falls amid $43.9B deal
+- Billionaire Bill Ackman sounds the alarm on Wall Street's next big risk
+- CrowdStrike falls amid $43.9B deal
+- Billionaire Bill Ackman sounds the alarm on Wall Street's next big risk
+- Fidelity: Workers keep saving for retirement despite volatility
+- Oil falls on increased Middle Eastern supplies
+- Fed isn't riding to the rescue: Wall Street bets on a December hike
+- Morgan Stanley's Wilson: Buying opportunity too good to miss
+- Bitcoin rebounds after liquidation-driven sell off
+- Gold rebounds as traders pare bets on near-term fed rate hikes
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
-- Your Money
-- IRS releases capital gains tax rates for 2027. See when you'll pay 0%.
-- How a Fed rate hike could change your homebuying plans
-- Buy Nvidia stock or wait? A guide to making the call on any stock.
-- The highest savings account rates you can get today
+- Tech & AI
+- Like SpaceX, Anthropic ran an unusual IPO that irked bankers
+- How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO
+- JPMorgan AM says AI borrowing binge is holding back bond rally
+- Emerging-market stocks set to erase 2026 gains on AI sell-off
 - Popular
-- SpaceX's data center ambitions hit a power-bill snag
-- Remote CEO told every employee to take a five-hour AI course
+- Jim Beam won't resume distilling at flagship Kentucky distillery in 2027
+- How does Anthropic make money? Inside the business of AI
 
 ## Benzinga (EN)
 
@@ -140,32 +140,32 @@
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - Breaking China, Asia, HK News, Opinions and Insights
-- Danny Quah on how Asean charts its own course amid fierce US-China rivalry
-- Society
-- In Focus | Tai Po fire: learning the right lessons
-- Diplomacy
-- Washington’s ‘missteps’ narrow US lead over China in annual Asia power ranking
-- Markets
-- Mainland China stock exchanges make moves to raise liquidity, activity
+- China’s shipbuilders turn to bankrupt yards for rapid expansion
+- Military
+- More power, more weapons: what’s next for China’s J-35A stealth fighter?
+- China Economy
+- Chinese state media hits out at ‘deflation trap’ warnings, defends economy
+- Law and Crime
+- Alleged triad member in fatal Hong Kong crash was freed from jail two weeks ago
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Global rules and systems need to operate well even if the world seems to be falling apart, says World Bank adviser and economics professor.
-- Exchanges will reduce their minimum margin ratios and fees, as Beijing takes action to put a floor under stocks amid AI-led decline.
-- Business
-- Will mainland Chinese brands ditch Hong Kong as they expand in the US?
-- Miniso’s Top Toy joins hotpot purveyor Haidilao and others looking for US cred and business growth amid sluggish domestic sales.
-- United States & Canada
-- US Democrats clinch at least 258 House seats, biggest since 1992
-- Party prepares a 100-day agenda on living costs and Trump administration oversight after flipping 44 districts across the country.
+- China Merchants Shipbuilding expanded its capacity through an equity deal with the bankrupt Quanzhou Shipyard in Fujian province.
+- Pakistan Association of Hong Kong identifies victim as businessman Javaid Mehmood, 53, praising his decade of service and community ties.
 - Politics
-- Hong Kong Election Committee race: ‘healthy’ contest with some upsets
+- China sentences ministry official to death for leaking over 100 state secrets
+- Beijing’s secrecy watchdog outlines how foreign operatives used money and blackmail to turn a ministry cadre into a double agent.
+- Tech War
+- US Treasury Secretary leaves door open for Jensen Huang’s return to Nvidia
+- While Bessent did not explicitly endorse Huang’s return, he downplayed the personal scandal that triggered the Nvidia co-founder’s resignation.
+- Economics
+- Can Singapore’s AI financial push close digital maturity gaps across Asean?
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - 沪深港通 热点观察国际动态【FOCUS】
-- 网易营收逊预期,快手盈利跌84%,两股齐急插未宜沾手？
-- 元首体验科技 墨总统试弹无弦结他
-- 数据中心2030碳排增7成 难弃化石能源
-- 债务墙大限近，市场“无险可守”
+- 阿里第二财季经调整多赚92%，逆市造好可再吼？
+- 沪深北交所 融资保证金比例降至80%
+- 南韩高考防弊安排乱 教育部长辞职
+- 三个3500 VS 三箭齐发稳市
 - 指数环球商品外汇
 - 国金观点
 - 港股大市分析
@@ -174,9 +174,9 @@
 - 环球基金：
 - ETF：
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 恒生指数22410.80-430.82(-1.89%)
+- 恒生指数22383.74-27.06(-0.12%)
                     etnet.com.hk@copyright
-- 国企指数7554.37-135.97(-1.77%)
+- 国企指数7527.98-26.39(-0.35%)
                     etnet.com.hk@copyright
 - 理财/管理
 - 时尚艺术
@@ -187,35 +187,34 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 富途早報 | 三大期指上漲；特朗普稱若無法達成協議，傾向新年後打擊伊朗；韓國政府準備啓動股市穩定基金；恒生科技指數新增20只成份股
-- 韓國「救市」！準備啓動股市穩定基金，或爲2008年來首次，放寬公司回購限額3個月
-- 滬深北三大交易所同時宣佈！時隔十個月融資按金重回80%，積極信號明確
-- 一週前瞻 | 核心PCE檢驗加息預期！小米、美團將放榜，戴爾業績檢驗AI需求；感恩節、黑五購物季將至，美股週四休市、週五提前收市
-- 高盛：明年全球GDP料增2.8% 聯儲局有望明年底減息
-- 美銀高盛共識：阻止聯儲局加息最快方式，是美股「以死相逼」
-- 英特爾、SpaceX還是另起爐竈？圍繞黃仁勳「下一站」，市場上猜測四起
-- 馬斯克警告：明年數據中心可能「資金短缺」，「情況會變得非常糟糕」
+- 特朗普「再次施壓」：我希望英偉達董事會重新聘用黃仁勳
+- 12月加息或成衰退導火索？對沖大佬阿克曼呼籲聯儲局將2%通脹紅線上移至3%
+- 大摩Wilson高喊「抄底」美股：這是我們一直等待的絕佳機會
+- 智譜GLM-5.4攜循環推理架構上線，如何以更少token完成思考
+- CrowdStrike擬以439億美元全股票收購Zscaler
+- 期權收租｜費半重挫近11%、芯片股觸底仍需利率見頂?台積電IV飆至一年高位
+- 摩根大通： iPhone Duo交付從72天縮到37天，供應改善有望推動營收兌現
+- 技術超賣觸發反彈！美股盤前科技股集體反彈，英偉達大漲近10%，Anthropic漲超5%；納指期貨漲近4%
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 特朗普將美股蒸發6萬億美元歸咎於民主黨！貝森特卻稱拋售由多重因素推動
-- 納指期貨升2.5% 金銀回升油價下跌
-- 特朗普揚言新年後再度空襲伊朗！斥談判「全是廢話」，海灣地區襲擊接連發生
-- 得州重啓數據中心審批，465個項目等待推進，算力落地仍有障礙
-- 美伊局勢追蹤：特朗普稱尋求達成永久性協議，霍爾木茲觸雷事故不斷
-- 黃金連連潰敗，逼近3500美元關口！華爾街齊呼：已跌入超賣區域
-- Lean社區通過「形式化驗證」：相信Anthropic數學家對黎曼猜想的證明是正確的
-- 週末讀物 | 誰在黃仁勳前面搶跑了？
-- 美股遭遇恐慌性拋售，多家機構認爲或只是牛市調整
-- 從1160億美元拋售到潛在機械性買盤，美股下一輪資金流向可能反轉
+- 北水拋售港股超96億港元，淨買入阿里巴巴超13億港元，加倉美團近9億港元；淨賣出盈富基金逾79億港元
+- 高盛大幅下修2028年存儲價格目標：供需趨於平衡，DRAM、NAND、HBM或齊跌兩成
+- 抄底需求強勁！黃金重返3600美元，「5萬億美元」上漲催化劑將至
+- 摩通前瞻美股硬件板塊業績：拋售壓低門檻、AI基建基本面未破，戴爾、慧與存機會
+- 機會速派 | 業績再超預期、全年指引上修！沃爾瑪高估值能否經得起考驗？
+- 收市速睇 | 三大指數微跌，恒指、科指盤中一度轉漲；物理AI、AI硬件、黃金股走強，商米科技飆漲近49%創新高，劍橋科技漲超8%，招金礦業漲超6%
+- 暗盤情報 | 「放射性藥物製造商」先通醫藥現漲超38%，一手賺1000港元
+- SOXL單日跌逾30%，下一個支撐在哪裡？
+- 高盛恐慌指數飆至9.8！歷史四次暴漲後美股均強勢反彈，交易員稱「戰術性入場」點位快到了！
+- 英偉達失守長期上升趨勢，下方支撐在哪裡？
 
 --- 跨站重点主题（多站出现=更重要）---
 - 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中)
-- 中国/欧盟: Yahoo Finance (EN), SCMP (EN/中)
-- 伊朗/中东: 富途资讯 (繁中)
-- 美国关税: Yahoo Finance (EN)
+- 美国关税: Yahoo Finance (EN), SCMP (EN/中)
 - 油价/霍尔木兹: Yahoo Finance (EN)
-- 就业数据: Yahoo Finance (EN)
+- 加密货币: Yahoo Finance (EN)
 - 黄金/大宗: Yahoo Finance (EN)
 - 美联储: Yahoo Finance (EN)
+- 中国/欧盟: SCMP (EN/中)
 
 --- 粘贴结束 ---
 <!-- 资讯来源结束 -->
