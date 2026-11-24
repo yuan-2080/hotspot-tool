@@ -1,33 +1,33 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026112409
+抓取时间: 2026112420
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets closed
-- Jensen Huang returns to Nvidia offices amid employee cheers
-- Why stocks are having a wild Monday — and what history says comes next
-- 'The exact tick-tock': Democratic senator previews his questions for Huang
-- Why stocks are having a wild Monday — and what history says comes next
-- 'The exact tick-tock': Democratic senator previews his questions for Huang
-- Nvidia adds over $900B in a day as Trump says nobody could revive it like this
-- Huang is back atop Nvidia. His fight in Washington is only beginning.
+- U.S. markets open in 2h 30m
+- Nvidia stock falls after epic rally on Jensen Huang's return as CEO
+- Stocks mixed as investors test Nvidia-fueled rally
+- How many ousted founders actually get their jobs back?
+- Stocks mixed as investors test Nvidia-fueled rally
+- Sanofi shares jump to more than one-year high after $41B Insmed deal
+- Bitcoin hovers around $60k amid little relief from rate, regulatory jitters
+- How many ousted founders actually get their jobs back?
+- How past income could trigger higher Medicare premiums in 2027
 - Best Buy Q3 earnings preview: What Wall Street expects from new CEO
-- Zoom projects revenue that misses estimates on stagnant growth
-- Fed's Williams: Fed must be forward-looking to bring inflation down
-- CrowdStrike falls amid $43.9B deal
+- Oil touches three-month lows as rising supply offsets Hormuz threat
+- HPE falls as Q1 outlook marginally falls short of expectations
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
 - Tech & AI
-- Musk on support for Jensen Huang: 'Fair-weather friends are worthless'
-- Anthropic gets 2x ETFs and options in its first week
-- Tesla's Full Self-Driving update raises the bar for autonomy: Analyst
-- Wall Street analyst change Nvidia stock targets after Huang's return
+- How fear of AI displacement is fueling a hiring recession
+- Wild swings in AI stocks complicate Warsh's next move on rates
+- Anthropic stock tests IPO price as tech rally fades
+- Nvidia employees cheer Jensen Huang’s return
 - Popular
-- Anthropic stock falls as Monday's tech rally takes off
-- Mamdani slams Amazon's new $5 NYC fee: 'It's greed'
+- A red bra, an Nvidia flag and Trump's iconic rally pose: "Sex sells"
+- Mamdani says wealthy donors killed California's billionaire tax
 
 ## Benzinga (EN)
 
@@ -37,31 +37,31 @@
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - Breaking China, Asia, HK News, Opinions and Insights
-- In Focus | How US restrictions on China are reshaping the science race
-- Malaysia’s Anwar says easier to deal with China than US amid tech tensions
+- Breaking | Shanghai party chief Chen Jining faces corruption probe
 - Big Tech
-- Nvidia reinstates Jensen Huang as CEO; company shares surge
-- Politics
-- Fresh faces in Election Committee: how will they affect the chief executive race?
-- What’s at stake and the battlegrounds to watch as Taiwan heads to the polls
+- ‘Irreplaceable’: why Taiwan’s chip sector welcomes Huang’s Nvidia comeback
+- Global Economy
+- China’s carmakers pass Japanese rivals in 6 markets this year
+- Society
+- Hongkongers face higher power bills next year as CLP, HK Electric raise tariffs
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Growing curbs on academic ties have cooled US-China research collaboration and fuelled fears of a brain drain as Beijing surges.
-- A 99 per cent turnout and 500 fresh faces reshape the Election Committee, though analysts say it’s too early to call John Lee’s odds.
-- Officials will be elected across 22 cities and counties on Saturday, and all eyes are on the contests in Taipei and New Taipei City.
-- Tech
-- Meet the front-runners driving China’s humanoid robot boom
-- What you need to know about the products of AgiBot, UBTech, Unitree and the country’s other major challengers.
-- Diplomacy
-- US says detained Princeton PhD student from China overstayed visa in 2016
-- Department of Homeland Security claims Chinese scholar Eva Yi Xie never had authorisation to study in the US.
-- Business
+- The Politburo member has been placed under investigation, state broadcaster CCTV reported.
+- HK Electric and CLP Power to raise basic tariffs by 7.9 per cent and 1.8 per cent respectively next year, after this year’s overall reductions, sources say.
+- Military
+- US B94 nuclear bomb designation signals renewed push for bunker-busting weapons
+- Experts question the strategic rationale for B94 after the designation surfaced without official details in a US budget paper.
+- Politics
+- No room at home: why Japan is taking its missile drills to Indian soil
+- In a strategic shift, New Delhi is opening training grounds to help Tokyo sharpen its ‘counterstrike’ edge.
+- China’s carrier-based JL-15 fighter trainer to make debut at Zhuhai air show
+- The PLA has also used training aircraft for patrols over the South China Sea due to their low-speed manoeuvrability and cost-effectiveness.
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - 沪深港通 热点观察国际动态【FOCUS】
-- 阿里第二财季经调整多赚92%，逆市造好可再吼？
-- 沪深北交所 融资保证金比例降至80%
-- 南韩高考防弊安排乱 教育部长辞职
+- 黄仁勋复任英伟达CEO，相关概念股急弹可否追入？
+- 中国首10月黄金进口新高 压低贸易顺差
+- 乌认派无人机 击沉利比亚俄军舰
 - 三个3500 VS 三箭齐发稳市
 - 指数环球商品外汇
 - 国金观点
@@ -71,9 +71,9 @@
 - 环球基金：
 - ETF：
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 恒生指数22383.74-27.06(-0.12%)
+- 恒生指数22219.65-164.09(-0.73%)
                     etnet.com.hk@copyright
-- 国企指数7527.98-26.39(-0.35%)
+- 国企指数7452.56-75.42(-1.00%)
                     etnet.com.hk@copyright
 - 理财/管理
 - 时尚艺术
@@ -84,31 +84,34 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 富途早報 | 特朗普、萬斯及「其他相關方」親自介入，黃仁勳重新擔任英偉達CEO；馬斯克承認AI研發落後對手，Arm CEO承諾執掌公司至2033年；小米今日發業績
-- 黃仁勳重掌英偉達帥印！股價暴漲31%，市值單日增長近萬億
-- 特朗普力促黃仁勳復職、萬斯介入給出保證，英偉達董事會「週日提前告知白宮」
-- 成交額 TOP20｜黃仁勳回歸推動英偉達暴漲31%，單日市值創紀錄增加9520億美元；科技股全線走強，美光漲超19%；馬斯克承認SpaceX AI研發落後；Anthropic兩連跌
-- 馬斯克歡呼、木頭姐踏空，華爾街質疑「黃仁勳回歸」有內幕交易
-- 機會速派 | 業績再超預期、全年指引上修！沃爾瑪高估值能否經得起考驗？
-- 紐約聯儲主席釋放鷹派信號！不排除連續會議加息，警告美國通脹仍過高
-- 黃仁勳回來了，但AI交易的三個問題一個沒解決：循環融資、投資回報、還有12月3日的國會聽證
+- 華爾街解讀「黃仁勳回歸」：賣方「興奮雀躍」，買方「困惑不解」，這是「第一次AI大救助」
+- 小米Q3營收超預期，存儲漲價擠壓手機毛利，汽車收入同比下降19.9%，增程SUV首月鎖單超7萬
+- 報道：三星或獨供iPhone Duo摺疊屏至少五年，蘋果議價空間受限
+- 韓國央行後天或再加息！AI暴跌之際，高盛警告：消費撐不住了
+- 華爾街日報：美國國防部正與通用汽車、福特就無人機制造進行洽談
+- 戴爾（DELL）業績期權指南：AI伺服器訂單強勁，零部件漲價會否侵蝕利潤？
+- 嗶哩嗶哩：Q3營收83.2億元，同比增加8%；經調整淨利潤8.28億元
+- 期權收租｜Anthropic上市後期權首秀完成，AI新貴進入估值驗證期
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 黃仁勳稱"第二次擔任CEO會做得更好"，重返英偉達總部，數百名員工夾道歡迎
-- 營收暴增50%、指引大幅上調，慧與科技盤後卻大跌：AI服務器訂單的利潤去哪了?
-- 聯儲局威廉姆斯稱，如有需要，不會排除連續加息的可能性。數據將決定利率行動的時機和步伐。
-- 聯儲局「三把手」：通脹仍未達標，需逐步採取行動
-- 美股收盤 | 黃仁勳回歸引爆美股！納指大漲6.5%，創去年4月來最大單日漲幅；費半指數飆升14%，英偉達爆拉31%；黃金上破3600美元
-- 時隔多年重啓公益聯名，蘋果擬推（RED）特別版 HomePod mini 2 與 AirPods Max 2
-- 慧與科技2026財年Q4營收145億美元，同比增長50%；調整後EPS1.43美元
-- 黃仁勳戲劇性重掌英偉達，躋身美國企業界「迴旋鏢」CEO名單
-- 不再強制留存！Anthropic推出EFS系統，允許企業自主掌控AI數據
-- 三星2027至2029年存儲產能據悉大部分已被鎖定 部分客戶尋求將長約延至2031年
+- 北水加倉港股超62億港元，掃貨小米集團近11億港元，淨買入華虹宏力超9億港元；淨賣出中國海洋石油逾5億港元
+- 小米Q3營收1072.4億元超預期，經調整淨利潤同比下降56.8%
+- 黃仁勳回歸引爆美股大反彈，高盛：客戶只問一個問題——這波是真的嗎？
+- 收市速睇 | 港股高開低走，三大指數齊跌，科指跌1.17%；科網股下行，小米跌近4%，美團跌超3%；腦機接口概念股腦動極光逆市大漲近39%
+- 黃仁勳復職，美國國會一片譁然：民主黨誓言徹查特朗普和英偉達，共和黨也不買賬
+- 油價大跌掩蓋危機，美以伊戰爭復燃的風險正被低估？
+- 從對沖工具淪爲流動性來源，大宗商品拋售潮觸底了麼？
+- QQQ單日升7%，反彈還是反轉？這些點位值得重點關注
+- 民主黨接掌國會後的政策路線圖推演：哪些馬上做、哪些慢慢推、哪些推不動？
+- SpaceX和特斯拉委派五名董事負責合併談判
 
 --- 跨站重点主题（多站出现=更重要）---
+- 油价/霍尔木兹: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中)
 - 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中)
-- 伊朗/中东: SCMP (EN/中)
+- 中国/欧盟: SCMP (EN/中), 富途资讯 (繁中)
+- 美国关税: SCMP (EN/中)
 - 加密货币: Yahoo Finance (EN)
-- 美联储: Yahoo Finance (EN)
-- 中国/欧盟: SCMP (EN/中)
+- 就业数据: Yahoo Finance (EN)
+- 黄金/大宗: 经济通 (繁中)
+- 中国政策/两会: 富途资讯 (繁中)
 
 --- 粘贴结束 ---
