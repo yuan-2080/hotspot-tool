@@ -3,16 +3,16 @@
 ## 一、各站抓取情况
 
 - **Yahoo Finance (EN)** ✓
-  - 头版/首屏: U.S. markets open in 2h 30m | Nvidia stock falls after epic rally on Jensen Huang's return as CEO | Stocks mixed as investors test Nvidia-fueled rally | How many ousted founders actually get their jobs back? | Stocks mixed as investors test Nvidia-fueled rally | Sanofi shares jump to more than one-year high after $41B Insmed deal | Bitcoin hovers around $60k amid little relief from rate, regulatory jitters | How many ousted founders actually get their jobs back?
-  - 其他: Top Stories | Markets & Economy | Tech & AI | How fear of AI displacement is fueling a hiring recession | Wild swings in AI stocks complicate Warsh's next move on rates
+  - 头版/首屏: U.S. markets closed | Nvidia stock falls after massive rally, Huang apologizes to employees | Why Trump and Vance wanted Huang back at the helm of Nvidia | Microsoft declares code red after 24-hour Outlook, Teams and Copilot outage | Why Trump and Vance wanted Huang back at the helm of Nvidia | Microsoft declares code red after 24-hour Outlook, Teams and Copilot outage | Stocks mixed as chip sector tumbles, Nvidia stock falls 6% | Gas prices fall below $3 in 4 states
+  - 其他: Top Stories | Markets & Economy | Tech & AI | Chinese tech giant Huawei is guilty of conspiracy to steal trade secrets, US jury finds | Best Buy: There's not enough gaming hardware to keep up with demand
 
 - **Benzinga (EN)** ✓
 
 - **华尔街见闻 (简中)** ✗ (HTTPSConnectionPool(host='api-prod.wallstreetcn.com', port=443): Max retries exceeded with url: /apiv1/content/lives/pc?limit=100 (Caused by NameResolutionError("HTTPSConnection(host='api-prod.wallstreetcn.com', port=443): Failed to resolve 'api-prod.wallstreetcn.com' ([Errno -2] Name or service not known)")))
 
 - **SCMP (EN/中)** ✓
-  - 头版/首屏: Breaking China, Asia, HK News, Opinions and Insights | Breaking | Shanghai party chief Chen Jining faces corruption probe | Big Tech | ‘Irreplaceable’: why Taiwan’s chip sector welcomes Huang’s Nvidia comeback | Global Economy | China’s carmakers pass Japanese rivals in 6 markets this year | Society | Hongkongers face higher power bills next year as CLP, HK Electric raise tariffs
-  - 其他: The Politburo member has been placed under investigation, state broadcaster CCTV reported. | HK Electric and CLP Power to raise basic tariffs by 7.9 per cent and 1.8 per cent respectively next year, after this year’s overall reductions, sources say. | Military | US B94 nuclear bomb designation signals renewed push for bunker-busting weapons | Experts question the strategic rationale for B94 after the designation surfaced without official details in a US budget paper.
+  - 头版/首屏: Breaking China, Asia, HK News, Opinions and Insights | Breaking | China’s Shenzhou-24 spacecraft lifts off with first foreign astronaut on board | Huawei guilty on 10 of 12 counts after months-long battle in US courtroom | Society | Home advantage: can Hong Kong turn sports bodies’ arrival into global influence? | United States & Canada | Nvidia’s Jensen Huang says he is in therapy, as comeback rally fades | China EVs
+  - 其他: The country’s latest mission includes Pakistani astronaut Muhammad Zeeshan Ali, who will spend around a week on the Tiangong space station. | Huang says he made ‘some terrible mistakes’ at an hour-long all-hands meeting a day after being reinstated as CEO. | No longer just CATL: why Xpeng is bringing more battery work in-house | New battery lines seek to boost supply chain flexibility as Chinese carmakers diversify suppliers and pressure CATL’s dominance. | Politics
 
 - **经济通 (繁中)** ✓
   - 头版/首屏: 沪深港通 热点观察国际动态【FOCUS】 | 黄仁勋复任英伟达CEO，相关概念股急弹可否追入？ | 中国首10月黄金进口新高 压低贸易顺差 | 乌认派无人机 击沉利比亚俄军舰 | 三个3500 VS 三箭齐发稳市 | 指数环球商品外汇 | 国金观点 | 港股大市分析
@@ -23,29 +23,26 @@
 - **智通财经 (简中)** ✓
 
 - **富途资讯 (繁中)** ✓
-  - 头版/首屏: 華爾街解讀「黃仁勳回歸」：賣方「興奮雀躍」，買方「困惑不解」，這是「第一次AI大救助」 | 小米Q3營收超預期，存儲漲價擠壓手機毛利，汽車收入同比下降19.9%，增程SUV首月鎖單超7萬 | 報道：三星或獨供iPhone Duo摺疊屏至少五年，蘋果議價空間受限 | 韓國央行後天或再加息！AI暴跌之際，高盛警告：消費撐不住了 | 華爾街日報：美國國防部正與通用汽車、福特就無人機制造進行洽談 | 戴爾（DELL）業績期權指南：AI伺服器訂單強勁，零部件漲價會否侵蝕利潤？ | 嗶哩嗶哩：Q3營收83.2億元，同比增加8%；經調整淨利潤8.28億元 | 期權收租｜Anthropic上市後期權首秀完成，AI新貴進入估值驗證期
-  - 其他: 北水加倉港股超62億港元，掃貨小米集團近11億港元，淨買入華虹宏力超9億港元；淨賣出中國海洋石油逾5億港元 | 小米Q3營收1072.4億元超預期，經調整淨利潤同比下降56.8% | 黃仁勳回歸引爆美股大反彈，高盛：客戶只問一個問題——這波是真的嗎？ | 收市速睇 | 港股高開低走，三大指數齊跌，科指跌1.17%；科網股下行，小米跌近4%，美團跌超3%；腦機接口概念股腦動極光逆市大漲近39% | 黃仁勳復職，美國國會一片譁然：民主黨誓言徹查特朗普和英偉達，共和黨也不買賬
+  - 头版/首屏: 富途早報 | 特朗普稱必要時願赦免黃仁勳，不排除政府入股英偉達；Anthropic上市表現疲軟或打亂OpenAI上市計劃；美國10月PCE、理想汽車業績今日公佈 | 黃仁勳復職後首場全員會道歉、承認違反英偉達行爲準則，仍拒絕傳統接班人計劃 | 戴爾電話會：AI服務器積壓訂單突破1320億美元，AI代理引爆傳統服務器需求 | 黃仁勳回歸行情一日遊！華爾街警告：油價、通脹和鷹派聯儲局，一個都沒解決 | 特朗普：對美國政府入股英偉達持開放態度 | AI服務器需求引爆戴爾業績！營收翻倍、上調全年指引，1323億美元訂單積壓創新高 | 加息迷局：聯儲局雙重目標的再平衡 | 黃仁勳復職，美國國會一片譁然：民主黨誓言徹查特朗普和英偉達，共和黨也不買賬
+  - 其他: 本輪機構抱團銀行股，與巴菲特、李錄重倉銀行有什麼區別？ | S-3備案落地後，AMD企穩要看大客戶算力採購節奏 | 中金2027年度展望 | 房地產：革故鼎新，曙光初現 | 準備好迎接緊縮週期! 八家地區聯儲主張上調貼現率 華爾街押注聯儲局加息延續至明年 | 美國黨爭加劇之際，白宮擬對數十國上調關稅
 
 ## 二、跨站主题（多站出现 = 更重要）
 
-- **油价/能源/霍尔木兹** — 出现于: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中) (3 站)
 - **科技股/个股** — 出现于: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中) (3 站)
-- **中国/欧盟** — 出现于: SCMP (EN/中), 富途资讯 (繁中) (2 站)
-- **美国关税（15%等）** — 出现于: SCMP (EN/中) (1 站)
-- **加密货币** — 出现于: Yahoo Finance (EN) (1 站)
-- **就业/经济数据** — 出现于: Yahoo Finance (EN) (1 站)
+- **伊朗/中东局势** — 出现于: 富途资讯 (繁中) (1 站)
 - **黄金/大宗商品** — 出现于: 经济通 (繁中) (1 站)
-- **中国重大政策/两会** — 出现于: 富途资讯 (繁中) (1 站)
+- **美联储/利率** — 出现于: Yahoo Finance (EN) (1 站)
+- **中国/欧盟** — 出现于: SCMP (EN/中) (1 站)
 
 ## 三、检测到的主题（供参考，由总结摘要 Prompt 自行判断重要性）
 
-- 油价/能源（3 站）
 - 科技股/个股（3 站）
-- 中国/欧盟（2 站）
-- 关税/贸易政策（1 站）
-- 加密货币（1 站）
-- 就业/经济数据（1 站）
+- 伊朗/中东局势（1 站）
 - 黄金/大宗商品（1 站）
-- 中国政策（1 站）
-- 伊朗/中东局势（0 站）
-- 美联储/利率（0 站）
+- 美联储/利率（1 站）
+- 中国/欧盟（1 站）
+- 关税/贸易政策（0 站）
+- 油价/能源（0 站）
+- 加密货币（0 站）
+- 就业/经济数据（0 站）
+- 中国政策（0 站）
