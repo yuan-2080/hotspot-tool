@@ -1,33 +1,33 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026112509
+抓取时间: 2026112520
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets closed
-- Nvidia stock falls after massive rally, Huang apologizes to employees
-- Why Trump and Vance wanted Huang back at the helm of Nvidia
+- U.S. markets open in 2h 30m
+- Nvidia stock stumbles again after Jensen Huang's spectacular comeback rally
+- Stocks fall as new tariffs loom, ahead of inflation data
+- Bitcoin extends losses below $59,000 as ETF outflows weigh
+- Stocks fall as new tariffs loom, ahead of inflation data
+- Bitcoin extends losses below $59,000 as ETF outflows weigh
+- Trump says Huang pardon 'always an option,' New York Post reports
 - Microsoft declares code red after 24-hour Outlook, Teams and Copilot outage
-- Why Trump and Vance wanted Huang back at the helm of Nvidia
-- Microsoft declares code red after 24-hour Outlook, Teams and Copilot outage
-- Stocks mixed as chip sector tumbles, Nvidia stock falls 6%
-- Gas prices fall below $3 in 4 states
-- Dell stock jumps as AI hardware demand 'continues to accelerate'
-- Kohl's stock soars amid retail rebound, return to sales growth
-- CoreWeave bonds hit record lows, wiping out gains from Huang's Nvidia return
-- AI stock rally faces bond market risk as Fed rate hike odds top 90%
+- Rule the Thanksgiving table: 10 finance topics, explained
+- Anthropic's stock price is now less than the cost of 'Grand Theft Auto VI'
+- Oil slips as supply glut prospect offsets Middle East disruption fears
+- Shein to pay $100M to settle FTC allegations over deceptive practices
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
 - Tech & AI
-- Chinese tech giant Huawei is guilty of conspiracy to steal trade secrets, US jury finds
+- AI is crushing software stocks — and a debt wall looms: Chart of the Day
+- Anthropic stock sinks further below IPO price as investors sour on the Amodei AI bet
+- Dell stock tanks after blowout earnings. Wall Street Just Isn't Impressed.
 - Best Buy: There's not enough gaming hardware to keep up with demand
-- HPE raises 2027 growth outlook as AI orders surge 88%
-- xAI Founders Unveil New AI Startup to Predict Future Events
 - Popular
-- A Raleigh woman just got evicted after her landlord refused to honor a deal made by its AI assistant 'Olivia'
-- Why is gas suddenly cheaper? 5 factors driving the drop to $3.64 a gallon
+- Huang's Nvidia return fuels US-China chip fight
+- 'I'm going to drive': FAA outage, fares upend Thanksgiving
 
 ## Benzinga (EN)
 
@@ -37,31 +37,31 @@
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - Breaking China, Asia, HK News, Opinions and Insights
-- Breaking | China’s Shenzhou-24 spacecraft lifts off with first foreign astronaut on board
-- Huawei guilty on 10 of 12 counts after months-long battle in US courtroom
-- Society
-- Home advantage: can Hong Kong turn sports bodies’ arrival into global influence?
-- United States & Canada
-- Nvidia’s Jensen Huang says he is in therapy, as comeback rally fades
-- China EVs
-其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- The country’s latest mission includes Pakistani astronaut Muhammad Zeeshan Ali, who will spend around a week on the Tiangong space station.
-- Huang says he made ‘some terrible mistakes’ at an hour-long all-hands meeting a day after being reinstated as CEO.
-- No longer just CATL: why Xpeng is bringing more battery work in-house
-- New battery lines seek to boost supply chain flexibility as Chinese carmakers diversify suppliers and pressure CATL’s dominance.
-- Politics
-- South Korea’s Lee clears out ‘self-reliance’ camp ahead of Trump G20 summit
-- President Lee Jae Myung’s latest nominations bolster his pro-alliance camp as Seoul seeks to unlock stalled security talks with Washington.
+- China promises to help Thailand and Myanmar fight Mekong basin pollution
 - Diplomacy
-- Brazil makes its play for BYD deal as three states fight over new EV plant
-- Incoming state government wants the Chinese carmaker to build a full supply chain from lithium ore to batteries.
+- EU’s quantum sovereignty push shuts out China but welcomes US firms
+- China Economy
+- Lychee ice wine and other unexpected hits of Shenzhen’s Apec summit
+- Society
+- John Lee vows full-speed push on housing, reforms ahead of Tai Po fire anniversary
+其他 (首页其他位置，按重要性排序，仅标题无摘要):
+- Parts of Thailand are at risk of water shortages as a result of arsenic poisoning that has been blamed on unregulated mining in Shan State.
+- City leader meets displaced residents as six laws face overhaul and new subsidies roll out after deadly blaze that killed 168 people last year.
+- Big Tech
+- Huawei forms patent teams for chips, AI in bid to rival Nvidia
+- With AI and chips now generating more inventions than telecoms, IP chief says effort aims to attract developers, partners and customers.
+- Science
+- ‘I don’t know what world will be like’ when AI understands physics: top physicist
+- Fields medallist tells how AI could be a turning point for modern physics as it shows ‘superhuman powers in mathematics’.
+- Politics
+- Nepal hedges between ‘2 Asian giants’ as ties with India thaw
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - 沪深港通 热点观察国际动态【FOCUS】
-- 黄仁勋复任英伟达CEO，相关概念股急弹可否追入？
-- 中国首10月黄金进口新高 压低贸易顺差
-- 乌认派无人机 击沉利比亚俄军舰
+- 国泰遭折让近9%配售,股价仅跌2%,仲有哪些传统股也可吼
+- 神二十四今晨发射 首有巴籍航天员
+- 欧盟拟对俄新制裁 打击加密货币
 - 三个3500 VS 三箭齐发稳市
 - 指数环球商品外汇
 - 国金观点
@@ -71,9 +71,9 @@
 - 环球基金：
 - ETF：
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 恒生指数22219.65-164.09(-0.73%)
+- 恒生指数21966.01-253.64(-1.14%)
                     etnet.com.hk@copyright
-- 国企指数7452.56-75.42(-1.00%)
+- 国企指数7384.94-67.62(-0.91%)
                     etnet.com.hk@copyright
 - 理财/管理
 - 时尚艺术
@@ -84,31 +84,32 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 富途早報 | 特朗普稱必要時願赦免黃仁勳，不排除政府入股英偉達；Anthropic上市表現疲軟或打亂OpenAI上市計劃；美國10月PCE、理想汽車業績今日公佈
-- 黃仁勳復職後首場全員會道歉、承認違反英偉達行爲準則，仍拒絕傳統接班人計劃
-- 戴爾電話會：AI服務器積壓訂單突破1320億美元，AI代理引爆傳統服務器需求
-- 黃仁勳回歸行情一日遊！華爾街警告：油價、通脹和鷹派聯儲局，一個都沒解決
-- 特朗普：對美國政府入股英偉達持開放態度
-- AI服務器需求引爆戴爾業績！營收翻倍、上調全年指引，1323億美元訂單積壓創新高
-- 加息迷局：聯儲局雙重目標的再平衡
-- 黃仁勳復職，美國國會一片譁然：民主黨誓言徹查特朗普和英偉達，共和黨也不買賬
+- 今晚21:30，聯儲局「最青睞」的通脹數據PCE來襲！會否正式打開2027加息大門？
+- 黃仁勳回歸只是開始！英偉達即將面臨六大關鍵考驗
+- 美股深陷調整擋不住華爾街看多！德銀喊出標普500明年底9000點，AI盈利仍是關鍵
+- 一圖前瞻 | 美團Q3業績週五揭曉：預期扭虧爲盈，盈利修復能否撬動股價？
+- 次貸危機的味道？甲骨文CDS利差已超越2008年的貝爾斯登，AI數據中心股權被抹去近半
+- 比互聯網泡沫更危險？巴克萊：AI已撐起美國25%的經濟增長，一旦泡沫破裂，美國經濟恐遭重創
+- 北水加倉港股超64億港元，淨買入南方恒生科技超16億港元，淨賣出小米集團逾9億港元
+- 「新債王」：美國債務危機將在2029-2030年啓動，只有三條路化債「重組、印鈔和通脹」
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 本輪機構抱團銀行股，與巴菲特、李錄重倉銀行有什麼區別？
-- S-3備案落地後，AMD企穩要看大客戶算力採購節奏
-- 中金2027年度展望 | 房地產：革故鼎新，曙光初現
-- 準備好迎接緊縮週期! 八家地區聯儲主張上調貼現率 華爾街押注聯儲局加息延續至明年
-- 美國黨爭加劇之際，白宮擬對數十國上調關稅
-- 特朗普政府再議定點清除伊朗高層！支持者稱可推動戰爭結束，軍方警告或危及美官員
-- PC巨頭惠普股價盤後從暴漲約16%到轉跌! AI PC佔出貨近六成，Q4業績超預期! 2027財年現金流展望低迷
-- 美股收盤 | AI交易疑慮未消，英偉達帶領納指8連陰；費半跌超7%，AMD、英特爾跌超8%；Anthropic破發；禮來漲超3%；金銀比特幣齊跌
-- 美國總統特朗普稱，如有必要願意赦免黃仁勳。黃仁勳應向國會說實話。（紐約郵報）
-- 成交額TOP20｜Anthropic破發一度失守萬億；黃仁勳復職難阻英偉達回吐5.86%，美光閃迪跳水11%；賽諾菲410億美元收購Insmed
+- 期权收租｜黃仁勳回歸行情「一日遊」，英偉達失守160美元
+- 理想汽車Q3營收同比增5.4%超預期，經營虧損大幅收窄，但Q4交付指引遠低於市場預估
+- 2018年鷹派加息陰影重現？摩通退回戰術謹慎：恐慌峰值已過，但AI交易亢奮情緒遠未歸來
+- 騰訊大股東Prosus首席執行官：AI將產生重大影響，對騰訊「非常看好」
+- 事關美伊戰事！特朗普稱資金還能撐2個月 喊話民主黨別倉促收場
+- 機會速派 | 業績超預期、股價飆漲11%！美元樹盈利修復能否撐起高估值？
+- 收市速睇 | 三大指數齊跌，科指跌2.56%；科網股漲跌不一，嗶哩嗶哩漲超7%，美團跌超4%；半導體股下行，壁仞科技跌近25%，華虹宏力跌超17%
+- 小鵬科技日：L4級Robotaxi正式載客，機器人上臺演講稱「有點緊張」
+- 科網泡沫破裂後，市場啓示錄
+- 英偉達股價波動持續擴大，短線哪些關鍵點位值得關注？
 
 --- 跨站重点主题（多站出现=更重要）---
 - 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中)
-- 伊朗/中东: 富途资讯 (繁中)
-- 黄金/大宗: 经济通 (繁中)
-- 美联储: Yahoo Finance (EN)
-- 中国/欧盟: SCMP (EN/中)
+- 中国/欧盟: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中)
+- 加密货币: Yahoo Finance (EN), 经济通 (繁中)
+- 美国关税: Yahoo Finance (EN)
+- 油价/霍尔木兹: Yahoo Finance (EN)
+- 黄金/大宗: Yahoo Finance (EN)
 
 --- 粘贴结束 ---
