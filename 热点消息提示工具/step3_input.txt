@@ -7,8 +7,8 @@
 你是港美股热点运营助手，服务于一个在中国做港美股内容运营的团队。
 你的输出将直接发到 Slack 群，供团队确认当日运营优先级，无需再二次加工。
 
-**当前模式：晚间**
-**覆盖时间段：今日08:00 - 20:00（美股开盘前）**
+**当前模式：早间**
+**覆盖时间段：昨日22:00 - 今日09:00（美股隔夜收盘）**
 
 ---
 
@@ -30,7 +30,7 @@
 ## 输出格式（严格遵守）
 
 第一行输出标题，固定为（直接复制，不修改任何字）：
-`晚间热点线索 · 2026年11月25日`
+`早间热点线索 · 2026年11月26日`
 
 空一行后，输出正文条目，每条格式：
 `* 事实描述（含关键数据）。仅写资讯来源中已明确发生的涨跌，不推断其他标的受到联动。标的代码直接写在正文中，结尾不另加标的列表。`
@@ -62,15 +62,15 @@
 
 ---
 
-## 晚间模式操作指令
+## 早间模式操作指令
 
-聚焦：今晚美股开盘前的运营清单。不涉及港股，只关注美股。
+聚焦：隔夜美股收盘结果 + 影响今日港股开盘的信息。
 
 重点关注（按重要性排序写入）：
-1. 盘前重要财报及初步反应（EPS/营收 vs 预期——仅限资讯来源中有明确数据）
-2. 盘前个股异动（涨跌 5% 以上 + 原因一句话）
-3. 影响今晚开盘情绪的宏观事件（Fed 官员讲话、重要数据——仅限资讯来源中明确出现）
-4. 其他值得今晚关注的美股消息
+1. 美股三大指数昨夜涨跌及核心驱动，一句话概括（必须有资讯来源支撑，不得推断）
+2. 个股重大异动（财报或重大消息驱动涨跌 5% 以上）
+3. 隔夜重要宏观数据（非农/CPI/PCE/美联储表态——仅限资讯来源中明确出现）
+4. 隔夜消息中可能影响港股相关板块的内容，重点关注：光通信、存储/HBM、半导体、中概互联网等；若有明确利好/利空驱动，须点明对应港股板块或个股
 
 ---
 
@@ -104,33 +104,33 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026112520
+抓取时间: 2026112609
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets open in 2h 30m
-- Nvidia stock stumbles again after Jensen Huang's spectacular comeback rally
-- Stocks fall as new tariffs loom, ahead of inflation data
-- Bitcoin extends losses below $59,000 as ETF outflows weigh
-- Stocks fall as new tariffs loom, ahead of inflation data
-- Bitcoin extends losses below $59,000 as ETF outflows weigh
-- Trump says Huang pardon 'always an option,' New York Post reports
-- Microsoft declares code red after 24-hour Outlook, Teams and Copilot outage
-- Rule the Thanksgiving table: 10 finance topics, explained
-- Anthropic's stock price is now less than the cost of 'Grand Theft Auto VI'
-- Oil slips as supply glut prospect offsets Middle East disruption fears
-- Shein to pay $100M to settle FTC allegations over deceptive practices
+- U.S. markets closed
+- New tariffs put rates where they were before Supreme Court stepped in
+- SpaceX, Elon Musk to give one share each to active Trump Accounts
+- Jensen Huang’s message to Nvidia: We don’t need a Plan B
+- SpaceX, Elon Musk to give one share each to active Trump Accounts
+- Jensen Huang’s message to Nvidia: We don’t need a Plan B
+- Why Jensen Huang's return failed to stop the AI trade sell-off
+- Microsoft declares a code red in the middle of a 'Patchpocalypse'
+- Oil holds two-day gain as Mideast tensions fuel market jitters
+- Dow erases losses, S&P 500 and Nasdaq recover ground amid AI sell-off
+- Fed's Beige Book shows evidence of broadening price pressures
+- How retail investors are flipping the 'balance of power' in markets
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
 - Tech & AI
-- AI is crushing software stocks — and a debt wall looms: Chart of the Day
-- Anthropic stock sinks further below IPO price as investors sour on the Amodei AI bet
-- Dell stock tanks after blowout earnings. Wall Street Just Isn't Impressed.
-- Best Buy: There's not enough gaming hardware to keep up with demand
+- Palo Alto Networks accused by ex-manager of accounting fraud
+- Why Trump and Vance wanted Jensen Huang back at the helm of Nvidia
+- FCC clears SpaceX to launch up to 1 million data center satellites
+- Electricity is 'the slowest input' in America's AI buildout, and China is pulling away
 - Popular
-- Huang's Nvidia return fuels US-China chip fight
-- 'I'm going to drive': FAA outage, fares upend Thanksgiving
+- LeBron says he's cash-poor despite making $585M in the NBA
+- Jim Cramer's emergency 5-stock portfolio: don't panic, buy
 
 ## Benzinga (EN)
 
@@ -140,24 +140,24 @@
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - Breaking China, Asia, HK News, Opinions and Insights
-- China promises to help Thailand and Myanmar fight Mekong basin pollution
+- AI strife spurs risk-off mode as China government bond yield drops to record low
 - Diplomacy
-- EU’s quantum sovereignty push shuts out China but welcomes US firms
-- China Economy
-- Lychee ice wine and other unexpected hits of Shenzhen’s Apec summit
+- US proposes new tariffs on China a week after Trump-Xi summit
+- Economy, Trade & Business
+- In Focus | As US and China battle for AI dominance, small fry figure out what works
 - Society
-- John Lee vows full-speed push on housing, reforms ahead of Tai Po fire anniversary
+- ‘Companions on the same path’: 1 year on, Tai Po fire survivors lean on one another
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- Parts of Thailand are at risk of water shortages as a result of arsenic poisoning that has been blamed on unregulated mining in Shan State.
-- City leader meets displaced residents as six laws face overhaul and new subsidies roll out after deadly blaze that killed 168 people last year.
+- Investors’ defences are up as volatile artificial intelligence trade leads to cautious buying, increased interest in Chinese dividend stocks.
+- Younger residents say they have forged new bonds while elderly struggle to replace a lifetime of neighbourly ties.
 - Big Tech
-- Huawei forms patent teams for chips, AI in bid to rival Nvidia
-- With AI and chips now generating more inventions than telecoms, IP chief says effort aims to attract developers, partners and customers.
-- Science
-- ‘I don’t know what world will be like’ when AI understands physics: top physicist
-- Fields medallist tells how AI could be a turning point for modern physics as it shows ‘superhuman powers in mathematics’.
-- Politics
-- Nepal hedges between ‘2 Asian giants’ as ties with India thaw
+- Nvidia’s Jensen Huang is back – but will he still be a regular visitor to China?
+- The Nvidia CEO has been a vocal champion of China’s AI ecosystem, but intense scrutiny of his China ties may constrain him, analysts say.
+- Global Economy
+- Chinese group to build 10 smart city sites in Indonesia for US$50b
+- Country’s sovereign wealth fund makes deal with a Shaanxi Construction-led consortium for ‘future smart city’ sites in undisclosed locations.
+- Colombia quiet as Beijing says lawmakers’ Taiwan trip crossed ‘first red line’
+- Beijing’s embassy objects after senator dubbed Taipei’s envoy ‘ambassador’, but De la Espriella’s ministry does not comment on controversy.
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
@@ -187,33 +187,33 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 今晚21:30，聯儲局「最青睞」的通脹數據PCE來襲！會否正式打開2027加息大門？
-- 黃仁勳回歸只是開始！英偉達即將面臨六大關鍵考驗
-- 美股深陷調整擋不住華爾街看多！德銀喊出標普500明年底9000點，AI盈利仍是關鍵
+- 富途早報 | 美股即將因感恩節休市；「大空頭」Burry平倉納指看跌期權，稱投資組合更加偏多；萬斯力挺黃仁勳，標普將英偉達列入負面觀察名單；SpaceX獲批部署最多100萬顆衛星
+- 「大空頭」Burry轉多或帶來空頭回補潮：清空納指看跌期權，等英偉達200美元再做空
+- 英偉達連續下跌！萬斯力挺黃仁勳：沒受任何調查，無需赦免
+- 納指驚險「深V」躲過大跌，但AI交易依舊在「尋底」
+- 美國擬加徵關稅影響幾何？經濟學家：聯儲局高利率恐維持更長時間！
 - 一圖前瞻 | 美團Q3業績週五揭曉：預期扭虧爲盈，盈利修復能否撬動股價？
-- 次貸危機的味道？甲骨文CDS利差已超越2008年的貝爾斯登，AI數據中心股權被抹去近半
-- 比互聯網泡沫更危險？巴克萊：AI已撐起美國25%的經濟增長，一旦泡沫破裂，美國經濟恐遭重創
-- 北水加倉港股超64億港元，淨買入南方恒生科技超16億港元，淨賣出小米集團逾9億港元
-- 「新債王」：美國債務危機將在2029-2030年啓動，只有三條路化債「重組、印鈔和通脹」
+- 美國監管批准：SpaceX可發射「100萬顆衛星」用於太空數據中心
+- AI債務風險加劇！CoreWeave、英偉達信用違約風險指標雙雙創歷史新高
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 期权收租｜黃仁勳回歸行情「一日遊」，英偉達失守160美元
-- 理想汽車Q3營收同比增5.4%超預期，經營虧損大幅收窄，但Q4交付指引遠低於市場預估
-- 2018年鷹派加息陰影重現？摩通退回戰術謹慎：恐慌峰值已過，但AI交易亢奮情緒遠未歸來
-- 騰訊大股東Prosus首席執行官：AI將產生重大影響，對騰訊「非常看好」
-- 事關美伊戰事！特朗普稱資金還能撐2個月 喊話民主黨別倉促收場
-- 機會速派 | 業績超預期、股價飆漲11%！美元樹盈利修復能否撐起高估值？
-- 收市速睇 | 三大指數齊跌，科指跌2.56%；科網股漲跌不一，嗶哩嗶哩漲超7%，美團跌超4%；半導體股下行，壁仞科技跌近25%，華虹宏力跌超17%
-- 小鵬科技日：L4級Robotaxi正式載客，機器人上臺演講稱「有點緊張」
-- 科網泡沫破裂後，市場啓示錄
-- 英偉達股價波動持續擴大，短線哪些關鍵點位值得關注？
+- Anthropic股價分歧有多大？同一家華爾街機構，竟上演「多空內戰」
+- 道指「深V」收漲，信用市場卻不買賬! 摩通預警4500億美元AI發債巨浪將至
+- SpaceX太空數據中心獲批！可發射至多100萬顆衛星把算力搬上太空
+- 美股收盤 | 一度跌逾4%！納指低開高走收跌0.6%，道指抹去千點跌幅轉漲；英偉達跌近4%領跌費半；黃金持穩3600附近，比特幣站上6萬
+- OpenAI與馬斯克年內第二次庭審交鋒：聘請Cravath頂級律師迎戰
+- 成交額 TOP20｜AI巨頭CDS集體創新高，英偉達遭標普負面觀察跌4%，甲骨文逼近三年低點，谷歌跌2%；Meta逆勢拉升3%；SpaceX獲批部署百萬衛星
+- 聯儲局褐皮書：AI基建支撐工業擴張，高成本加劇消費「K型」分化
+- 美股收盤：道指轉漲 芯片股繼續調整 英偉達跌近4%
+- 標普將英偉達列入負面觀察名單，未來90天內或下調其AA評級
+- CoreWeave和英偉達信用風險指標創新高
 
 --- 跨站重点主题（多站出现=更重要）---
 - 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中)
 - 中国/欧盟: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中)
-- 加密货币: Yahoo Finance (EN), 经济通 (繁中)
-- 美国关税: Yahoo Finance (EN)
+- 美国关税: Yahoo Finance (EN), SCMP (EN/中)
+- 美联储: Yahoo Finance (EN), SCMP (EN/中)
 - 油价/霍尔木兹: Yahoo Finance (EN)
-- 黄金/大宗: Yahoo Finance (EN)
+- 加密货币: 经济通 (繁中)
 
 --- 粘贴结束 ---
 <!-- 资讯来源结束 -->
