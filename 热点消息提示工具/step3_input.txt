@@ -7,8 +7,8 @@
 你是港美股热点运营助手，服务于一个在中国做港美股内容运营的团队。
 你的输出将直接发到 Slack 群，供团队确认当日运营优先级，无需再二次加工。
 
-**当前模式：早间**
-**覆盖时间段：昨日22:00 - 今日09:00（美股隔夜收盘）**
+**当前模式：晚间**
+**覆盖时间段：今日08:00 - 20:00（美股开盘前）**
 
 ---
 
@@ -30,7 +30,7 @@
 ## 输出格式（严格遵守）
 
 第一行输出标题，固定为（直接复制，不修改任何字）：
-`早间热点线索 · 2026年11月27日`
+`晚间热点线索 · 2026年11月27日`
 
 空一行后，输出正文条目，每条格式：
 `* 事实描述（含关键数据）。仅写资讯来源中已明确发生的涨跌，不推断其他标的受到联动。标的代码直接写在正文中，结尾不另加标的列表。`
@@ -62,15 +62,15 @@
 
 ---
 
-## 早间模式操作指令
+## 晚间模式操作指令
 
-聚焦：隔夜美股收盘结果 + 影响今日港股开盘的信息。
+聚焦：今晚美股开盘前的运营清单。不涉及港股，只关注美股。
 
 重点关注（按重要性排序写入）：
-1. 美股三大指数昨夜涨跌及核心驱动，一句话概括（必须有资讯来源支撑，不得推断）
-2. 个股重大异动（财报或重大消息驱动涨跌 5% 以上）
-3. 隔夜重要宏观数据（非农/CPI/PCE/美联储表态——仅限资讯来源中明确出现）
-4. 隔夜消息中可能影响港股相关板块的内容，重点关注：光通信、存储/HBM、半导体、中概互联网等；若有明确利好/利空驱动，须点明对应港股板块或个股
+1. 盘前重要财报及初步反应（EPS/营收 vs 预期——仅限资讯来源中有明确数据）
+2. 盘前个股异动（涨跌 5% 以上 + 原因一句话）
+3. 影响今晚开盘情绪的宏观事件（Fed 官员讲话、重要数据——仅限资讯来源中明确出现）
+4. 其他值得今晚关注的美股消息
 
 ---
 
@@ -104,33 +104,33 @@
 --- 以下可直接粘贴到《热点摘要》全面版 Prompt 的「资讯来源/粘贴内容」---
 
 【财经头版多站汇总】
-抓取时间: 2026112709
+抓取时间: 2026112720
 
 ## Yahoo Finance (EN)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- U.S. markets closed
-- Trump calls revised GDP figures "fake," seeks investigation
-- Rule the Thanksgiving table: 10 finance topics, explained
-- European stocks end higher on easing tariff fears, ECB leadership continuity
-- Rule the Thanksgiving table: 10 finance topics, explained
-- European stocks end higher on easing tariff fears, ECB leadership continuity
+- U.S. markets open in 2h 30m
+- Stocks gain as AI jitters steady
 - Black Friday is about to deliver a reality check to the retail bears
-- SpaceX, Elon Musk to give one share each to active Trump Accounts
-- Brent settles higher as mine strikes, refinery attack stoke Middle East supply concerns
-- US Treasury has an unusual national debt headache
-- Bitcoin tops $60,000 as risk assets rise in holiday trading
-- US partners respond to tariffs with anger, protest and diplomacy
+- Trump says Huang is excited about his 'second term' at Nvidia
+- Black Friday is about to deliver a reality check to the retail bears
+- Trump says Huang is excited about his 'second term' at Nvidia
+- Oil stockpiling to influence market in 2027
+- Treasury yields rise as stock gains sap demand for havens
+- Oil on track to snap three-week losing streak over supply fears
+- Bitcoin set for first weekly gain in eight weeks
+- Gold steadies as Fed rate path and AI stocks frame volatile week
+- China stocks surge most in two years as Beijing vows stronger market support
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
 - Top Stories
 - Markets & Economy
 - Tech & AI
-- 'Some things you just don't take off the menu': Denny's stands by Jensen Huang after his Nvidia comeback
-- Nvidia reportedly halts AI chip shipments to southeast Asia as U.S. tightens China curbs
+- Nvidia reportedly halts AI chip shipments to Southeast Asia
 - US crackdown threatens China's AI: Source
 - Trump overseas high-stakes expansion of TSMC's computer chip factories
+- Jensen Huang’s message to Nvidia: We don’t need a Plan B
 - Popular
-- Berkshire Hathaway's top 5 income stocks for 2027
-- 'I recommend holding on to your shares': Musk's prediction for SpaceX's value
+- Cautious consumers gear up for Black Friday as inflation woes bite
+- LeBron says he's cash-poor despite making $585M in the NBA
 
 ## Benzinga (EN)
 
@@ -140,32 +140,32 @@
 ## SCMP (EN/中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - Breaking China, Asia, HK News, Opinions and Insights
-- Laila Khawaja on how the Jensen Huang saga resets the US-China tech rivalry
-- Hong Kong Economy
-- Hong Kong SMEs urged to upgrade themselves to handle new US tariffs
-- China Economy
-- Fresh US tariffs spark China protest, but unlikely to derail trade talks
-- Science
-- More than 50% of US believe China is winning. So does the rest of the world
+- ‘Building for the future’: China opens giant airport outside major economic hubs
+- Diplomacy
+- China and India hold fresh border talks as both bolster readiness before winter
+- Law and Crime
+- Abby Choi ‘not all good’ but ex-in-laws’ ‘brutality’ unjustified, court hears
+- Global Economy
+- Dutch trade chief says nation ‘will not be dictated to’ in push to halt US bill
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- The Gavekal Technologies research director says the chip CEO’s removal and reinstatement has boosted China’s case for technological self-reliance.
-- A study of US public opinion data suggests that American respondents no longer assume their country will retain its edge.
-- Big Tech
-- China’s tech ambitions to stay on track despite Shanghai chief ouster: analysts
-- Projects tied to ousted Shanghai Communist Party chief may face reviews, but country’s broader AI and chip push expected to remain intact.
-- Alibaba founder Jack Ma visits T-Head chip unit as self-reliance gains urgency
-- Billionaire makes rare appearance at offices of Alibaba-owned chip designer ahead of its listing in Hong Kong.
-- Markets
-- Let’s do lunch: Hong Kong exchange aims to keep noon break, sources say
-- HKEX sees no turnover upside in ending the mid-day break, but adjusting opening and closing times is up for discussion, multiple sources say.
+- New facility in Inner Mongolia supports regional trade and logistics and could ease pressure on Beijing during storms, analysts say.
+- The nation continues to lobby US lawmakers on bill but acknowledges the recent Nvidia saga complicates the matter.
+- Science
+- Chinese robotic dog in hi-tech fire suit withstands blaze at 1,000 degrees Celsius
+- Robot operated for 10 minutes at extreme temperatures in testing, and team says technology could have firefighting and military applications.
+- Politics
+- Why South Korea’s chip boom is now a US tariff trap as a US$350b pledge looms
+- Analysts warn Seoul’s 15 per cent tariff rate could hit 25 per cent over chip glut claims and a US$350 billion pledge as Seoul pushes back.
+- China Business
+- Why California’s wealth tax defeat is being dissected in Chinese state media
 
 ## 经济通 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
 - 沪深港通 热点观察国际动态【FOCUS】
 - 中东地缘风险升温油价连日回升，三桶油止跌可再吼？
-- 神二十四乘组进驻太空站 中外航天员首“太空握手”
-- 不论任何条件 美过半民众望即停伊战
-- 三个3500 VS 三箭齐发稳市
+- 发改委：成品油价格 今起再下调
+- 感恩节食材成本飙 美零售商仍推促销大餐
+- 百万卫星谷算力，太空三峡筑电网
 - 指数环球商品外汇
 - 国金观点
 - 港股大市分析
@@ -174,9 +174,9 @@
 - 环球基金：
 - ETF：
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- 恒生指数22226.88+260.87(+1.19%)
+- 恒生指数22694.77+467.89(+2.11%)
                     etnet.com.hk@copyright
-- 国企指数7493.34+108.40(+1.47%)
+- 国企指数7644.18+150.84(+2.01%)
                     etnet.com.hk@copyright
 - 理财/管理
 - 时尚艺术
@@ -187,34 +187,36 @@
 
 ## 富途资讯 (繁中)
 头版/首屏 (信息来自头版首屏，优先级最高，仅标题无摘要):
-- 富途早報 | 美股週五將提前3小時休市；特朗普質疑GDP數據，稱將展開調查；英偉達據稱已暫停向東南亞交付芯片，MINIMAX加快採用華爲和阿里AI芯片；美團今日發業績
-- 股價回調背後暗藏新催化，物理AI或成英偉達下一個重磅增長故事
-- 沙特吉贊煉油廠遇襲，OPEC+擬延長配額，國際油價回升
-- 中金 • 全球研究 | AI對海外互聯網影響幾何（2）：問題變多，風險在累積
-- 中金：美國新徵關稅的影響
-- 中金 | 資產配置：如何應對市場動盪
-- 「新聯儲局通訊社」：別指望聯儲局出手救市，沃什更可能借AI暴跌給通脹降溫！
-- 特朗普怒斥GDP數據「創紀錄錯誤」要求調查，暗示影響了中期選舉
+- 美團Q3營收1155.56億元超預期，同比增長21.6%；經調整淨利潤18.50億元，去年同期虧損160.10億元
+- 證監會：持續完善資本市場穩市機制，進一步壯大中長期投資力量
+- 美股投資必備！12月重磅大事搶先看，這些影響漲跌的日子都圈出來了
+- 首提「國家隊」！國常會釋放三大不尋常，機構火速解讀
+- 美國能源審批改革法案下週「闖關」衆議院，AI電力鏈押注「確定性紅利」兌現迎來關鍵時刻
+- 本週美股牛股 | Symbotic本週累漲超22%，全年首次實現盈利；Insmed累漲近21%，賽諾菲豪擲410億美元收購；Roblox累漲超19%，機構研報證僞GTA VI 搶用戶利空
+- 英特爾異動期權指南：AI芯片板塊集體回暖，反彈能否延續？
+- SpaceX(SPCX.US)異動期權指南：盤前股價回升，百萬衛星計劃獲批
 其他 (首页其他位置，按重要性排序，仅标题无摘要):
-- OPEC+週日迎來年度關鍵會議！傳現行石油配額將延續，產能審計或牽動2027年油市供應格局
-- 願好運無盡頭！巴菲特給股東的「第一封感恩節信」，細數人生中那些 「天選之籤」
-- AI交易退潮「助攻」蘋果領漲「美股七巨頭」！低資本開支策略顯現防禦優勢，股價有望五月連漲
-- 海外大拋售到哪個階段了？美股尚未「全面投降」，金銅慘跌更像「流動性收緊」
-- 美銀2027年七大交易：上半年做多美元、做空美債，下半年轉戰新興市場.......
-- 三星電子擬引入機器人「造芯」 已成立專門團隊，預計年內敲定合作方
-- AI存儲敘事需「背書」！SSD擴顯存打開新場景，市場期待巨頭用大額回購表態
-- 科技股拋售潮接近尾聲？高盛：昨天的賣家或成明天的買家
-- 瑞銀：美國數據中心建設或放緩，但長期投資邏輯未破
-- 聯儲局爲何變得如此鷹派？野村：或希望避免重蹈2022年落後曲線的覆轍
+- 北水加倉港股近46億港元，阿里巴巴、中國神華分別獲淨買入逾12億、11億港元；劍橋科技、騰訊控股均遭淨賣出超1億港元
+- 期權收租｜三倍做多半導體ETF單日巨震23%，IV飆破200%，高波動如何收租？
+- 英偉達(NVDA.US)GTC大會首次落地華盛頓！黃仁勳深陷調查風暴恐缺席 AI增長新藍圖及國家戰略價值成核心議題
+- 國常會明確政策底，「三個首次」彰顯力度
+- 收市速睇 | 三大指數齊漲，科指大漲6.45%；科網股上揚，美團漲超8%，阿里漲超7%；半導體股強勁反彈，華虹宏力漲近21%，中芯國際漲超16%
+- SpaceX衛星計劃獲批，RSI底背離，趨勢出現反轉？
+- 機會速遞 | 業績超預期、股價飆11%！惠普盈利真能逆轉？
+- 英偉達夜盤一度升超5%，但均線接近死亡交叉，能否企穩？
+- 歐佩克再迎團結考驗，美國被曝曾策動兩國退出
+- 亞洲群起「救市」，信心重於黃金
 
 --- 跨站重点主题（多站出现=更重要）---
-- 美国关税: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中)
+- 油价/霍尔木兹: Yahoo Finance (EN), SCMP (EN/中), 经济通 (繁中)
 - 科技/个股: Yahoo Finance (EN), SCMP (EN/中), 富途资讯 (繁中)
-- 油价/霍尔木兹: 经济通 (繁中), 富途资讯 (繁中)
+- 美国关税: SCMP (EN/中), 富途资讯 (繁中)
 - 中国/欧盟: Yahoo Finance (EN), SCMP (EN/中)
 - 伊朗/中东: 经济通 (繁中)
 - 加密货币: Yahoo Finance (EN)
-- 中国政策/两会: 富途资讯 (繁中)
+- 黄金/大宗: Yahoo Finance (EN)
+- 美联储: Yahoo Finance (EN)
+- 中国政策/两会: 经济通 (繁中)
 
 --- 粘贴结束 ---
 <!-- 资讯来源结束 -->
